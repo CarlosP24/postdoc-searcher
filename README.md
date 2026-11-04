@@ -1,5 +1,7 @@
 # Postdoc Radar
 
+**Dashboard:** https://carlosp24.github.io/postdoc-searcher/
+
 A daily search for postdoc positions, fellowships and scholarships that fit **your PIs** and **your topics**. It keeps a list of open and soon-to-open calls with the associated PI, call period and a summary of conditions. It emails you when it finds something interesting and publishes a dashboard on GitHub Pages (or locally).
 
 ```
