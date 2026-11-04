@@ -1,3 +1,4 @@
+# Postdoc Radar — daily run. Secrets: ANTHROPIC_API_KEY, SMTP_USER, SMTP_PASSWORD, EMAIL_TO (see README).
 name: Daily postdoc search
 
 on:
