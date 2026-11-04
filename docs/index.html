@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Postdoc Radar</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='none' stroke='%230f766e' stroke-width='8'/><circle cx='50' cy='50' r='24' fill='none' stroke='%230f766e' stroke-width='8'/><circle cx='50' cy='50' r='7' fill='%230f766e'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <h1 id="title">Postdoc Radar</h1>
+        <p id="subtitle" class="muted">Loading…</p>
+      </div>
+      <div id="stats" class="stats"></div>
+    </div>
+    <nav class="wrap tabs" role="tablist">
+      <button role="tab" data-tab="positions" class="active">Positions</button>
+      <button role="tab" data-tab="fellowships">Fellowships</button>
+      <button role="tab" data-tab="pis">By PI</button>
+      <button role="tab" data-tab="activity">Activity</button>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section id="tab-positions" class="tab">
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search title, institution, summary…" aria-label="Search">
+        <select id="f-status" aria-label="Status">
+          <option value="active">Open &amp; upcoming</option>
+          <option value="all">All</option>
+          <option value="closed">Closed</option>
+        </select>
+        <select id="f-pi" aria-label="PI"><option value="">Any PI</option></select>
+        <select id="f-topic" aria-label="Topic"><option value="">Any topic</option></select>
+        <select id="f-sort" aria-label="Sort">
+          <option value="relevance">Sort: relevance</option>
+          <option value="deadline">Sort: deadline</option>
+          <option value="new">Sort: newest</option>
+        </select>
+        <label class="range">Min relevance <input id="f-min" type="range" min="0" max="100" step="5" value="50"><output id="f-min-out">50</output></label>
+        <label class="check"><input id="f-star" type="checkbox"> Starred</label>
+        <label class="check"><input id="f-hidden" type="checkbox"> Show hidden</label>
+      </div>
+      <p id="count" class="muted small"></p>
+      <div id="list" class="cards"></div>
+    </section>
+
+    <section id="tab-fellowships" class="tab" hidden>
+      <div class="filters">
+        <label class="check"><input id="fl-hosted" type="checkbox" checked> Only with a possible host on my PI list</label>
+      </div>
+      <p class="muted small">Call periods marked <b>≈</b> are estimates from previous cycles; <b>✓</b> means checked on the web on that date. Always confirm on the official page.</p>
+      <div id="fellowship-list" class="cards"></div>
+    </section>
+
+    <section id="tab-pis" class="tab" hidden>
+      <div id="pi-list" class="pi-grid"></div>
+    </section>
+
+    <section id="tab-activity" class="tab" hidden>
+      <div id="activity-list"></div>
+    </section>
+  </main>
+
+  <footer class="wrap muted small">
+    Postdoc Radar · data refreshed daily by GitHub Actions · stars/hidden are stored only in this browser.
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

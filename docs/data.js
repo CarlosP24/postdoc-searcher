@@ -1,0 +1,43 @@
+window.POSTDOC_DATA = {
+ "generated_at": "2026-11-04T17:19:23+00:00",
+ "title": "Postdoc Radar",
+ "notify_threshold": 65,
+ "opportunities": [],
+ "pis": [
+  {
+   "name": "Karsten Flensberg",
+   "institution": "Niels Bohr Institute, University of Copenhagen",
+   "country": "Denmark",
+   "website": "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/",
+   "priority": "high",
+   "last_searched": null
+  }
+ ],
+ "topics": [
+  {
+   "name": "Topological superconductivity & Majorana modes",
+   "last_searched": null
+  },
+  {
+   "name": "Hybrid semiconductor–superconductor nanostructures",
+   "last_searched": null
+  },
+  {
+   "name": "Quantum transport in mesoscopic systems",
+   "last_searched": null
+  },
+  {
+   "name": "Non-Hermitian physics & open quantum systems",
+   "last_searched": null
+  },
+  {
+   "name": "Theoretical & computational condensed matter (broad)",
+   "last_searched": null
+  },
+  {
+   "name": "Theory of quantum devices & qubits",
+   "last_searched": null
+  }
+ ],
+ "runs": []
+};

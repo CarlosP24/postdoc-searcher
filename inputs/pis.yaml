@@ -1,0 +1,40 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  INPUT 1 — PIs you would like to work with
+# ─────────────────────────────────────────────────────────────────────────────
+# Only `name` is required, but every extra field makes the search better:
+#
+#   institution  Used to search the institution's job portal and to match
+#                institute-wide calls.
+#   country      Decides which fellowships this PI could host you with
+#                (e.g. MSCA, Humboldt, Juan de la Cierva…). Strongly recommended.
+#   website      Group page. Read by the web-search agent.
+#   jobs_page    A page where the group posts openings ("Join us", "Vacancies").
+#                It is fetched every day and diffed; changes are analysed.
+#                If empty, `website` is watched instead.
+#   topics       Free-text research lines of the PI, to focus the search.
+#   priority     high   → deep web search every 3 days
+#                normal → every 7 days (default)
+#                low    → every 14 days
+#   notes        Anything the evaluator should know ("visited in 2025", …).
+#
+# Add as many as you like. Order does not matter.
+
+pis:
+  - name: Karsten Flensberg
+    institution: Niels Bohr Institute, University of Copenhagen
+    country: Denmark
+    website: https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/
+    jobs_page: ""
+    topics: [Majorana devices, non-Hermitian transport, mesoscopic superconductivity]
+    priority: high
+    notes: Research visit to the group in 2025 (started work on non-Hermitian transport).
+
+  # ── Template: copy, uncomment and fill ─────────────────────────────────────
+  # - name: Jane Doe
+  #   institution: Example University
+  #   country: Germany
+  #   website: https://example.org/doe-group
+  #   jobs_page: https://example.org/doe-group/join-us
+  #   topics: [topological superconductivity, quantum transport]
+  #   priority: normal
+  #   notes: ""

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Optional: run Postdoc Radar daily on this Mac instead of (or in addition to) GitHub Actions.
+  Install:
+    cp scripts/com.postdoc-radar.daily.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.postdoc-radar.daily.plist
+  launchd runs missed jobs when the Mac wakes up.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.postdoc-radar.daily</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/carlospaya/Desktop/Postdoc_searcher/scripts/run_daily.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>15</integer>
+  </dict>
+  <key>StandardErrorPath</key>
+  <string>/Users/carlospaya/Desktop/Postdoc_searcher/logs/launchd.err</string>
+</dict>
+</plist>

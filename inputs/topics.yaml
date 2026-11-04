@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  INPUT 2 — Research topics you are interested in
+# ─────────────────────────────────────────────────────────────────────────────
+#   name           Human-readable topic (shown in the dashboard and emails).
+#   keywords       Case/accent-insensitive phrases matched against job ads to
+#                  pre-select candidates (word-prefix match: "superconduct"
+#                  matches "superconductivity", "superconducting"…).
+#   board_queries  Short queries sent to the job boards' own search engines.
+#                  Defaults to [name].
+#   weight         0–1. Lower weight = less central topic (searched less often,
+#                  scored lower). Default 1.
+#
+# Pre-filled from carlosp24.github.io — edit freely.
+
+topics:
+  - name: Topological superconductivity & Majorana modes
+    keywords: [topological superconduct, majorana, kitaev chain, parafermion, topological qubit, topological quantum, topological phase, topological matter, topological system]
+    board_queries: [topological superconductivity, Majorana]
+    weight: 1.0
+
+  - name: Hybrid semiconductor–superconductor nanostructures
+    keywords: [hybrid nanowire, semiconductor-superconductor, superconductor-semiconductor, full-shell, proximitized, proximity effect, andreev, josephson junction, gatemon, minimal kitaev]
+    board_queries: [Andreev, Josephson junction, hybrid nanowires]
+    weight: 1.0
+
+  - name: Quantum transport in mesoscopic systems
+    keywords: [quantum transport, mesoscopic, coherent transport, nonlocal conductance, shot noise, quantum dot, green's function, scattering theory]
+    board_queries: [quantum transport, mesoscopic physics]
+    weight: 0.9
+
+  - name: Non-Hermitian physics & open quantum systems
+    keywords: [non-hermitian, exceptional point, open quantum system, lindblad, dissipative quantum, quantum master equation]
+    board_queries: [non-Hermitian, open quantum systems]
+    weight: 0.8
+
+  - name: Theoretical & computational condensed matter (broad)
+    keywords: [condensed matter theory, theoretical condensed matter, condensed-matter theory, theory of quantum materials, quantum materials, quantum matter, strongly correlated, superconductivity, tight-binding, many-body, theoretical physics, computational physics, solid state theory]
+    board_queries: [condensed matter theory, theoretical condensed matter physics]
+    weight: 0.6
+
+  - name: Theory of quantum devices & qubits
+    keywords: [superconducting qubit, superconducting circuit, superconducting quantum, circuit qed, spin qubit, andreev qubit, quantum device, solid-state qubit, quantum hardware]
+    board_queries: [qubit theory postdoc, quantum devices theory]
+    weight: 0.7
+
+# Broad field words. When Claude is enabled, an ad that mentions none of your
+# topic keywords but does match one of these is still sent to Claude for a
+# verdict (cheap, catches ads with vague wording such as "Postdoctoral Research
+# Associate, Department of Physics"). Ignored in keyword-only mode.
+field_keywords: [physics, quantum, condensed matter, superconduct, topolog, mesoscopic, nanoscale, nanostructure, nanowire, semiconductor, spintronic, magnetism, theoretical, theory group]
+
+# Offers whose TITLE matches any of these regular expressions are dropped
+# before any AI is involved (case-insensitive) — unless the title also says
+# postdoc / research fellow / research associate.
+exclude_title_patterns:
+  - '^ph\.?d\b|\bph\.?d\.?\s*(student|position|candidate|fellowship|scholarship|studentship|programme|program)'
+  - '\bdoctoral (student|candidate|researcher)|\bpredoc|studentship|\bmaster'
+  - '\b(full|associate|assistant)?\s*professor|lecturer|tenure|faculty position|head of'
+  - '\btechnician|\bengineer\b|\bmanager\b|administrat|\bintern(ship)?\b'

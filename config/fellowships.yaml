@@ -1,0 +1,311 @@
+# Catalog of fellowships / scholarships you apply to *together with a host PI*.
+#
+# For every fellowship the app:
+#   1. works out which PIs on your list could host you (host country/institution
+#      rules + your eligibility from inputs/me.yaml),
+#   2. estimates the call period from `typical_open_month` / `typical_deadline_month`,
+#   3. every couple of weeks asks Claude (with web search) for the CURRENT call
+#      dates and conditions, which then replace the estimates (marked "verified").
+#
+# The typical months/conditions below are approximate starting points — the
+# automatic refresh is what keeps them right. Add your own entries freely.
+#
+# host:
+#   countries:            list of country names
+#   groups:               country groups defined at the bottom (EU, HE_ASSOCIATED)
+#   any: true             any host country
+#   exclude_countries / exclude_groups
+#   institution_keywords: host institution must match one of these words
+# mobility:               MSCA-style rule: you must NOT have lived in `countries`
+#                         ("host" = the PI's country) more than `max_months`
+#                         during the `window_months` before the deadline.
+# exclude_phd_institution: host must differ from your PhD institution.
+
+fellowships:
+  - id: msca-pf-ef
+    name: MSCA Postdoctoral Fellowships — European Fellowships
+    funder: European Commission (Horizon Europe)
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
+    host: {groups: [EU, HE_ASSOCIATED]}
+    mobility: {countries: host, max_months: 12, window_months: 36}
+    max_years_since_phd: 8
+    eligibility: PhD awarded by the call deadline; at most 8 years of research experience after the PhD (career breaks excluded); any nationality.
+    duration: 12–24 months
+    funding: Living, mobility and family allowances plus research/training costs paid to the host (country-corrected).
+    pi_role: The PI is the supervisor at the host institution and writes the proposal with you.
+    typical_window: Call opens ~April–May; single deadline ~mid-September; results ~February.
+    typical_open_month: 4
+    typical_deadline_month: 9
+
+  - id: msca-pf-gf
+    name: MSCA Postdoctoral Fellowships — Global Fellowships
+    funder: European Commission (Horizon Europe)
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
+    host: {any: true, exclude_groups: [EU, HE_ASSOCIATED]}
+    mobility: {countries: host, max_months: 12, window_months: 36}
+    max_years_since_phd: 8
+    eligibility: Nationals or long-term residents of an EU member state or associated country. 12–24 months outgoing phase outside Europe + mandatory 12-month return phase at a European host.
+    duration: 24–36 months (incl. return phase)
+    funding: As European Fellowships, plus return phase.
+    pi_role: The non-European PI supervises the outgoing phase; a second supervisor in Europe hosts the return phase.
+    typical_window: Same call as European Fellowships (opens ~April–May, deadline ~mid-September).
+    typical_open_month: 4
+    typical_deadline_month: 9
+
+  - id: humboldt-rf
+    name: Humboldt Research Fellowship for Postdocs
+    funder: Alexander von Humboldt Foundation
+    url: https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship
+    host: {countries: [Germany]}
+    nationality_excluded: [German]
+    max_years_since_phd: 4
+    eligibility: Researchers from abroad, PhD within the last 4 years; needs the agreement of an academic host in Germany.
+    duration: 6–24 months
+    funding: Monthly fellowship (~€2,700) plus mobility/family allowances.
+    pi_role: The German host PI confirms the research plan and supervises; you apply directly.
+    typical_window: Applications accepted at any time; decision ~4–7 months after submission.
+    rolling: true
+
+  - id: dfg-walter-benjamin
+    name: DFG Walter Benjamin Programme
+    funder: Deutsche Forschungsgemeinschaft (DFG)
+    url: https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin
+    host: {countries: [Germany]}
+    max_years_since_phd: 4
+    eligibility: Early-career researchers within ~4 years of the PhD; a Walter Benjamin *position* is held at a German host institution.
+    duration: Up to 24 months (position in Germany)
+    funding: Salary as a full position at the host.
+    pi_role: The host PI/institution provides the scientific environment and a host commitment; you write the proposal.
+    typical_window: No deadline — proposals can be submitted at any time.
+    rolling: true
+
+  - id: juan-de-la-cierva
+    name: Ayudas Juan de la Cierva
+    funder: Agencia Estatal de Investigación (Spain)
+    url: https://www.aei.gob.es/convocatorias/buscador-convocatorias
+    host: {countries: [Spain]}
+    exclude_phd_institution: true
+    max_years_since_phd: 3
+    eligibility: PhD obtained within a recent window (≈ last 3 years — check each call); the host centre normally has to differ from the one where you did your PhD.
+    duration: 3 years (employment contract)
+    funding: Salary co-funded by AEI and the host centre.
+    pi_role: The PI acts as tutor/host group leader; the group's track record is part of the evaluation.
+    typical_window: Annual call; publication dates vary (often between late autumn and spring) with a ~3-week application window.
+
+  - id: la-caixa-junior-leader-incoming
+    name: '"la Caixa" Junior Leader — Incoming'
+    funder: '"la Caixa" Foundation'
+    url: https://lacaixafoundation.org/en/junior-leader
+    host: {countries: [Spain, Portugal]}
+    mobility: {countries: [Spain, Portugal], max_months: 12, window_months: 36}
+    min_years_since_phd: 2
+    max_years_since_phd: 7
+    eligibility: PhD 2–7 years before the deadline; must not have lived in Spain/Portugal more than 12 months in the last 3 years.
+    duration: 3 years
+    funding: Salary plus research budget (independent junior leader).
+    pi_role: An accredited host centre (e.g. Severo Ochoa / María de Maeztu) hosts you; a host PI/mentor supports the application.
+    typical_window: Call opens ~July; deadline ~early October.
+    typical_open_month: 7
+    typical_deadline_month: 10
+
+  - id: la-caixa-junior-leader-retaining
+    name: '"la Caixa" Junior Leader — Retaining'
+    funder: '"la Caixa" Foundation'
+    url: https://lacaixafoundation.org/en/junior-leader
+    host: {countries: [Spain, Portugal]}
+    min_years_since_phd: 2
+    max_years_since_phd: 7
+    eligibility: PhD 2–7 years before the deadline; for researchers already based in Spain/Portugal.
+    duration: 3 years
+    funding: Salary plus research budget (independent junior leader).
+    pi_role: An accredited host centre hosts you; a host PI/mentor supports the application.
+    typical_window: Call opens ~July; deadline ~early October.
+    typical_open_month: 7
+    typical_deadline_month: 10
+
+  - id: newton-international
+    name: Royal Society Newton International Fellowships
+    funder: Royal Society / British Academy
+    url: https://royalsociety.org/grants/newton-international/
+    host: {countries: [United Kingdom]}
+    nationality_excluded: [British]
+    eligibility: Non-UK researchers currently working outside the UK, early in their postdoctoral career (PhD or about to obtain it).
+    duration: 2 years
+    funding: Subsistence allowance plus research expenses.
+    pi_role: Joint application with a UK-based co-applicant (the host PI).
+    typical_window: Opens ~January; deadline ~March.
+    typical_open_month: 1
+    typical_deadline_month: 3
+
+  - id: leverhulme-ecf
+    name: Leverhulme Early Career Fellowships
+    funder: Leverhulme Trust
+    url: https://www.leverhulme.ac.uk/early-career-fellowships
+    host: {countries: [United Kingdom]}
+    max_years_since_phd: 4
+    eligibility: Within ~4 years of the PhD viva. Check the current UK-connection requirement for applicants without a UK PhD.
+    duration: 3 years
+    funding: 50% of salary from Leverhulme, matched by the host institution, plus research expenses.
+    pi_role: The host institution must agree to match-fund; a host mentor supports you.
+    typical_window: Opens ~autumn; deadline ~February.
+    typical_open_month: 11
+    typical_deadline_month: 2
+
+  - id: nwo-veni
+    name: NWO Talent Programme — Veni
+    funder: Dutch Research Council (NWO)
+    url: https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme
+    host: {countries: [Netherlands]}
+    max_years_since_phd: 3
+    eligibility: PhD at most ~3 years before the deadline (extensions for leave).
+    duration: 3 years
+    funding: Personal grant (salary + research costs).
+    pi_role: The Dutch host institution embeds you and provides a host statement.
+    typical_window: Annual call per domain; check the Science (ENW) domain dates.
+
+  - id: fwo-junior-postdoc
+    name: FWO Junior Postdoctoral Fellowship
+    funder: Research Foundation – Flanders (FWO)
+    url: https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/
+    host: {countries: [Belgium], institution_keywords: [Leuven, Gent, Ghent, UGent, Antwerp, Antwerpen, VUB, Vrije Universiteit Brussel, Hasselt, Flanders, Flemish]}
+    max_years_since_phd: 3
+    eligibility: PhD within ~3 years; any nationality; host at a Flemish university.
+    duration: 3 years (renewable)
+    funding: Full postdoctoral salary.
+    pi_role: A supervisor at the Flemish host university co-signs the application.
+    typical_window: Opens ~autumn; deadline 1 December.
+    typical_open_month: 9
+    typical_deadline_month: 12
+
+  - id: fwf-esprit
+    name: FWF ESPRIT Programme
+    funder: Austrian Science Fund (FWF)
+    url: https://www.fwf.ac.at/en/funding/portfolio/careers/esprit
+    host: {countries: [Austria]}
+    max_years_since_phd: 4
+    eligibility: Early-career researchers within ~4 years of the PhD; any nationality.
+    duration: 3 years
+    funding: Personal salary plus project costs.
+    pi_role: A host/mentor at an Austrian research institution supports the application.
+    typical_window: Continuous submission (no fixed deadline).
+    rolling: true
+
+  - id: snsf-ambizione
+    name: SNSF Ambizione
+    funder: Swiss National Science Foundation
+    url: https://www.snf.ch/en
+    host: {countries: [Switzerland]}
+    min_years_since_phd: 1
+    max_years_since_phd: 4
+    eligibility: Roughly 1–4 years after the PhD (check current rules); independent project at a Swiss host.
+    duration: 4 years
+    funding: Own salary plus project funds.
+    pi_role: The Swiss host institution/PI provides infrastructure and a host statement.
+    typical_window: Annual call; deadline usually in autumn (~November).
+    typical_open_month: 9
+    typical_deadline_month: 11
+
+  - id: jsps-postdoc
+    name: JSPS Postdoctoral Fellowships for Research in Japan (Standard)
+    funder: Japan Society for the Promotion of Science
+    url: https://www.jsps.go.jp/english/e-fellow/e-ippan/index.html
+    host: {countries: [Japan]}
+    nationality_excluded: [Japanese]
+    max_years_since_phd: 6
+    eligibility: Non-Japanese researchers with a PhD obtained within the last 6 years.
+    duration: 12–24 months
+    funding: Monthly stipend plus settling-in allowance.
+    pi_role: The Japanese host researcher submits the application on your behalf.
+    typical_window: Several recruitment rounds per year (submitted by the host).
+    rolling: true
+
+  - id: banting
+    name: Banting Postdoctoral Fellowships
+    funder: Government of Canada
+    url: https://banting.fellowships-bourses.gc.ca/en/home-accueil.html
+    host: {countries: [Canada]}
+    max_years_since_phd: 3
+    eligibility: PhD within ~3 years; requires institutional endorsement from the Canadian host.
+    duration: 2 years
+    funding: CAD 70,000 per year (taxable).
+    pi_role: The host supervisor writes a statement and the institution endorses (internal deadlines are earlier).
+    typical_window: Deadline ~mid-September; internal institutional deadlines ~August.
+    typical_open_month: 6
+    typical_deadline_month: 9
+
+  - id: miller-berkeley
+    name: Miller Research Fellowships (UC Berkeley)
+    funder: Miller Institute for Basic Research in Science
+    url: https://miller.berkeley.edu/nominate-apply/miller-research-fellowship
+    host: {countries: [United States], institution_keywords: [Berkeley]}
+    eligibility: Candidates are NOMINATED by Berkeley faculty; recent PhDs in basic science.
+    duration: 3 years
+    funding: Independent salary plus research fund.
+    pi_role: A Berkeley faculty member (your host PI) must nominate you.
+    typical_window: Nominations due ~September.
+    typical_open_month: 7
+    typical_deadline_month: 9
+
+  - id: pappalardo-mit
+    name: Pappalardo Fellowships in Physics (MIT)
+    funder: MIT Department of Physics
+    url: https://physics.mit.edu/research/pappalardo-fellowships-in-physics/
+    host: {countries: [United States], institution_keywords: [MIT, Massachusetts Institute of Technology]}
+    eligibility: Recent physics PhDs; independent research with an MIT faculty mentor.
+    duration: 3 years
+    funding: Independent salary plus research fund.
+    pi_role: An MIT physics faculty member acts as mentor.
+    typical_window: Annual call in autumn.
+
+  - id: branco-weiss
+    name: Branco Weiss Fellowship — Society in Science
+    funder: Branco Weiss Fellowship (ETH Zurich)
+    url: https://brancoweissfellowship.org/
+    host: {any: true}
+    eligibility: Recent PhD, outstanding independent research proposal plus engagement with society; any field, any host worldwide.
+    duration: Up to 5 years
+    funding: Salary plus research funds.
+    pi_role: You choose any host institution worldwide; the host must agree to hold the fellowship.
+    typical_window: Annual call; check the website for the current deadline.
+
+  - id: research-council-finland-postdoc
+    name: Research Council of Finland — Postdoctoral Researcher
+    funder: Research Council of Finland
+    url: https://www.aka.fi/en/research-funding/apply-for-funding/calls-for-applications/
+    host: {countries: [Finland]}
+    eligibility: Early-career postdocs (check years-since-PhD limits in the current call).
+    duration: 3 years
+    funding: Salary plus research costs.
+    pi_role: The host organisation in Finland commits to the project; a host PI supports.
+    typical_window: Main call ~September.
+    typical_open_month: 8
+    typical_deadline_month: 9
+
+  - id: ramon-areces-abroad
+    name: Fundación Ramón Areces — Postdoctoral grants abroad (Life & Matter Sciences)
+    funder: Fundación Ramón Areces
+    url: https://www.fundacionareces.es/
+    host: {any: true, exclude_countries: [Spain]}
+    nationality_required: [Spanish]
+    eligibility: Spanish nationals with a recent PhD going to a centre abroad.
+    duration: 1–2 years
+    funding: Monthly stipend plus travel/insurance.
+    pi_role: The foreign host PI provides an acceptance letter.
+    typical_window: Annual call; check the website for current dates.
+
+  - id: martin-escudero-abroad
+    name: Fundación Alfonso Martín Escudero — Postdoctoral grants abroad
+    funder: Fundación Alfonso Martín Escudero
+    url: https://fundame.org/
+    host: {any: true, exclude_countries: [Spain]}
+    nationality_required: [Spanish]
+    eligibility: Spanish nationals with a recent PhD going to a centre abroad (check eligible fields in the current call).
+    duration: 1–2 years
+    funding: Monthly stipend.
+    pi_role: The foreign host PI provides an acceptance letter.
+    typical_window: Annual call; check the website for current dates.
+
+country_groups:
+  EU: [Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden]
+  # Horizon Europe associated countries eligible for MSCA hosting (verify yearly).
+  HE_ASSOCIATED: [Albania, Armenia, Bosnia and Herzegovina, Faroe Islands, Georgia, Iceland, Israel, Kosovo, Moldova, Montenegro, North Macedonia, Norway, Serbia, Switzerland, Tunisia, Türkiye, Ukraine, United Kingdom]

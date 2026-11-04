@@ -1,0 +1,80 @@
+# Technical settings. Your *inputs* (PIs, topics, profile) live in ../inputs/.
+
+dashboard:
+  title: Postdoc Radar
+  # Public URL of the dashboard, used for the link in emails. For a repo named
+  # "postdoc-searcher" served by GitHub Pages this is:
+  url: https://carlosp24.github.io/postdoc-searcher/
+
+# ── AI (Claude) ──────────────────────────────────────────────────────────────
+# Without ANTHROPIC_API_KEY the app still runs: free sources + keyword scoring.
+llm:
+  enabled: true
+  model: claude-opus-5-5          # e.g. claude-sonnet-5-5 costs ~half
+  effort_search: medium           # low | medium | high — depth of web-search tasks
+  effort_triage: low              # classification of job-board items
+  max_search_tasks_per_run: 3     # PI + topic web-search tasks per day (~$0.3–0.6 each on Opus)
+  max_fellowship_checks_per_run: 1
+  max_web_searches_per_task: 5
+  max_page_fetches_per_task: 4
+  max_lab_page_analyses_per_run: 6
+  max_enrichments_per_run: 8      # fetch + summarise full ad for top items
+  triage_batch_size: 20
+  max_triage_items_per_run: 160
+  max_cost_per_run_usd: 1.50      # hard stop for AI spending in one run (≈ $45/month worst case)
+
+# How often each kind of web-search task is repeated (days).
+schedule:
+  pi_every_days: {high: 3, normal: 7, low: 14}
+  topic_every_days: 4             # divided by the topic weight
+  fellowship_refresh_every_days: 14
+
+relevance:
+  store_threshold: 40             # 0-100. Below this, offers are discarded.
+  notify_threshold: 65            # Email when a new offer scores at least this.
+
+email:
+  enabled: true                   # needs SMTP_* and EMAIL_TO env vars / secrets
+  subject_prefix: "[Postdoc Radar]"
+  deadline_reminder_days: 21      # list already-known deadlines this close in each email
+
+data:
+  forget_closed_after_days: 180
+  forget_seen_items_after_days: 120
+
+# ── Sources ──────────────────────────────────────────────────────────────────
+sources:
+  # Job boards with keyword search; {query} ← each topic's board_queries.
+  keyword_feeds:
+    - name: Nature Careers
+      url: "https://www.nature.com/naturecareers/jobsrss/?keywords={query}"
+    - name: Science Careers
+      url: "https://jobs.sciencecareers.org/jobsrss/?keywords={query}"
+    - name: Physics Today Jobs
+      url: "https://jobs.physicstoday.org/jobsrss/?keywords={query}"
+    - name: Times Higher Education Jobs
+      url: "https://www.timeshighereducation.com/unijobs/jobsrss/?keywords={query}"
+
+  # Plain RSS/Atom feeds (no query).
+  feeds:
+    - name: jobRxiv
+      url: "https://jobrxiv.org/?feed=job_feed"
+
+  jobs_ac_uk:
+    enabled: true
+
+  inspire:                        # INSPIRE-HEP jobs (theory-heavy, has deadlines)
+    enabled: true
+    query: "status:open and (arxiv_categories:cond-mat or arxiv_categories:quant-ph)"
+
+  mastodon:                       # includes Bluesky posts bridged into Mastodon
+    enabled: true
+    instance: https://mastodon.social
+    hashtags: [postdoc, postdocjobs, physicsjobs, condensedmatter, academicjobs, quantumjobs]
+    max_age_days: 14
+
+  lab_pages:
+    enabled: true
+
+  web_search:                     # Claude web search (LinkedIn, EURAXESS, X, Bluesky, universities…)
+    enabled: true

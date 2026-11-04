@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  About you — used to judge relevance and fellowship eligibility
+# ─────────────────────────────────────────────────────────────────────────────
+# ⚠ If this repository is PUBLIC, this file is public too. Everything here is
+#   optional; leave out what you don't want to share. Your email address is NOT
+#   stored here (it goes in the EMAIL_TO secret).
+
+name: Carlos Payá
+current_position: PhD candidate in theoretical condensed matter physics, ICMM-CSIC (Madrid, Spain)
+
+research_summary: >
+  Theoretical condensed matter physicist working on one-dimensional hybrid
+  semiconductor–superconductor systems, with emphasis on full-shell nanowires.
+  Combines large-scale numerical simulations with analytical modelling to study
+  topological superconductivity, quantum transport and the phase structure of
+  these devices. Works closely with experimental groups. Research visit to
+  Karsten Flensberg's group (University of Copenhagen, 2025), where he started
+  working on non-Hermitian transport in hybrid devices.
+
+skills:
+  - Large-scale numerical simulations (tight-binding, Green's functions)
+  - Analytical modelling of mesoscopic superconducting devices
+  - Collaboration with experimental groups
+
+# ── Eligibility facts (fellowships check these) ─────────────────────────────
+phd_institution: ICMM-CSIC, Madrid   # some calls (e.g. Juan de la Cierva) require a different host
+phd_defense_date: ""        # e.g. "2027-03" (expected is fine). Needed for "≤ N years since PhD" rules.
+nationality: []             # e.g. [Spanish]. Needed for Humboldt, Newton, national-only grants…
+
+# Where you have LIVED/WORKED, most recent first. Needed for MSCA-style
+# mobility rules ("not more than 12 months in the host country in the last
+# 36 months"). Use YYYY-MM. Short research visits (<3 months) usually don't count.
+residence_history:
+  - country: Spain
+    from: ""                # e.g. "2019-09"  ← fill in
+    to: present
+
+# ── Preferences ──────────────────────────────────────────────────────────────
+preferences:
+  countries_preferred: []   # e.g. [Denmark, Germany, Netherlands]; empty = anywhere
+  countries_excluded: []
+  earliest_start: ""        # e.g. "2027-06"
+  notes: >
+    Interested in theory postdocs, ideally in groups with strong experimental
+    collaborations. Independent fellowships (MSCA, etc.) with a host PI are
+    as interesting as funded positions.

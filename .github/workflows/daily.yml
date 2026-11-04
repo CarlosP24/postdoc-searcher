@@ -1,0 +1,82 @@
+name: Daily postdoc search
+
+on:
+  schedule:
+    - cron: "23 5 * * *"        # every day at 05:23 UTC (≈ 06:23 / 07:23 in Madrid)
+  workflow_dispatch:
+    inputs:
+      max_tasks:
+        description: "Web-search tasks for this run (blank = value in settings.yaml)"
+        required: false
+        default: ""
+      no_ai:
+        description: "Run without Claude (keyword scoring only)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write     # commit data/ back to the repo
+  pages: write        # deploy the dashboard
+  id-token: write
+
+concurrency:
+  group: postdoc-radar
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the search
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          MAX_TASKS: ${{ inputs.max_tasks }}
+          NO_AI: ${{ inputs.no_ai }}
+        run: |
+          args=()
+          if [[ "$MAX_TASKS" =~ ^[0-9]+$ ]]; then args+=(--max-tasks "$MAX_TASKS"); fi
+          if [[ "$NO_AI" == "true" ]]; then args+=(--no-ai); fi
+          python -m postdoc_searcher run "${args[@]}"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "postdoc-radar[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/data.js docs/data.json
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Daily update $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash
+          git push
+
+      - name: Package dashboard
+        if: vars.PUBLISH_DASHBOARD != 'false'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: search
+    if: vars.PUBLISH_DASHBOARD != 'false'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
