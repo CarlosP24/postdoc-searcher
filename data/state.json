@@ -252,38 +252,49 @@
   "313ea745634e": "2026-11-04",
   "c7a4584e4b4c": "2026-11-04",
   "12e7f93fb155": "2026-11-04",
-  "d6ddd7da2278": "2026-11-04"
+  "d6ddd7da2278": "2026-11-04",
+  "2de07d0fb536": "2026-11-05",
+  "86a8a8d81ebe": "2026-11-05",
+  "a9086d9e8b9d": "2026-11-05",
+  "f548e9d95c02": "2026-11-05",
+  "28f20d8ea0bc": "2026-11-05",
+  "ba38e55f7012": "2026-11-05",
+  "8487dfaefb86": "2026-11-05",
+  "0d061eba529c": "2026-11-05",
+  "17c0a88e9be7": "2026-11-05",
+  "da3696e43aac": "2026-11-05",
+  "f4457d59e53a": "2026-11-05"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-04T22:52:19+00:00",
+   "checked": "2026-11-05T11:03:51+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-04T22:52:20+00:00",
+   "checked": "2026-11-05T11:03:53+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
    "hash": "da39a3ee5e6b4b0d3255",
-   "checked": "2026-11-04T22:52:21+00:00",
+   "checked": "2026-11-05T11:03:55+00:00",
    "pi": "Bernard van Heck"
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-04T22:52:21+00:00",
+   "checked": "2026-11-05T11:03:56+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-04T22:52:22+00:00",
+   "checked": "2026-11-05T11:03:57+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-04T22:52:39+00:00",
+   "checked": "2026-11-05T11:04:16+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
@@ -293,17 +304,30 @@
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-04T22:52:40+00:00",
+   "checked": "2026-11-05T11:04:34+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-04T22:52:40+00:00",
+   "checked": "2026-11-05T11:04:34+00:00",
    "pi": "Bruno Amorim"
+  },
+  "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
+   "hash": "f68c7dd726ec03f87706",
+   "checked": "2026-11-05T11:03:54+00:00",
+   "pi": "Felix von Oppen"
+  },
+  "https://materials-theory.physics.uu.se/black-schaffer/": {
+   "hash": "f37f1243de89de1ef531",
+   "checked": "2026-11-05T11:03:58+00:00",
+   "pi": "Annica Black-Schaffer"
   }
  },
  "tasks": {
-  "pi:Karsten Flensberg": "2026-11-04T22:56:23+00:00"
+  "pi:Karsten Flensberg": "2026-11-04T22:56:23+00:00",
+  "pi:Piet Brouwer": "2026-11-05T11:05:30+00:00",
+  "pi:Bernard van Heck": "2026-11-05T11:06:51+00:00",
+  "pi:Michael Wimmer": "2026-11-05T11:08:01+00:00"
  },
  "fellowships": {
   "msca-pf-ef": {
@@ -324,6 +348,22 @@
     "https://www.jcu.cz/en/science-and-research/eu-desk/open-calls/msca-postdoctoral-fellowship-2026",
     "https://www.emdesk.com/horizon-2020-horizon-europe-basics-guide/msca-postdoctoral-fellowships-2026-handbook-call",
     "https://www.nks-msc.de/en/MSCA-call-for-Postdoctoral-Fellowships-PF-2026-open-2774.html"
+   ]
+  },
+  "humboldt-rf": {
+   "checked": "2026-11-05T11:08:39+00:00",
+   "status": "upcoming",
+   "call_opens": "2026-11-15",
+   "deadline": null,
+   "dates_estimated": false,
+   "summary": "The current call is closed because it reached the cap of 800 applications. The next call opens on 15 November 2026 and feeds the July 2027 selection meeting. There is no fixed deadline: since 2026 each call closes as soon as 800 applications come in, so applicants should submit on or right after opening day. A draft can be saved in the portal now. Calls open three times a year, on 15 March, 15 July and 15 November. Carlos appears eligible. He is a Spanish national who has not lived in Germany, so the 90-days-in-the-last-18-months rule should not affect him as long as his Copenhagen visit and other stays were outside Germany. His expected PhD date (March 2027) falls before the July 2027 selection meeting, which the rules allow if he submits a written summary of his thesis findings. Strong host options include Brouwer and von Oppen (FU Berlin) and Hassler (RWTH Aachen). His doctoral supervisor cannot be the host.",
+   "eligibility": "Non-German researchers with a doctorate completed within the last 4 years, or completed before the selection meeting (with a written summary of findings). Mothers get up to 2 extra years per child, capped at 6 years. Applicants must not have spent more than 90 days in Germany in the 18 months before applying, nor been funded from German sources or done doctoral work in Germany during that time. German nationals and people educated in Germany are eligible only after more than 10 years abroad (or more than 5 years with strong ties to their country of residence). Former Humboldt fellows or award winners cannot apply. Applications are submitted directly by the researcher, together with a mentoring agreement from the host.",
+   "duration": "6–24 months for postdocs, which can be split into up to 3 stays within 3 years. Each stay lasts at least 6 months, or two 3-month blocks. An optional 2–4-month German language course before the stay does not count toward this.",
+   "funding": "€3,000 per month for postdocs, plus a family allowance, a subsidy for private health insurance and a travel allowance. The host institute receives €800 per month for natural sciences. Expected success rate is 20–25%.",
+   "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+   "sources": [
+    "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+    "https://guides.scholarshipunion.com/humboldt-fellowship/"
    ]
   }
  },
@@ -423,6 +463,63 @@
     "backend": "claude-code"
    },
    "open_total": 17
+  },
+  {
+   "date": "2026-11-05T11:02:18+00:00",
+   "ai_enabled": true,
+   "raw_items": 235,
+   "candidates": 0,
+   "triaged": 0,
+   "lab_pages_changed": 2,
+   "search_tasks": [
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "No postdoc position is currently open in Piet Brouwer's group. The last one, Brouwer-Postdoc-2026 (3 years, E13 TV-L), was posted on 17 December 2025 and closed on 26 January 2026: https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/english/PH-Brouwer-Postdoc-2026_E.html. An earlier one close…"
+    },
+    {
+     "task": "pi:Bernard van Heck",
+     "found": 1,
+     "notes": "I found no open postdoc position in Bernard van Heck's group. He has been Associate Professor at Sapienza's Physics Department since 2025, after a tenure-track (RTD-B) post there from 2022 to 2025. His group website (roma1.infn.it/~vanheckb) returned an empty page when fetched. Searches of Sapienza…"
+    },
+    {
+     "task": "pi:Michael Wimmer",
+     "found": 1,
+     "notes": "I found no open postdoc position in Michael Wimmer's group as of 2026-11-05, so the only thing to report is the 2027 MSCA fellowship route with him as host.\n\n**Current postings:**\n- **QuTech job page** (https://qutech.nl/careers/job-opportunities/): three openings, none in Wimmer's group or on Majo…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "humboldt-rf",
+     "status": "upcoming",
+     "deadline": null
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 11,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.universite-paris-saclay.fr/en/pascal-simon: HTTPSConnectionPool(host='www.universite-paris-saclay.fr', port=443): Max retries exceeded with url: /en/pascal-simon (Caused by ConnectTimeout…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 4,
+    "input_tokens": 42,
+    "output_tokens": 10365,
+    "cache_read_tokens": 178034,
+    "cache_write_tokens": 45474,
+    "web_searches": 14,
+    "web_fetches": 0,
+    "cost_usd": 0.6862,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 19
   }
  ]
 }

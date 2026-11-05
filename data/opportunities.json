@@ -171,7 +171,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -205,7 +205,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -241,7 +241,7 @@
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -283,35 +283,34 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "rolling",
+  "notified_on": "2026-11-05"
  },
  {
-  "id": "fellowship-humboldt-rf",
+  "id": "b1b05942b464",
   "kind": "fellowship",
-  "title": "Humboldt Research Fellowship for Postdocs",
-  "institution": "Alexander von Humboldt Foundation",
+  "title": "Humboldt Research Fellowship for Postdocs, hosted by AG Brouwer, FU Berlin",
+  "institution": "Alexander von Humboldt Foundation / Freie Universität Berlin",
   "country": "Germany",
-  "location": null,
-  "pi": null,
+  "location": "Berlin",
+  "pi": "Piet Brouwer",
   "matched_pis": [
-   "Fabian Hassler",
-   "Piet Brouwer",
-   "Felix von Oppen"
+   "Piet Brouwer"
   ],
   "pi_notes": {
-   "Fabian Hassler": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
-   "Piet Brouwer": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
-   "Felix von Oppen": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly."
+   "Piet Brouwer": "★ PI of this offer"
   },
-  "topics": [],
-  "relevance": 95,
-  "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
-  "summary": "Researchers from abroad, PhD within the last 4 years; needs the agreement of an academic host in Germany. Duration: 6–24 months. Funding: Monthly fellowship (~€2,700) plus mobility/family allowances. Call: Applications accepted at any time; decision ~4–7 months after submission.",
-  "eligibility": "Researchers from abroad, PhD within the last 4 years; needs the agreement of an academic host in Germany.",
-  "duration": "6–24 months",
-  "salary": "Monthly fellowship (~€2,700) plus mobility/family allowances.",
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Quantum transport in mesoscopic systems"
+  ],
+  "relevance": 72,
+  "relevance_reason": "A strong independent route into a listed PI's group, but it can only be used after the PhD is finished.",
+  "summary": "An independent postdoctoral fellowship, applied for directly to the Humboldt Foundation with Piet Brouwer as host. Applications are accepted on a rolling basis. This entry was not checked against the Foundation's site in this search, so confirm the current terms and rates there.",
+  "eligibility": "Open to researchers who are not German nationals and have completed a doctorate. Carlos could apply only after defending his PhD (expected March 2027). The host must confirm support.",
+  "duration": null,
+  "salary": null,
   "start_date": null,
   "call_opens": null,
   "deadline": null,
@@ -321,13 +320,13 @@
   "status": "rolling",
   "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
   "sources": [
-   "fellowship catalog"
+   "Web search (pi: Piet Brouwer)"
   ],
-  "fellowship_id": "humboldt-rf",
-  "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "fellowship_id": null,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "notified_status": "rolling",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-fwf-esprit",
@@ -359,7 +358,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -396,6 +395,49 @@
   "last_seen": "2026-11-04",
   "notified_status": null,
   "notified_on": null
+ },
+ {
+  "id": "fellowship-humboldt-rf",
+  "kind": "fellowship",
+  "title": "Humboldt Research Fellowship for Postdocs",
+  "institution": "Alexander von Humboldt Foundation",
+  "country": "Germany",
+  "location": null,
+  "pi": null,
+  "matched_pis": [
+   "Fabian Hassler",
+   "Piet Brouwer",
+   "Felix von Oppen"
+  ],
+  "pi_notes": {
+   "Fabian Hassler": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
+   "Piet Brouwer": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
+   "Felix von Oppen": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly."
+  },
+  "topics": [],
+  "relevance": 95,
+  "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
+  "summary": "The current call is closed because it reached the cap of 800 applications. The next call opens on 15 November 2026 and feeds the July 2027 selection meeting. There is no fixed deadline: since 2026 each call closes as soon as 800 applications come in, so applicants should submit on or right after opening day. A draft can be saved in the portal now. Calls open three times a year, on 15 March, 15 July and 15 November. Carlos appears eligible. He is a Spanish national who has not lived in Germany, so the 90-days-in-the-last-18-months rule should not affect him as long as his Copenhagen visit and other stays were outside Germany. His expected PhD date (March 2027) falls before the July 2027 selection meeting, which the rules allow if he submits a written summary of his thesis findings. Strong host options include Brouwer and von Oppen (FU Berlin) and Hassler (RWTH Aachen). His doctoral supervisor cannot be the host.",
+  "eligibility": "Non-German researchers with a doctorate completed within the last 4 years, or completed before the selection meeting (with a written summary of findings). Mothers get up to 2 extra years per child, capped at 6 years. Applicants must not have spent more than 90 days in Germany in the 18 months before applying, nor been funded from German sources or done doctoral work in Germany during that time. German nationals and people educated in Germany are eligible only after more than 10 years abroad (or more than 5 years with strong ties to their country of residence). Former Humboldt fellows or award winners cannot apply. Applications are submitted directly by the researcher, together with a mentoring agreement from the host.",
+  "duration": "6–24 months for postdocs, which can be split into up to 3 stays within 3 years. Each stay lasts at least 6 months, or two 3-month blocks. An optional 2–4-month German language course before the stay does not count toward this.",
+  "salary": "€3,000 per month for postdocs, plus a family allowance, a subsidy for private health insurance and a travel allowance. The host institute receives €800 per month for natural sciences. Expected success rate is 20–25%.",
+  "start_date": null,
+  "call_opens": "2026-11-15",
+  "deadline": null,
+  "rolling": true,
+  "dates_estimated": false,
+  "dates_checked": "2026-11-05T11:08:39+00:00",
+  "status": "upcoming",
+  "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+  "sources": [
+   "fellowship catalog",
+   "web check"
+  ],
+  "fellowship_id": "humboldt-rf",
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
+  "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-msca-pf-ef",
@@ -456,9 +498,9 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "b8abc27be911",
@@ -469,16 +511,18 @@
   "location": "Copenhagen",
   "pi": "Karsten Flensberg",
   "matched_pis": [
-   "Karsten Flensberg"
+   "Karsten Flensberg",
+   "Piet Brouwer"
   ],
   "pi_notes": {
-   "Karsten Flensberg": "★ PI of this offer"
+   "Karsten Flensberg": "★ PI of this offer",
+   "Piet Brouwer": "★ PI of this offer"
   },
   "topics": [
-   "Topological superconductivity & Majorana modes",
    "Hybrid semiconductor–superconductor nanostructures",
+   "Non-Hermitian physics & open quantum systems",
    "Quantum transport in mesoscopic systems",
-   "Non-Hermitian physics & open quantum systems"
+   "Topological superconductivity & Majorana modes"
   ],
   "relevance": 85,
   "relevance_reason": "This is a prestigious independent fellowship in a listed PI's group you already collaborate with, and you should be eligible because your PhD is due in March 2027, before the expected September 2027 deadline.",
@@ -495,13 +539,14 @@
   "status": "upcoming",
   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
   "sources": [
-   "Web search (pi: Karsten Flensberg)"
+   "Web search (pi: Karsten Flensberg)",
+   "Web search (pi: Piet Brouwer)"
   ],
   "fellowship_id": null,
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-banting",
@@ -533,7 +578,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -567,7 +612,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -601,7 +646,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -635,7 +680,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -669,7 +714,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -705,7 +750,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -741,7 +786,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -803,9 +848,9 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-martin-escudero-abroad",
@@ -865,9 +910,9 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-ramon-areces-abroad",
@@ -927,9 +972,9 @@
   ],
   "fellowship_id": "ramon-areces-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-nwo-veni",
@@ -967,9 +1012,95 @@
   ],
   "fellowship_id": "nwo-veni",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
-  "notified_status": null,
-  "notified_on": null
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "342c1f7f2c93",
+  "kind": "fellowship",
+  "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted by Michael Wimmer, QuTech/Kavli Institute of Nanoscience, TU Delft – 2027 call",
+  "institution": "QuTech and Kavli Institute of Nanoscience, TU Delft",
+  "country": "Netherlands",
+  "location": "Delft",
+  "pi": "Michael Wimmer",
+  "matched_pis": [
+   "Michael Wimmer"
+  ],
+  "pi_notes": {
+   "Michael Wimmer": "★ PI of this offer"
+  },
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Quantum transport in mesoscopic systems",
+   "Theoretical & computational condensed matter (broad)"
+  ],
+  "relevance": 85,
+  "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose group works on Majorana and Kitaev-chain theory with strong experimental ties in Delft, and you meet the eligibility and mobility rules; it isn't a funded opening, and the 2027 call dates are still to be confirmed.",
+  "summary": "The MSCA Postdoctoral Fellowship is an independent grant that you write together with a host supervisor, here Michael Wimmer at TU Delft. It covers 12-24 months and pays an EU-funded living allowance plus mobility and research costs. The 2026 call ran from 9 April to 9 September 2026, so the 2027 call will probably follow a similar schedule. That date is not yet confirmed. Contact Wimmer early to agree on a project and check TU Delft's internal support deadlines.",
+  "eligibility": "Must hold a PhD by the call deadline, with at most 8 years of experience since the PhD. Must not have lived or worked mainly in the Netherlands for more than 12 months in the 36 months before the deadline. The candidate, who is Spanish and lives in Spain, meets the mobility rule, and his expected PhD date (March 2027) falls before a typical September deadline.",
+  "duration": "12-24 months (European Fellowship)",
+  "salary": null,
+  "start_date": null,
+  "call_opens": null,
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "unknown",
+  "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+  "sources": [
+   "Web search (pi: Michael Wimmer)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "751aee8cf679",
+  "kind": "fellowship",
+  "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted by Sapienza Università di Roma – van Heck group (next call, expected 2027)",
+  "institution": "Dipartimento di Fisica, Sapienza Università di Roma",
+  "country": "Italy",
+  "location": "Rome, Italy",
+  "pi": "Bernard van Heck",
+  "matched_pis": [
+   "Bernard van Heck"
+  ],
+  "pi_notes": {
+   "Bernard van Heck": "★ PI of this offer"
+  },
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Quantum transport in mesoscopic systems",
+   "Theory of quantum devices & qubits"
+  ],
+  "relevance": 82,
+  "relevance_reason": "Van Heck is on your PI list and works on Majorana zero modes, Andreev qubits and mesoscopic superconductivity, which closely matches your work, and you appear eligible for the MSCA call after your PhD; the score is not higher because this is a fellowship you would need to win, not a funded opening, and the 2027 dates are not yet published.",
+  "summary": "This is an independent EU Marie Skłodowska-Curie Postdoctoral Fellowship that you would write yourself, with Bernard van Heck as host supervisor at Sapienza. The 2026 call closed on 2026-09-09. Recent calls have opened in April with deadlines in September, so the next one probably opens around April 2027, but the dates are not confirmed. To apply with Sapienza as host, email the International Research Office (ricercainternazionale@uniroma1.it) a self-declaration of eligibility, a letter of acceptance signed by the supervisor and your academic CV. The office pre-screens proposals and helps with writing, and Sapienza also runs an MSCA infoday and a grant-writing lab each spring.",
+  "eligibility": "MSCA PF European Fellowship rules: you must hold a PhD by the call deadline and have at most 8 years of post-PhD experience. You must not have lived or worked mainly in Italy for more than 12 months in the 36 months before the deadline. As a Spanish resident with a PhD expected in 2027-03, you meet these rules for a call with its deadline in September 2027.",
+  "duration": null,
+  "salary": null,
+  "start_date": null,
+  "call_opens": null,
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "unknown",
+  "url": "https://www.uniroma1.it/en/node/440794",
+  "sources": [
+   "Web search (pi: Bernard van Heck)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
+  "notified_on": "2026-11-05"
  },
  {
   "id": "fellowship-juan-de-la-cierva",
@@ -1001,7 +1132,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  },
@@ -1035,7 +1166,7 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
   "notified_status": null,
   "notified_on": null
  }
