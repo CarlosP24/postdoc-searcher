@@ -266,23 +266,63 @@
   "topics": [],
   "relevance": 95,
   "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
-  "summary": "Early-career researchers within ~4 years of the PhD; a Walter Benjamin *position* is held at a German host institution. Duration: Up to 24 months (position in Germany). Funding: Salary as a full position at the host. Call: No deadline — proposals can be submitted at any time.",
-  "eligibility": "Early-career researchers within ~4 years of the PhD; a Walter Benjamin *position* is held at a German host institution.",
-  "duration": "Up to 24 months (position in Germany)",
-  "salary": "Salary as a full position at the host.",
+  "summary": "There are no call windows. The DFG Walter Benjamin Programme takes proposals at any time through the elan portal, and a decision takes about 6 months on average. It funds early-career postdocs to carry out their own project, usually for up to two years. In Germany you hold a postdoc position at the host, normally paid at 100%, plus €250 a month for project, travel and publication costs. Abroad you get a fellowship instead (basic amount plus allowances). Carlos appears eligible for the German position, for example with Brouwer or von Oppen at FU Berlin or Hassler at RWTH Aachen: that track has no nationality or prior-Germany-work rules, and he would be changing institution from ICMM-CSIC. He can submit once his dissertation has been handed in (expected around early 2027, with proof of submission and a supervisor statement), but funding only starts after the doctorate is completed. That makes a start around late 2027 realistic. He is not eligible for the abroad fellowship (for example a stay in Copenhagen), because he has not been integrated into the German research system.",
+  "eligibility": "For postdocs in the early phase after the doctorate (EU 'recognised researcher', R2). DFG sets no fixed number of years since the PhD, and parental leave is taken into account. You can submit once the dissertation has been handed in, but funding starts only after the doctorate is completed. You must generally change institution (not the PhD institution or current one, except with special justification). You must not have worked more than one year at the chosen host when you submit. German position: no nationality or prior-Germany restrictions. Abroad fellowship: you need to have worked at least 3 continuous years in Germany just before the proposal, or have done most of your schooling and higher education in Germany with no more than 3 years abroad for research since the PhD. Carlos does not meet these. The host cannot be for-profit and must allow open publication.",
+  "duration": "As a rule up to 24 months. The German position and the abroad fellowship modules can be combined. In France, fellowships are limited to 12 months unless you move to a second French institution.",
+  "salary": "German position: a postdoc post ('postdoctoral researcher and comparable'), usually at 100%, plus €250 a month for direct project, travel and publication costs. The exact pay scale is not stated. Non-university institutes (Max Planck, Helmholtz, Fraunhofer) must guarantee 45% of the position's funding. Abroad fellowship: a monthly basic amount plus foreign, cost-of-living and travel allowances and benefits for children, paid directly to the fellow.",
   "start_date": null,
   "call_opens": null,
   "deadline": null,
   "rolling": true,
   "dates_estimated": false,
-  "dates_checked": null,
+  "dates_checked": "2026-11-05T13:26:32+00:00",
   "status": "rolling",
   "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
   "sources": [
-   "fellowship catalog"
+   "fellowship catalog",
+   "web check"
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
+  "last_seen": "2026-11-05",
+  "notified_status": "rolling",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "cf43c6fd9d2f",
+  "kind": "position",
+  "title": "Postdoctoral position in Condensed Matter Theory (Condensed Matter Theory and Quantum Computing Group)",
+  "institution": "University of Basel, Department of Physics",
+  "country": "Switzerland",
+  "location": "Basel",
+  "pi": "Jelena Klinovaja; Daniel Loss",
+  "matched_pis": [],
+  "pi_notes": {},
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Theoretical & computational condensed matter (broad)",
+   "Theory of quantum devices & qubits"
+  ],
+  "relevance": 85,
+  "relevance_reason": "Klinovaja and Loss lead one of Europe's top theory groups on Majorana and topological superconductivity in semiconductor–superconductor hybrids, which fits your nanowire work squarely, and the 'PhD within one year' rule makes you eligible now.",
+  "summary": "A theory postdoc in the Klinovaja/Loss group. Topics include topological properties of condensed matter systems, spin qubits, semiconductor spin physics, many-body physics and quantum computing. The listing does not give a start date, duration or salary. Apply on AcademicJobsOnline with a CV, research statement, publication list, academic records and two reference letters (cover letter optional). Screening is ongoing until the posts are filled, and the deadline is 1 December 2026.",
+  "eligibility": "PhD in hand, or expected within one year (the candidate's March 2027 PhD date qualifies).",
+  "duration": null,
+  "salary": null,
+  "start_date": null,
+  "call_opens": null,
+  "deadline": "2026-12-01",
+  "rolling": true,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "rolling",
+  "url": "https://academicjobsonline.org/ajo/jobs/21540",
+  "sources": [
+   "Web search (topic: Topological superconductivity & Majorana modes)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-05",
   "last_seen": "2026-11-05",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
@@ -500,6 +540,52 @@
   "first_seen": "2026-11-04",
   "last_seen": "2026-11-05",
   "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "342c1f7f2c93",
+  "kind": "fellowship",
+  "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted by Michael Wimmer, QuTech/Kavli Institute of Nanoscience, TU Delft – 2027 call",
+  "institution": "QuTech and Kavli Institute of Nanoscience, TU Delft",
+  "country": "Netherlands",
+  "location": "Delft",
+  "pi": "Michael Wimmer",
+  "matched_pis": [
+   "Martin Leijnse",
+   "Michael Wimmer"
+  ],
+  "pi_notes": {
+   "Michael Wimmer": "★ PI of this offer",
+   "Martin Leijnse": "★ PI of this offer"
+  },
+  "topics": [
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Quantum transport in mesoscopic systems",
+   "Theoretical & computational condensed matter (broad)",
+   "Topological superconductivity & Majorana modes"
+  ],
+  "relevance": 85,
+  "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose group works on Majorana and Kitaev-chain theory with strong experimental ties in Delft, and you meet the eligibility and mobility rules; it isn't a funded opening, and the 2027 call dates are still to be confirmed.",
+  "summary": "An independent EU-funded postdoctoral fellowship written jointly with a host supervisor, here Martin Leijnse. Lund's Solid State Physics division recommends sending a faculty member a one-page project description and a CV, ideally a year ahead. The 2026 call ran from 9 April to 9 September 2026. Third-party sites list the 2027 call as opening around 7 April 2027 with a deadline around 8 September 2027, but these dates are not official yet. The fellowship pays a full researcher salary under the MSCA rules, plus mobility and research allowances.",
+  "eligibility": "Must hold a PhD by the call deadline, with at most 8 years of experience since the PhD. Must not have lived or worked mainly in the Netherlands for more than 12 months in the 36 months before the deadline. The candidate, who is Spanish and lives in Spain, meets the mobility rule, and his expected PhD date (March 2027) falls before a typical September deadline.",
+  "duration": "12-24 months (European Fellowship)",
+  "salary": null,
+  "start_date": null,
+  "call_opens": "2027-04",
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "upcoming",
+  "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+  "sources": [
+   "Web search (pi: Martin Leijnse)",
+   "Web search (pi: Michael Wimmer)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
  {
@@ -1017,18 +1103,18 @@
   "notified_on": "2026-11-05"
  },
  {
-  "id": "342c1f7f2c93",
+  "id": "569b350c19b7",
   "kind": "fellowship",
-  "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted by Michael Wimmer, QuTech/Kavli Institute of Nanoscience, TU Delft – 2027 call",
-  "institution": "QuTech and Kavli Institute of Nanoscience, TU Delft",
+  "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted in the Quantum Tinkerer group, TU Delft",
+  "institution": "Kavli Institute of Nanoscience / QuTech, TU Delft",
   "country": "Netherlands",
   "location": "Delft",
-  "pi": "Michael Wimmer",
+  "pi": "Anton Akhmerov",
   "matched_pis": [
-   "Michael Wimmer"
+   "Anton Akhmerov"
   ],
   "pi_notes": {
-   "Michael Wimmer": "★ PI of this offer"
+   "Anton Akhmerov": "★ PI of this offer"
   },
   "topics": [
    "Topological superconductivity & Majorana modes",
@@ -1037,10 +1123,10 @@
    "Theoretical & computational condensed matter (broad)"
   ],
   "relevance": 85,
-  "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose group works on Majorana and Kitaev-chain theory with strong experimental ties in Delft, and you meet the eligibility and mobility rules; it isn't a funded opening, and the 2027 call dates are still to be confirmed.",
-  "summary": "The MSCA Postdoctoral Fellowship is an independent grant that you write together with a host supervisor, here Michael Wimmer at TU Delft. It covers 12-24 months and pays an EU-funded living allowance plus mobility and research costs. The 2026 call ran from 9 April to 9 September 2026, so the 2027 call will probably follow a similar schedule. That date is not yet confirmed. Contact Wimmer early to agree on a project and check TU Delft's internal support deadlines.",
-  "eligibility": "Must hold a PhD by the call deadline, with at most 8 years of experience since the PhD. Must not have lived or worked mainly in the Netherlands for more than 12 months in the 36 months before the deadline. The candidate, who is Spanish and lives in Spain, meets the mobility rule, and his expected PhD date (March 2027) falls before a typical September deadline.",
-  "duration": "12-24 months (European Fellowship)",
+  "relevance_reason": "This is the group of a listed PI, and it works on exactly your topics (Majoranas, hybrid devices, Kwant transport), but there is no funded post at present, so the route is a self-funded MSCA application on a future call.",
+  "summary": "The Akhmerov/Wimmer Quantum Tinkerer group has no funded openings at the moment. Its join page invites postdoc applicants, including those applying for their own fellowships, to send a CV and a short research statement. The realistic route is a Marie Skłodowska-Curie Postdoctoral Fellowship with Akhmerov as host. The next call has not been announced but is likely to open in spring 2027 with a deadline in early autumn, after Carlos's expected PhD date (March 2027).",
+  "eligibility": "Must hold a PhD by the call deadline; MSCA mobility rule (no more than 12 months' residence in the Netherlands in the previous 36 months) is met by the candidate. The 2026 call closed 2026-09-09; the 2027 call is not yet announced.",
+  "duration": "12-24 months (MSCA European Fellowship)",
   "salary": null,
   "start_date": null,
   "call_opens": null,
@@ -1049,9 +1135,9 @@
   "dates_estimated": false,
   "dates_checked": null,
   "status": "unknown",
-  "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+  "url": "https://quantumtinkerer.tudelft.nl/join/",
   "sources": [
-   "Web search (pi: Michael Wimmer)"
+   "Web search (pi: Anton Akhmerov)"
   ],
   "fellowship_id": null,
   "first_seen": "2026-11-05",
