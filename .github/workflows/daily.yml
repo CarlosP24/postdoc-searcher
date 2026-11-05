@@ -1,5 +1,5 @@
-# Postdoc Radar — daily run. Secrets: CLAUDE_CODE_OAUTH_TOKEN (subscription) or ANTHROPIC_API_KEY,
-# SMTP_USER, SMTP_PASSWORD, EMAIL_TO (see README).
+# Postdoc Radar — daily run. Secret: CLAUDE_CODE_OAUTH_TOKEN (subscription) or ANTHROPIC_API_KEY.
+# Notifications are GitHub issues assigned to you (built-in token, no secret); SMTP_* is optional.
 name: Daily postdoc search
 
 on:
@@ -15,9 +15,14 @@ on:
         description: "Run without Claude (keyword scoring only)"
         type: boolean
         default: false
+      test_notification:
+        description: "Only send a test notification (opens a test issue), no search"
+        type: boolean
+        default: false
 
 permissions:
   contents: write     # commit data/ back to the repo
+  issues: write       # notifications: open an issue assigned to you (GitHub emails it)
   pages: write        # deploy the dashboard
   id-token: write
 
@@ -42,10 +47,19 @@ jobs:
       - name: Install Claude Code (for llm.backend = claude-code)
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Run the search
+      - name: Send a test notification
+        if: inputs.test_notification
         env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m postdoc_searcher test-notify
+
+      - name: Run the search
+        if: ${{ !inputs.test_notification }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}   # built-in, short-lived; used to open notification issues
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Optional SMTP email (not needed: GitHub issues already reach your inbox)
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}

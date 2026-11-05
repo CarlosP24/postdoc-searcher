@@ -273,3 +273,42 @@ def test_claude_code_not_logged_in_stops_ai(monkeypatch):
     monkeypatch.delenv("CLAUDE_CODE_OAUTH_TOKEN", raising=False)
     monkeypatch.setattr("postdoc_searcher.claude_code.find_claude", lambda p=None: "/bin/claude")
     assert make_backend(cfg) is None
+
+
+def test_github_issue_notification(monkeypatch):
+    from datetime import date
+
+    from postdoc_searcher import notify
+    from postdoc_searcher.models import Opportunity
+
+    cfg = load_config()
+    for k in ("SMTP_USER", "SMTP_PASSWORD", "EMAIL_TO", "GITHUB_TOKEN", "GITHUB_REPOSITORY"):
+        monkeypatch.delenv(k, raising=False)
+    assert notify.channels(cfg.settings) == []
+    monkeypatch.setenv("GITHUB_TOKEN", "ghs_test")
+    monkeypatch.setenv("GITHUB_REPOSITORY", "someone/postdoc-searcher")
+    assert notify.channels(cfg.settings) == ["github"]
+
+    posted = {}
+
+    class Resp:
+        status_code = 201
+        def raise_for_status(self): pass
+        def json(self): return {"html_url": "https://github.com/someone/postdoc-searcher/issues/1"}
+
+    def fake_post(url, json, headers, timeout):
+        posted.update(url=url, payload=json, headers=headers)
+        return Resp()
+
+    monkeypatch.setattr(notify.requests, "post", fake_post)
+    o = Opportunity(id="x1", kind="position", title="Postdoc in Majorana | theory", url="https://ex.org/job",
+                    relevance=88, status="open", summary="Line one\nline two",
+                    first_seen="2026-11-05", last_seen="2026-11-05")
+    sent = notify.deliver([("new", o)], [], cfg.settings, date(2026, 11, 5), ["github"])
+    assert sent == ["github"]
+    assert posted["url"].endswith("/repos/someone/postdoc-searcher/issues")
+    assert posted["payload"]["assignees"] == ["someone"]
+    assert "1 new offer" in posted["payload"]["title"]
+    body = posted["payload"]["body"]
+    assert "Majorana \\| theory" in body and "Line one line two" in body and "ex.org/job" in body
+    assert posted["headers"]["Authorization"] == "Bearer ghs_test"

@@ -37,10 +37,15 @@ schedule:
 
 relevance:
   store_threshold: 40             # 0-100. Below this, offers are discarded.
-  notify_threshold: 65            # Email when a new offer scores at least this.
+  notify_threshold: 65            # Notify when a new offer scores at least this.
 
+# Notifications. On GitHub the run opens an issue assigned to you and GitHub emails
+# it to your account's address; no password needed. SMTP is an optional extra.
 email:
-  enabled: true                   # needs SMTP_* and EMAIL_TO env vars / secrets
+  enabled: true                   # master switch
+  github_issues: true             # uses the workflow's built-in GITHUB_TOKEN
+  github_assignee: ""             # default: the repository owner
+  smtp: true                      # only used if SMTP_USER, SMTP_PASSWORD and EMAIL_TO are set
   subject_prefix: "[Postdoc Radar]"
   deadline_reminder_days: 21      # list already-known deadlines this close in each email
 

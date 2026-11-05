@@ -2,12 +2,12 @@
 
 **Dashboard:** https://carlosp24.github.io/postdoc-searcher/
 
-A daily search for postdoc positions, fellowships and scholarships that fit **your PIs** and **your topics**. It keeps a list of open and soon-to-open calls with the associated PI, call period and a summary of conditions. It emails you when it finds something interesting and publishes a dashboard on GitHub Pages (or locally).
+A daily search for postdoc positions, fellowships and scholarships that fit **your PIs** and **your topics**. It keeps a list of open and soon-to-open calls with the associated PI, call period and a summary of conditions. It notifies you when it finds something interesting (a GitHub issue assigned to you, which GitHub emails to you) and publishes a dashboard on GitHub Pages (or locally).
 
 ```
 inputs/pis.yaml      ─┐                       ┌─▶ data/opportunities.json   (the list)
 inputs/topics.yaml   ─┼─▶  daily run (06:23) ─┼─▶ docs/  dashboard         (GitHub Pages / local)
-inputs/me.yaml       ─┘                       └─▶ email digest             (new matches, calls opening)
+inputs/me.yaml       ─┘                       └─▶ GitHub issue → your inbox (new matches, calls opening)
 ```
 
 ## What it searches
@@ -33,7 +33,7 @@ LinkedIn and X are not scraped directly; their terms forbid it and they block bo
 5. **Web-search tasks:** one per PI (every 3/7/14 days by priority) and one per topic (every ~4 days), rotating so each run stays small.
 6. **Fellowships:** each programme is matched against your PIs using host-country and host-institution rules plus your eligibility (mobility rule, nationality, years since PhD, "different from PhD institution"). Call windows are estimated from typical months (marked ≈) until a web check confirms the real dates (marked ✓).
 7. **Merge and dedupe** into `data/opportunities.json`, then compute each item's status: open, upcoming, rolling or closed.
-8. **Email** new items with relevance ≥ `notify_threshold`, plus fellowship calls that just opened and deadlines within 3 weeks.
+8. **Notify** you of new items with relevance ≥ `notify_threshold`, plus fellowship calls that just opened and deadlines within 3 weeks.
 9. **Publish** the dashboard data to `docs/data.js`.
 
 ## Quick start (local)
@@ -41,35 +41,36 @@ LinkedIn and X are not scraped directly; their terms forbid it and they block bo
 ```bash
 cd Postdoc_searcher
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-cp .env.example .env          # add ANTHROPIC_API_KEY and the SMTP settings
 .venv/bin/python -m postdoc_searcher plan       # check inputs, see what will run
 .venv/bin/python -m postdoc_searcher run        # the daily run
 open docs/index.html                            # the dashboard works straight from disk
 ```
 
-Useful flags: `run --no-ai` (free sources and keyword scoring only), `--dry-run` (save and send nothing), `--no-email`, `--max-tasks 1`, `--only feeds,fellowships`.
+Useful flags: `run --no-ai` (free sources and keyword scoring only), `--dry-run` (save and send nothing), `--no-notify`, `--max-tasks 1`, `--only feeds,fellowships`.
 
-To run daily on your Mac instead of GitHub, see `scripts/com.postdoc-radar.daily.plist`. Use one scheduler or the other, not both.
+The daily runs happen on GitHub. (`scripts/com.postdoc-radar.daily.plist` can schedule it on a Mac instead; use one or the other, never both.)
 
 ## Deploy on GitHub (recommended)
 
 The app lives in its own repository. Its dashboard is served at `https://carlosp24.github.io/<repo-name>/`, a project page that does not touch your personal site `carlosp24.github.io`.
 
 1. Create the repository (e.g. `postdoc-searcher`) and push this folder.
-2. **Settings → Secrets and variables → Actions → New repository secret**:
-   - `CLAUDE_CODE_OAUTH_TOKEN` (run `claude setup-token` on your Mac and paste the token), or `ANTHROPIC_API_KEY` if you use `backend: api`
-   - `SMTP_USER` (your Gmail address), `SMTP_PASSWORD` (a Gmail *App Password*, see below), `EMAIL_TO`
-   - optional: `SMTP_HOST` and `SMTP_PORT` (defaults `smtp.gmail.com` and `465`), `EMAIL_FROM`
+2. **Settings → Secrets and variables → Actions → New repository secret**: `CLAUDE_CODE_OAUTH_TOKEN` (run `claude setup-token` on your Mac and paste the token), or `ANTHROPIC_API_KEY` if you use `backend: api`. That is the only secret.
 3. **Settings → Pages → Source: GitHub Actions**.
-4. **Actions → Daily postdoc search → Run workflow** for the first run. After that it runs every day at 05:23 UTC, commits the updated `data/` and redeploys the dashboard.
-5. Set `dashboard.url` in `config/settings.yaml` if your repository name differs. The emails link to that URL.
+4. **Actions → Daily postdoc search → Run workflow**, ticking *Send a test notification*: you should get a test issue and its email. Then run it once more without the tick for the first real search. After that it runs every day at 05:23 UTC, commits the updated `data/` and redeploys the dashboard.
+5. Set `dashboard.url` in `config/settings.yaml` if your repository name differs. Notifications link to that URL.
 
-Not publishing a dashboard (e.g. a private repo on a free plan, where Pages isn't available)? Add the repository **variable** `PUBLISH_DASHBOARD = false`. Searches and emails still run; to see the dashboard, `git pull` and open `docs/index.html`.
+Not publishing a dashboard (e.g. a private repo on a free plan, where Pages isn't available)? Add the repository **variable** `PUBLISH_DASHBOARD = false`. Searches and notifications still run; to see the dashboard, `git pull` and open `docs/index.html`.
 
-### Gmail App Password
-Google Account → Security → turn on 2-Step Verification → **App passwords** → create one named "Postdoc Radar" → use the 16-character password as `SMTP_PASSWORD`. Any other SMTP provider works too: set `SMTP_HOST` and `SMTP_PORT` (587 uses STARTTLS).
+## Notifications
 
-Check the setup with `python -m postdoc_searcher test-email`.
+Each run with something new opens **one GitHub issue** in the repository, assigned to you, listing the new offers, calls that just opened and deadlines within 3 weeks. GitHub emails it to the address on your GitHub account and shows it in the GitHub mobile app. Close the issue once you've read it.
+
+- **No password stored anywhere.** The workflow uses its built-in, short-lived `GITHUB_TOKEN`, which can only touch this repository.
+- If no email arrives, check **GitHub → Settings → Notifications** (email on for *Participating, @mentions and custom*), and that you watch the repository.
+- On a public repository the issues are public, the same as the dashboard.
+- Optional extra: plain SMTP email, if you set the `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` (and `SMTP_HOST`/`SMTP_PORT`) secrets. Not needed, and a Gmail app password gives full access to the mailbox, so use a sending-only provider if you want it.
+- Turn channels on and off in the `email:` section of `config/settings.yaml`.
 
 ## Your inputs
 
@@ -103,7 +104,7 @@ GitHub Actions minutes are free for public repositories, and a private repositor
 
 ## Privacy
 
-On a **public** repository, everything in `inputs/` (your PIs, topics and profile) and the dashboard are public. Your email address and API keys are never in the repo; they are GitHub secrets. If you'd rather keep your PI list private, use a private repository with `PUBLISH_DASHBOARD=false` and view the dashboard locally. The dashboard sets `noindex`, so search engines won't list it.
+On a **public** repository, everything in `inputs/` (your PIs, topics and profile) and the dashboard are public. Your email address is never in the repo, and the Claude token is a GitHub secret. If you'd rather keep your PI list private, use a private repository with `PUBLISH_DASHBOARD=false` and view the dashboard locally. The dashboard sets `noindex`, so search engines won't list it.
 
 ## Commands
 
@@ -112,7 +113,7 @@ On a **public** repository, everything in `inputs/` (your PIs, topics and profil
 | `python -m postdoc_searcher run` | daily run |
 | `python -m postdoc_searcher plan` | validate inputs, show the next tasks, PI × fellowship matrix and cost estimate |
 | `python -m postdoc_searcher site` | rebuild `docs/data.js` from `data/` |
-| `python -m postdoc_searcher test-email` | send a test email |
+| `python -m postdoc_searcher test-notify` | send a test notification (on GitHub: tick *Send a test notification* in Run workflow) |
 | `.venv/bin/python -m pytest` | run the tests |
 
 ## Layout

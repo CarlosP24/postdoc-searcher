@@ -172,7 +172,10 @@ class RelevanceSettings(_Model):
 
 
 class EmailSettings(_Model):
-    enabled: bool = True
+    enabled: bool = True              # master switch for all notifications
+    github_issues: bool = True        # open a GitHub issue (GitHub emails it to you); needs GITHUB_TOKEN
+    github_assignee: str = ""         # default: the repository owner
+    smtp: bool = True                 # also email via SMTP when SMTP_* and EMAIL_TO are set
     subject_prefix: str = "[Postdoc Radar]"
     deadline_reminder_days: int = 21
 

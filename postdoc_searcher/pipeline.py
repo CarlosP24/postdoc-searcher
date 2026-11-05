@@ -462,23 +462,25 @@ def run(cfg: Config, opts: RunOptions, data_dir: Path = DATA_DIR, docs_dir: Path
     if events:
         log.info("%d opportunities to notify", len(events))
     if events and opts.email and s.email.enabled:
-        if not notify.smtp_configured():
-            log.warning("email not sent: set SMTP_USER, SMTP_PASSWORD and EMAIL_TO (see README)")
+        chans = notify.channels(s)
+        if not chans:
+            log.warning("no notification channel available: on GitHub Actions pass GITHUB_TOKEN; "
+                        "elsewhere set SMTP_USER, SMTP_PASSWORD and EMAIL_TO (see README)")
         else:
             reminders = notify.upcoming_deadlines(store.all(), s.relevance.notify_threshold,
                                                   s.email.deadline_reminder_days, ctx.ref,
                                                   {o.id for _, o in events})
-            msg = notify.compose(events, reminders, s, ctx.ref)
             if opts.dry_run:
-                log.info("dry run — would send: %s", msg["Subject"])
+                log.info("dry run — would notify via %s: %d items", ", ".join(chans), len(events))
             else:
                 try:
-                    notify.send(msg)
+                    sent = notify.deliver(events, reminders, s, ctx.ref, chans)
                     for _, o in events:
                         o.notified_status, o.notified_on = o.status, ctx.iso
                     ctx.stats["emailed"] = len(events)
+                    ctx.stats["notified_via"] = sent
                 except Exception as exc:  # keep events pending; retry next run
-                    ctx.error(f"email failed: {exc}")
+                    ctx.error(f"notification failed: {exc}")
 
     if ctx.claude:
         ctx.stats["ai"] = ctx.claude.usage.as_dict()

@@ -1,4 +1,4 @@
-"""Command line: python -m postdoc_searcher {run,plan,site,test-email}."""
+"""Command line: python -m postdoc_searcher {run,plan,site,test-notify}."""
 
 from __future__ import annotations
 
@@ -30,7 +30,9 @@ def _plan(cfg) -> None:
     else:
         print(f"AI: API · {'ANTHROPIC_API_KEY set' if os.environ.get('ANTHROPIC_API_KEY') else 'NO API KEY (keyword mode)'}"
               f" · model {s.llm.model} · budget ${s.llm.max_cost_per_run_usd:.2f}/run")
-    print(f"Email: {'configured' if notify.smtp_configured() else 'NOT configured (SMTP_USER/SMTP_PASSWORD/EMAIL_TO)'}")
+    chans = notify.channels(s)
+    print("Notifications: " + (", ".join({"github": "GitHub issue", "smtp": "SMTP email"}[c] for c in chans)
+                               if chans else "none here (on GitHub Actions: GitHub issues via GITHUB_TOKEN)"))
     from .geo import rule_from
     loc = rule_from(cfg.me)
     print(f"Destination rule: {loc.describe()}")
@@ -75,17 +77,18 @@ def _plan(cfg) -> None:
           f"(hard cap ${s.llm.max_cost_per_run_usd:.2f}; real costs are logged per run).")
 
 
-def _test_email(cfg) -> int:
-    if not notify.smtp_configured():
-        print("Set SMTP_USER, SMTP_PASSWORD and EMAIL_TO (and optionally SMTP_HOST/SMTP_PORT) first.")
+def _test_notify(cfg) -> int:
+    chans = notify.channels(cfg.settings)
+    if not chans:
+        print("No notification channel here. On GitHub: Actions → Daily postdoc search → Run workflow "
+              "with 'Send a test notification' ticked. Locally: set SMTP_USER, SMTP_PASSWORD and EMAIL_TO.")
         return 1
     store = Store(DATA_DIR / "opportunities.json")
     items = sorted(store.all(), key=lambda o: -o.relevance)[:3]
     events = [("new", o) for o in items]
-    msg = notify.compose(events, [], cfg.settings, today())
-    msg.replace_header("Subject", f"{cfg.settings.email.subject_prefix} test email")
-    notify.send(msg)
-    print(f"Test email sent to {os.environ['EMAIL_TO']} with {len(events)} sample items.")
+    cfg.settings.email.subject_prefix += " TEST"
+    sent = notify.deliver(events, [], cfg.settings, today(), chans)
+    print(f"Test notification sent via {', '.join(sent)} with {len(events)} sample items.")
     return 0
 
 
@@ -97,13 +100,14 @@ def main(argv: list[str] | None = None) -> int:
     r = sub.add_parser("run", help="run the daily search")
     r.add_argument("--no-ai", action="store_true", help="keyword scoring only, no Claude calls")
     r.add_argument("--no-web-search", action="store_true", help="skip the Claude web-search tasks")
-    r.add_argument("--no-email", action="store_true")
-    r.add_argument("--dry-run", action="store_true", help="don't save anything or send email")
+    r.add_argument("--no-email", "--no-notify", dest="no_email", action="store_true",
+                   help="don't send notifications")
+    r.add_argument("--dry-run", action="store_true", help="don't save anything or notify")
     r.add_argument("--max-tasks", type=int, help="override max_search_tasks_per_run")
     r.add_argument("--only", help=f"comma-separated subset of: {','.join(STEPS)}")
     sub.add_parser("plan", help="validate inputs and show what the next run would do")
     sub.add_parser("site", help="rebuild docs/data.js from the stored data")
-    sub.add_parser("test-email", help="send a test email with the top stored items")
+    sub.add_parser("test-notify", aliases=["test-email"], help="send a test notification with the top stored items")
     args = p.parse_args(argv)
 
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -119,8 +123,8 @@ def main(argv: list[str] | None = None) -> int:
         site.build(cfg, Store(DATA_DIR / "opportunities.json"), State(DATA_DIR / "state.json"), DOCS_DIR)
         print(f"wrote {DOCS_DIR / 'data.js'}")
         return 0
-    if args.cmd == "test-email":
-        return _test_email(cfg)
+    if args.cmd in ("test-notify", "test-email"):
+        return _test_notify(cfg)
 
     only = None
     if args.only:

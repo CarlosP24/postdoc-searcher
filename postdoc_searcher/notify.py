@@ -1,4 +1,11 @@
-"""Email digests of new interesting offers (SMTP, e.g. Gmail with an app password)."""
+"""Notifications about new interesting offers.
+
+Channels:
+- GitHub issue (default on GitHub Actions): the run opens an issue assigned to the
+  repo owner, and GitHub emails it to you. Uses the workflow's built-in
+  GITHUB_TOKEN, so no password is stored anywhere.
+- SMTP email (optional): only if SMTP_USER, SMTP_PASSWORD and EMAIL_TO are set.
+"""
 
 from __future__ import annotations
 
@@ -7,6 +14,8 @@ import logging
 import os
 import smtplib
 import ssl
+
+import requests
 from datetime import date
 from email.message import EmailMessage
 
@@ -171,3 +180,112 @@ def send(msg: EmailMessage) -> None:
             s.login(user, password)
             s.send_message(msg)
     log.info("email sent to %s: %s", msg["To"], msg["Subject"])
+
+
+# ── GitHub issue channel ────────────────────────────────────────────────────
+
+GITHUB_API = "https://api.github.com"
+_MAX_BODY = 60000  # GitHub's issue body limit is 65 536 characters
+
+
+def _md(text: str | None) -> str:
+    return (text or "").replace("\n", " ").replace("|", "\\|").strip()
+
+
+def _md_card(kind: str, o: Opportunity, ref: date) -> str:
+    badge = "🟠 **CALL NOW OPEN**" if kind == "opened" else ("🟣 **Fellowship**" if o.kind == "fellowship"
+                                                             else "🟢 **Position**")
+    where = " · ".join(x for x in [o.institution, o.location or o.country] if x)
+    lines = [f"### [{_md(o.title)}]({o.url})",
+             f"{badge} · {_status_label(o)} · relevance **{o.relevance}**" + (f" · {_md(where)}" if where else "")]
+    if o.kind == "fellowship" and o.matched_pis:
+        lines.append("**Possible host PIs:**\n" +
+                     "\n".join(f"- **{p}**: {_md(o.pi_notes.get(p, ''))}" for p in o.matched_pis))
+    elif o.pi or o.matched_pis:
+        names = ([o.pi] if o.pi else []) + [p for p in o.matched_pis if p != o.pi]
+        lines.append(f"**PI:** {', '.join(names)}")
+    lines.append(f"**Call period:** {_period(o, ref)}")
+    cond = " · ".join(x for x in [o.duration and f"Duration: {o.duration}", o.salary and f"Salary: {o.salary}",
+                                   o.start_date and f"Start: {o.start_date}"] if x)
+    if cond:
+        lines.append(_md(cond))
+    if o.summary:
+        lines.append(_md(o.summary))
+    if o.eligibility and o.kind == "fellowship":
+        lines.append(f"*Eligibility:* {_md(o.eligibility)}")
+    if o.relevance_reason:
+        lines.append(f"<sub>Why: {_md(o.relevance_reason)}</sub>")
+    return "\n\n".join(lines)
+
+
+def compose_markdown(events, reminders, settings: Settings, ref: date) -> tuple[str, str]:
+    """(title, body) of the digest as a GitHub issue."""
+    msg_subject = compose(events, reminders, settings, ref)["Subject"]
+    title = msg_subject.removeprefix(settings.email.subject_prefix).strip()
+    dash = settings.dashboard.url
+    parts = [f"**{len(events)} item{'s' if len(events) != 1 else ''}** · {ref.isoformat()}"
+             + (f" · [open dashboard]({dash})" if dash else "")]
+    parts += [_md_card(k, o, ref) for k, o in events]
+    if reminders:
+        rows = "\n".join(
+            f"- [{_md(o.title)}]({o.url}) — deadline **{o.deadline}**"
+            + (f" · PI: {', '.join(o.matched_pis or [o.pi])}" if (o.matched_pis or o.pi) else "")
+            for o in reminders)
+        parts.append(f"### ⏰ Deadlines in the next {settings.email.deadline_reminder_days} days\n\n{rows}")
+    parts.append("<sub>Opened by Postdoc Radar. Dates marked ≈ are estimates from previous calls — always "
+                 "confirm on the official page. Close this issue once you've read it.</sub>")
+    body = "\n\n---\n\n".join(parts)
+    if len(body) > _MAX_BODY:
+        body = body[:_MAX_BODY] + "\n\n… (truncated — see the dashboard for the rest)"
+    return title, body
+
+
+def github_configured() -> bool:
+    return bool(os.environ.get("GITHUB_TOKEN") and os.environ.get("GITHUB_REPOSITORY"))
+
+
+def open_github_issue(title: str, body: str, assignee: str = "") -> str:
+    """Open an issue in this repository, assigned to `assignee` (default: the repo owner). Returns its URL."""
+    repo = os.environ["GITHUB_REPOSITORY"]
+    who = assignee or os.environ.get("GITHUB_REPOSITORY_OWNER") or repo.split("/")[0]
+    headers = {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+               "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+    payload = {"title": title[:250], "body": body, "assignees": [who]}
+    r = requests.post(f"{GITHUB_API}/repos/{repo}/issues", json=payload, headers=headers, timeout=30)
+    if r.status_code == 422:  # assignee not allowed (e.g. org repo) — open it unassigned
+        payload.pop("assignees")
+        r = requests.post(f"{GITHUB_API}/repos/{repo}/issues", json=payload, headers=headers, timeout=30)
+    r.raise_for_status()
+    url = r.json().get("html_url", "")
+    log.info("opened GitHub issue %s", url)
+    return url
+
+
+def channels(settings: Settings) -> list[str]:
+    """Notification channels usable in this environment."""
+    out = []
+    if settings.email.github_issues and github_configured():
+        out.append("github")
+    if settings.email.smtp and smtp_configured():
+        out.append("smtp")
+    return out
+
+
+def deliver(events, reminders, settings: Settings, ref: date, chans: list[str]) -> list[str]:
+    """Send the digest through each channel. Returns the channels that succeeded; raises if all failed."""
+    ok, errors = [], []
+    for ch in chans:
+        try:
+            if ch == "github":
+                title, body = compose_markdown(events, reminders, settings, ref)
+                open_github_issue(title, body, settings.email.github_assignee)
+            else:
+                send(compose(events, reminders, settings, ref))
+            ok.append(ch)
+        except Exception as exc:  # noqa: BLE001 — try the other channel, report below
+            errors.append(f"{ch}: {exc}")
+    if not ok and errors:
+        raise RuntimeError("; ".join(errors))
+    for e in errors:
+        log.warning("notification channel failed: %s", e)
+    return ok
