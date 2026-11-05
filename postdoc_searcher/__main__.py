@@ -22,9 +22,21 @@ def _plan(cfg) -> None:
     ref = today()
     state = State(DATA_DIR / "state.json")
     print(f"Inputs: {len(cfg.pis)} PIs, {len(cfg.topics)} topics, {len(cfg.catalog.fellowships)} fellowships")
-    print(f"AI: {'ANTHROPIC_API_KEY set' if os.environ.get('ANTHROPIC_API_KEY') else 'NO API KEY (keyword mode)'}"
-          f" · model {s.llm.model} · budget ${s.llm.max_cost_per_run_usd:.2f}/run")
+    if s.llm.backend == "claude-code":
+        from .claude_code import find_claude
+        path = find_claude(s.llm.claude_code_path)
+        print(f"AI: Claude Code / subscription · {'found ' + path if path else 'claude CLI NOT FOUND (keyword mode)'}"
+              f" · model {s.llm.model} · max {s.llm.max_claude_code_calls_per_run} calls/run")
+    else:
+        print(f"AI: API · {'ANTHROPIC_API_KEY set' if os.environ.get('ANTHROPIC_API_KEY') else 'NO API KEY (keyword mode)'}"
+              f" · model {s.llm.model} · budget ${s.llm.max_cost_per_run_usd:.2f}/run")
     print(f"Email: {'configured' if notify.smtp_configured() else 'NOT configured (SMTP_USER/SMTP_PASSWORD/EMAIL_TO)'}")
+    from .geo import rule_from
+    loc = rule_from(cfg.me)
+    print(f"Destination rule: {loc.describe()}")
+    outside = [f"{p.name} ({p.country})" for p in cfg.pis if loc.status(p.country) == "excluded"]
+    if outside:
+        print(f"⚠ PIs outside your destination rule (ignored for fellowships): {', '.join(outside)}")
     missing = [p.name for p in cfg.pis if not p.country]
     if missing:
         print(f"⚠ PIs without country (no fellowship matching): {', '.join(missing)}")
@@ -56,6 +68,9 @@ def _plan(cfg) -> None:
     # Rough per-call costs measured for Opus-class pricing; scaled for cheaper models.
     scale = {"claude-sonnet-5-5": 0.5, "claude-haiku-5-5": 0.03}.get(s.llm.model, 1.0)
     est = scale * (0.05 * 3 + 0.40 * min(cap, len(tasks)) + 0.30 * s.llm.max_fellowship_checks_per_run)
+    if s.llm.backend == "claude-code":
+        print(f"\nNext run ≈ ${est:.2f} at list prices, taken from your Claude plan's usage (no API charges).")
+        return
     print(f"\nRough AI cost of the next run with {s.llm.model}: ~${est:.2f} "
           f"(hard cap ${s.llm.max_cost_per_run_usd:.2f}; real costs are logged per run).")
 

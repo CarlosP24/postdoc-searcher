@@ -106,12 +106,16 @@ class Residence(_Model):
 
 
 class Preferences(_Model):
+    regions_allowed: list[str] = []          # regions/countries always OK (empty = anywhere)
+    exceptional_countries: list[str] = []    # OK only for outstanding matches
+    exceptional_min_relevance: int = 80
     countries_preferred: list[str] = []
     countries_excluded: list[str] = []
     earliest_start: str | None = None
     notes: str = ""
 
-    _lists = field_validator("countries_preferred", "countries_excluded", mode="before")(_as_list)
+    _lists = field_validator("regions_allowed", "exceptional_countries", "countries_preferred",
+                             "countries_excluded", mode="before")(_as_list)
     _dates = field_validator("earliest_start", mode="before")(_as_str)
 
 
@@ -139,6 +143,9 @@ class DashboardSettings(_Model):
 
 class LLMSettings(_Model):
     enabled: bool = True
+    backend: Literal["api", "claude-code"] = "api"
+    claude_code_path: str | None = None
+    max_claude_code_calls_per_run: int = 15
     model: str = "claude-opus-5-5"
     effort_search: str = "medium"
     effort_triage: str = "low"

@@ -24,20 +24,24 @@ skills:
 
 # ── Eligibility facts (fellowships check these) ─────────────────────────────
 phd_institution: ICMM-CSIC, Madrid   # some calls (e.g. Juan de la Cierva) require a different host
-phd_defense_date: ""        # e.g. "2027-03" (expected is fine). Needed for "≤ N years since PhD" rules.
-nationality: []             # e.g. [Spanish]. Needed for Humboldt, Newton, national-only grants…
+phd_defense_date: "2027-03"        # e.g. "2027-03" (expected is fine). Needed for "≤ N years since PhD" rules.
+nationality: [Spanish]             # e.g. [Spanish]. Needed for Humboldt, Newton, national-only grants…
 
 # Where you have LIVED/WORKED, most recent first. Needed for MSCA-style
 # mobility rules ("not more than 12 months in the host country in the last
 # 36 months"). Use YYYY-MM. Short research visits (<3 months) usually don't count.
 residence_history:
   - country: Spain
-    from: ""                # e.g. "2019-09"  ← fill in
+    from: "1999-01"                # e.g. "2019-09"  ← fill in
     to: present
 
 # ── Preferences ──────────────────────────────────────────────────────────────
 preferences:
-  countries_preferred: []   # e.g. [Denmark, Germany, Netherlands]; empty = anywhere
+  # Destination rule — applied to every offer and to fellowship host countries.
+  regions_allowed: [Europe]                        # "Europe", "North America" or country names
+  exceptional_countries: [United States, Canada]   # accepted only for outstanding matches…
+  exceptional_min_relevance: 80                    # …i.e. relevance ≥ this (0-100)
+  countries_preferred: [Denmark, Germany, Netherlands, Italy, France, Sweden, Switzerland, United Kingdom, United States, Poland, Norway, Finland, Belgium, Luxembourg, Austria]   # e.g. [Denmark, Germany, Netherlands]; empty = anywhere
   countries_excluded: []
   earliest_start: ""        # e.g. "2027-06"
   notes: >

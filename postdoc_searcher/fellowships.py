@@ -9,20 +9,9 @@ from datetime import date
 from .config import PI, Config, Fellowship, Me
 from .models import Opportunity
 from .prefilter import same_institution
-from .util import months_between, norm, parse_date, strip_accents
-
-# Common spellings → canonical country name
-_ALIASES = {
-    "uk": "united kingdom", "u.k.": "united kingdom", "great britain": "united kingdom", "britain": "united kingdom",
-    "england": "united kingdom", "scotland": "united kingdom", "wales": "united kingdom",
-    "northern ireland": "united kingdom",
-    "usa": "united states", "us": "united states", "u.s.": "united states", "u.s.a.": "united states",
-    "united states of america": "united states", "america": "united states",
-    "czech republic": "czechia", "the netherlands": "netherlands", "holland": "netherlands",
-    "turkey": "turkiye", "republic of korea": "south korea", "korea": "south korea",
-    "espana": "spain", "deutschland": "germany", "danmark": "denmark", "schweiz": "switzerland",
-    "suisse": "switzerland", "italia": "italy", "osterreich": "austria",
-}
+from .geo import LocationRule, country_key, rule_from
+from .geo import _ALL_COUNTRIES
+from .util import months_between, norm, parse_date
 
 _NATIONALITY = {
     "spanish": "spain", "german": "germany", "british": "united kingdom", "japanese": "japan",
@@ -31,11 +20,6 @@ _NATIONALITY = {
     "austrian": "austria", "belgian": "belgium", "swedish": "sweden", "finnish": "finland",
     "norwegian": "norway", "irish": "ireland", "polish": "poland", "greek": "greece",
 }
-
-
-def country_key(name: str | None) -> str:
-    n = norm(strip_accents(name or "")).strip(" .")
-    return _ALIASES.get(n, n)
 
 
 def nationality_key(name: str) -> str:
@@ -55,6 +39,18 @@ def _expand(groups: dict[str, list[str]], names: list[str], group_names: list[st
     for g in group_names:
         out |= {country_key(c) for c in groups.get(g, [])}
     return out
+
+
+def possible_hosts(f: Fellowship, groups: dict[str, list[str]]) -> set[str]:
+    """Countries where the fellowship can be held."""
+    rule = f.host
+    base = set(_ALL_COUNTRIES) if rule.any else _expand(groups, rule.countries, rule.groups)
+    return base - _expand(groups, rule.exclude_countries, rule.exclude_groups)
+
+
+def reachable(f: Fellowship, groups: dict[str, list[str]], loc: LocationRule) -> bool:
+    """Can this fellowship be held somewhere your destination rule accepts?"""
+    return any(loc.status(c) in ("allowed", "exceptional") for c in possible_hosts(f, groups))
 
 
 def host_allows(f: Fellowship, pi: PI, groups: dict[str, list[str]]) -> bool:
@@ -167,14 +163,17 @@ def build(cfg: Config, verified: dict[str, dict], ref: date, first_seen: dict[st
     `verified` holds the latest web-checked call info per fellowship id.
     """
     groups = cfg.catalog.country_groups
+    loc = rule_from(cfg.me)
     out = []
     for f in cfg.catalog.fellowships:
+        if not reachable(f, groups, loc):
+            continue  # e.g. JSPS (Japan) when you only accept Europe/North America
         v = verified.get(f.id) or {}
         if not v.get("status"):  # a check that produced no report
             v = {}
         matched, notes, eligible_count = [], {}, 0
         for pi in cfg.pis:
-            if not host_allows(f, pi, groups):
+            if not host_allows(f, pi, groups) or loc.status(pi.country) == "excluded":
                 continue
             ok, why = check_candidate(f, cfg.me, pi, ref)
             if ok is False:

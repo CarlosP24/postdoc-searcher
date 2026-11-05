@@ -207,19 +207,19 @@
   function renderActivity() {
     const runs = (DATA.runs || []).slice().reverse();
     const last30 = runs.filter((r) => Date.now() - new Date(r.date) < 30 * DAY);
-    const cost30 = last30.reduce((s, r) => s + ((r.ai && r.ai.cost_usd) || 0), 0);
+    const cost30 = last30.reduce((s, r) => s + ((r.ai && r.ai.backend !== "claude-code" && r.ai.cost_usd) || 0), 0);
     const rows = runs.map((r) => {
       const ai = r.ai || {};
       const tasks = (r.search_tasks || []).map((t) => `${t.task} (${t.found})`).join(", ");
       return `<tr><td>${esc((r.date || "").replace("T", " ").slice(0, 16))}</td><td class="num">${r.raw_items ?? ""}</td>
         <td class="num">${r.candidates ?? ""}</td><td class="num">${r.new_positions ?? ""}</td><td class="num">${r.emailed ?? 0}</td>
-        <td class="num">${ai.web_searches ?? "–"}</td><td class="num">${ai.cost_usd != null ? "$" + ai.cost_usd.toFixed(2) : "–"}</td>
+        <td class="num">${ai.web_searches ?? "–"}</td><td class="num" title="${ai.backend === "claude-code" ? "Claude subscription — list-price equivalent, not billed" : "API charge"}">${ai.cost_usd != null ? (ai.backend === "claude-code" ? "plan ≈$" : "$") + ai.cost_usd.toFixed(2) : "–"}</td>
         <td title="${esc(tasks)}">${esc(tasks.length > 70 ? tasks.slice(0, 70) + "…" : tasks)}</td>
         <td class="num" title="${esc((r.errors || []).join("\n"))}">${(r.errors || []).length}</td></tr>`;
     }).join("");
     const topics = (DATA.topics || []).map((t) => `<li>${esc(t.name)} — searched ${esc(ago(t.last_searched))}</li>`).join("");
     $("#activity-list").innerHTML = `
-      <p>AI cost over the last 30 days: <b>$${cost30.toFixed(2)}</b> (${last30.length} runs).</p>
+      <p>API charges over the last 30 days: <b>$${cost30.toFixed(2)}</b> (${last30.length} runs). Runs on the Claude Code backend use your subscription; their "plan ≈$" figure is the list-price equivalent, not a charge.</p>
       <div class="table-wrap"><table>
         <thead><tr><th>Run (UTC)</th><th class="num">Scanned</th><th class="num">Candidates</th><th class="num">New</th><th class="num">Emailed</th><th class="num">Web searches</th><th class="num">AI cost</th><th>Search tasks</th><th class="num">Warnings</th></tr></thead>
         <tbody>${rows || '<tr><td colspan="9" class="muted">No runs yet.</td></tr>'}</tbody>

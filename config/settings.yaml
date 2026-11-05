@@ -10,7 +10,13 @@ dashboard:
 # Without ANTHROPIC_API_KEY the app still runs: free sources + keyword scoring.
 llm:
   enabled: true
-  model: claude-opus-5-5          # e.g. claude-sonnet-5-5 costs ~half
+  # api          → Anthropic API key (ANTHROPIC_API_KEY), pay-per-token, cost cap below
+  # claude-code  → your Claude subscription via the `claude` CLI (no API charges;
+  #                uses your plan's usage limits). On GitHub: CLAUDE_CODE_OAUTH_TOKEN secret.
+  backend: claude-code
+  claude_code_path: ""            # empty = auto-detect (PATH, VS Code extension)
+  max_claude_code_calls_per_run: 15
+  model: claude-opus-5-5          # e.g. claude-sonnet-5-5 costs ~half / uses less of your plan
   effort_search: medium           # low | medium | high — depth of web-search tasks
   effort_triage: low              # classification of job-board items
   max_search_tasks_per_run: 3     # PI + topic web-search tasks per day (~$0.3–0.6 each on Opus)
@@ -21,7 +27,7 @@ llm:
   max_enrichments_per_run: 8      # fetch + summarise full ad for top items
   triage_batch_size: 20
   max_triage_items_per_run: 160
-  max_cost_per_run_usd: 1.50      # hard stop for AI spending in one run (≈ $45/month worst case)
+  max_cost_per_run_usd: 1.50      # api backend only: hard stop for AI spending in one run (≈ $45/month worst case)
 
 # How often each kind of web-search task is repeated (days).
 schedule:

@@ -1,4 +1,5 @@
-# Postdoc Radar — daily run. Secrets: ANTHROPIC_API_KEY, SMTP_USER, SMTP_PASSWORD, EMAIL_TO (see README).
+# Postdoc Radar — daily run. Secrets: CLAUDE_CODE_OAUTH_TOKEN (subscription) or ANTHROPIC_API_KEY,
+# SMTP_USER, SMTP_PASSWORD, EMAIL_TO (see README).
 name: Daily postdoc search
 
 on:
@@ -38,9 +39,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Install Claude Code (for llm.backend = claude-code)
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: Run the search
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}

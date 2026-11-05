@@ -29,6 +29,102 @@ pis:
     priority: high
     notes: Research visit to the group in 2025 (started work on non-Hermitian transport).
 
+  - name: Fabian Hassler
+    institution: Institute for Quantum Information, RWTH Aachen University #
+    country: Germany #
+    website: https://www.quantuminfo.physik.rwth-aachen.de/
+    jobs_page: ""
+    topics: [Majorana devices, quantum information theory, mesoscopic physics, topological quantum computation] 
+    priority: normal
+
+  - name: Piet Brouwer
+    institution: Dahlem Center for Complex Quantum Systems, Freie Universität Berlin #
+    country: Germany #
+    website: https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/ #
+    jobs_page: ""
+    topics: [topological superconductors, mesoscopic physics, disordered electron systems, quantum chaos] 
+    priority: high
+
+  - name: Felix von Oppen
+    institution: Department of Physics, Freie Universität Berlin #
+    country: Germany
+    website: https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/
+    jobs_page: ""
+    topics: [topological phases, 2D materials, mesoscopic superconductivity, Majoranas] 
+    priority: normal
+
+  - name: Bernard van Heck
+    institution: Dipartimento di Fisica, Sapienza Università di Roma #
+    country: Italy #
+    website: https://www.roma1.infn.it/~vanheckb/ #
+    jobs_page: ""
+    topics: [Majorana zero modes, Andreev spin qubits, mesoscopic physics, quantum information] 
+    priority: high
+
+  - name: Michael Wimmer
+    institution: QuTech and Kavli Institute of Nanoscience, TU Delft #
+    country: Netherlands
+    website: https://www.tudelft.nl/staff/m.t.wimmer #
+    jobs_page: ""
+    topics: [topological quantum computation, Majoranas, quantum transport, Kwant] 
+    priority: high
+
+  - name: Anton Akhmerov
+    institution: Kavli Institute of Nanoscience, TU Delft #
+    country: Netherlands
+    website: https://quantumtinkerer.tudelft.nl/
+    jobs_page: ""
+    topics: [mesoscopic conductors, topological insulators, Majorana bound states, Kwant] 
+    priority: high
+
+  - name: Annica Black-Schaffer
+    institution: Department of Physics and Astronomy, Uppsala University
+    country: Sweden
+    website: https://materials-theory.physics.uu.se/black-schaffer/
+    jobs_page: ""
+    topics: [superconductivity, topological matter, odd-frequency superconductivity]
+    priority: normal
+    
+  - name: Michele Burrello
+    institution: Niels Bohr Institute, University of Copenhagen #
+    country: Denmark #
+    website: https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/
+    jobs_page: ""
+    topics: [topological phases, anyons, quantum simulation, Majorana box qubits] 
+    priority: normal
+
+  - name: Titus Neupert
+    institution: Department of Physics, University of Zurich #
+    country: Switzerland #
+    website: https://www.physik.uzh.ch/en/groups/neupert.html
+    jobs_page: ""
+    topics: [topological insulators, fractional quantum Hall effect, superconductivity] 
+    priority: normal
+
+  - name: Pascal Simon
+    institution: Laboratoire de Physique des Solides, Paris-Saclay University #
+    country: France #
+    website: https://www.universite-paris-saclay.fr/en/pascal-simon #
+    jobs_page: ""
+    topics: [topological quantum matter, quantum engineering, correlated systems, quantum transport] 
+    priority: normal
+
+  - name: Martin Leijnse
+    institution: Division of Solid State Physics, Lund University #
+    country: Sweden #
+    website: https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/ #
+    jobs_page: ""
+    topics: [Majorana bound states, quantum transport, superconducting proximity effect, quantum thermodynamics] 
+    priority: high
+
+  - name: Bruno Amorim
+    institution: Centre of Physics of the Universities of Minho and Porto, Universidade do Minho #
+    country: Portugal
+    website: https://amorimbruno.weebly.com/ #
+    jobs_page: ""
+    topics: [two-dimensional materials, van der Waals structures, electronic transport, graphene] 
+    priority: normal
+
   # ── Template: copy, uncomment and fill ─────────────────────────────────────
   # - name: Jane Doe
   #   institution: Example University

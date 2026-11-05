@@ -57,7 +57,7 @@ The app lives in its own repository. Its dashboard is served at `https://carlosp
 
 1. Create the repository (e.g. `postdoc-searcher`) and push this folder.
 2. **Settings → Secrets and variables → Actions → New repository secret**:
-   - `ANTHROPIC_API_KEY`
+   - `CLAUDE_CODE_OAUTH_TOKEN` (run `claude setup-token` on your Mac and paste the token), or `ANTHROPIC_API_KEY` if you use `backend: api`
    - `SMTP_USER` (your Gmail address), `SMTP_PASSWORD` (a Gmail *App Password*, see below), `EMAIL_TO`
    - optional: `SMTP_HOST` and `SMTP_PORT` (defaults `smtp.gmail.com` and `465`), `EMAIL_FROM`
 3. **Settings → Pages → Source: GitHub Actions**.
@@ -81,9 +81,20 @@ Check the setup with `python -m postdoc_searcher test-email`.
 
 Run `python -m postdoc_searcher plan` after editing. It validates everything and prints which fellowships each PI could host you for.
 
+## AI backend: subscription or API
+
+`llm.backend` in `config/settings.yaml` chooses how Claude is called:
+
+| `backend` | Billing | Needs |
+|---|---|---|
+| `claude-code` (default) | your Claude Pro/Max **subscription** — counts toward your plan's usage limits, no API charges | the `claude` CLI (Claude Code). Locally it's auto-detected, including the copy bundled with the VS Code extension. On GitHub: secret `CLAUDE_CODE_OAUTH_TOKEN`, created with `claude setup-token` |
+| `api` | pay-per-token from API credits, capped by `max_cost_per_run_usd` | `ANTHROPIC_API_KEY` |
+
+The Claude Code backend runs `claude -p` in an empty temporary folder with `--safe-mode`, so none of your CLAUDE.md, skills, plugins, hooks or MCP servers are loaded. It gets only the WebSearch and WebFetch tools and has any API key removed from its environment, so it can't fall back to API billing. Each run is limited to `max_claude_code_calls_per_run` calls. If your plan's limit is hit, the run carries on without AI and picks the work up the next day.
+
 ## Costs
 
-The free sources cost nothing. AI usage is capped by `max_cost_per_run_usd` (default **$1.50/run**, so at most about $45/month; typical runs are lower). The dashboard's **Activity** tab shows the real cost of each run. To spend less:
+The free sources cost nothing. With `backend: claude-code` there are no API charges: a typical run uses 5–15 Claude calls of your plan's usage (the Activity tab shows the list-price equivalent as "plan ≈$"). With `backend: api`, spending is capped by `max_cost_per_run_usd` (default **$1.50/run**, so at most about $45/month; typical runs are lower), and the Activity tab shows the real cost of each run. To use less:
 - `max_search_tasks_per_run: 1–2`, or longer intervals in `schedule`
 - `model: claude-sonnet-5-5`, about half the price per token
 - `run --no-ai` on some days

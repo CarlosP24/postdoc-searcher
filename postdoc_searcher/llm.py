@@ -16,6 +16,7 @@ import anthropic
 from pydantic import BaseModel, ValidationError
 
 from .config import PI, Config, Fellowship, Topic
+from .geo import rule_from
 from .models import CallStatus, PageAnalysis, RawItem, SearchReport, TriageBatch, TriageDecision
 from .util import today, truncate
 
@@ -104,6 +105,7 @@ PhD institution: {me.phd_institution or 'not given'}
 PhD date (or expected): {me.phd_defense_date or 'not given'}
 Nationality: {', '.join(me.nationality) or 'not given'}
 Residence history: {residence}
+Destination rule (hard constraint): {rule_from(me).describe()}
 Preferred countries: {', '.join(pref.countries_preferred) or 'anywhere'}; excluded: {', '.join(pref.countries_excluded) or 'none'}
 Earliest start: {pref.earliest_start or 'flexible'}
 Other preferences: {pref.notes.strip() or 'none'}
@@ -125,6 +127,7 @@ Score every opportunity 0-100 for how much this candidate would want it AND coul
 - 40-49: weak but plausible fit.
 - Below 40: not a fit (wrong field, experiment-only roles for a theorist, PhD/faculty/staff/industry roles, already expired). Do not report these.
 Lower the score when the candidate is clearly ineligible (nationality, years since PhD, mobility rules) and say why.
+The destination rule in <candidate> is a hard constraint: do not report opportunities in other countries, and report those in "exceptional" countries only when they truly meet the stated relevance bar. Always fill `country` (the country where the work would be done).
 </relevance_scale>
 
 <rules>
@@ -164,18 +167,18 @@ Set `pi` to "{pi_name}" for anything in this group.
 Already known (skip unless you find important new information such as a deadline):
 {known}
 
-Keep the number of searches modest and stop once the main sources are covered. When you are done, call report_opportunities exactly once (an empty list is fine)."""
+Keep the number of searches modest and stop once the main sources are covered. {finish}"""
 
 TOPIC_TASK = """Today is {today}. Task: find postdoc positions and postdoctoral fellowships on this topic that are open now (deadline in the future) or announced to open soon.
 Topic: {topic}
 Keywords: {keywords}
 
-Use varied queries across different kinds of sources, for example: EURAXESS (euraxess.ec.europa.eu), AcademicJobsOnline, university and research-institute career pages, LinkedIn job posts, and posts on X/Twitter, Bluesky or Mastodon announcing openings. Prefer offers posted in the last ~6 weeks.
+Respect the destination rule: search mainly in Europe; include the US/Canada only for exceptional fits. Use varied queries across different kinds of sources, for example: EURAXESS (euraxess.ec.europa.eu), AcademicJobsOnline, university and research-institute career pages, LinkedIn job posts, and posts on X/Twitter, Bluesky or Mastodon announcing openings. Prefer offers posted in the last ~6 weeks.
 
 Already known (skip):
 {known}
 
-When you are done, call report_opportunities exactly once (an empty list is fine)."""
+{finish}"""
 
 FELLOWSHIP_TASK = """Today is {today}. Task: determine the current status and conditions of this fellowship call.
 Fellowship: {name} ({funder})
@@ -183,7 +186,60 @@ Official page: {url}
 What we believe (may be outdated): eligibility: {eligibility}; duration: {duration}; funding: {funding}; host PI role: {pi_role}; typical window: {window}
 
 Find out: is a call open now? If so, its opening date and deadline. If not, when the next call opens and its deadline, if announced. If the next dates are not announced yet, estimate them from previous cycles and set dates_estimated=true. Give the current key conditions (eligibility incl. years since PhD and mobility rules, duration, salary/allowance, what the host PI has to do), and in `summary` say whether the candidate appears eligible and why.
-Start from the official page. When you are done, call report_call_status exactly once."""
+Start from the official page. {finish}"""
+
+
+FINISH_REPORT = "When you are done, call report_opportunities exactly once (an empty list is fine)."
+FINISH_STATUS = "When you are done, call report_call_status exactly once."
+FINISH_JSON = "When you are done, give your final answer as the requested JSON (an empty list is fine)."
+
+
+def pi_task(pi: PI, known: list[str], finish: str) -> str:
+    return PI_TASK.format(
+        today=today().isoformat(), pi=pi.describe(), pi_name=pi.name,
+        website=pi.website or "unknown", jobs_page=pi.jobs_page or "unknown",
+        institution=pi.institution or "their institution", known="\n".join(known) or "(nothing yet)",
+        finish=finish,
+    )
+
+
+def topic_task(topic: Topic, known: list[str], finish: str) -> str:
+    return TOPIC_TASK.format(
+        today=today().isoformat(), topic=topic.name, keywords=", ".join(topic.keywords),
+        known="\n".join(known) or "(nothing yet)", finish=finish,
+    )
+
+
+def fellowship_task(f: Fellowship, finish: str) -> str:
+    return FELLOWSHIP_TASK.format(
+        today=today().isoformat(), name=f.name, funder=f.funder, url=f.url,
+        eligibility=f.eligibility or "?", duration=f.duration or "?", funding=f.funding or "?",
+        pi_role=f.pi_role or "?", window=f.typical_window or "?", finish=finish,
+    )
+
+
+def triage_prompt(batch: list[tuple[int, RawItem, list[str], list[str]]], threshold: int) -> str:
+    blocks = []
+    for idx, it, topics, pis in batch:
+        # Feed snippets are short already; long descriptions (INSPIRE) are
+        # clipped here because the top items get a full-page read later.
+        blocks.append(
+            f"[{idx}] {it.title}\n"
+            f"Source: {it.source} | Institution: {it.institution or '?'} | Location: {it.location or '?'} | "
+            f"Deadline: {it.deadline or '?'} | Salary: {it.salary or '?'} | Posted: {it.published or '?'}\n"
+            f"URL: {it.url}\n"
+            f"Keyword hints: topics={topics or '-'}; PIs={pis or '-'}\n"
+            f"{truncate(it.text, 1500)}"
+        )
+    return TRIAGE_PROMPT.format(today=today().isoformat(), n=len(batch), threshold=threshold,
+                                items="\n\n---\n\n".join(blocks))
+
+
+def page_prompt(url: str, text: str, context: str) -> str:
+    if len(text) > MAX_PAGE_CHARS:
+        log.warning("page %s is %d chars; only the first %d are analysed", url, len(text), MAX_PAGE_CHARS)
+        text = text[:MAX_PAGE_CHARS]
+    return PAGE_PROMPT.format(today=today().isoformat(), context=context, url=url, text=text)
 
 
 def tool_schema(model: type[BaseModel]) -> dict:
@@ -215,6 +271,8 @@ def tool_schema(model: type[BaseModel]) -> dict:
 # ── Client ──────────────────────────────────────────────────────────────────
 
 class Claude:
+    backend = "api"
+
     def __init__(self, cfg: Config, client: anthropic.Anthropic | None = None):
         self.cfg = cfg
         self.s = cfg.settings.llm
@@ -277,29 +335,11 @@ class Claude:
     # -- single-shot tasks --
 
     def triage(self, batch: list[tuple[int, RawItem, list[str], list[str]]], threshold: int) -> list[TriageDecision]:
-        blocks = []
-        for idx, it, topics, pis in batch:
-            # Feed snippets are short already; long descriptions (INSPIRE) are
-            # clipped here because the top items get a full-page read later.
-            blocks.append(
-                f"[{idx}] {it.title}\n"
-                f"Source: {it.source} | Institution: {it.institution or '?'} | Location: {it.location or '?'} | "
-                f"Deadline: {it.deadline or '?'} | Salary: {it.salary or '?'} | Posted: {it.published or '?'}\n"
-                f"URL: {it.url}\n"
-                f"Keyword hints: topics={topics or '-'}; PIs={pis or '-'}\n"
-                f"{truncate(it.text, 1500)}"
-            )
-        prompt = TRIAGE_PROMPT.format(today=today().isoformat(), n=len(batch), threshold=threshold,
-                                      items="\n\n---\n\n".join(blocks))
-        result = self._parse(prompt, TriageBatch, self.s.effort_triage, "triage")
+        result = self._parse(triage_prompt(batch, threshold), TriageBatch, self.s.effort_triage, "triage")
         return result.decisions if result else []
 
     def analyze_page(self, url: str, text: str, context: str) -> PageAnalysis | None:
-        if len(text) > MAX_PAGE_CHARS:
-            log.warning("page %s is %d chars; only the first %d are analysed", url, len(text), MAX_PAGE_CHARS)
-            text = text[:MAX_PAGE_CHARS]
-        prompt = PAGE_PROMPT.format(today=today().isoformat(), context=context, url=url, text=text)
-        return self._parse(prompt, PageAnalysis, self.s.effort_triage, f"page {url}")
+        return self._parse(page_prompt(url, text, context), PageAnalysis, self.s.effort_triage, f"page {url}")
 
     # -- web-search agent --
 
@@ -375,33 +415,19 @@ class Claude:
         return None
 
     def search_pi(self, pi: PI, known: list[str]) -> SearchReport | None:
-        task = PI_TASK.format(
-            today=today().isoformat(), pi=pi.describe(), pi_name=pi.name,
-            website=pi.website or "unknown", jobs_page=pi.jobs_page or "unknown",
-            institution=pi.institution or "their institution", known="\n".join(known) or "(nothing yet)",
-        )
-        return self._agent(task, "report_opportunities",
+        return self._agent(pi_task(pi, known, FINISH_REPORT), "report_opportunities",
                            "Submit every opportunity you found for this task. Call exactly once, at the end.",
                            SearchReport, self.s.max_web_searches_per_task, self.s.max_page_fetches_per_task,
                            f"PI search {pi.name}")
 
     def search_topic(self, topic: Topic, known: list[str]) -> SearchReport | None:
-        task = TOPIC_TASK.format(
-            today=today().isoformat(), topic=topic.name, keywords=", ".join(topic.keywords),
-            known="\n".join(known) or "(nothing yet)",
-        )
-        return self._agent(task, "report_opportunities",
+        return self._agent(topic_task(topic, known, FINISH_REPORT), "report_opportunities",
                            "Submit every opportunity you found for this task. Call exactly once, at the end.",
                            SearchReport, self.s.max_web_searches_per_task, self.s.max_page_fetches_per_task,
                            f"topic search {topic.name}")
 
     def fellowship_status(self, f: Fellowship) -> CallStatus | None:
-        task = FELLOWSHIP_TASK.format(
-            today=today().isoformat(), name=f.name, funder=f.funder, url=f.url,
-            eligibility=f.eligibility or "?", duration=f.duration or "?", funding=f.funding or "?",
-            pi_role=f.pi_role or "?", window=f.typical_window or "?",
-        )
-        return self._agent(task, "report_call_status",
+        return self._agent(fellowship_task(f, FINISH_STATUS), "report_call_status",
                            "Submit the current status of the fellowship call. Call exactly once, at the end.",
                            CallStatus, min(4, self.s.max_web_searches_per_task),
                            min(4, self.s.max_page_fetches_per_task), f"fellowship {f.id}")

@@ -11,7 +11,7 @@ from typing import Any, Callable
 
 import anthropic
 
-from . import fellowships, notify, site, sources
+from . import fellowships, geo, notify, site, sources
 from .config import DATA_DIR, DOCS_DIR, PI, Config, Topic
 from .http import Http
 from .llm import BudgetExceeded, Claude
@@ -52,12 +52,10 @@ class Ctx:
         self.ai_active = False
         self.rejected_ids: set[str] = set()
         if opts.use_ai and cfg.settings.llm.enabled:
-            if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
-                self.claude = Claude(cfg)
-                self.ai_active = True
-                self.stats["ai_enabled"] = True
-            else:
-                log.warning("ANTHROPIC_API_KEY not set — running without AI (keyword scoring only)")
+            self.claude = make_backend(cfg)
+            self.ai_active = self.claude is not None
+            self.stats["ai_enabled"] = self.ai_active
+            self.stats["ai_backend"] = getattr(self.claude, "backend", None)
 
     def error(self, msg: str) -> None:
         log.error(msg)
@@ -84,7 +82,32 @@ class Ctx:
             self.error(f"{what}: API error {exc.status_code}: {exc.message}")
         except anthropic.APIConnectionError as exc:
             self.error(f"{what}: connection error: {exc}")
+        except OSError as exc:  # Claude Code binary missing / not executable
+            self.error(f"AI disabled for this run (Claude Code could not start): {exc}")
+            self.ai_active = False
         return False, None
+
+
+def make_backend(cfg: Config):
+    """The configured AI backend, or None (keyword-only mode) if it isn't usable."""
+    llm = cfg.settings.llm
+    if llm.backend == "claude-code":
+        from .claude_code import ClaudeCode, find_claude
+        path = find_claude(llm.claude_code_path)
+        if path and os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+            log.warning("CLAUDE_CODE_OAUTH_TOKEN secret not set — keyword scoring only "
+                        "(create one with `claude setup-token`)")
+            return None
+        if path:
+            log.info("AI backend: Claude Code (subscription) at %s", path)
+            return ClaudeCode(cfg, path)
+        log.warning("llm.backend is claude-code but the `claude` CLI was not found — keyword scoring only")
+        return None
+    if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
+        log.info("AI backend: Claude API")
+        return Claude(cfg)
+    log.warning("ANTHROPIC_API_KEY not set — running without AI (keyword scoring only)")
+    return None
 
 
 # ── Converting AI output into stored opportunities ──────────────────────────
@@ -401,10 +424,20 @@ def run(cfg: Config, opts: RunOptions, data_dir: Path = DATA_DIR, docs_dir: Path
         first_seen = {o.id: o.first_seen for o in store.all()}
         found += fellowships.build(cfg, state.fellowships, ctx.ref, first_seen)
 
+    rule = geo.rule_from(cfg.me)
+    ctx.stats["dropped_location"] = 0
     for o in found:
         o = associate_pis(o, cfg.pis)
-        if o.kind == "position" and o.relevance < s.relevance.store_threshold:
-            continue
+        if o.kind == "position":
+            if o.relevance < s.relevance.store_threshold:
+                continue
+            if not o.country:
+                guess = geo.infer_country(o.location, o.institution, o.title)
+                if guess and guess != "europe":
+                    o.country = guess.title()
+            if not rule.accepts(o.country, o.relevance):
+                ctx.stats["dropped_location"] += 1
+                continue
         _, is_new = store.upsert(o)
         if is_new and o.kind == "position":
             ctx.stats["new_positions"] += 1
@@ -412,6 +445,16 @@ def run(cfg: Config, opts: RunOptions, data_dir: Path = DATA_DIR, docs_dir: Path
         dropped = store.drop_keyword_only(ctx.rejected_ids)
         if dropped:
             log.info("removed %d keyword-only items that Claude judged irrelevant", dropped)
+    for o in store.all():  # fill in countries for older items before applying the rule
+        if o.kind == "position" and not o.country:
+            guess = geo.infer_country(o.location, o.institution, o.title)
+            if guess and guess != "europe":
+                o.country = guess.title()
+    removed = store.drop_where(lambda o: o.kind == "position" and not rule.accepts(o.country, o.relevance))
+    if removed:
+        log.info("removed %d stored offers outside your destination rule (%s)", removed, rule.describe())
+    if ctx.stats["dropped_location"]:
+        log.info("skipped %d new offers outside your destination rule", ctx.stats["dropped_location"])
     store.refresh(ctx.ref, s.data.forget_closed_after_days)
 
     # Notifications
@@ -440,6 +483,7 @@ def run(cfg: Config, opts: RunOptions, data_dir: Path = DATA_DIR, docs_dir: Path
     if ctx.claude:
         ctx.stats["ai"] = ctx.claude.usage.as_dict()
         ctx.stats["ai"]["refusals"] = ctx.claude.refusals
+        ctx.stats["ai"]["backend"] = ctx.claude.backend
     ctx.stats["errors"] += [truncate(e, 200) for e in http.errors[:25]]
     ctx.stats["open_total"] = sum(1 for o in store.all() if o.status in ("open", "rolling", "unknown"))
     state.runs.append(ctx.stats)

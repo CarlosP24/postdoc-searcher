@@ -107,6 +107,13 @@ class Store:
         self.items[oid] = merged
         return merged, False
 
+    def drop_where(self, pred) -> int:
+        doomed = [oid for oid, o in self.items.items() if pred(o)]
+        for oid in doomed:
+            del self.items[oid]
+        self._by_key = {o.dedupe_key: o.id for o in self.items.values()}
+        return len(doomed)
+
     def drop_keyword_only(self, ids: set[str]) -> int:
         """Remove items that were stored on keyword scoring alone and later rejected by Claude."""
         n = 0

@@ -114,7 +114,9 @@ def test_repo_config_loads_and_builds():
     cfg = load_config()
     assert cfg.pis and cfg.topics and cfg.catalog.fellowships
     out = build(cfg, {}, date(2026, 11, 4), {})
-    assert len(out) == len(cfg.catalog.fellowships)
+    ids = {o.fellowship_id for o in out}
+    assert "jsps-postdoc" not in ids and "msca-pf-ef" in ids   # Japan is outside the destination rule
+    assert len(out) == len(cfg.catalog.fellowships) - 1
     assert all(o.kind == "fellowship" and o.url.startswith("http") for o in out)
 
 
@@ -175,3 +177,99 @@ def test_jobs_ac_uk_parser():
     assert it.url == "https://www.jobs.ac.uk/job/ABC/postdoc"
     assert it.institution == "University of Oxford" and it.location == "Oxford"
     assert it.deadline and it.deadline.endswith("-12-14")
+
+
+# ── destination rule ──
+
+from postdoc_searcher.geo import LocationRule, infer_country  # noqa: E402
+
+
+def test_location_rule_europe_with_exceptions():
+    r = LocationRule(["Europe"], ["United States", "Canada"], ["Russia"], 80)
+    assert r.accepts("Germany", 40) and r.accepts("UK", 40) and r.accepts("Switzerland", 40)
+    assert r.accepts(None, 40)                      # unknown country is kept
+    assert not r.accepts("USA", 79) and r.accepts("United States", 85) and r.accepts("Canada", 80)
+    assert not r.accepts("China", 99) and not r.accepts("Russia", 99) and not r.accepts("Israel", 95)
+
+
+def test_infer_country():
+    assert infer_country("Peking U., Beijing") == "china"
+    assert infer_country("New York City, New York") == "united states"
+    assert infer_country("NEW YORK UNIVERSITY ABU DHABI") == "united arab emirates"
+    assert infer_country("Dresden, Sachsen") == "germany"
+    assert infer_country("Northwestern U. (main)", "North America") == "united states"
+    assert infer_country("University of Ottawa, Department of Physics") == "canada"
+    assert infer_country("Georgia Tech, Atlanta") == "united states"
+    assert infer_country("Some institute") is None
+
+
+def test_fellowships_respect_destination_rule():
+    from postdoc_searcher.fellowships import reachable
+    jsps = Fellowship(id="j", name="J", url="https://x", host=HostRule(countries=["Japan"]))
+    banting = Fellowship(id="b", name="B", url="https://x", host=HostRule(countries=["Canada"]))
+    r = LocationRule(["Europe"], ["United States", "Canada"], [], 80)
+    assert not reachable(jsps, GROUPS, r)
+    assert reachable(banting, GROUPS, r) and reachable(MSCA, GROUPS, r)
+
+
+# ── Claude Code backend (fake CLI) ──
+
+def test_claude_code_backend_isolation_and_parsing(monkeypatch):
+    import json as _json
+    import subprocess
+
+    import pytest
+
+    from postdoc_searcher.claude_code import ClaudeCode
+    from postdoc_searcher.llm import BudgetExceeded
+
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-should-not-leak")
+    seen = {}
+
+    def fake_run(args, input, capture_output, text, timeout, cwd, env):
+        seen.update(args=args, env=env, prompt=input, cwd=cwd)
+        out = {"type": "result", "subtype": "success", "is_error": False, "total_cost_usd": 0.02,
+               "usage": {"input_tokens": 10, "output_tokens": 5, "server_tool_use": {"web_search_requests": 2}},
+               "structured_output": {"opportunities": [], "notes": "none found"}}
+        return subprocess.CompletedProcess(args, 0, stdout=_json.dumps(out), stderr="")
+
+    cfg = load_config()
+    cc = ClaudeCode(cfg, "/bin/claude", runner=fake_run)
+    rep = cc.search_topic(cfg.topics[0], [])
+    assert rep is not None and rep.notes == "none found"
+    a = seen["args"]
+    assert "--safe-mode" in a and "--json-schema" in a and a[a.index("--tools") + 1] == "WebSearch,WebFetch"
+    assert "ANTHROPIC_API_KEY" not in seen["env"]           # can only bill the subscription
+    assert "report_opportunities" not in seen["prompt"]
+    assert cc.usage.web_searches == 2 and cc.calls == 1
+
+    def limited(args, **kw):
+        out = {"type": "result", "subtype": "success", "is_error": True, "result": "Claude usage limit reached"}
+        return subprocess.CompletedProcess(args, 1, stdout=_json.dumps(out), stderr="")
+
+    cc2 = ClaudeCode(cfg, "/bin/claude", runner=limited)
+    with pytest.raises(BudgetExceeded):
+        cc2.triage([], 40)
+
+
+def test_claude_code_not_logged_in_stops_ai(monkeypatch):
+    import subprocess
+
+    import pytest
+
+    from postdoc_searcher.claude_code import ClaudeCode
+    from postdoc_searcher.llm import BudgetExceeded
+    from postdoc_searcher.pipeline import make_backend
+
+    def no_login(args, **kw):
+        return subprocess.CompletedProcess(args, 1, stdout="", stderr="Not logged in · Please run /login")
+
+    cfg = load_config()
+    with pytest.raises(BudgetExceeded):
+        ClaudeCode(cfg, "/bin/claude", runner=no_login).triage([], 40)
+
+    # On GitHub Actions without the OAuth secret: keyword mode, no doomed CLI calls.
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.delenv("CLAUDE_CODE_OAUTH_TOKEN", raising=False)
+    monkeypatch.setattr("postdoc_searcher.claude_code.find_claude", lambda p=None: "/bin/claude")
+    assert make_backend(cfg) is None
