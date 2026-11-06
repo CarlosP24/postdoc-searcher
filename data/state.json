@@ -269,63 +269,83 @@
   "c4670b24b827": "2026-11-05",
   "9f8b25214154": "2026-11-05",
   "935bf1857dd7": "2026-11-05",
-  "ca5ecc885df6": "2026-11-05"
+  "ca5ecc885df6": "2026-11-05",
+  "c61abed2a2a0": "2026-11-06",
+  "2e3d7323af89": "2026-11-06",
+  "afdecd8ad1bb": "2026-11-06",
+  "9f9b5714a478": "2026-11-06",
+  "e99a460ed4c5": "2026-11-06",
+  "d17d0d2777e9": "2026-11-06",
+  "fed400c645e9": "2026-11-06",
+  "b383821bf101": "2026-11-06",
+  "b898f7fc03dc": "2026-11-06",
+  "fbf42f1b93b8": "2026-11-06",
+  "06bbbad64bfc": "2026-11-06",
+  "45e1818707ef": "2026-11-06",
+  "9ac1585c4c23": "2026-11-06",
+  "adb2f5575a16": "2026-11-06",
+  "eef23e516c0d": "2026-11-06",
+  "cb4d4d7e6bf2": "2026-11-06",
+  "abb77a26b614": "2026-11-06",
+  "42e655b9d3b4": "2026-11-06",
+  "a591b588e26f": "2026-11-06",
+  "eb9e895c4536": "2026-11-06"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-05T13:21:07+00:00",
+   "checked": "2026-11-06T13:04:15+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-05T13:21:09+00:00",
+   "checked": "2026-11-06T13:04:16+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
    "hash": "da39a3ee5e6b4b0d3255",
-   "checked": "2026-11-05T13:21:11+00:00",
+   "checked": "2026-11-06T13:04:18+00:00",
    "pi": "Bernard van Heck"
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-05T13:21:13+00:00",
+   "checked": "2026-11-06T13:04:19+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-05T13:21:14+00:00",
+   "checked": "2026-11-06T13:04:20+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-05T13:21:33+00:00",
+   "checked": "2026-11-06T13:04:38+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-04T22:52:39+00:00",
+   "checked": "2026-11-06T13:04:42+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-05T13:21:51+00:00",
+   "checked": "2026-11-06T13:04:43+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-05T13:21:51+00:00",
+   "checked": "2026-11-06T13:04:44+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-05T13:21:10+00:00",
+   "checked": "2026-11-06T13:04:16+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-05T13:21:15+00:00",
+   "checked": "2026-11-06T13:04:20+00:00",
    "pi": "Annica Black-Schaffer"
   }
  },
@@ -336,7 +356,10 @@
   "pi:Michael Wimmer": "2026-11-05T11:08:01+00:00",
   "pi:Anton Akhmerov": "2026-11-05T13:22:37+00:00",
   "pi:Martin Leijnse": "2026-11-05T13:23:59+00:00",
-  "topic:Topological superconductivity & Majorana modes": "2026-11-05T13:25:23+00:00"
+  "topic:Topological superconductivity & Majorana modes": "2026-11-05T13:25:23+00:00",
+  "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-06T13:06:11+00:00",
+  "topic:Quantum transport in mesoscopic systems": "2026-11-06T13:08:01+00:00",
+  "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00"
  },
  "fellowships": {
   "msca-pf-ef": {
@@ -389,6 +412,26 @@
    "sources": [
     "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
     "https://www.dfg.de/en/research_funding/faq/faq_walter_benjamin/index.html"
+   ]
+  },
+  "la-caixa-junior-leader-incoming": {
+   "checked": "2026-11-06T13:10:05+00:00",
+   "status": "closed",
+   "call_opens": "2027-07",
+   "deadline": "2027-09",
+   "dates_estimated": true,
+   "summary": "The Junior Leader Incoming 2027 call opened on 1 July 2026 and closed on 23 September 2026 at 14:00 Spanish time. The foundation's Spanish page now marks it 'Cerrada' (closed). Shortlisting is due 12 January 2027, interviews 16–17 February 2027 and results 10 March 2027. Fellows start between 1 May and 31 December 2027. Dates for the next call (Incoming 2028) have not been announced. Based on past cycles, it should open around July 2027 and close in late September or early October 2027. The fellowship lasts up to 3 years and is worth up to €320,100 in total. That covers employment costs of up to €64,000 a year (minimum gross salary €47,000 a year) and €38,500 a year for research costs, plus family and mobility allowances. Carlos is NOT currently eligible, for two reasons. (1) His PhD is expected in March 2027, but the PhD must be at least 2 years old at the deadline, so the earliest call he could apply to is the one with a deadline around September 2029. (2) He has lived in Spain all his life, so he fails the Incoming mobility rule for Spanish hosts: no more than 12 months of residence or main activity in Spain in the 3 years before the deadline. He could become eligible for a Spanish host, such as a Severo Ochoa or María de Maeztu centre, after about 2 or more years of postdoc work abroad. Alternatively, he could apply to a host in Portugal, because the mobility rule there is about time spent in Portugal, which he would meet once the PhD-age rule is satisfied. The sister 'Retaining' modality requires at least 12 months in Spain plus at least 6 months of research abroad, and has the same rule that the PhD must be 2–7 years old.",
+   "eligibility": "Any nationality. PhD obtained 2–7 years before the call deadline; for the 2027 call that meant between 23 September 2019 and 23 September 2024, with extensions in specific cases. Incoming mobility rule: no more than 12 months of residence or main activity in Spain in the 3 years before the deadline if the host is in Spain; the same rule applies to Portugal for Portuguese hosts. The project must be in a STEM field at an eligible accredited university or research centre in Spain or Portugal.",
+   "duration": "Up to 3 years",
+   "funding": "Up to €320,100 in total (2027 call). Employment costs up to €64,000 a year, with a minimum gross salary of €47,000 a year. Research costs of €38,500 a year, covering consumables, equipment, travel, conferences and staff. Family allowance of €1,200 a year per dependent child. Mobility allowance of €5,400 for researchers who relocate. These figures come from the 2027 call (20 fellowships per modality).",
+   "url": "https://fundacionlacaixa.org/es/becas-posdoctorado-junior-leader-convocatoria-incoming",
+   "sources": [
+    "https://fundacionlacaixa.org/es/becas-posdoctorado-junior-leader-convocatoria-incoming",
+    "https://lacaixafoundation.org/documents/d/la-caixa-foundation/postdoctoral-junior-leader-2027-incoming-rules-participation-pdf",
+    "https://www.clpu.es/en/lacaixa_fellowship/",
+    "https://en.iisaragon.es/fundacion-la-caixa-abre-la-convocatoria-de-becas-de-posdoctorado-junior-leader-2027/",
+    "https://canal.ugr.es/convocatoria/becas-de-posdoctorado-junior-leader-2027-de-la-fundacion-la-caixa/",
+    "https://www.findmymoney.app/opportunities/la-caixa-junior-leader-incoming-fellowship-2027/"
    ]
   }
  },
@@ -602,6 +645,59 @@
     "backend": "claude-code"
    },
    "open_total": 20
+  },
+  {
+   "date": "2026-11-06T13:02:30+00:00",
+   "ai_enabled": true,
+   "raw_items": 243,
+   "candidates": 0,
+   "triaged": 0,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Hybrid semiconductor–superconductor nanostructures",
+     "found": 2,
+     "notes": "I used all 5 web searches and 4 page fetches. I found no open theory postdoc in Europe aimed specifically at hybrid semiconductor–superconductor, full-shell nanowire, Andreev or minimal-Kitaev physics, apart from the University of Basel Klinovaja/Loss post you already have. Three openings I passed…"
+    },
+    {
+     "task": "topic:Quantum transport in mesoscopic systems",
+     "found": 2,
+     "notes": "I used 5 searches and 4 fetches. The University of Jyväskylä condensed matter theory postdoc (mesoscopic superconductivity, superconductor–semiconductor hybrids, Keldysh and nonequilibrium Green's function methods, start December 2026) matched well but closed on 2026-11-01, so I left it out; a late…"
+    },
+    {
+     "task": "topic:Non-Hermitian physics & open quantum systems",
+     "found": 1,
+     "notes": "I found only one opening that fits: the Rinn Quantum fellowship call in Ireland, which closes on 6 January 2027. It is a broad call, not specific to your topic, and I scored it 50 out of 100. I couldn't read the call document itself because I had reached my page-fetch limit, so its eligibility rule…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "la-caixa-junior-leader-incoming",
+     "status": "closed",
+     "deadline": "2027-09"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 0,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 4,
+    "input_tokens": 48,
+    "output_tokens": 13205,
+    "cache_read_tokens": 213876,
+    "cache_write_tokens": 49679,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 0.9218,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 23
   }
  ]
 }
