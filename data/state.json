@@ -289,63 +289,85 @@
   "abb77a26b614": "2026-11-06",
   "42e655b9d3b4": "2026-11-06",
   "a591b588e26f": "2026-11-06",
-  "eb9e895c4536": "2026-11-06"
+  "eb9e895c4536": "2026-11-06",
+  "562c962a5aed": "2026-11-07",
+  "0b8ec99e6312": "2026-11-07",
+  "cb396662bac8": "2026-11-07",
+  "b12a1038b9be": "2026-11-07",
+  "aa274fe7d00e": "2026-11-07",
+  "986a5522fe02": "2026-11-07",
+  "4f0062142e2f": "2026-11-07",
+  "2d5832ba3bbc": "2026-11-07",
+  "dccf6f0d86c8": "2026-11-07",
+  "8b4c876f5643": "2026-11-07",
+  "48ed9c94803f": "2026-11-07",
+  "de604334268f": "2026-11-07",
+  "6d0dd1841779": "2026-11-07",
+  "cdfd3e66274d": "2026-11-07",
+  "e97974631357": "2026-11-07",
+  "d0ad9e100933": "2026-11-07",
+  "4f93fe83b8ae": "2026-11-07",
+  "7b8b88f81768": "2026-11-07",
+  "f1414a697f8a": "2026-11-07",
+  "4c4fd130e5df": "2026-11-07",
+  "4822e84654f1": "2026-11-07",
+  "8552588d8069": "2026-11-07"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-06T13:04:15+00:00",
+   "checked": "2026-11-07T11:50:44+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-06T13:04:16+00:00",
+   "checked": "2026-11-07T11:50:46+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
    "hash": "da39a3ee5e6b4b0d3255",
-   "checked": "2026-11-06T13:04:18+00:00",
+   "checked": "2026-11-07T11:50:47+00:00",
    "pi": "Bernard van Heck"
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-06T13:04:19+00:00",
+   "checked": "2026-11-07T11:50:48+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-06T13:04:20+00:00",
+   "checked": "2026-11-07T11:50:49+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-06T13:04:38+00:00",
+   "checked": "2026-11-07T11:51:08+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-06T13:04:42+00:00",
+   "checked": "2026-11-07T11:51:12+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-06T13:04:43+00:00",
+   "checked": "2026-11-07T11:51:12+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-06T13:04:44+00:00",
+   "checked": "2026-11-07T11:51:13+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-06T13:04:16+00:00",
+   "checked": "2026-11-07T11:50:46+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-06T13:04:20+00:00",
+   "checked": "2026-11-07T11:50:50+00:00",
    "pi": "Annica Black-Schaffer"
   }
  },
@@ -359,7 +381,10 @@
   "topic:Topological superconductivity & Majorana modes": "2026-11-05T13:25:23+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-06T13:06:11+00:00",
   "topic:Quantum transport in mesoscopic systems": "2026-11-06T13:08:01+00:00",
-  "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00"
+  "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00",
+  "topic:Theory of quantum devices & qubits": "2026-11-07T11:52:39+00:00",
+  "topic:Theoretical & computational condensed matter (broad)": "2026-11-07T11:54:25+00:00",
+  "pi:Fabian Hassler": "2026-11-07T11:55:21+00:00"
  },
  "fellowships": {
   "msca-pf-ef": {
@@ -432,6 +457,24 @@
     "https://en.iisaragon.es/fundacion-la-caixa-abre-la-convocatoria-de-becas-de-posdoctorado-junior-leader-2027/",
     "https://canal.ugr.es/convocatoria/becas-de-posdoctorado-junior-leader-2027-de-la-fundacion-la-caixa/",
     "https://www.findmymoney.app/opportunities/la-caixa-junior-leader-incoming-fellowship-2027/"
+   ]
+  },
+  "la-caixa-junior-leader-retaining": {
+   "checked": "2026-11-07T11:56:21+00:00",
+   "status": "closed",
+   "call_opens": "2027-07",
+   "deadline": "2027-09",
+   "dates_estimated": true,
+   "summary": "The Retaining call that opened in 2026 (called the 'Retaining Call 2027') closed on 2026-09-23 at 14:00 Peninsular Spain time. Pre-selection results and interview invitations are due on 2027-01-12, interviews on 2027-02-24/25 and final results on 2027-03-10. The next Retaining call has not been announced. Based on past cycles it should open around July 2027 and close in late September 2027; these dates are estimates. Carlos is NOT eligible yet: the PhD must have been awarded 2–7 years before the closing date, and his defence is expected in March 2027. That gives him only about 6 months by a September 2027 deadline. The first call he can enter is the one closing around September 2029, or later. To use the Retaining route he must also have lived or worked in Spain for more than 12 months of the 3 years before that deadline. If he does a postdoc abroad from 2027 to 2029 he will probably fail that rule, and the Incoming call (for people who spent less than 12 months in Spain in the last 3 years, hosted at Severo Ochoa or María de Maeztu centres) would fit him instead. He also needs at least 6 months of research stays outside Spain. His 2025 Copenhagen visit counts only if it, plus any other stays abroad, adds up to 6 months.",
+   "eligibility": "Any nationality. PhD awarded 2–7 years before the call's closing date, counted from the thesis defence; extended limits apply for career interruptions. For a Spanish host: lived in Spain, or worked/studied there as the main activity, for more than 12 months in the 3 years before the deadline (the same rule applies to Portugal for Portuguese hosts). At least 6 months of research stays abroad (outside the host country) during the PhD or postdoc, continuous or cumulative, before the closing date. STEM fields, including physics.",
+   "duration": "Up to 3 years (employment contract)",
+   "funding": "Up to €320,100 in total per fellowship over 3 years, covering salary plus research costs. The sources found do not give the exact split between salary and research budget.",
+   "url": "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships-retaining-call",
+   "sources": [
+    "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships-retaining-call",
+    "https://nf-pogo-alumni.org/24072026-3/",
+    "https://www.uam.es/uam/en/investigacion/ofertas-empleo/juniorleader2026",
+    "https://lacaixafoundation.org/en/junior-leader"
    ]
   }
  },
@@ -698,6 +741,62 @@
     "backend": "claude-code"
    },
    "open_total": 23
+  },
+  {
+   "date": "2026-11-07T11:49:05+00:00",
+   "ai_enabled": true,
+   "raw_items": 248,
+   "candidates": 1,
+   "triaged": 1,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Theory of quantum devices & qubits",
+     "found": 1,
+     "notes": "I used 5 searches and 4 fetches. Excluded because expired: UAM Madrid post on transport in superconducting devices (2023), BME Budapest condensed-matter theory and quantum computing post (deadline Sept 2024), MCQST Munich Postdoc Fellowship 2026 (deadline about 24–31 Oct 2026). Excluded as experime…"
+    },
+    {
+     "task": "topic:Theoretical & computational condensed matter (broad)",
+     "found": 1,
+     "notes": "Only one new open European match was found within the search budget. Closed or excluded: Jyväskylä Centre of Excellence in Quantum Materials theory postdocs (closed 2026-11-01); EHU Bilbao theoretical physics postdocs (deadline 2026-12-13, cosmology/particle physics only, not a fit); Harvard and St…"
+    },
+    {
+     "task": "pi:Fabian Hassler",
+     "found": 1,
+     "notes": "I found no advertised postdoc position in Fabian Hassler's group. The group website links to a \"Stellenangebote\" (job openings) page. That page lists only a spin-shuttling postdoc (experimental, Beckers), postdoc/PhD posts in Markus Müller's group and a PhD post at Jülich. None of them is in Hassle…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "la-caixa-junior-leader-retaining",
+     "status": "closed",
+     "deadline": "2027-09"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 2,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 56,
+    "output_tokens": 12955,
+    "cache_read_tokens": 264541,
+    "cache_write_tokens": 56413,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 0.9748,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 26
   }
  ]
 }

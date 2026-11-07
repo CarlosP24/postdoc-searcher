@@ -1,8 +1,120 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-06T13:10:05+00:00",
+ "generated_at": "2026-11-07T11:56:22+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
+  {
+   "id": "a887d526bf26",
+   "kind": "position",
+   "title": "Postdoctoral Research Positions in Condensed Matter and Quantum Information Theory at TU Munich",
+   "institution": "Technische Universität München (TUM), Physics Department",
+   "country": "Germany",
+   "location": "Garching (Munich), Germany",
+   "pi": "Laura Classen, Michael Knap, Johannes Knolle, Barbara Kraus, Sanjay Moudgalya, Marko Ljubotina, Frank Pollmann, Peter Rabl",
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theoretical & computational condensed matter (broad)",
+    "Topological superconductivity & Majorana modes"
+   ],
+   "relevance": 60,
+   "relevance_reason": "A strong broad condensed-matter theory call that includes topological phases and superconductivity, but none of the groups focuses on hybrid nanowire devices or works closely with such experiments.",
+   "summary": "A joint call for postdoctoral positions across the TUM theory groups of Classen, Knap, Knolle, Kraus, Moudgalya, Ljubotina, Pollmann and Rabl. Topics include quantum many-body systems, topological phases, superconductivity, quantum materials and the verification of quantum devices. Start is Fall 2027 (flexible) and pay follows TV-L. Apply on AcademicJobsOnline with a CV, research statement, publication list and two reference letters by 22 Nov 2026; later applications may also be considered.",
+   "eligibility": "PhD in physics or a related field",
+   "duration": null,
+   "salary": "TV-L (German public-sector pay scale)",
+   "start_date": "2027-09",
+   "call_opens": "2026-09-03",
+   "deadline": "2026-11-22",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://academicjobsonline.org/ajo/jobs/32594",
+   "sources": [
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Quantum transport in mesoscopic systems)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "bbf0f8aea2ef",
+   "kind": "fellowship",
+   "title": "Rinn Quantum Postdoctoral Fellowships 2027 (Research Ireland Centre for quantum science and technology)",
+   "institution": "Rinn Quantum – Research Ireland Centre (multiple Irish host institutions)",
+   "country": "Ireland",
+   "location": "Various locations, Ireland",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theory of quantum devices & qubits",
+    "Non-Hermitian physics & open quantum systems",
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 50,
+   "relevance_reason": "This is a broad call across quantum science, and Ireland's quantum groups (for example open-systems theory at UCD and TCD) are near your field rather than in it. It is still a real, currently open fellowship where you could propose a project on non-Hermitian or open-system transport, but check that the timing works with a PhD finishing in March 2027.",
+   "summary": "Rinn Quantum, a Research Ireland centre, is offering at least six 2-year postdoctoral fellowships at its partner institutions in Ireland. Applications close on 6 January 2027 at 17:00 GMT. The listing doesn't give topics, salary or eligibility rules. Those are in the call document linked here, which I could not open, so please read it before applying.",
+   "eligibility": null,
+   "duration": "2 years",
+   "salary": null,
+   "start_date": null,
+   "call_opens": "2026-10-21",
+   "deadline": "2027-01-06",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://www.dropbox.com/scl/fi/7wyb4l11hzwb6mgjijfoq/Rinn_Quantum_Fellowships_2027_Call_Document.pdf?rlkey=jph406wftfn1vjysmk8mc9zuc&dl=0",
+   "sources": [
+    "Web search (topic: Non-Hermitian physics & open quantum systems)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "0530a2ff4214",
+   "kind": "position",
+   "title": "Research Fellows in Quantum Many-Body Physics",
+   "institution": "University of Leeds, School of Physics and Astronomy",
+   "country": "United Kingdom",
+   "location": "Leeds, UK",
+   "pi": "Zlatko Papic",
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 45,
+   "relevance_reason": "A many-body theory post on topological matter that is outside your work on hybrid superconducting devices, so it is only a weak fit.",
+   "summary": "Postdoctoral research fellowships on three projects: topological quantum matter (fractional quantum Hall states and Chern insulators), far-from-equilibrium lattice gauge theories, and fuzzy-sphere quantum criticality. The work uses exact diagonalisation, tensor networks and neural quantum states. Apply through the Leeds jobs site (ref. EPSPA1141) by 4 Jan 2027.",
+   "eligibility": "PhD in physics or a related field",
+   "duration": null,
+   "salary": null,
+   "start_date": null,
+   "call_opens": "2026-10-26",
+   "deadline": "2027-01-04",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://jobs.leeds.ac.uk/Vacancy.aspx?ref=EPSPA1141",
+   "sources": [
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "notified_status": null,
+   "notified_on": null
+  },
   {
    "id": "20e0a778773e",
    "kind": "fellowship",
@@ -175,7 +287,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -209,7 +321,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -245,7 +357,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -288,7 +400,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -404,7 +516,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -481,7 +593,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -544,7 +656,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -670,7 +782,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -704,7 +816,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -738,7 +850,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -772,7 +884,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -806,7 +918,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -843,7 +955,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -862,24 +974,25 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 20,
    "relevance_reason": "Your listed PIs in eligible host countries are excluded by the rules (see notes).",
-   "summary": "PhD 2–7 years before the deadline; for researchers already based in Spain/Portugal. Duration: 3 years. Funding: Salary plus research budget (independent junior leader). Call: Call opens ~July; deadline ~early October.",
-   "eligibility": "PhD 2–7 years before the deadline; for researchers already based in Spain/Portugal.",
-   "duration": "3 years",
-   "salary": "Salary plus research budget (independent junior leader).",
+   "summary": "The Retaining call that opened in 2026 (called the 'Retaining Call 2027') closed on 2026-09-23 at 14:00 Peninsular Spain time. Pre-selection results and interview invitations are due on 2027-01-12, interviews on 2027-02-24/25 and final results on 2027-03-10. The next Retaining call has not been announced. Based on past cycles it should open around July 2027 and close in late September 2027; these dates are estimates. Carlos is NOT eligible yet: the PhD must have been awarded 2–7 years before the closing date, and his defence is expected in March 2027. That gives him only about 6 months by a September 2027 deadline. The first call he can enter is the one closing around September 2029, or later. To use the Retaining route he must also have lived or worked in Spain for more than 12 months of the 3 years before that deadline. If he does a postdoc abroad from 2027 to 2029 he will probably fail that rule, and the Incoming call (for people who spent less than 12 months in Spain in the last 3 years, hosted at Severo Ochoa or María de Maeztu centres) would fit him instead. He also needs at least 6 months of research stays outside Spain. His 2025 Copenhagen visit counts only if it, plus any other stays abroad, adds up to 6 months.",
+   "eligibility": "Any nationality. PhD awarded 2–7 years before the call's closing date, counted from the thesis defence; extended limits apply for career interruptions. For a Spanish host: lived in Spain, or worked/studied there as the main activity, for more than 12 months in the 3 years before the deadline (the same rule applies to Portugal for Portuguese hosts). At least 6 months of research stays abroad (outside the host country) during the PhD or postdoc, continuous or cumulative, before the closing date. STEM fields, including physics.",
+   "duration": "Up to 3 years (employment contract)",
+   "salary": "Up to €320,100 in total per fellowship over 3 years, covering salary plus research costs. The sources found do not give the exact split between salary and research budget.",
    "start_date": null,
-   "call_opens": "2027-07-01",
-   "deadline": "2027-10-31",
+   "call_opens": "2027-07",
+   "deadline": "2027-09",
    "rolling": false,
    "dates_estimated": true,
-   "dates_checked": null,
+   "dates_checked": "2026-11-07T11:56:21+00:00",
    "status": "upcoming",
-   "url": "https://lacaixafoundation.org/en/junior-leader",
+   "url": "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships-retaining-call",
    "sources": [
-    "fellowship catalog"
+    "fellowship catalog",
+    "web check"
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -941,7 +1054,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1003,7 +1116,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1065,7 +1178,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1105,7 +1218,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1225,7 +1338,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
@@ -1259,121 +1372,131 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "notified_status": null,
    "notified_on": null
   },
   {
-   "id": "a887d526bf26",
+   "id": "7945036e8191",
    "kind": "position",
-   "title": "Postdoctoral Research Positions in Condensed Matter and Quantum Information Theory at TU Munich",
-   "institution": "Technische Universität München (TUM), Physics Department",
-   "country": "Germany",
-   "location": "Garching (Munich), Germany",
-   "pi": "Laura Classen, Michael Knap, Johannes Knolle, Barbara Kraus, Sanjay Moudgalya, Marko Ljubotina, Frank Pollmann, Peter Rabl",
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [
-    "Theoretical & computational condensed matter (broad)",
-    "Topological superconductivity & Majorana modes"
-   ],
-   "relevance": 60,
-   "relevance_reason": "A strong broad condensed-matter theory call that includes topological phases and superconductivity, but none of the groups focuses on hybrid nanowire devices or works closely with such experiments.",
-   "summary": "A joint call for postdoctoral positions across the TUM theory groups of Classen, Knap, Knolle, Kraus, Moudgalya, Ljubotina, Pollmann and Rabl. Topics include quantum many-body systems, topological phases, superconductivity, quantum materials and the verification of quantum devices. Start is Fall 2027 (flexible) and pay follows TV-L. Apply on AcademicJobsOnline with a CV, research statement, publication list and two reference letters by 22 Nov 2026; later applications may also be considered.",
-   "eligibility": "PhD in physics or a related field",
-   "duration": null,
-   "salary": "TV-L (German public-sector pay scale)",
-   "start_date": "2027-09",
-   "call_opens": "2026-09-03",
-   "deadline": "2026-11-22",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "open",
-   "url": "https://academicjobsonline.org/ajo/jobs/32594",
-   "sources": [
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
-    "Web search (topic: Quantum transport in mesoscopic systems)"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "0530a2ff4214",
-   "kind": "position",
-   "title": "Research Fellows in Quantum Many-Body Physics",
-   "institution": "University of Leeds, School of Physics and Astronomy",
-   "country": "United Kingdom",
-   "location": "Leeds, UK",
-   "pi": "Zlatko Papic",
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [
-    "Theoretical & computational condensed matter (broad)"
-   ],
-   "relevance": 45,
-   "relevance_reason": "A many-body theory post on topological matter that is outside your work on hybrid superconducting devices, so it is only a weak fit.",
-   "summary": "Postdoctoral research fellowships on three projects: topological quantum matter (fractional quantum Hall states and Chern insulators), far-from-equilibrium lattice gauge theories, and fuzzy-sphere quantum criticality. The work uses exact diagonalisation, tensor networks and neural quantum states. Apply through the Leeds jobs site (ref. EPSPA1141) by 4 Jan 2027.",
-   "eligibility": "PhD in physics or a related field",
-   "duration": null,
-   "salary": null,
-   "start_date": null,
-   "call_opens": "2026-10-26",
-   "deadline": "2027-01-04",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "open",
-   "url": "https://jobs.leeds.ac.uk/Vacancy.aspx?ref=EPSPA1141",
-   "sources": [
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "bbf0f8aea2ef",
-   "kind": "fellowship",
-   "title": "Rinn Quantum Postdoctoral Fellowships 2027 (Research Ireland Centre for quantum science and technology)",
-   "institution": "Rinn Quantum – Research Ireland Centre (multiple Irish host institutions)",
-   "country": "Ireland",
-   "location": "Various locations, Ireland",
-   "pi": null,
+   "title": "Postdoc on the theory of Si and Ge spin qubits",
+   "institution": "CEA Grenoble / IRIG (Interdisciplinary Research Institute of Grenoble), L_Sim",
+   "country": "France",
+   "location": "Grenoble",
+   "pi": "Yann-Michel Niquet",
    "matched_pis": [],
    "pi_notes": {},
    "topics": [
     "Theory of quantum devices & qubits",
-    "Non-Hermitian physics & open quantum systems",
-    "Theoretical & computational condensed matter (broad)"
+    "Theoretical & computational condensed matter (broad)",
+    "Quantum transport in mesoscopic systems"
    ],
-   "relevance": 50,
-   "relevance_reason": "This is a broad call across quantum science, and Ireland's quantum groups (for example open-systems theory at UCD and TCD) are near your field rather than in it. It is still a real, currently open fellowship where you could propose a project on non-Hermitian or open-system transport, but check that the timing works with a PhD finishing in March 2027.",
-   "summary": "Rinn Quantum, a Research Ireland centre, is offering at least six 2-year postdoctoral fellowships at its partner institutions in Ireland. Applications close on 6 January 2027 at 17:00 GMT. The listing doesn't give topics, salary or eligibility rules. Those are in the call document linked here, which I could not open, so please read it before applying.",
-   "eligibility": null,
+   "relevance": 58,
+   "relevance_reason": "A theory post on solid-state qubits that uses large-scale tight-binding modelling alongside experimental groups, but on semiconductor spin qubits rather than your core Majorana and hybrid-nanowire topics; the April 2027 latest start is tight for a March 2027 PhD.",
+   "summary": "Two-year theory postdoc on modelling Si/SiGe and Ge spin qubits (spin manipulation and readout, exchange interactions in arrays, noise and disorder), using the in-house tight-binding code TB_Sim, in close collaboration with Grenoble's experimental groups. The post is open until filled, and the start must be no later than 1 April 2027. To apply, email Yann-Michel Niquet (yniquet@cea.fr) a CV, a publication list and a motivation letter, and arrange for two recommendation letters to be sent to him.",
+   "eligibility": "PhD in quantum, condensed matter or solid-state physics (or related field).",
    "duration": "2 years",
    "salary": null,
-   "start_date": null,
-   "call_opens": "2026-10-21",
-   "deadline": "2027-01-06",
+   "start_date": "2027-04",
+   "call_opens": "2026-11-02",
+   "deadline": null,
+   "rolling": true,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "rolling",
+   "url": "https://qt.eu/jobs-quantum-technologies/postdoc-on-the-theory-of-si-and-ge-spin-qubits",
+   "sources": [
+    "Web search (topic: Theory of quantum devices & qubits)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "95907d1c1d0d",
+   "kind": "position",
+   "title": "Postdoc position in quantum matter theory with specialization in unconventional superconductivity",
+   "institution": "Uppsala University, Department of Physics and Astronomy",
+   "country": "Sweden",
+   "location": "Uppsala",
+   "pi": "Annica Black-Schaffer",
+   "matched_pis": [
+    "Annica Black-Schaffer"
+   ],
+   "pi_notes": {
+    "Annica Black-Schaffer": "★ PI of this offer"
+   },
+   "topics": [
+    "Theoretical & computational condensed matter (broad)",
+    "Topological superconductivity & Majorana modes"
+   ],
+   "relevance": 85,
+   "relevance_reason": "This is a listed PI's group and the candidate's PhD timing (March 2027) fits the May 2027 start, but the focus is quantum geometry and unconventional superconductivity rather than hybrid nanowires.",
+   "summary": "Two-year, full-time postdoc (possible one-year extension) in Annica Black-Schaffer's Quantum Matter Theory program, combining numerical simulations and analytical work on unconventional superconductivity and quantum geometry. Starts 1 May 2027 or as agreed; salary not stated. Prior postdoc experience and mixed analytical/numerical skills are advantageous. Apply via uu.varbi.com (job ID 978180, ref. UFV-PA 2026/3056) with CV, publication list, research statement and answers to application questions by 20 November 2026.",
+   "eligibility": "PhD in physics or closely related subject obtained by start of employment and no more than three years before the deadline (extendable for parental/sick leave); strong background in unconventional superconductivity and quantum geometry; fluent English.",
+   "duration": "2 years (possible 1-year extension)",
+   "salary": null,
+   "start_date": "2027-05-01",
+   "call_opens": "2026-10-22",
+   "deadline": "2026-11-20",
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
    "status": "open",
-   "url": "https://www.dropbox.com/scl/fi/7wyb4l11hzwb6mgjijfoq/Rinn_Quantum_Fellowships_2027_Call_Document.pdf?rlkey=jph406wftfn1vjysmk8mc9zuc&dl=0",
+   "url": "https://jobrxiv.org/job/postdoc-position-in-quantum-matter-theory-with-specialization-in-unconventional-superconductivity/",
    "sources": [
-    "Web search (topic: Non-Hermitian physics & open quantum systems)"
+    "Web search (topic: Theoretical & computational condensed matter (broad))"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "notified_status": null,
-   "notified_on": null
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "notified_status": "open",
+   "notified_on": "2026-11-07"
+  },
+  {
+   "id": "0815f6e0d81f",
+   "kind": "fellowship",
+   "title": "ML4Q Postdoctoral Fellowship (Cluster of Excellence Matter and Light for Quantum Computing) – host: Hassler group, RWTH Aachen",
+   "institution": "Cluster of Excellence ML4Q (Universities of Cologne, Bonn, RWTH Aachen, HHU Düsseldorf, FZ Jülich); host: Institute for Quantum Information, RWTH Aachen",
+   "country": "Germany",
+   "location": "Aachen, Germany",
+   "pi": "Fabian Hassler",
+   "matched_pis": [
+    "Fabian Hassler"
+   ],
+   "pi_notes": {
+    "Fabian Hassler": "★ PI of this offer"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Hybrid semiconductor–superconductor nanostructures",
+    "Quantum transport in mesoscopic systems",
+    "Theory of quantum devices & qubits"
+   ],
+   "relevance": 85,
+   "relevance_reason": "This prestigious independent fellowship could be held in Hassler's Majorana/mesoscopics theory group, and the autumn-2027 start fits your expected March 2027 PhD. Ask ML4Q whether you can apply before defending, since that is still unclear.",
+   "summary": "This independent 2-year fellowship pays for the fellow's own position plus consumables and travel, and includes training and mentoring, in an ML4Q group such as Hassler's at RWTH Aachen. The start date is autumn 2027 at the earliest. Up to two fellows are chosen per call. Email one PDF to ml4q-office@uni-koeln.de by 2026-12-14. It must contain a research statement (≤3 pages), a statement on links to the cluster (≤0.5 page), a CV (≤2 pages), a publication list, two referees and the name of the host group. The host must have discussed the application with you beforehand.",
+   "eligibility": "Usually no more than 4 years since your PhD, with allowance for career breaks. You must agree on a host ML4Q group before applying. Not open to current or recent (within 3 years) ML4Q group members, or to anyone whose current or former (co-)supervisor is an ML4Q member.",
+   "duration": "2 years",
+   "salary": null,
+   "start_date": "2027-09",
+   "call_opens": null,
+   "deadline": "2026-12-14",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://ml4q.de/ml4q-fellowships/",
+   "sources": [
+    "Web search (pi: Fabian Hassler)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "notified_status": "open",
+   "notified_on": "2026-11-07"
   }
  ],
  "pis": [
@@ -1391,7 +1514,7 @@ window.POSTDOC_DATA = {
    "country": "Germany",
    "website": "https://www.quantuminfo.physik.rwth-aachen.de/",
    "priority": "normal",
-   "last_searched": null
+   "last_searched": "2026-11-07T11:55:21+00:00"
   },
   {
    "name": "Piet Brouwer",
@@ -1501,11 +1624,11 @@ window.POSTDOC_DATA = {
   },
   {
    "name": "Theoretical & computational condensed matter (broad)",
-   "last_searched": null
+   "last_searched": "2026-11-07T11:54:25+00:00"
   },
   {
    "name": "Theory of quantum devices & qubits",
-   "last_searched": null
+   "last_searched": "2026-11-07T11:52:39+00:00"
   }
  ],
  "runs": [
@@ -1771,6 +1894,62 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 23
+  },
+  {
+   "date": "2026-11-07T11:49:05+00:00",
+   "ai_enabled": true,
+   "raw_items": 248,
+   "candidates": 1,
+   "triaged": 1,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Theory of quantum devices & qubits",
+     "found": 1,
+     "notes": "I used 5 searches and 4 fetches. Excluded because expired: UAM Madrid post on transport in superconducting devices (2023), BME Budapest condensed-matter theory and quantum computing post (deadline Sept 2024), MCQST Munich Postdoc Fellowship 2026 (deadline about 24–31 Oct 2026). Excluded as experime…"
+    },
+    {
+     "task": "topic:Theoretical & computational condensed matter (broad)",
+     "found": 1,
+     "notes": "Only one new open European match was found within the search budget. Closed or excluded: Jyväskylä Centre of Excellence in Quantum Materials theory postdocs (closed 2026-11-01); EHU Bilbao theoretical physics postdocs (deadline 2026-12-13, cosmology/particle physics only, not a fit); Harvard and St…"
+    },
+    {
+     "task": "pi:Fabian Hassler",
+     "found": 1,
+     "notes": "I found no advertised postdoc position in Fabian Hassler's group. The group website links to a \"Stellenangebote\" (job openings) page. That page lists only a spin-shuttling postdoc (experimental, Beckers), postdoc/PhD posts in Markus Müller's group and a PhD post at Jülich. None of them is in Hassle…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "la-caixa-junior-leader-retaining",
+     "status": "closed",
+     "deadline": "2027-09"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 2,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 56,
+    "output_tokens": 12955,
+    "cache_read_tokens": 264541,
+    "cache_write_tokens": 56413,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 0.9748,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 26
   }
  ]
 };
