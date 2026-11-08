@@ -367,7 +367,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -401,7 +401,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -437,7 +437,7 @@
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -480,7 +480,7 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
  },
@@ -634,7 +634,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -711,7 +711,7 @@
   ],
   "fellowship_id": "humboldt-rf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -774,8 +774,49 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "fellowship-nwo-veni",
+  "kind": "fellowship",
+  "title": "NWO Talent Programme — Veni",
+  "institution": "Dutch Research Council (NWO)",
+  "country": "Netherlands",
+  "location": null,
+  "pi": null,
+  "matched_pis": [
+   "Michael Wimmer",
+   "Anton Akhmerov"
+  ],
+  "pi_notes": {
+   "Michael Wimmer": "✓ eligible — The Dutch host institution embeds you and provides a host statement.",
+   "Anton Akhmerov": "✓ eligible — The Dutch host institution embeds you and provides a host statement."
+  },
+  "topics": [],
+  "relevance": 87,
+  "relevance_reason": "Could be hosted by Michael Wimmer, Anton Akhmerov from your PI list.",
+  "summary": "The Veni 2026 Science (ENW) round is closed to new applicants. Pre-proposals were due on 1 September 2026 at 14:00 CEST, and only shortlisted applicants submit full proposals, due 26 January 2027. The call was published around early July 2026. Veni 2027 has not been announced. Based on the 2026 cycle, it should open around July 2027, with pre-proposals due around early September 2027 and full proposals around January 2028; these dates are estimates. Veni is a personal grant of up to €320k for up to 3 years of research at a Dutch institution, with no mobility requirement. Carlos cannot apply to the 2026 round because his PhD is expected in March 2027, after the 2 September 2026 cutoff. He should be well inside the window for Veni 2027 if he defends before that pre-proposal deadline. Hosts at TU Delft, such as Wimmer or Akhmerov at QuTech/Kavli, fit his work closely.",
+  "eligibility": "Veni 2026 rule: the PhD must have been awarded within the 3 years before the reference date (1 Jan 2026), or between 1 Jan 2026 and 2 Sep 2026, the day after the pre-proposal deadline. The window can be extended for parental leave, illness, care duties and similar (call section 3.2.1). Researchers of any nationality, based in the Netherlands or abroad, can apply, tenured or not. There is no mobility rule; the research must be done at a Dutch knowledge institution. Expect similar rules in 2027, shifted by one year.",
+  "duration": "Up to 3 years. Part-time work can stretch this to at most 4 years, with no change in budget.",
+  "salary": "Personal grant of up to €320,000 covering salary and research costs; shorter projects get a proportionally smaller maximum. The 2026 Science domain budget was €11.79M, for about 37 awards.",
+  "start_date": null,
+  "call_opens": "2027-07",
+  "deadline": "2027-09",
+  "rolling": false,
+  "dates_estimated": true,
+  "dates_checked": "2026-11-08T12:08:52+00:00",
+  "status": "upcoming",
+  "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-2026",
+  "sources": [
+   "fellowship catalog",
+   "web check"
+  ],
+  "fellowship_id": "nwo-veni",
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-08",
+  "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
  {
@@ -871,6 +912,49 @@
   "notified_on": "2026-11-05"
  },
  {
+  "id": "b92aafeee7ae",
+  "kind": "fellowship",
+  "title": "MSCA Postdoctoral Fellowship 2027 (European Fellowship) – hosted by the von Oppen group, FU Berlin",
+  "institution": "Freie Universität Berlin, Department of Physics / Dahlem Center for Complex Quantum Systems",
+  "country": "Germany",
+  "location": "Berlin",
+  "pi": "Felix von Oppen",
+  "matched_pis": [
+   "Felix von Oppen"
+  ],
+  "pi_notes": {
+   "Felix von Oppen": "★ PI of this offer"
+  },
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Quantum transport in mesoscopic systems",
+   "Non-Hermitian physics & open quantum systems"
+  ],
+  "relevance": 82,
+  "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose work on Majoranas and mesoscopic superconductivity matches the candidate's core topics, and the candidate should be eligible: PhD expected March 2027, Spanish residence, so mobility to Germany is fine.",
+  "summary": "A Horizon Europe MSCA Postdoctoral Fellowship (call HORIZON-MSCA-2027-PF-01-01) would let the candidate write a project with Felix von Oppen as host at FU Berlin. It is planned to open on 7 April 2027 and close on 8 September 2027 (planned dates, not yet confirmed). The EU pays a living allowance plus mobility and research costs. The fellow applies jointly with the host, and the host's agreement should be arranged well before the call opens.",
+  "eligibility": "Must hold a PhD by the call deadline and have at most 8 years of research experience since the PhD. Standard mobility rule: no more than 12 months of residence in Germany in the 36 months before the deadline. Open to any nationality.",
+  "duration": "12-24 months (European Fellowship)",
+  "salary": null,
+  "start_date": null,
+  "call_opens": "2027-04-07",
+  "deadline": "2027-09-08",
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "upcoming",
+  "url": "https://www.ffg.at/en/europa/heu/msca/calls/PF_2027",
+  "sources": [
+   "Web search (pi: Felix von Oppen)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08",
+  "notified_status": "upcoming",
+  "notified_on": "2026-11-08"
+ },
+ {
   "id": "fellowship-banting",
   "kind": "fellowship",
   "title": "Banting Postdoctoral Fellowships",
@@ -900,7 +984,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -934,7 +1018,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -968,7 +1052,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1002,7 +1086,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1036,7 +1120,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1073,7 +1157,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1110,7 +1194,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1172,7 +1256,7 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1234,7 +1318,7 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1296,47 +1380,7 @@
   ],
   "fellowship_id": "ramon-areces-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
-  "notified_status": "unknown",
-  "notified_on": "2026-11-05"
- },
- {
-  "id": "fellowship-nwo-veni",
-  "kind": "fellowship",
-  "title": "NWO Talent Programme — Veni",
-  "institution": "Dutch Research Council (NWO)",
-  "country": "Netherlands",
-  "location": null,
-  "pi": null,
-  "matched_pis": [
-   "Michael Wimmer",
-   "Anton Akhmerov"
-  ],
-  "pi_notes": {
-   "Michael Wimmer": "✓ eligible — The Dutch host institution embeds you and provides a host statement.",
-   "Anton Akhmerov": "✓ eligible — The Dutch host institution embeds you and provides a host statement."
-  },
-  "topics": [],
-  "relevance": 87,
-  "relevance_reason": "Could be hosted by Michael Wimmer, Anton Akhmerov from your PI list.",
-  "summary": "PhD at most ~3 years before the deadline (extensions for leave). Duration: 3 years. Funding: Personal grant (salary + research costs). Call: Annual call per domain; check the Science (ENW) domain dates.",
-  "eligibility": "PhD at most ~3 years before the deadline (extensions for leave).",
-  "duration": "3 years",
-  "salary": "Personal grant (salary + research costs).",
-  "start_date": null,
-  "call_opens": null,
-  "deadline": null,
-  "rolling": false,
-  "dates_estimated": true,
-  "dates_checked": null,
-  "status": "unknown",
-  "url": "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
-  "sources": [
-   "fellowship catalog"
-  ],
-  "fellowship_id": "nwo-veni",
-  "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1456,7 +1500,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  },
@@ -1490,7 +1534,7 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "notified_status": null,
   "notified_on": null
  }
