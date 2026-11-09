@@ -324,63 +324,73 @@
   "d27d8a9ca5b3": "2026-11-08",
   "1a862ba91f37": "2026-11-08",
   "4559616e787d": "2026-11-08",
-  "83744039cc31": "2026-11-08"
+  "83744039cc31": "2026-11-08",
+  "82b47a4fa286": "2026-11-09",
+  "0fdffb3ccc89": "2026-11-09",
+  "009966213974": "2026-11-09",
+  "5c12bb2fa2e0": "2026-11-09",
+  "6f752bf3ce75": "2026-11-09",
+  "24f105eea8ac": "2026-11-09",
+  "a4e5a6d9d9d7": "2026-11-09",
+  "aad58ddc5f0c": "2026-11-09",
+  "d66e46075b9a": "2026-11-09",
+  "8b0297e07d68": "2026-11-09"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-08T12:01:52+00:00",
+   "checked": "2026-11-09T14:04:05+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-08T12:01:53+00:00",
+   "checked": "2026-11-09T14:04:07+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
    "hash": "da39a3ee5e6b4b0d3255",
-   "checked": "2026-11-08T12:01:55+00:00",
+   "checked": "2026-11-09T14:04:08+00:00",
    "pi": "Bernard van Heck"
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-08T12:01:55+00:00",
+   "checked": "2026-11-09T14:04:10+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-08T12:01:56+00:00",
+   "checked": "2026-11-09T14:04:10+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-08T12:02:16+00:00",
+   "checked": "2026-11-09T14:04:30+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-08T12:02:19+00:00",
+   "checked": "2026-11-09T14:04:34+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-08T12:02:20+00:00",
+   "checked": "2026-11-09T14:04:36+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-08T12:02:20+00:00",
+   "checked": "2026-11-09T14:04:36+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-08T12:01:53+00:00",
+   "checked": "2026-11-09T14:04:07+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-08T12:01:57+00:00",
+   "checked": "2026-11-09T14:04:11+00:00",
    "pi": "Annica Black-Schaffer"
   }
  },
@@ -400,7 +410,10 @@
   "pi:Fabian Hassler": "2026-11-07T11:55:21+00:00",
   "pi:Felix von Oppen": "2026-11-08T12:03:17+00:00",
   "pi:Annica Black-Schaffer": "2026-11-08T12:04:22+00:00",
-  "pi:Michele Burrello": "2026-11-08T12:08:04+00:00"
+  "pi:Michele Burrello": "2026-11-08T12:08:04+00:00",
+  "pi:Titus Neupert": "2026-11-09T14:06:14+00:00",
+  "pi:Pascal Simon": "2026-11-09T14:07:47+00:00",
+  "pi:Bruno Amorim": "2026-11-09T14:08:43+00:00"
  },
  "fellowships": {
   "msca-pf-ef": {
@@ -510,6 +523,23 @@
     "https://zoek.officielebekendmakingen.nl/stcrt-2026-23945.pdf",
     "https://www.staff.universiteitleiden.nl/announcements/2026/04/call-for-applications-msca-postdoctoral-fellowship-and-nwo-veni-2026?cf=science",
     "https://www.utwente.nl/en/courses/769880/veni-training/"
+   ]
+  },
+  "snsf-ambizione": {
+   "checked": "2026-11-09T14:09:22+00:00",
+   "status": "closed",
+   "call_opens": null,
+   "deadline": null,
+   "dates_estimated": true,
+   "summary": "The SNSF Ambizione 2026 call was the last one. It opened on 3 August 2026 and closed on 3 November 2026 at 17:00 CET, so it has been closed since 6 days before today (2026-11-09). There will be no Ambizione call in 2027. The SNSF is replacing Ambizione and Postdoc.Mobility with a new combined postdoctoral scheme, which it says will launch in 2028. Details on the 2027 transition were expected by the end of 2026, so the '2028' opening is an estimate and no deadline has been announced. Carlos is not eligible for Ambizione and would not have been eligible for the 2026 call. His PhD is only expected in March 2027, and the scheme required at least 12 months of research after the PhD by the deadline. It also requires a Swiss link: Swiss nationality, a Swiss master's or PhD, or at least 12 months of research at a Swiss institution after the doctorate. He is Spanish, trained in Spain, and has no Swiss research stay. He should watch for the 2028 successor scheme, whose eligibility rules are not yet published. A Swiss link may well apply again, which a postdoc in Switzerland, for example in Titus Neupert's group in Zurich, could provide.",
+   "eligibility": "2026 call (final): applicants needed a PhD and had to apply no more than 4 years after the PhD defence (up to 9 years after the medical exam for MDs with at least 3 years of clinical work). Time-window extensions were possible for reasons in Clause 1.11 of the regulations. They needed at least 12 months of research after the PhD by the deadline, with no exceptions. A Swiss link was mandatory: Swiss nationality, a Swiss degree (master's, doctorate, medical diploma or FMH title), or at least 12 months of research at a Swiss institution between the doctorate and the deadline. A statement of mobility justifying the choice of host and describing past and planned mobility was required and counted in the evaluation. Rejected applicants could resubmit once, and Ambizione 2026 applicants cannot apply for SNSF Starting Grants 2027. Carlos does not meet these rules: his PhD is expected in March 2027 and he has no Swiss link.",
+   "duration": "Up to 4 years. Part-time work at a minimum of 0.8 FTE is possible for family care reasons. Projects selected in the 2026 call start between 1 September 2027 and 1 September 2028.",
+   "funding": "The grant pays the grantee's own salary for up to 4 years plus project funds of up to about CHF 250,000. The CHF 250,000 figure comes from USI's summary of the call, not the SNSF page itself. Project funds can cover a research stay abroad of up to 1 year, conferences, and technicians or scientific collaborators, but not PhD students or postdocs. An \"Ambizione project grant\" variant covers project funds only.",
+   "url": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
+   "sources": [
+    "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
+    "https://newsletter.usi.ch/published/Research_2026.08.04_SNSFAmbizione.html",
+    "https://www.unifr.ch/research/en/highlights/news/34737/open-calls"
    ]
   }
  },
@@ -888,6 +918,62 @@
     "backend": "claude-code"
    },
    "open_total": 25
+  },
+  {
+   "date": "2026-11-09T14:02:23+00:00",
+   "ai_enabled": true,
+   "raw_items": 243,
+   "candidates": 2,
+   "triaged": 2,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Titus Neupert",
+     "found": 2,
+     "notes": "I used the full budget: 4 searches and 4 fetches. The UZH Physics jobs page currently lists 'PostDoc position in Condensed Matter Theory' (file PostDoc-Neupert-20260923.pdf), but the PDF text could not be extracted, so the deadline, salary and topic are unknown; only the application email cmt-appli…"
+    },
+    {
+     "task": "pi:Pascal Simon",
+     "found": 0,
+     "notes": "No open or soon-to-open postdoc opportunity with Pascal Simon (LPS Orsay, Université Paris-Saclay) was found as of 2026-11-09. (1) Group page (equipes.lps.u-psud.fr/pascal-simon/): no postdoc openings listed. The only recruitment item visible is an ICFP internship proposal on dynamical Shiba states…"
+    },
+    {
+     "task": "pi:Bruno Amorim",
+     "found": 0,
+     "notes": "Nothing is open in Bruno Amorim's group right now. Portugal is also outside the candidate's destination rule, so a fit here could not be reported as a match anyway.\n\nWhat I checked:\n- **Group website (amorimbruno.weebly.com):** It lists him as a junior researcher at CF-UM-UP (Physics Department, Un…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "snsf-ambizione",
+     "status": "closed",
+     "deadline": null
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 1,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 46,
+    "output_tokens": 11185,
+    "cache_read_tokens": 197631,
+    "cache_write_tokens": 49264,
+    "web_searches": 13,
+    "web_fetches": 0,
+    "cost_usd": 0.823,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 27
   }
  ]
 }

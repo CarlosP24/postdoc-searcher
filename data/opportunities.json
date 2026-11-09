@@ -1,5 +1,46 @@
 [
  {
+  "id": "af9f4467c894",
+  "kind": "position",
+  "title": "PostDoc position in Condensed Matter Theory (Neupert group)",
+  "institution": "Department of Physics (Physik-Institut), University of Zurich",
+  "country": "Switzerland",
+  "location": "Zurich",
+  "pi": "Titus Neupert",
+  "matched_pis": [
+   "Titus Neupert"
+  ],
+  "pi_notes": {
+   "Titus Neupert": "★ PI of this offer"
+  },
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Theoretical & computational condensed matter (broad)"
+  ],
+  "relevance": 86,
+  "relevance_reason": "This post is in the group of a PI on your list and works on topological phases, though the group focuses on topological quantum materials and fractional states rather than hybrid nanowires.",
+  "summary": "A postdoc in Neupert's condensed matter theory group is listed now on the UZH Physics open-positions page. The PDF's filename suggests it was posted on 2026-09-23. Applications go by email to cmt-applications@physik.uzh.ch. The PDF text could not be extracted, so the deadline, duration, salary and topic are unverified; the previous call (2025) offered 2+1 years at CHF 100,240/yr on topological phases in quantum many-body systems, funded by the SNSF Consolidator Grant 'Interacting Topological Quantum Chemistry'.",
+  "eligibility": "PhD in theoretical physics (details not verified)",
+  "duration": null,
+  "salary": null,
+  "start_date": null,
+  "call_opens": "2026-09",
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "open",
+  "url": "https://www.physik.uzh.ch/dam/jcr:44f9f0ac-7f84-46b1-bf63-7ed92ad44eba/PostDoc-Neupert-20260923.pdf",
+  "sources": [
+   "Web search (pi: Titus Neupert)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09",
+  "notified_status": "open",
+  "notified_on": "2026-11-09"
+ },
+ {
   "id": "0815f6e0d81f",
   "kind": "fellowship",
   "title": "ML4Q Postdoctoral Fellowship (Cluster of Excellence Matter and Light for Quantum Computing) – host: Hassler group, RWTH Aachen",
@@ -367,7 +408,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -401,7 +442,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -420,24 +461,25 @@
   "topics": [],
   "relevance": 20,
   "relevance_reason": "Your listed PIs in eligible host countries are excluded by the rules (see notes).",
-  "summary": "Roughly 1–4 years after the PhD (check current rules); independent project at a Swiss host. Duration: 4 years. Funding: Own salary plus project funds. Call: Annual call; deadline usually in autumn (~November).",
-  "eligibility": "Roughly 1–4 years after the PhD (check current rules); independent project at a Swiss host.",
-  "duration": "4 years",
-  "salary": "Own salary plus project funds.",
+  "summary": "The SNSF Ambizione 2026 call was the last one. It opened on 3 August 2026 and closed on 3 November 2026 at 17:00 CET, so it has been closed since 6 days before today (2026-11-09). There will be no Ambizione call in 2027. The SNSF is replacing Ambizione and Postdoc.Mobility with a new combined postdoctoral scheme, which it says will launch in 2028. Details on the 2027 transition were expected by the end of 2026, so the '2028' opening is an estimate and no deadline has been announced. Carlos is not eligible for Ambizione and would not have been eligible for the 2026 call. His PhD is only expected in March 2027, and the scheme required at least 12 months of research after the PhD by the deadline. It also requires a Swiss link: Swiss nationality, a Swiss master's or PhD, or at least 12 months of research at a Swiss institution after the doctorate. He is Spanish, trained in Spain, and has no Swiss research stay. He should watch for the 2028 successor scheme, whose eligibility rules are not yet published. A Swiss link may well apply again, which a postdoc in Switzerland, for example in Titus Neupert's group in Zurich, could provide.",
+  "eligibility": "2026 call (final): applicants needed a PhD and had to apply no more than 4 years after the PhD defence (up to 9 years after the medical exam for MDs with at least 3 years of clinical work). Time-window extensions were possible for reasons in Clause 1.11 of the regulations. They needed at least 12 months of research after the PhD by the deadline, with no exceptions. A Swiss link was mandatory: Swiss nationality, a Swiss degree (master's, doctorate, medical diploma or FMH title), or at least 12 months of research at a Swiss institution between the doctorate and the deadline. A statement of mobility justifying the choice of host and describing past and planned mobility was required and counted in the evaluation. Rejected applicants could resubmit once, and Ambizione 2026 applicants cannot apply for SNSF Starting Grants 2027. Carlos does not meet these rules: his PhD is expected in March 2027 and he has no Swiss link.",
+  "duration": "Up to 4 years. Part-time work at a minimum of 0.8 FTE is possible for family care reasons. Projects selected in the 2026 call start between 1 September 2027 and 1 September 2028.",
+  "salary": "The grant pays the grantee's own salary for up to 4 years plus project funds of up to about CHF 250,000. The CHF 250,000 figure comes from USI's summary of the call, not the SNSF page itself. Project funds can cover a research stay abroad of up to 1 year, conferences, and technicians or scientific collaborators, but not PhD students or postdocs. An \"Ambizione project grant\" variant covers project funds only.",
   "start_date": null,
   "call_opens": "2026-09-01",
   "deadline": "2026-11-30",
   "rolling": false,
   "dates_estimated": true,
-  "dates_checked": null,
+  "dates_checked": "2026-11-09T14:09:22+00:00",
   "status": "open",
-  "url": "https://www.snf.ch/en",
+  "url": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
   "sources": [
-   "fellowship catalog"
+   "fellowship catalog",
+   "web check"
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -480,7 +522,7 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
  },
@@ -634,7 +676,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -711,7 +753,7 @@
   ],
   "fellowship_id": "humboldt-rf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -774,7 +816,7 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -815,7 +857,7 @@
   ],
   "fellowship_id": "nwo-veni",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -984,7 +1026,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1018,7 +1060,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1052,7 +1094,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1086,7 +1128,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1120,7 +1162,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1157,7 +1199,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1194,7 +1236,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1256,7 +1298,7 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1318,7 +1360,7 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1380,7 +1422,7 @@
   ],
   "fellowship_id": "ramon-areces-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1471,6 +1513,46 @@
   "notified_on": "2026-11-05"
  },
  {
+  "id": "06b1198f8ede",
+  "kind": "fellowship",
+  "title": "UZH Willener Fellowship (linked to MSCA Postdoctoral Fellowships)",
+  "institution": "University of Zurich",
+  "country": "Switzerland",
+  "location": "Zurich",
+  "pi": null,
+  "matched_pis": [
+   "Titus Neupert"
+  ],
+  "pi_notes": {
+   "Titus Neupert": "found while searching this PI's institution"
+  },
+  "topics": [
+   "Theoretical & computational condensed matter (broad)"
+  ],
+  "relevance": 58,
+  "relevance_reason": "This university-wide fellowship could fund a stay with Neupert, but it depends on an MSCA application and its eligibility rules were not verified.",
+  "summary": "This UZH scheme started in 2026 and awards three fellowships a year to MSCA Postdoctoral Fellowship applicants, based on the previous MSCA call's results. It could be held in the Neupert group if you apply to the MSCA fellowship with Neupert as host. Eligibility details and deadlines were not checked; see the UZH page.",
+  "eligibility": "Based on results of the previous year's MSCA Postdoctoral Fellowship call, with a UZH host (details not verified)",
+  "duration": null,
+  "salary": null,
+  "start_date": null,
+  "call_opens": null,
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "unknown",
+  "url": "https://www.research.uzh.ch/en/funding/postdoc/willener-fellowship.html",
+  "sources": [
+   "Web search (pi: Titus Neupert)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09",
+  "notified_status": null,
+  "notified_on": null
+ },
+ {
   "id": "fellowship-juan-de-la-cierva",
   "kind": "fellowship",
   "title": "Ayudas Juan de la Cierva",
@@ -1500,7 +1582,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  },
@@ -1534,7 +1616,7 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "notified_status": null,
   "notified_on": null
  }

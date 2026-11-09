@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-08T12:08:53+00:00",
+ "generated_at": "2026-11-09T14:09:23+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -371,7 +371,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -405,7 +405,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -424,24 +424,25 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 20,
    "relevance_reason": "Your listed PIs in eligible host countries are excluded by the rules (see notes).",
-   "summary": "Roughly 1–4 years after the PhD (check current rules); independent project at a Swiss host. Duration: 4 years. Funding: Own salary plus project funds. Call: Annual call; deadline usually in autumn (~November).",
-   "eligibility": "Roughly 1–4 years after the PhD (check current rules); independent project at a Swiss host.",
-   "duration": "4 years",
-   "salary": "Own salary plus project funds.",
+   "summary": "The SNSF Ambizione 2026 call was the last one. It opened on 3 August 2026 and closed on 3 November 2026 at 17:00 CET, so it has been closed since 6 days before today (2026-11-09). There will be no Ambizione call in 2027. The SNSF is replacing Ambizione and Postdoc.Mobility with a new combined postdoctoral scheme, which it says will launch in 2028. Details on the 2027 transition were expected by the end of 2026, so the '2028' opening is an estimate and no deadline has been announced. Carlos is not eligible for Ambizione and would not have been eligible for the 2026 call. His PhD is only expected in March 2027, and the scheme required at least 12 months of research after the PhD by the deadline. It also requires a Swiss link: Swiss nationality, a Swiss master's or PhD, or at least 12 months of research at a Swiss institution after the doctorate. He is Spanish, trained in Spain, and has no Swiss research stay. He should watch for the 2028 successor scheme, whose eligibility rules are not yet published. A Swiss link may well apply again, which a postdoc in Switzerland, for example in Titus Neupert's group in Zurich, could provide.",
+   "eligibility": "2026 call (final): applicants needed a PhD and had to apply no more than 4 years after the PhD defence (up to 9 years after the medical exam for MDs with at least 3 years of clinical work). Time-window extensions were possible for reasons in Clause 1.11 of the regulations. They needed at least 12 months of research after the PhD by the deadline, with no exceptions. A Swiss link was mandatory: Swiss nationality, a Swiss degree (master's, doctorate, medical diploma or FMH title), or at least 12 months of research at a Swiss institution between the doctorate and the deadline. A statement of mobility justifying the choice of host and describing past and planned mobility was required and counted in the evaluation. Rejected applicants could resubmit once, and Ambizione 2026 applicants cannot apply for SNSF Starting Grants 2027. Carlos does not meet these rules: his PhD is expected in March 2027 and he has no Swiss link.",
+   "duration": "Up to 4 years. Part-time work at a minimum of 0.8 FTE is possible for family care reasons. Projects selected in the 2026 call start between 1 September 2027 and 1 September 2028.",
+   "salary": "The grant pays the grantee's own salary for up to 4 years plus project funds of up to about CHF 250,000. The CHF 250,000 figure comes from USI's summary of the call, not the SNSF page itself. Project funds can cover a research stay abroad of up to 1 year, conferences, and technicians or scientific collaborators, but not PhD students or postdocs. An \"Ambizione project grant\" variant covers project funds only.",
    "start_date": null,
    "call_opens": "2026-09-01",
    "deadline": "2026-11-30",
    "rolling": false,
    "dates_estimated": true,
-   "dates_checked": null,
+   "dates_checked": "2026-11-09T14:09:22+00:00",
    "status": "open",
-   "url": "https://www.snf.ch/en",
+   "url": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
    "sources": [
-    "fellowship catalog"
+    "fellowship catalog",
+    "web check"
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -484,7 +485,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -638,7 +639,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -715,7 +716,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -778,8 +779,49 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "upcoming",
+   "notified_on": "2026-11-05"
+  },
+  {
+   "id": "fellowship-nwo-veni",
+   "kind": "fellowship",
+   "title": "NWO Talent Programme — Veni",
+   "institution": "Dutch Research Council (NWO)",
+   "country": "Netherlands",
+   "location": null,
+   "pi": null,
+   "matched_pis": [
+    "Michael Wimmer",
+    "Anton Akhmerov"
+   ],
+   "pi_notes": {
+    "Michael Wimmer": "✓ eligible — The Dutch host institution embeds you and provides a host statement.",
+    "Anton Akhmerov": "✓ eligible — The Dutch host institution embeds you and provides a host statement."
+   },
+   "topics": [],
+   "relevance": 87,
+   "relevance_reason": "Could be hosted by Michael Wimmer, Anton Akhmerov from your PI list.",
+   "summary": "The Veni 2026 Science (ENW) round is closed to new applicants. Pre-proposals were due on 1 September 2026 at 14:00 CEST, and only shortlisted applicants submit full proposals, due 26 January 2027. The call was published around early July 2026. Veni 2027 has not been announced. Based on the 2026 cycle, it should open around July 2027, with pre-proposals due around early September 2027 and full proposals around January 2028; these dates are estimates. Veni is a personal grant of up to €320k for up to 3 years of research at a Dutch institution, with no mobility requirement. Carlos cannot apply to the 2026 round because his PhD is expected in March 2027, after the 2 September 2026 cutoff. He should be well inside the window for Veni 2027 if he defends before that pre-proposal deadline. Hosts at TU Delft, such as Wimmer or Akhmerov at QuTech/Kavli, fit his work closely.",
+   "eligibility": "Veni 2026 rule: the PhD must have been awarded within the 3 years before the reference date (1 Jan 2026), or between 1 Jan 2026 and 2 Sep 2026, the day after the pre-proposal deadline. The window can be extended for parental leave, illness, care duties and similar (call section 3.2.1). Researchers of any nationality, based in the Netherlands or abroad, can apply, tenured or not. There is no mobility rule; the research must be done at a Dutch knowledge institution. Expect similar rules in 2027, shifted by one year.",
+   "duration": "Up to 3 years. Part-time work can stretch this to at most 4 years, with no change in budget.",
+   "salary": "Personal grant of up to €320,000 covering salary and research costs; shorter projects get a proportionally smaller maximum. The 2026 Science domain budget was €11.79M, for about 37 awards.",
+   "start_date": null,
+   "call_opens": "2027-07",
+   "deadline": "2027-09",
+   "rolling": false,
+   "dates_estimated": true,
+   "dates_checked": "2026-11-08T12:08:52+00:00",
+   "status": "upcoming",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-2026",
+   "sources": [
+    "fellowship catalog",
+    "web check"
+   ],
+   "fellowship_id": "nwo-veni",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-09",
+   "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
   {
@@ -875,6 +917,49 @@ window.POSTDOC_DATA = {
    "notified_on": "2026-11-05"
   },
   {
+   "id": "b92aafeee7ae",
+   "kind": "fellowship",
+   "title": "MSCA Postdoctoral Fellowship 2027 (European Fellowship) – hosted by the von Oppen group, FU Berlin",
+   "institution": "Freie Universität Berlin, Department of Physics / Dahlem Center for Complex Quantum Systems",
+   "country": "Germany",
+   "location": "Berlin",
+   "pi": "Felix von Oppen",
+   "matched_pis": [
+    "Felix von Oppen"
+   ],
+   "pi_notes": {
+    "Felix von Oppen": "★ PI of this offer"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Hybrid semiconductor–superconductor nanostructures",
+    "Quantum transport in mesoscopic systems",
+    "Non-Hermitian physics & open quantum systems"
+   ],
+   "relevance": 82,
+   "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose work on Majoranas and mesoscopic superconductivity matches the candidate's core topics, and the candidate should be eligible: PhD expected March 2027, Spanish residence, so mobility to Germany is fine.",
+   "summary": "A Horizon Europe MSCA Postdoctoral Fellowship (call HORIZON-MSCA-2027-PF-01-01) would let the candidate write a project with Felix von Oppen as host at FU Berlin. It is planned to open on 7 April 2027 and close on 8 September 2027 (planned dates, not yet confirmed). The EU pays a living allowance plus mobility and research costs. The fellow applies jointly with the host, and the host's agreement should be arranged well before the call opens.",
+   "eligibility": "Must hold a PhD by the call deadline and have at most 8 years of research experience since the PhD. Standard mobility rule: no more than 12 months of residence in Germany in the 36 months before the deadline. Open to any nationality.",
+   "duration": "12-24 months (European Fellowship)",
+   "salary": null,
+   "start_date": null,
+   "call_opens": "2027-04-07",
+   "deadline": "2027-09-08",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "upcoming",
+   "url": "https://www.ffg.at/en/europa/heu/msca/calls/PF_2027",
+   "sources": [
+    "Web search (pi: Felix von Oppen)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08",
+   "notified_status": "upcoming",
+   "notified_on": "2026-11-08"
+  },
+  {
    "id": "fellowship-banting",
    "kind": "fellowship",
    "title": "Banting Postdoctoral Fellowships",
@@ -904,7 +989,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -938,7 +1023,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -972,7 +1057,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1006,7 +1091,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1040,7 +1125,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1077,7 +1162,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1114,7 +1199,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1176,7 +1261,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1238,7 +1323,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1300,48 +1385,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
-   "notified_status": "unknown",
-   "notified_on": "2026-11-05"
-  },
-  {
-   "id": "fellowship-nwo-veni",
-   "kind": "fellowship",
-   "title": "NWO Talent Programme — Veni",
-   "institution": "Dutch Research Council (NWO)",
-   "country": "Netherlands",
-   "location": null,
-   "pi": null,
-   "matched_pis": [
-    "Michael Wimmer",
-    "Anton Akhmerov"
-   ],
-   "pi_notes": {
-    "Michael Wimmer": "✓ eligible — The Dutch host institution embeds you and provides a host statement.",
-    "Anton Akhmerov": "✓ eligible — The Dutch host institution embeds you and provides a host statement."
-   },
-   "topics": [],
-   "relevance": 87,
-   "relevance_reason": "Could be hosted by Michael Wimmer, Anton Akhmerov from your PI list.",
-   "summary": "The Veni 2026 Science (ENW) round is closed to new applicants. Pre-proposals were due on 1 September 2026 at 14:00 CEST, and only shortlisted applicants submit full proposals, due 26 January 2027. The call was published around early July 2026. Veni 2027 has not been announced. Based on the 2026 cycle, it should open around July 2027, with pre-proposals due around early September 2027 and full proposals around January 2028; these dates are estimates. Veni is a personal grant of up to €320k for up to 3 years of research at a Dutch institution, with no mobility requirement. Carlos cannot apply to the 2026 round because his PhD is expected in March 2027, after the 2 September 2026 cutoff. He should be well inside the window for Veni 2027 if he defends before that pre-proposal deadline. Hosts at TU Delft, such as Wimmer or Akhmerov at QuTech/Kavli, fit his work closely.",
-   "eligibility": "Veni 2026 rule: the PhD must have been awarded within the 3 years before the reference date (1 Jan 2026), or between 1 Jan 2026 and 2 Sep 2026, the day after the pre-proposal deadline. The window can be extended for parental leave, illness, care duties and similar (call section 3.2.1). Researchers of any nationality, based in the Netherlands or abroad, can apply, tenured or not. There is no mobility rule; the research must be done at a Dutch knowledge institution. Expect similar rules in 2027, shifted by one year.",
-   "duration": "Up to 3 years. Part-time work can stretch this to at most 4 years, with no change in budget.",
-   "salary": "Personal grant of up to €320,000 covering salary and research costs; shorter projects get a proportionally smaller maximum. The 2026 Science domain budget was €11.79M, for about 37 awards.",
-   "start_date": null,
-   "call_opens": "2027-07",
-   "deadline": "2027-09",
-   "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": "2026-11-08T12:08:52+00:00",
-   "status": "upcoming",
-   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-2026",
-   "sources": [
-    "fellowship catalog",
-    "web check"
-   ],
-   "fellowship_id": "nwo-veni",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1461,7 +1505,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
@@ -1495,52 +1539,90 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
   },
   {
-   "id": "b92aafeee7ae",
-   "kind": "fellowship",
-   "title": "MSCA Postdoctoral Fellowship 2027 (European Fellowship) – hosted by the von Oppen group, FU Berlin",
-   "institution": "Freie Universität Berlin, Department of Physics / Dahlem Center for Complex Quantum Systems",
-   "country": "Germany",
-   "location": "Berlin",
-   "pi": "Felix von Oppen",
+   "id": "af9f4467c894",
+   "kind": "position",
+   "title": "PostDoc position in Condensed Matter Theory (Neupert group)",
+   "institution": "Department of Physics (Physik-Institut), University of Zurich",
+   "country": "Switzerland",
+   "location": "Zurich",
+   "pi": "Titus Neupert",
    "matched_pis": [
-    "Felix von Oppen"
+    "Titus Neupert"
    ],
    "pi_notes": {
-    "Felix von Oppen": "★ PI of this offer"
+    "Titus Neupert": "★ PI of this offer"
    },
    "topics": [
     "Topological superconductivity & Majorana modes",
-    "Hybrid semiconductor–superconductor nanostructures",
-    "Quantum transport in mesoscopic systems",
-    "Non-Hermitian physics & open quantum systems"
+    "Theoretical & computational condensed matter (broad)"
    ],
-   "relevance": 82,
-   "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose work on Majoranas and mesoscopic superconductivity matches the candidate's core topics, and the candidate should be eligible: PhD expected March 2027, Spanish residence, so mobility to Germany is fine.",
-   "summary": "A Horizon Europe MSCA Postdoctoral Fellowship (call HORIZON-MSCA-2027-PF-01-01) would let the candidate write a project with Felix von Oppen as host at FU Berlin. It is planned to open on 7 April 2027 and close on 8 September 2027 (planned dates, not yet confirmed). The EU pays a living allowance plus mobility and research costs. The fellow applies jointly with the host, and the host's agreement should be arranged well before the call opens.",
-   "eligibility": "Must hold a PhD by the call deadline and have at most 8 years of research experience since the PhD. Standard mobility rule: no more than 12 months of residence in Germany in the 36 months before the deadline. Open to any nationality.",
-   "duration": "12-24 months (European Fellowship)",
+   "relevance": 86,
+   "relevance_reason": "This post is in the group of a PI on your list and works on topological phases, though the group focuses on topological quantum materials and fractional states rather than hybrid nanowires.",
+   "summary": "A postdoc in Neupert's condensed matter theory group is listed now on the UZH Physics open-positions page. The PDF's filename suggests it was posted on 2026-09-23. Applications go by email to cmt-applications@physik.uzh.ch. The PDF text could not be extracted, so the deadline, duration, salary and topic are unverified; the previous call (2025) offered 2+1 years at CHF 100,240/yr on topological phases in quantum many-body systems, funded by the SNSF Consolidator Grant 'Interacting Topological Quantum Chemistry'.",
+   "eligibility": "PhD in theoretical physics (details not verified)",
+   "duration": null,
    "salary": null,
    "start_date": null,
-   "call_opens": "2027-04-07",
-   "deadline": "2027-09-08",
+   "call_opens": "2026-09",
+   "deadline": null,
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
-   "status": "upcoming",
-   "url": "https://www.ffg.at/en/europa/heu/msca/calls/PF_2027",
+   "status": "open",
+   "url": "https://www.physik.uzh.ch/dam/jcr:44f9f0ac-7f84-46b1-bf63-7ed92ad44eba/PostDoc-Neupert-20260923.pdf",
    "sources": [
-    "Web search (pi: Felix von Oppen)"
+    "Web search (pi: Titus Neupert)"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08",
-   "notified_status": "upcoming",
-   "notified_on": "2026-11-08"
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "notified_status": "open",
+   "notified_on": "2026-11-09"
+  },
+  {
+   "id": "06b1198f8ede",
+   "kind": "fellowship",
+   "title": "UZH Willener Fellowship (linked to MSCA Postdoctoral Fellowships)",
+   "institution": "University of Zurich",
+   "country": "Switzerland",
+   "location": "Zurich",
+   "pi": null,
+   "matched_pis": [
+    "Titus Neupert"
+   ],
+   "pi_notes": {
+    "Titus Neupert": "found while searching this PI's institution"
+   },
+   "topics": [
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 58,
+   "relevance_reason": "This university-wide fellowship could fund a stay with Neupert, but it depends on an MSCA application and its eligibility rules were not verified.",
+   "summary": "This UZH scheme started in 2026 and awards three fellowships a year to MSCA Postdoctoral Fellowship applicants, based on the previous MSCA call's results. It could be held in the Neupert group if you apply to the MSCA fellowship with Neupert as host. Eligibility details and deadlines were not checked; see the UZH page.",
+   "eligibility": "Based on results of the previous year's MSCA Postdoctoral Fellowship call, with a UZH host (details not verified)",
+   "duration": null,
+   "salary": null,
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://www.research.uzh.ch/en/funding/postdoc/willener-fellowship.html",
+   "sources": [
+    "Web search (pi: Titus Neupert)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "notified_status": null,
+   "notified_on": null
   }
  ],
  "pis": [
@@ -1622,7 +1704,7 @@ window.POSTDOC_DATA = {
    "country": "Switzerland",
    "website": "https://www.physik.uzh.ch/en/groups/neupert.html",
    "priority": "normal",
-   "last_searched": null
+   "last_searched": "2026-11-09T14:06:14+00:00"
   },
   {
    "name": "Pascal Simon",
@@ -1630,7 +1712,7 @@ window.POSTDOC_DATA = {
    "country": "France",
    "website": "https://www.universite-paris-saclay.fr/en/pascal-simon",
    "priority": "normal",
-   "last_searched": null
+   "last_searched": "2026-11-09T14:07:47+00:00"
   },
   {
    "name": "Martin Leijnse",
@@ -1646,7 +1728,7 @@ window.POSTDOC_DATA = {
    "country": "Portugal",
    "website": "https://amorimbruno.weebly.com/",
    "priority": "normal",
-   "last_searched": null
+   "last_searched": "2026-11-09T14:08:43+00:00"
   }
  ],
  "topics": [
@@ -2050,6 +2132,62 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 25
+  },
+  {
+   "date": "2026-11-09T14:02:23+00:00",
+   "ai_enabled": true,
+   "raw_items": 243,
+   "candidates": 2,
+   "triaged": 2,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Titus Neupert",
+     "found": 2,
+     "notes": "I used the full budget: 4 searches and 4 fetches. The UZH Physics jobs page currently lists 'PostDoc position in Condensed Matter Theory' (file PostDoc-Neupert-20260923.pdf), but the PDF text could not be extracted, so the deadline, salary and topic are unknown; only the application email cmt-appli…"
+    },
+    {
+     "task": "pi:Pascal Simon",
+     "found": 0,
+     "notes": "No open or soon-to-open postdoc opportunity with Pascal Simon (LPS Orsay, Université Paris-Saclay) was found as of 2026-11-09. (1) Group page (equipes.lps.u-psud.fr/pascal-simon/): no postdoc openings listed. The only recruitment item visible is an ICFP internship proposal on dynamical Shiba states…"
+    },
+    {
+     "task": "pi:Bruno Amorim",
+     "found": 0,
+     "notes": "Nothing is open in Bruno Amorim's group right now. Portugal is also outside the candidate's destination rule, so a fit here could not be reported as a match anyway.\n\nWhat I checked:\n- **Group website (amorimbruno.weebly.com):** It lists him as a junior researcher at CF-UM-UP (Physics Department, Un…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "snsf-ambizione",
+     "status": "closed",
+     "deadline": null
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 1,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 46,
+    "output_tokens": 11185,
+    "cache_read_tokens": 197631,
+    "cache_write_tokens": 49264,
+    "web_searches": 13,
+    "web_fetches": 0,
+    "cost_usd": 0.823,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 27
   }
  ]
 };
