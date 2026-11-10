@@ -125,6 +125,14 @@ pis:
     topics: [two-dimensional materials, van der Waals structures, electronic transport, graphene] 
     priority: normal
 
+  - name: Jelena Klinovaja
+    institution: Department of Physics, University of Basel #
+    country: Switzerland
+    website: https://www.quantumtheory.unibas.ch/people/klinovaja/#
+    jobs_page: ""
+    topics: [Majorana fermions, parafermions, topological superconductivity, higher-order topological insulators, spin-orbit interaction, spin qubits] 
+    priority: normal
+
   # ── Template: copy, uncomment and fill ─────────────────────────────────────
   # - name: Jane Doe
   #   institution: Example University
