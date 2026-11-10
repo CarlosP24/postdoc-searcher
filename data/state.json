@@ -334,18 +334,33 @@
   "a4e5a6d9d9d7": "2026-11-09",
   "aad58ddc5f0c": "2026-11-09",
   "d66e46075b9a": "2026-11-09",
-  "8b0297e07d68": "2026-11-09"
+  "8b0297e07d68": "2026-11-09",
+  "0a21db452f1c": "2026-11-10",
+  "14eed2a0ea0c": "2026-11-10",
+  "0f1311627bcc": "2026-11-10",
+  "bf768220c2dc": "2026-11-10",
+  "0fd66c3aa8b2": "2026-11-10",
+  "0ddded0dd597": "2026-11-10",
+  "bed1058296fe": "2026-11-10",
+  "31326c6afb49": "2026-11-10",
+  "bee221abc0f6": "2026-11-10",
+  "b8847d9cd3f4": "2026-11-10",
+  "e5b4bcf0e3f7": "2026-11-10",
+  "85b05839bf19": "2026-11-10",
+  "e54dbba03613": "2026-11-10",
+  "e2fb3bc01733": "2026-11-10",
+  "c4fa40ff9a56": "2026-11-10"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-09T14:04:05+00:00",
+   "checked": "2026-11-10T13:38:05+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-09T14:04:07+00:00",
+   "checked": "2026-11-10T13:38:07+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -355,48 +370,53 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-09T14:04:10+00:00",
+   "checked": "2026-11-10T13:38:13+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-09T14:04:10+00:00",
+   "checked": "2026-11-10T13:38:14+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-09T14:04:30+00:00",
+   "checked": "2026-11-10T13:38:32+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-09T14:04:34+00:00",
+   "checked": "2026-11-10T13:38:36+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-09T14:04:36+00:00",
+   "checked": "2026-11-10T13:38:37+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-09T14:04:36+00:00",
+   "checked": "2026-11-10T13:38:37+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-09T14:04:07+00:00",
+   "checked": "2026-11-10T13:38:08+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-09T14:04:11+00:00",
+   "checked": "2026-11-10T13:38:15+00:00",
    "pi": "Annica Black-Schaffer"
+  },
+  "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
+   "hash": "2a16de46318ce192a156",
+   "checked": "2026-11-10T13:38:39+00:00",
+   "pi": "Jelena Klinovaja"
   }
  },
  "tasks": {
-  "pi:Karsten Flensberg": "2026-11-04T22:56:23+00:00",
-  "pi:Piet Brouwer": "2026-11-05T11:05:30+00:00",
+  "pi:Karsten Flensberg": "2026-11-10T13:45:43+00:00",
+  "pi:Piet Brouwer": "2026-11-10T13:47:07+00:00",
   "pi:Bernard van Heck": "2026-11-05T11:06:51+00:00",
   "pi:Michael Wimmer": "2026-11-05T11:08:01+00:00",
   "pi:Anton Akhmerov": "2026-11-05T13:22:37+00:00",
@@ -413,7 +433,8 @@
   "pi:Michele Burrello": "2026-11-08T12:08:04+00:00",
   "pi:Titus Neupert": "2026-11-09T14:06:14+00:00",
   "pi:Pascal Simon": "2026-11-09T14:07:47+00:00",
-  "pi:Bruno Amorim": "2026-11-09T14:08:43+00:00"
+  "pi:Bruno Amorim": "2026-11-09T14:08:43+00:00",
+  "pi:Jelena Klinovaja": "2026-11-10T13:40:00+00:00"
  },
  "fellowships": {
   "msca-pf-ef": {
@@ -540,6 +561,23 @@
     "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
     "https://newsletter.usi.ch/published/Research_2026.08.04_SNSFAmbizione.html",
     "https://www.unifr.ch/research/en/highlights/news/34737/open-calls"
+   ]
+  },
+  "branco-weiss": {
+   "checked": "2026-11-10T13:47:52+00:00",
+   "status": "open",
+   "call_opens": null,
+   "deadline": "2027-01-15",
+   "dates_estimated": false,
+   "summary": "The Branco Weiss Fellowship 2027 call is open now. The registration portal is live, and applications close on 15 January 2027 at 5 p.m. CET. Shortlisting happens in May 2027, Zoom interviews and final decisions on 7–9 June 2027, and fellowships start between 1 October and 31 December 2027. Carlos does NOT appear eligible for this round: applicants must officially hold the PhD (defence passed) by 15 January 2027, and his PhD is expected in March 2027. He would be eligible for the following call. Based on this cycle, its deadline would be around mid-January 2028 (estimated, not announced). The project must also clearly depart from mainstream research in its field and engage with social, cultural, political or economic issues beyond the discipline. A mainstream Majorana or hybrid-nanowire theory proposal would probably not be funded.",
+   "eligibility": "Applicants must hold the PhD by the deadline (15 Jan 2027 for this round) and have obtained it no more than 5 years before that date. Only parental leave or illness/accident leave can extend this, by up to 1 year in total, and the confirmation must be emailed before applying. Applicants must not hold or have held a faculty-equivalent or independent PI position. Any field and any nationality can apply. There is no mobility or residence rule, but applicants must be able to travel to the Greater Zurich Area for the annual symposium in person. The project must be unconventional and outside the mainstream, show society engagement, and come with an outstanding track record. The applicant chooses any host institution worldwide. The chosen mentor or host may support only one applicant per round. Unsuccessful applicants may reapply.",
+   "duration": "Up to 5 years: a 2.5-year pioneer phase, a review with a site visit before the end of year 2, then a 2.5-year exploitation phase. The fellowship continues if the fellow takes up a faculty position after year 1.",
+   "funding": "Up to CHF 600,000 over up to 5 years. It covers legitimate research costs, such as the fellow's salary, equipment, travel, consumables and personnel.",
+   "url": "https://brancoweissfellowship.org/",
+   "sources": [
+    "https://brancoweissfellowship.org/",
+    "https://brancoweissfellowship.org/eligibility-duration-and-funding/",
+    "https://brancoweissfellowship.org/timelines/"
    ]
   }
  },
@@ -974,6 +1012,63 @@
     "backend": "claude-code"
    },
    "open_total": 27
+  },
+  {
+   "date": "2026-11-10T13:36:22+00:00",
+   "ai_enabled": true,
+   "raw_items": 240,
+   "candidates": 3,
+   "triaged": 3,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Jelena Klinovaja",
+     "found": 3,
+     "notes": "I used 2 searches and 3 page fetches. The group website sends applicants to AJO postings #21540 (postdoc) and #21542 (PhD, not reported). Postdoc posting #21540 is open: updated 2026-10-06, deadline 2026-12-01, and it keeps accepting applications until the posts are filled. The NCCR SPIN fellowship…"
+    },
+    {
+     "task": "pi:Karsten Flensberg",
+     "found": 0,
+     "notes": "No open or soon-to-open postdoc with Karsten Flensberg found as of 2026-11-10. Search budget fully used; page-fetch limit exceeded by two (6 fetches against 4).\n\nGroup: no current theory postdoc names Flensberg. One undated NBI theory posting lists him as contact (topological superconductors, nonlo…"
+    },
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "The Brouwer group has no postdoc vacancy open right now. The \"Open Positions\" section of the group's site (https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/) loads dynamically and showed nothing. The last postdoc ad, Brouwer-Postdoc-2026 (3 years, TV-L E13, condensed matter theory cov…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "branco-weiss",
+     "status": "open",
+     "deadline": "2027-01-15"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 4,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 6,
+    "input_tokens": 50,
+    "output_tokens": 13551,
+    "cache_read_tokens": 232164,
+    "cache_write_tokens": 89421,
+    "web_searches": 11,
+    "web_fetches": 0,
+    "cost_usd": 1.1721,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 }

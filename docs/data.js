@@ -1,8 +1,49 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-09T14:09:23+00:00",
+ "generated_at": "2026-11-10T13:47:53+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
+  {
+   "id": "af9f4467c894",
+   "kind": "position",
+   "title": "PostDoc position in Condensed Matter Theory (Neupert group)",
+   "institution": "Department of Physics (Physik-Institut), University of Zurich",
+   "country": "Switzerland",
+   "location": "Zurich",
+   "pi": "Titus Neupert",
+   "matched_pis": [
+    "Titus Neupert"
+   ],
+   "pi_notes": {
+    "Titus Neupert": "★ PI of this offer"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 86,
+   "relevance_reason": "This post is in the group of a PI on your list and works on topological phases, though the group focuses on topological quantum materials and fractional states rather than hybrid nanowires.",
+   "summary": "A postdoc in Neupert's condensed matter theory group is listed now on the UZH Physics open-positions page. The PDF's filename suggests it was posted on 2026-09-23. Applications go by email to cmt-applications@physik.uzh.ch. The PDF text could not be extracted, so the deadline, duration, salary and topic are unverified; the previous call (2025) offered 2+1 years at CHF 100,240/yr on topological phases in quantum many-body systems, funded by the SNSF Consolidator Grant 'Interacting Topological Quantum Chemistry'.",
+   "eligibility": "PhD in theoretical physics (details not verified)",
+   "duration": null,
+   "salary": null,
+   "start_date": null,
+   "call_opens": "2026-09",
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://www.physik.uzh.ch/dam/jcr:44f9f0ac-7f84-46b1-bf63-7ed92ad44eba/PostDoc-Neupert-20260923.pdf",
+   "sources": [
+    "Web search (pi: Titus Neupert)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "notified_status": "open",
+   "notified_on": "2026-11-09"
+  },
   {
    "id": "0815f6e0d81f",
    "kind": "fellowship",
@@ -371,7 +412,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -405,7 +446,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -419,7 +460,8 @@ window.POSTDOC_DATA = {
    "pi": null,
    "matched_pis": [],
    "pi_notes": {
-    "Titus Neupert": "✗ needs ≥ 1 years since PhD (eligible from ~2028)"
+    "Titus Neupert": "✗ needs ≥ 1 years since PhD (eligible from ~2028)",
+    "Jelena Klinovaja": "✗ needs ≥ 1 years since PhD (eligible from ~2028)"
    },
    "topics": [],
    "relevance": 20,
@@ -442,7 +484,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -485,7 +527,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -497,8 +539,12 @@ window.POSTDOC_DATA = {
    "country": "Switzerland",
    "location": "Basel",
    "pi": "Jelena Klinovaja; Daniel Loss",
-   "matched_pis": [],
-   "pi_notes": {},
+   "matched_pis": [
+    "Jelena Klinovaja"
+   ],
+   "pi_notes": {
+    "Jelena Klinovaja": "★ PI of this offer"
+   },
    "topics": [
     "Hybrid semiconductor–superconductor nanostructures",
     "Quantum transport in mesoscopic systems",
@@ -506,9 +552,9 @@ window.POSTDOC_DATA = {
     "Theory of quantum devices & qubits",
     "Topological superconductivity & Majorana modes"
    ],
-   "relevance": 85,
-   "relevance_reason": "Klinovaja and Loss lead one of Europe's top theory groups on Majorana and topological superconductivity in semiconductor–superconductor hybrids, which fits your nanowire work squarely, and the 'PhD within one year' rule makes you eligible now.",
-   "summary": "A theory postdoc in the Klinovaja/Loss group. Topics include topological properties of condensed matter systems, spin qubits, semiconductor spin physics, many-body physics and quantum computing. The listing does not give a start date, duration or salary. Apply on AcademicJobsOnline with a CV, research statement, publication list, academic records and two reference letters (cover letter optional). Screening is ongoing until the posts are filled, and the deadline is 1 December 2026.",
+   "relevance": 93,
+   "relevance_reason": "This is an open post in your listed PI's group, which works on your core topics (Majoranas, topological superconductivity, hybrid nanowires), and your PhD date (2027-03) falls within the 'expected within a year' rule.",
+   "summary": "This is a postdoc in the theory group led by Jelena Klinovaja and Daniel Loss. The posting covers topological condensed matter, spin qubits and quantum computing. It was updated on 2026-10-06, has a 2026-12-01 deadline, and says applications are considered until the positions are filled. Apply via AcademicJobsOnline with a CV, research statement, publication list, academic records, two reference letters and an optional cover letter. The posting gives no salary, duration or start date.",
    "eligibility": "PhD in hand, or expected within one year (the candidate's March 2027 PhD date qualifies).",
    "duration": null,
    "salary": null,
@@ -521,12 +567,13 @@ window.POSTDOC_DATA = {
    "status": "rolling",
    "url": "https://academicjobsonline.org/ajo/jobs/21540",
    "sources": [
+    "Web search (pi: Jelena Klinovaja)",
     "Web search (topic: Quantum transport in mesoscopic systems)",
     "Web search (topic: Topological superconductivity & Majorana modes)"
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-10",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -639,7 +686,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -716,7 +763,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -741,7 +788,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert",
     "Pascal Simon",
     "Martin Leijnse",
-    "Bruno Amorim"
+    "Bruno Amorim",
+    "Jelena Klinovaja"
    ],
    "pi_notes": {
     "Karsten Flensberg": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you.",
@@ -756,7 +804,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you.",
     "Pascal Simon": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you.",
     "Martin Leijnse": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you.",
-    "Bruno Amorim": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you."
+    "Bruno Amorim": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you.",
+    "Jelena Klinovaja": "✓ eligible — The PI is the supervisor at the host institution and writes the proposal with you."
    },
    "topics": [],
    "relevance": 95,
@@ -779,7 +828,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -820,7 +869,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -890,6 +939,7 @@ window.POSTDOC_DATA = {
     "Hybrid semiconductor–superconductor nanostructures",
     "Non-Hermitian physics & open quantum systems",
     "Quantum transport in mesoscopic systems",
+    "Theoretical & computational condensed matter (broad)",
     "Topological superconductivity & Majorana modes"
    ],
    "relevance": 85,
@@ -912,7 +962,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-10",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -989,7 +1039,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1023,7 +1073,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1057,7 +1107,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1091,7 +1141,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1125,7 +1175,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1162,7 +1212,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1199,7 +1249,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": null,
    "notified_on": null
   },
@@ -1224,7 +1274,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert",
     "Pascal Simon",
     "Martin Leijnse",
-    "Bruno Amorim"
+    "Bruno Amorim",
+    "Jelena Klinovaja"
    ],
    "pi_notes": {
     "Karsten Flensberg": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship.",
@@ -1239,31 +1290,33 @@ window.POSTDOC_DATA = {
     "Titus Neupert": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship.",
     "Pascal Simon": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship.",
     "Martin Leijnse": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship.",
-    "Bruno Amorim": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship."
+    "Bruno Amorim": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship.",
+    "Jelena Klinovaja": "✓ eligible — You choose any host institution worldwide; the host must agree to hold the fellowship."
    },
    "topics": [],
    "relevance": 95,
    "relevance_reason": "Could be hosted by Karsten Flensberg, Fabian Hassler, Piet Brouwer, Felix von Oppen… from your PI list.",
-   "summary": "Recent PhD, outstanding independent research proposal plus engagement with society; any field, any host worldwide. Duration: Up to 5 years. Funding: Salary plus research funds. Call: Annual call; check the website for the current deadline.",
-   "eligibility": "Recent PhD, outstanding independent research proposal plus engagement with society; any field, any host worldwide.",
-   "duration": "Up to 5 years",
-   "salary": "Salary plus research funds.",
+   "summary": "The Branco Weiss Fellowship 2027 call is open now. The registration portal is live, and applications close on 15 January 2027 at 5 p.m. CET. Shortlisting happens in May 2027, Zoom interviews and final decisions on 7–9 June 2027, and fellowships start between 1 October and 31 December 2027. Carlos does NOT appear eligible for this round: applicants must officially hold the PhD (defence passed) by 15 January 2027, and his PhD is expected in March 2027. He would be eligible for the following call. Based on this cycle, its deadline would be around mid-January 2028 (estimated, not announced). The project must also clearly depart from mainstream research in its field and engage with social, cultural, political or economic issues beyond the discipline. A mainstream Majorana or hybrid-nanowire theory proposal would probably not be funded.",
+   "eligibility": "Applicants must hold the PhD by the deadline (15 Jan 2027 for this round) and have obtained it no more than 5 years before that date. Only parental leave or illness/accident leave can extend this, by up to 1 year in total, and the confirmation must be emailed before applying. Applicants must not hold or have held a faculty-equivalent or independent PI position. Any field and any nationality can apply. There is no mobility or residence rule, but applicants must be able to travel to the Greater Zurich Area for the annual symposium in person. The project must be unconventional and outside the mainstream, show society engagement, and come with an outstanding track record. The applicant chooses any host institution worldwide. The chosen mentor or host may support only one applicant per round. Unsuccessful applicants may reapply.",
+   "duration": "Up to 5 years: a 2.5-year pioneer phase, a review with a site visit before the end of year 2, then a 2.5-year exploitation phase. The fellowship continues if the fellow takes up a faculty position after year 1.",
+   "salary": "Up to CHF 600,000 over up to 5 years. It covers legitimate research costs, such as the fellow's salary, equipment, travel, consumables and personnel.",
    "start_date": null,
    "call_opens": null,
-   "deadline": null,
+   "deadline": "2027-01-15",
    "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": null,
-   "status": "unknown",
+   "dates_estimated": false,
+   "dates_checked": "2026-11-10T13:47:52+00:00",
+   "status": "open",
    "url": "https://brancoweissfellowship.org/",
    "sources": [
-    "fellowship catalog"
+    "fellowship catalog",
+    "web check"
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
-   "notified_status": "unknown",
-   "notified_on": "2026-11-05"
+   "last_seen": "2026-11-10",
+   "notified_status": "open",
+   "notified_on": "2026-11-10"
   },
   {
    "id": "fellowship-martin-escudero-abroad",
@@ -1286,7 +1339,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert",
     "Pascal Simon",
     "Martin Leijnse",
-    "Bruno Amorim"
+    "Bruno Amorim",
+    "Jelena Klinovaja"
    ],
    "pi_notes": {
     "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
@@ -1301,7 +1355,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
     "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
     "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter."
+    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
    },
    "topics": [],
    "relevance": 95,
@@ -1323,7 +1378,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1348,7 +1403,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert",
     "Pascal Simon",
     "Martin Leijnse",
-    "Bruno Amorim"
+    "Bruno Amorim",
+    "Jelena Klinovaja"
    ],
    "pi_notes": {
     "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
@@ -1363,7 +1419,8 @@ window.POSTDOC_DATA = {
     "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
     "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
     "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter."
+    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
    },
    "topics": [],
    "relevance": 95,
@@ -1385,7 +1442,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1476,115 +1533,6 @@ window.POSTDOC_DATA = {
    "notified_on": "2026-11-05"
   },
   {
-   "id": "fellowship-juan-de-la-cierva",
-   "kind": "fellowship",
-   "title": "Ayudas Juan de la Cierva",
-   "institution": "Agencia Estatal de Investigación (Spain)",
-   "country": "Spain",
-   "location": null,
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [],
-   "relevance": 30,
-   "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
-   "summary": "PhD obtained within a recent window (≈ last 3 years — check each call); the host centre normally has to differ from the one where you did your PhD. Duration: 3 years (employment contract). Funding: Salary co-funded by AEI and the host centre. Call: Annual call; publication dates vary (often between late autumn and spring) with a ~3-week application window.",
-   "eligibility": "PhD obtained within a recent window (≈ last 3 years — check each call); the host centre normally has to differ from the one where you did your PhD.",
-   "duration": "3 years (employment contract)",
-   "salary": "Salary co-funded by AEI and the host centre.",
-   "start_date": null,
-   "call_opens": null,
-   "deadline": null,
-   "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": null,
-   "status": "unknown",
-   "url": "https://www.aei.gob.es/convocatorias/buscador-convocatorias",
-   "sources": [
-    "fellowship catalog"
-   ],
-   "fellowship_id": "juan-de-la-cierva",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "fellowship-pappalardo-mit",
-   "kind": "fellowship",
-   "title": "Pappalardo Fellowships in Physics (MIT)",
-   "institution": "MIT Department of Physics",
-   "country": "United States (specific institutions)",
-   "location": null,
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [],
-   "relevance": 30,
-   "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
-   "summary": "Recent physics PhDs; independent research with an MIT faculty mentor. Duration: 3 years. Funding: Independent salary plus research fund. Call: Annual call in autumn.",
-   "eligibility": "Recent physics PhDs; independent research with an MIT faculty mentor.",
-   "duration": "3 years",
-   "salary": "Independent salary plus research fund.",
-   "start_date": null,
-   "call_opens": null,
-   "deadline": null,
-   "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": null,
-   "status": "unknown",
-   "url": "https://physics.mit.edu/research/pappalardo-fellowships-in-physics/",
-   "sources": [
-    "fellowship catalog"
-   ],
-   "fellowship_id": "pappalardo-mit",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "af9f4467c894",
-   "kind": "position",
-   "title": "PostDoc position in Condensed Matter Theory (Neupert group)",
-   "institution": "Department of Physics (Physik-Institut), University of Zurich",
-   "country": "Switzerland",
-   "location": "Zurich",
-   "pi": "Titus Neupert",
-   "matched_pis": [
-    "Titus Neupert"
-   ],
-   "pi_notes": {
-    "Titus Neupert": "★ PI of this offer"
-   },
-   "topics": [
-    "Topological superconductivity & Majorana modes",
-    "Theoretical & computational condensed matter (broad)"
-   ],
-   "relevance": 86,
-   "relevance_reason": "This post is in the group of a PI on your list and works on topological phases, though the group focuses on topological quantum materials and fractional states rather than hybrid nanowires.",
-   "summary": "A postdoc in Neupert's condensed matter theory group is listed now on the UZH Physics open-positions page. The PDF's filename suggests it was posted on 2026-09-23. Applications go by email to cmt-applications@physik.uzh.ch. The PDF text could not be extracted, so the deadline, duration, salary and topic are unverified; the previous call (2025) offered 2+1 years at CHF 100,240/yr on topological phases in quantum many-body systems, funded by the SNSF Consolidator Grant 'Interacting Topological Quantum Chemistry'.",
-   "eligibility": "PhD in theoretical physics (details not verified)",
-   "duration": null,
-   "salary": null,
-   "start_date": null,
-   "call_opens": "2026-09",
-   "deadline": null,
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "open",
-   "url": "https://www.physik.uzh.ch/dam/jcr:44f9f0ac-7f84-46b1-bf63-7ed92ad44eba/PostDoc-Neupert-20260923.pdf",
-   "sources": [
-    "Web search (pi: Titus Neupert)"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "notified_status": "open",
-   "notified_on": "2026-11-09"
-  },
-  {
    "id": "06b1198f8ede",
    "kind": "fellowship",
    "title": "UZH Willener Fellowship (linked to MSCA Postdoctoral Fellowships)",
@@ -1623,6 +1571,279 @@ window.POSTDOC_DATA = {
    "last_seen": "2026-11-09",
    "notified_status": null,
    "notified_on": null
+  },
+  {
+   "id": "fellowship-juan-de-la-cierva",
+   "kind": "fellowship",
+   "title": "Ayudas Juan de la Cierva",
+   "institution": "Agencia Estatal de Investigación (Spain)",
+   "country": "Spain",
+   "location": null,
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [],
+   "relevance": 30,
+   "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
+   "summary": "PhD obtained within a recent window (≈ last 3 years — check each call); the host centre normally has to differ from the one where you did your PhD. Duration: 3 years (employment contract). Funding: Salary co-funded by AEI and the host centre. Call: Annual call; publication dates vary (often between late autumn and spring) with a ~3-week application window.",
+   "eligibility": "PhD obtained within a recent window (≈ last 3 years — check each call); the host centre normally has to differ from the one where you did your PhD.",
+   "duration": "3 years (employment contract)",
+   "salary": "Salary co-funded by AEI and the host centre.",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": true,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://www.aei.gob.es/convocatorias/buscador-convocatorias",
+   "sources": [
+    "fellowship catalog"
+   ],
+   "fellowship_id": "juan-de-la-cierva",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-10",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "fellowship-pappalardo-mit",
+   "kind": "fellowship",
+   "title": "Pappalardo Fellowships in Physics (MIT)",
+   "institution": "MIT Department of Physics",
+   "country": "United States (specific institutions)",
+   "location": null,
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [],
+   "relevance": 30,
+   "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
+   "summary": "Recent physics PhDs; independent research with an MIT faculty mentor. Duration: 3 years. Funding: Independent salary plus research fund. Call: Annual call in autumn.",
+   "eligibility": "Recent physics PhDs; independent research with an MIT faculty mentor.",
+   "duration": "3 years",
+   "salary": "Independent salary plus research fund.",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": true,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://physics.mit.edu/research/pappalardo-fellowships-in-physics/",
+   "sources": [
+    "fellowship catalog"
+   ],
+   "fellowship_id": "pappalardo-mit",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-10",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "e54dbba03613",
+   "kind": "position",
+   "title": "Postdoctoral Fellow in Quantum Mathematics",
+   "institution": "University of Southern Denmark (SDU)",
+   "country": "Denmark",
+   "location": "Odense, Denmark",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [],
+   "relevance": 40,
+   "relevance_reason": "This is a theory postdoc in Denmark, but quantum mathematics is a long way from your work on hybrid nanowires and Majoranas, so it's only a weak fit.",
+   "summary": "A postdoctoral fellowship in quantum mathematics at SDU in Odense, with a salary listed only as competitive. Candidates need an emerging research track in the field. The listing gives no duration, start date or deadline.",
+   "eligibility": null,
+   "duration": null,
+   "salary": "Competitive",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://www.nature.com/naturecareers/job/12866579/postdoctoral-fellow-in-quantum-mathematics/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
+   "sources": [
+    "Nature Careers"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "9e9abb991432",
+   "kind": "position",
+   "title": "Postdoctoral fellow in quantum theory of condensed matter (Klinovaja group, open call)",
+   "institution": "University of Basel, Department of Physics",
+   "country": "Switzerland",
+   "location": "Basel",
+   "pi": "Jelena Klinovaja",
+   "matched_pis": [
+    "Jelena Klinovaja"
+   ],
+   "pi_notes": {
+    "Jelena Klinovaja": "posted on the PI's group page"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Hybrid semiconductor–superconductor nanostructures",
+    "Quantum transport in mesoscopic systems",
+    "Theory of quantum devices & qubits",
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 88,
+   "relevance_reason": "This is the group of a PI on your list, and it works on the core topics of your PhD (Majoranas, proximitized and full-shell nanowires, nonlocal transport), but it is an unspecific standing call, not a funded post with a deadline.",
+   "summary": "The group has a standing call for outstanding, highly motivated postdoctoral fellows in theoretical condensed matter physics. Its work covers topological superconductivity, Majorana and parafermion states, hybrid nanowires and spin qubits. To apply, submit online a CV, a publication list, academic records, a short research statement relating your interests to the group's work, and arrange for 2-3 recommendation letters. The page gives no duration, salary or deadline.",
+   "eligibility": "PhD in theoretical condensed matter physics or similar.",
+   "duration": null,
+   "salary": null,
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": true,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "rolling",
+   "url": "https://www.quantumtheory.unibas.ch/people/klinovaja/#",
+   "sources": [
+    "Group page (Jelena Klinovaja)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "notified_status": "rolling",
+   "notified_on": "2026-11-10"
+  },
+  {
+   "id": "84077a795644",
+   "kind": "fellowship",
+   "title": "NCCR SPIN Postdoctoral Fellowship",
+   "institution": "University of Basel, NCCR SPIN, Department of Physics",
+   "country": "Switzerland",
+   "location": "Basel",
+   "pi": "Jelena Klinovaja",
+   "matched_pis": [
+    "Jelena Klinovaja"
+   ],
+   "pi_notes": {
+    "Jelena Klinovaja": "★ PI of this offer"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Theory of quantum devices & qubits",
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 85,
+   "relevance_reason": "This is a prestigious independent fellowship led by your listed PI's centre, with topological systems in scope, though the centre prefers spin-qubit projects and the dates in the posting contradict each other.",
+   "summary": "This is an independent 3-year postdoctoral fellowship at the University of Basel within NCCR SPIN, whose co-directors (Klinovaja and Loss) are the contacts. Fellows choose their own research direction. The posting was updated on 2026-09-15 and the header gives a 2026-12-01 deadline, but the description still mentions an older extended deadline (31 Oct 2025) and a 2024 start. It says applications are accepted until the positions are filled. Apply via AcademicJobsOnline with a cover letter, CV, a research statement of up to 2 pages, a publication list and two reference letters.",
+   "eligibility": "Recent PhD in theoretical physics or a related area. Selection is based on early-career excellence and on the quality of a proposed project in NCCR SPIN target areas (spin qubits preferred; complex quantum systems, topological systems and quantum materials also count).",
+   "duration": "3 years",
+   "salary": null,
+   "start_date": null,
+   "call_opens": "2026-01-15",
+   "deadline": "2026-12-01",
+   "rolling": true,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "rolling",
+   "url": "https://academicjobsonline.org/ajo/jobs/27103",
+   "sources": [
+    "Web search (pi: Jelena Klinovaja)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "notified_status": "rolling",
+   "notified_on": "2026-11-10"
+  },
+  {
+   "id": "d66f8b9c1b15",
+   "kind": "fellowship",
+   "title": "Georg H. Endress Postdoc Fellowship (Basel Quantum Center Endress Postdoc Cluster) – next call expected",
+   "institution": "Basel Quantum Center / University of Basel",
+   "country": "Switzerland",
+   "location": "Basel",
+   "pi": "Jelena Klinovaja",
+   "matched_pis": [
+    "Jelena Klinovaja"
+   ],
+   "pi_notes": {
+    "Jelena Klinovaja": "★ PI of this offer"
+   },
+   "topics": [
+    "Theoretical & computational condensed matter (broad)",
+    "Theory of quantum devices & qubits",
+    "Topological superconductivity & Majorana modes"
+   ],
+   "relevance": 60,
+   "relevance_reason": "This would be a good fit with Klinovaja as host, but no call is open now and the next opening date is estimated, not confirmed.",
+   "summary": "This is a 2-year independent postdoc fellowship hosted by a Basel Quantum Center PI. The 9th call (two fellows) opened on 2026-04-26 and closed on 2026-06-24. No later call has been announced. If the next call follows the same pattern it would open in spring 2027, but that is an estimate, not a published date.",
+   "eligibility": "Applicants must contact their chosen host PI at the Basel Quantum Center (or Freiburg) before applying, and need a CV, a research statement of up to 2 pages and two reference letters.",
+   "duration": "2 years",
+   "salary": null,
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://bqc.unibas.ch/en/network/georg-h-endress-postdoc-cluster/open-calls/",
+   "sources": [
+    "Web search (pi: Jelena Klinovaja)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
+   "id": "92ff48125587",
+   "kind": "fellowship",
+   "title": "Humboldt Research Fellowship for Postdocs, hosted by AG Brouwer (FU Berlin)",
+   "institution": "Freie Universität Berlin, Dahlem Center for Complex Quantum Systems (host); Alexander von Humboldt Foundation (funder)",
+   "country": "Germany",
+   "location": "Berlin",
+   "pi": "Piet Brouwer",
+   "matched_pis": [
+    "Piet Brouwer"
+   ],
+   "pi_notes": {
+    "Piet Brouwer": "★ PI of this offer"
+   },
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Quantum transport in mesoscopic systems",
+    "Hybrid semiconductor–superconductor nanostructures",
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 80,
+   "relevance_reason": "This is a prestigious, independent, always-open fellowship with a PI on your list whose mesoscopic and topological-superconductor theory matches your work, but you can only apply once your PhD is finished in 2027.",
+   "summary": "This is an independent postdoc fellowship from the Humboldt Foundation, held at a German host institution, with a monthly stipend plus extra allowances. You can apply at any time with a research proposal and a hosting agreement from the host (here Piet Brouwer, AG Brouwer, FU Berlin). The foundation takes about 4-7 months to decide. No current funded postdoc vacancy is posted by the group; its Brouwer-Postdoc-2026 ad closed on 2026-01-26.",
+   "eligibility": "Non-German researchers who finished their PhD within the last 4 years. The PhD must be complete when you apply, so this only opens to you after your defence (expected 2027-03). You need a host agreement and research plan agreed with Piet Brouwer.",
+   "duration": "6-24 months",
+   "salary": null,
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": true,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "rolling",
+   "url": "https://www.humboldt-foundation.org/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+   "sources": [
+    "Web search (pi: Piet Brouwer)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "notified_status": "rolling",
+   "notified_on": "2026-11-10"
   }
  ],
  "pis": [
@@ -1632,7 +1853,7 @@ window.POSTDOC_DATA = {
    "country": "Denmark",
    "website": "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/",
    "priority": "high",
-   "last_searched": "2026-11-04T22:56:23+00:00"
+   "last_searched": "2026-11-10T13:45:43+00:00"
   },
   {
    "name": "Fabian Hassler",
@@ -1648,7 +1869,7 @@ window.POSTDOC_DATA = {
    "country": "Germany",
    "website": "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/",
    "priority": "high",
-   "last_searched": "2026-11-05T11:05:30+00:00"
+   "last_searched": "2026-11-10T13:47:07+00:00"
   },
   {
    "name": "Felix von Oppen",
@@ -1729,6 +1950,14 @@ window.POSTDOC_DATA = {
    "website": "https://amorimbruno.weebly.com/",
    "priority": "normal",
    "last_searched": "2026-11-09T14:08:43+00:00"
+  },
+  {
+   "name": "Jelena Klinovaja",
+   "institution": "Department of Physics, University of Basel",
+   "country": "Switzerland",
+   "website": "https://www.quantumtheory.unibas.ch/people/klinovaja/#",
+   "priority": "normal",
+   "last_searched": "2026-11-10T13:40:00+00:00"
   }
  ],
  "topics": [
@@ -2188,6 +2417,63 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 27
+  },
+  {
+   "date": "2026-11-10T13:36:22+00:00",
+   "ai_enabled": true,
+   "raw_items": 240,
+   "candidates": 3,
+   "triaged": 3,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Jelena Klinovaja",
+     "found": 3,
+     "notes": "I used 2 searches and 3 page fetches. The group website sends applicants to AJO postings #21540 (postdoc) and #21542 (PhD, not reported). Postdoc posting #21540 is open: updated 2026-10-06, deadline 2026-12-01, and it keeps accepting applications until the posts are filled. The NCCR SPIN fellowship…"
+    },
+    {
+     "task": "pi:Karsten Flensberg",
+     "found": 0,
+     "notes": "No open or soon-to-open postdoc with Karsten Flensberg found as of 2026-11-10. Search budget fully used; page-fetch limit exceeded by two (6 fetches against 4).\n\nGroup: no current theory postdoc names Flensberg. One undated NBI theory posting lists him as contact (topological superconductors, nonlo…"
+    },
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "The Brouwer group has no postdoc vacancy open right now. The \"Open Positions\" section of the group's site (https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/) loads dynamically and showed nothing. The last postdoc ad, Brouwer-Postdoc-2026 (3 years, TV-L E13, condensed matter theory cov…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "branco-weiss",
+     "status": "open",
+     "deadline": "2027-01-15"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 4,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 6,
+    "input_tokens": 50,
+    "output_tokens": 13551,
+    "cache_read_tokens": 232164,
+    "cache_write_tokens": 89421,
+    "web_searches": 11,
+    "web_fetches": 0,
+    "cost_usd": 1.1721,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 };
