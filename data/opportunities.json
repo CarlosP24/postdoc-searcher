@@ -60,7 +60,7 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "open",
   "notified_on": "2026-11-10"
  },
@@ -473,7 +473,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -507,7 +507,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -545,7 +545,7 @@
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -588,7 +588,7 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
  },
@@ -876,7 +876,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -953,7 +953,7 @@
   ],
   "fellowship_id": "humboldt-rf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -1018,8 +1018,73 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "upcoming",
+  "notified_on": "2026-11-05"
+ },
+ {
+  "id": "fellowship-ramon-areces-abroad",
+  "kind": "fellowship",
+  "title": "Fundación Ramón Areces — Postdoctoral grants abroad (Life & Matter Sciences)",
+  "institution": "Fundación Ramón Areces",
+  "country": "Outside Spain",
+  "location": null,
+  "pi": null,
+  "matched_pis": [
+   "Karsten Flensberg",
+   "Fabian Hassler",
+   "Piet Brouwer",
+   "Felix von Oppen",
+   "Bernard van Heck",
+   "Michael Wimmer",
+   "Anton Akhmerov",
+   "Annica Black-Schaffer",
+   "Michele Burrello",
+   "Titus Neupert",
+   "Pascal Simon",
+   "Martin Leijnse",
+   "Bruno Amorim",
+   "Jelena Klinovaja"
+  ],
+  "pi_notes": {
+   "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Fabian Hassler": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Piet Brouwer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Felix von Oppen": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Bernard van Heck": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Michael Wimmer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Anton Akhmerov": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Annica Black-Schaffer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Michele Burrello": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
+   "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
+  },
+  "topics": [],
+  "relevance": 95,
+  "relevance_reason": "Could be hosted by Karsten Flensberg, Fabian Hassler, Piet Brouwer, Felix von Oppen… from your PI list.",
+  "summary": "The last call (XXXVIII, academic year 2026-2027, published in BOE on 21 Jan 2026) took online applications from about 21 January to 23 February 2026 and is now closed. Its awards were announced in May 2026 and the grants run from 1 Oct 2026. The next call (2027-2028) has not been announced. Going by the 2025 and 2026 cycles, it should open around late January 2027 and close around late February 2027 (estimated dates). The grant pays €2,800 a month net for one year, extendable by a second year, plus one economy return flight per year and travel/medical insurance through the Foundation's travel agency. Carlos meets the nationality rule (Spanish), the field fits (Physics & Mathematics), and his 2025 Copenhagen visit was presumably under a year, so it would not count as a disqualifying stay abroad. The problem is timing: applicants must already hold the PhD when they apply, and his defence is expected in March 2027, just after the probable February 2027 deadline. He is therefore likely ineligible for the 2027 call unless he defends before the deadline. He would be well placed for the 2028 call (around Jan–Feb 2028, start Oct 2028), as long as he has not spent a year or more abroad by then.",
+  "eligibility": "Spanish nationality. Applicants must hold a PhD (Spanish or foreign) at the time of application, counted by thesis defence date, with priority for doctorates from the last ~4 years (2022–2026 in the 2026 call). The grant is meant as a first postdoctoral stay abroad: anyone who has already spent one year or more abroad (by 30 June of the call year) is excluded. Applicants need excellent English or the host country's language and cannot hold other scholarships or similar aid. Fields: Biomedicine, Physics & Mathematics, Chemistry, Biosphere preservation. The host must be a centre abroad that issues an acceptance letter.",
+  "duration": "1 year (1 Oct – 30 Sep), extendable by one more year on request with a favourable report from the Foundation's Scientific Council",
+  "salary": "€2,800/month net, paid to the grantee (or via the host institution, which must pass on the full amount). Also one round-trip economy flight per academic year and travel/medical insurance, both arranged through the Foundation's travel agency. Host PI role: provide an acceptance/incorporation letter for the academic year confirming that no lab bench fees are charged.",
+  "start_date": null,
+  "call_opens": "2027-01",
+  "deadline": "2027-02",
+  "rolling": false,
+  "dates_estimated": true,
+  "dates_checked": "2026-11-11T12:56:27+00:00",
+  "status": "upcoming",
+  "url": "https://www.fundacionareces.es/",
+  "sources": [
+   "fellowship catalog",
+   "web check"
+  ],
+  "fellowship_id": "ramon-areces-abroad",
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
  {
@@ -1059,7 +1124,7 @@
   ],
   "fellowship_id": "nwo-veni",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1072,12 +1137,14 @@
   "location": "Delft",
   "pi": "Michael Wimmer",
   "matched_pis": [
+   "Anton Akhmerov",
    "Martin Leijnse",
    "Michael Wimmer"
   ],
   "pi_notes": {
    "Michael Wimmer": "★ PI of this offer",
-   "Martin Leijnse": "★ PI of this offer"
+   "Martin Leijnse": "★ PI of this offer",
+   "Anton Akhmerov": "★ PI of this offer"
   },
   "topics": [
    "Hybrid semiconductor–superconductor nanostructures",
@@ -1100,12 +1167,13 @@
   "status": "upcoming",
   "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
   "sources": [
+   "Web search (pi: Anton Akhmerov)",
    "Web search (pi: Martin Leijnse)",
    "Web search (pi: Michael Wimmer)"
   ],
   "fellowship_id": null,
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-05",
+  "last_seen": "2026-11-11",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1200,6 +1268,49 @@
   "notified_on": "2026-11-08"
  },
  {
+  "id": "9428e54328cc",
+  "kind": "fellowship",
+  "title": "MSCA Postdoctoral Fellowship 2027 (European Fellowship) hosted by Bernard van Heck at Sapienza",
+  "institution": "Dipartimento di Fisica, Sapienza Università di Roma",
+  "country": "Italy",
+  "location": "Rome, Italy",
+  "pi": "Bernard van Heck",
+  "matched_pis": [
+   "Bernard van Heck"
+  ],
+  "pi_notes": {
+   "Bernard van Heck": "★ PI of this offer"
+  },
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Hybrid semiconductor–superconductor nanostructures",
+   "Quantum transport in mesoscopic systems",
+   "Theory of quantum devices & qubits"
+  ],
+  "relevance": 80,
+  "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose work (Majoranas, Andreev spin qubits, hybrid devices) closely matches yours, and you should be eligible, but you would need to win it rather than apply for an open post.",
+  "summary": "This is an individual MSCA Postdoctoral Fellowship (call HORIZON-MSCA-2027-PF-01-01) that you would write with Bernard van Heck as your Sapienza supervisor. The planned dates are opening on 7 April 2027 and closing on 8 September 2027. Sapienza helps applicants who choose it as host: there are infodays, a workshop on planning an MSCA-PF proposal and a Grant Writing Lab, which ran in April–May in 2026 and will probably follow a similar pattern in 2027. The contact is ricercainternazionale@uniroma1.it. Start by emailing van Heck (bernard.vanheck@uniroma1.it) to agree a project.",
+  "eligibility": "PhD awarded by the call deadline; at most 8 years since PhD; MSCA mobility rule: no residence or main activity in Italy for more than 12 months in the 36 months before the deadline. Carlos (PhD expected 2027-03, has lived in Spain) should meet these.",
+  "duration": "12-24 months (European Fellowship, standard MSCA-PF rules)",
+  "salary": null,
+  "start_date": null,
+  "call_opens": "2027-04-07",
+  "deadline": "2027-09-08",
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "upcoming",
+  "url": "https://www.uniroma1.it/en/pagina/mscasapienza-2026",
+  "sources": [
+   "Web search (pi: Bernard van Heck)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11",
+  "notified_status": "upcoming",
+  "notified_on": "2026-11-11"
+ },
+ {
   "id": "fellowship-banting",
   "kind": "fellowship",
   "title": "Banting Postdoctoral Fellowships",
@@ -1229,7 +1340,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1263,7 +1374,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1297,7 +1408,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1331,7 +1442,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1365,7 +1476,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1402,7 +1513,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1439,7 +1550,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1503,71 +1614,7 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
-  "notified_status": "unknown",
-  "notified_on": "2026-11-05"
- },
- {
-  "id": "fellowship-ramon-areces-abroad",
-  "kind": "fellowship",
-  "title": "Fundación Ramón Areces — Postdoctoral grants abroad (Life & Matter Sciences)",
-  "institution": "Fundación Ramón Areces",
-  "country": "Outside Spain",
-  "location": null,
-  "pi": null,
-  "matched_pis": [
-   "Karsten Flensberg",
-   "Fabian Hassler",
-   "Piet Brouwer",
-   "Felix von Oppen",
-   "Bernard van Heck",
-   "Michael Wimmer",
-   "Anton Akhmerov",
-   "Annica Black-Schaffer",
-   "Michele Burrello",
-   "Titus Neupert",
-   "Pascal Simon",
-   "Martin Leijnse",
-   "Bruno Amorim",
-   "Jelena Klinovaja"
-  ],
-  "pi_notes": {
-   "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Fabian Hassler": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Piet Brouwer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Felix von Oppen": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Bernard van Heck": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Michael Wimmer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Anton Akhmerov": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Annica Black-Schaffer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Michele Burrello": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
-   "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
-  },
-  "topics": [],
-  "relevance": 95,
-  "relevance_reason": "Could be hosted by Karsten Flensberg, Fabian Hassler, Piet Brouwer, Felix von Oppen… from your PI list.",
-  "summary": "Spanish nationals with a recent PhD going to a centre abroad. Duration: 1–2 years. Funding: Monthly stipend plus travel/insurance. Call: Annual call; check the website for current dates.",
-  "eligibility": "Spanish nationals with a recent PhD going to a centre abroad.",
-  "duration": "1–2 years",
-  "salary": "Monthly stipend plus travel/insurance.",
-  "start_date": null,
-  "call_opens": null,
-  "deadline": null,
-  "rolling": false,
-  "dates_estimated": true,
-  "dates_checked": null,
-  "status": "unknown",
-  "url": "https://www.fundacionareces.es/",
-  "sources": [
-   "fellowship catalog"
-  ],
-  "fellowship_id": "ramon-areces-abroad",
-  "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1803,7 +1850,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  },
@@ -1837,7 +1884,7 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "notified_status": null,
   "notified_on": null
  }

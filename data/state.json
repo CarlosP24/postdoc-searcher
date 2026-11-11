@@ -349,18 +349,44 @@
   "85b05839bf19": "2026-11-10",
   "e54dbba03613": "2026-11-10",
   "e2fb3bc01733": "2026-11-10",
-  "c4fa40ff9a56": "2026-11-10"
+  "c4fa40ff9a56": "2026-11-10",
+  "c31bd9859d6f": "2026-11-11",
+  "953b780c340b": "2026-11-11",
+  "acf66ebcb743": "2026-11-11",
+  "81dfea31ce51": "2026-11-11",
+  "109ac96648f2": "2026-11-11",
+  "15843fc582da": "2026-11-11",
+  "eda9cf9c3d6f": "2026-11-11",
+  "0eb42275a07d": "2026-11-11",
+  "46cf6eb39d69": "2026-11-11",
+  "bc5f66043809": "2026-11-11",
+  "208dba59ab2a": "2026-11-11",
+  "76093867b86e": "2026-11-11",
+  "cb60652ee96c": "2026-11-11",
+  "1c009c22f49f": "2026-11-11",
+  "4b2f8a7844be": "2026-11-11",
+  "d471b9151732": "2026-11-11",
+  "802108d2765c": "2026-11-11",
+  "cf6c82c24764": "2026-11-11",
+  "1915e5982893": "2026-11-11",
+  "c5e013c1269b": "2026-11-11",
+  "3d234d8f2cce": "2026-11-11",
+  "7a9b1e12172d": "2026-11-11",
+  "1801c9262e6a": "2026-11-11",
+  "4b56f55aaae0": "2026-11-11",
+  "9f44473f48fa": "2026-11-11",
+  "3d5a39f74639": "2026-11-11"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-10T13:38:05+00:00",
+   "checked": "2026-11-11T12:50:50+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-10T13:38:07+00:00",
+   "checked": "2026-11-11T12:50:52+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -370,56 +396,56 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-10T13:38:13+00:00",
+   "checked": "2026-11-11T12:51:00+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-10T13:38:14+00:00",
+   "checked": "2026-11-11T12:51:01+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-10T13:38:32+00:00",
+   "checked": "2026-11-11T12:51:20+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-10T13:38:36+00:00",
+   "checked": "2026-11-11T12:51:23+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-10T13:38:37+00:00",
+   "checked": "2026-11-11T12:51:24+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-10T13:38:37+00:00",
+   "checked": "2026-11-11T12:51:24+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-10T13:38:08+00:00",
+   "checked": "2026-11-11T12:50:53+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-10T13:38:15+00:00",
+   "checked": "2026-11-11T12:51:02+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-10T13:38:39+00:00",
+   "checked": "2026-11-11T12:51:25+00:00",
    "pi": "Jelena Klinovaja"
   }
  },
  "tasks": {
   "pi:Karsten Flensberg": "2026-11-10T13:45:43+00:00",
   "pi:Piet Brouwer": "2026-11-10T13:47:07+00:00",
-  "pi:Bernard van Heck": "2026-11-05T11:06:51+00:00",
-  "pi:Michael Wimmer": "2026-11-05T11:08:01+00:00",
-  "pi:Anton Akhmerov": "2026-11-05T13:22:37+00:00",
+  "pi:Bernard van Heck": "2026-11-11T12:52:48+00:00",
+  "pi:Michael Wimmer": "2026-11-11T12:54:01+00:00",
+  "pi:Anton Akhmerov": "2026-11-11T12:55:17+00:00",
   "pi:Martin Leijnse": "2026-11-05T13:23:59+00:00",
   "topic:Topological superconductivity & Majorana modes": "2026-11-05T13:25:23+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-06T13:06:11+00:00",
@@ -578,6 +604,25 @@
     "https://brancoweissfellowship.org/",
     "https://brancoweissfellowship.org/eligibility-duration-and-funding/",
     "https://brancoweissfellowship.org/timelines/"
+   ]
+  },
+  "ramon-areces-abroad": {
+   "checked": "2026-11-11T12:56:27+00:00",
+   "status": "upcoming",
+   "call_opens": "2027-01",
+   "deadline": "2027-02",
+   "dates_estimated": true,
+   "summary": "The last call (XXXVIII, academic year 2026-2027, published in BOE on 21 Jan 2026) took online applications from about 21 January to 23 February 2026 and is now closed. Its awards were announced in May 2026 and the grants run from 1 Oct 2026. The next call (2027-2028) has not been announced. Going by the 2025 and 2026 cycles, it should open around late January 2027 and close around late February 2027 (estimated dates). The grant pays €2,800 a month net for one year, extendable by a second year, plus one economy return flight per year and travel/medical insurance through the Foundation's travel agency. Carlos meets the nationality rule (Spanish), the field fits (Physics & Mathematics), and his 2025 Copenhagen visit was presumably under a year, so it would not count as a disqualifying stay abroad. The problem is timing: applicants must already hold the PhD when they apply, and his defence is expected in March 2027, just after the probable February 2027 deadline. He is therefore likely ineligible for the 2027 call unless he defends before the deadline. He would be well placed for the 2028 call (around Jan–Feb 2028, start Oct 2028), as long as he has not spent a year or more abroad by then.",
+   "eligibility": "Spanish nationality. Applicants must hold a PhD (Spanish or foreign) at the time of application, counted by thesis defence date, with priority for doctorates from the last ~4 years (2022–2026 in the 2026 call). The grant is meant as a first postdoctoral stay abroad: anyone who has already spent one year or more abroad (by 30 June of the call year) is excluded. Applicants need excellent English or the host country's language and cannot hold other scholarships or similar aid. Fields: Biomedicine, Physics & Mathematics, Chemistry, Biosphere preservation. The host must be a centre abroad that issues an acceptance letter.",
+   "duration": "1 year (1 Oct – 30 Sep), extendable by one more year on request with a favourable report from the Foundation's Scientific Council",
+   "funding": "€2,800/month net, paid to the grantee (or via the host institution, which must pass on the full amount). Also one round-trip economy flight per academic year and travel/medical insurance, both arranged through the Foundation's travel agency. Host PI role: provide an acceptance/incorporation letter for the academic year confirming that no lab bench fees are charged.",
+   "url": "https://www.fundacionareces.es/",
+   "sources": [
+    "https://www.becas.com/fundacion-ramon-areces/becas-ramon-areces-estudios-postdoctorales-ampliacion-extranjero-ciencias-de-vida-y-materia",
+    "https://boe.es/boe/dias/2026/01/21/pdfs/BOE-B-2026-1428.pdf",
+    "https://boe.es/boe/dias/2025/01/24/pdfs/BOE-B-2025-2180.pdf",
+    "https://canal.ugr.es/wp-content/uploads/2025/01/BG7FRAExtranjero-ciencias-de-la-vida240125.pdf",
+    "https://irsjd.org/media/upload/domain_3/pdf/Convocatoria-para-ampliacion-de-estudios-en-el-extranjero-en-ciencias-de-la-vida_ARECES_1769928252.pdf"
    ]
   }
  },
@@ -1069,6 +1114,63 @@
     "backend": "claude-code"
    },
    "open_total": 32
+  },
+  {
+   "date": "2026-11-11T12:49:08+00:00",
+   "ai_enabled": true,
+   "raw_items": 245,
+   "candidates": 1,
+   "triaged": 1,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Bernard van Heck",
+     "found": 1,
+     "notes": "I couldn't find an advertised postdoc job in Bernard van Heck's group. The group website (roma1.infn.it/~vanheckb) wouldn't load because of an SSL certificate error, so I couldn't check whether it has a jobs or \"join us\" page. Searches of the web, AcademicJobsOnline, EURAXESS and Sapienza's job-cal…"
+    },
+    {
+     "task": "pi:Michael Wimmer",
+     "found": 0,
+     "notes": "I found no open or soon-to-open postdoc post in Michael Wimmer's group (the Quantum Tinkerer group at QuTech / Kavli Institute of Nanoscience, TU Delft, shared with Anton Akhmerov) as of 2026-11-11. I used 5 searches and 4 page fetches.\n\nWhat I checked:\n- QuTech job opportunities page (https://qute…"
+    },
+    {
+     "task": "pi:Anton Akhmerov",
+     "found": 1,
+     "notes": "The Quantum Tinkerer join page (https://quantumtinkerer.tudelft.nl/join/) says 'We do not have open positions at the moment' and invites people bringing their own fellowship to email a CV and research interests to Akhmerov (contact@antonakhmerov.org) or Wimmer (m.t.wimmer@tudelft.nl). No Akhmerov/Q…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "ramon-areces-abroad",
+     "status": "upcoming",
+     "deadline": "2027-02"
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 1,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 48,
+    "output_tokens": 10914,
+    "cache_read_tokens": 204293,
+    "cache_write_tokens": 58613,
+    "web_searches": 18,
+    "web_fetches": 0,
+    "cost_usd": 0.9351,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
   }
  ]
 }
