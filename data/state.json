@@ -375,18 +375,36 @@
   "1801c9262e6a": "2026-11-11",
   "4b56f55aaae0": "2026-11-11",
   "9f44473f48fa": "2026-11-11",
-  "3d5a39f74639": "2026-11-11"
+  "3d5a39f74639": "2026-11-11",
+  "2634e631472f": "2026-11-12",
+  "6f8e61910a81": "2026-11-12",
+  "9e627d352fd8": "2026-11-12",
+  "75607e92050d": "2026-11-12",
+  "6e16edcb301c": "2026-11-12",
+  "d1be5f7baee3": "2026-11-12",
+  "2f36a65f6b3f": "2026-11-12",
+  "8ad3605e7e46": "2026-11-12",
+  "dda5a584f0e9": "2026-11-12",
+  "92fc6dcd605d": "2026-11-12",
+  "f20312b47f87": "2026-11-12",
+  "bfeb9971661a": "2026-11-12",
+  "7b6812b283db": "2026-11-12",
+  "91b6eb775ad1": "2026-11-12",
+  "f12878205d41": "2026-11-12",
+  "2de8752d4a01": "2026-11-12",
+  "049105137677": "2026-11-12",
+  "bcd59038b480": "2026-11-12"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-11T12:50:50+00:00",
+   "checked": "2026-11-12T13:53:14+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-11T12:50:52+00:00",
+   "checked": "2026-11-12T13:53:16+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -396,47 +414,47 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-11T12:51:00+00:00",
+   "checked": "2026-11-12T13:53:25+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-11T12:51:01+00:00",
+   "checked": "2026-11-12T13:53:26+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-11T12:51:20+00:00",
+   "checked": "2026-11-12T13:53:44+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-11T12:51:23+00:00",
+   "checked": "2026-11-12T13:53:48+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-11T12:51:24+00:00",
+   "checked": "2026-11-12T13:53:49+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-11T12:51:24+00:00",
+   "checked": "2026-11-12T13:53:49+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-11T12:50:53+00:00",
+   "checked": "2026-11-12T13:53:16+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-11T12:51:02+00:00",
+   "checked": "2026-11-12T13:53:27+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-11T12:51:25+00:00",
+   "checked": "2026-11-12T13:53:51+00:00",
    "pi": "Jelena Klinovaja"
   }
  },
@@ -446,9 +464,9 @@
   "pi:Bernard van Heck": "2026-11-11T12:52:48+00:00",
   "pi:Michael Wimmer": "2026-11-11T12:54:01+00:00",
   "pi:Anton Akhmerov": "2026-11-11T12:55:17+00:00",
-  "pi:Martin Leijnse": "2026-11-05T13:23:59+00:00",
-  "topic:Topological superconductivity & Majorana modes": "2026-11-05T13:25:23+00:00",
-  "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-06T13:06:11+00:00",
+  "pi:Martin Leijnse": "2026-11-12T13:55:11+00:00",
+  "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
+  "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
   "topic:Quantum transport in mesoscopic systems": "2026-11-06T13:08:01+00:00",
   "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00",
   "topic:Theory of quantum devices & qubits": "2026-11-07T11:52:39+00:00",
@@ -623,6 +641,26 @@
     "https://boe.es/boe/dias/2025/01/24/pdfs/BOE-B-2025-2180.pdf",
     "https://canal.ugr.es/wp-content/uploads/2025/01/BG7FRAExtranjero-ciencias-de-la-vida240125.pdf",
     "https://irsjd.org/media/upload/domain_3/pdf/Convocatoria-para-ampliacion-de-estudios-en-el-extranjero-en-ciencias-de-la-vida_ARECES_1769928252.pdf"
+   ]
+  },
+  "martin-escudero-abroad": {
+   "checked": "2026-11-12T14:01:37+00:00",
+   "status": "closed",
+   "call_opens": "2027-03",
+   "deadline": "2027-04",
+   "dates_estimated": true,
+   "summary": "The 2026 FUNDAME call for postdoctoral research grants at universities and centres abroad (30 grants) is closed. fundame.org marks it \"CONVOCATORIA CERRADA\". Its terms were published in March 2026 and applications closed in April 2026: one university office gives 17 April, another source gives an internal deadline of 23 April and an official one of 30 April. No 2027 call has been announced. Based on the 2026 cycle, the next call would likely open around March 2027 and close around late April 2027. The grant pays a monthly stipend of €2,000–3,600 depending on the destination, plus up to €3,100 for travel and travel insurance, for a 12–24 month stay. The candidate does not appear eligible. He meets the Spanish nationality rule, but the 2026 call only covered agriculture and livestock, marine sciences, health sciences and food technology, so theoretical condensed matter physics is excluded. He also expects his PhD in March 2027, so he would barely hold it, if at all, by a 2027 deadline. This call is not a realistic option unless a future call adds physics.",
+   "eligibility": "Spanish nationality. Applicants must hold a PhD from any Spanish university, or a Spanish health specialty title (MIR, BIR, FIR, PIR, QIR, RFIR); foreign degrees must be recognised in Spain. Applicants must be accepted by the host institution abroad and have a good command of the host country's language or the working language of the host centre. In 2026 the eligible fields were limited to agriculture and livestock, marine sciences, health sciences and food technology. No rule on years since PhD or mobility history was found in the sources checked.",
+   "duration": "12–24 months",
+   "funding": "Monthly stipend of €2,000–3,600 depending on destination, plus travel costs up to €3,100 and travel insurance for the duration of the stay.",
+   "url": "https://fundame.org/convocatoria-de-becas-de-investigacion-en-universidades-y-centros-en-el-extranjero-2026/",
+   "sources": [
+    "https://fundame.org/",
+    "https://fundame.org/convocatoria-de-becas-de-investigacion-en-universidades-y-centros-en-el-extranjero-2026/",
+    "https://investigacion.ugr.es/informacion/convocatorias/listado/2857",
+    "https://www.uspceu.com/Portals/0/adam/Investigacion/4ubFYs3l9kSIhLXY35Y9PA/Archivo/Bases-Convocatoria%20BECAS%20FUNDAME.pdf",
+    "https://www.iisaragon.es/fundacion-alfonso-martin-escudero-investigacion-postdoctoral-en-el-extranjero-2026/",
+    "https://gestioncalidad.uah.es/es/tablon-anuncios/index.html?cevento=28461"
    ]
   }
  },
@@ -1167,6 +1205,63 @@
     "web_searches": 18,
     "web_fetches": 0,
     "cost_usd": 0.9351,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
+  },
+  {
+   "date": "2026-11-12T13:51:35+00:00",
+   "ai_enabled": true,
+   "raw_items": 249,
+   "candidates": 4,
+   "triaged": 4,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Martin Leijnse",
+     "found": 1,
+     "notes": "I found no open postdoc position in Martin Leijnse's group as of 2026-11-12. The only opportunity worth tracking is an MSCA Postdoctoral Fellowship with Leijnse as host.\n\nSources checked:\n- **Lund University jobs portal (lu.varbi.com):** 14 postdocs are listed and none is in physics, solid state, N…"
+    },
+    {
+     "task": "topic:Topological superconductivity & Majorana modes",
+     "found": 2,
+     "notes": "I hit the search budget and found only two new opportunities beyond the five you already know about.\n\n1. **Maryland Condensed Matter Theory Center (US):** I included this as one of the rare US exceptions (relevance 80) because the centre is a top group for Majorana theory. The deadline is 2026-11-1…"
+    },
+    {
+     "task": "topic:Hybrid semiconductor–superconductor nanostructures",
+     "found": 4,
+     "notes": "I found four opportunities worth a look. The only funded post is Annica Black-Schaffer's theory postdoc at Uppsala (see the first entry), and its deadline is only days away, on 2026-11-20. The other three are fellowships you would apply for with a host.\n\n- **Where these leads came from:** All four…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "martin-escudero-abroad",
+     "status": "closed",
+     "deadline": "2027-04"
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 1,
+   "errors": [
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 60,
+    "output_tokens": 14083,
+    "cache_read_tokens": 268603,
+    "cache_write_tokens": 57159,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 1.0101,
     "refusals": 0,
     "backend": "claude-code"
    },
