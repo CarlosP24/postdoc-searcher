@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-12T14:01:38+00:00",
+ "generated_at": "2026-11-13T13:16:22+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -64,9 +64,51 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "open",
    "notified_on": "2026-11-10"
+  },
+  {
+   "id": "95907d1c1d0d",
+   "kind": "position",
+   "title": "Postdoc position in quantum matter theory with specialization in unconventional superconductivity",
+   "institution": "Uppsala University, Department of Physics and Astronomy",
+   "country": "Sweden",
+   "location": "Uppsala",
+   "pi": "Annica Black-Schaffer",
+   "matched_pis": [
+    "Annica Black-Schaffer"
+   ],
+   "pi_notes": {
+    "Annica Black-Schaffer": "★ PI of this offer"
+   },
+   "topics": [
+    "Theoretical & computational condensed matter (broad)",
+    "Topological superconductivity & Majorana modes"
+   ],
+   "relevance": 88,
+   "relevance_reason": "This is a funded theory post with a PI on your list, working on superconductivity and topological matter, but the deadline is only days away and your PhD isn't due until March 2027.",
+   "summary": "Two-year, full-time postdoc (possible one-year extension) in Annica Black-Schaffer's Quantum Matter Theory program, combining numerical simulations and analytical work on unconventional superconductivity and quantum geometry. Starts 1 May 2027 or as agreed; salary not stated. Prior postdoc experience and mixed analytical/numerical skills are advantageous. Apply via uu.varbi.com (job ID 978180, ref. UFV-PA 2026/3056) with CV, publication list, research statement and answers to application questions by 20 November 2026.",
+   "eligibility": "PhD in physics or closely related subject obtained by start of employment and no more than three years before the deadline (extendable for parental/sick leave); strong background in unconventional superconductivity and quantum geometry; fluent English.",
+   "duration": "2 years (possible 1-year extension)",
+   "salary": null,
+   "start_date": "2027-05-01",
+   "call_opens": "2026-10-22",
+   "deadline": "2026-11-20",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://jobrxiv.org/job/postdoc-position-in-quantum-matter-theory-with-specialization-in-unconventional-superconductivity/",
+   "sources": [
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Theoretical & computational condensed matter (broad))"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-12",
+   "notified_status": "open",
+   "notified_on": "2026-11-07"
   },
   {
    "id": "af9f4467c894",
@@ -153,46 +195,42 @@ window.POSTDOC_DATA = {
    "notified_on": "2026-11-07"
   },
   {
-   "id": "95907d1c1d0d",
+   "id": "53db7a097f28",
    "kind": "position",
-   "title": "Postdoc position in quantum matter theory with specialization in unconventional superconductivity",
-   "institution": "Uppsala University, Department of Physics and Astronomy",
-   "country": "Sweden",
-   "location": "Uppsala",
-   "pi": "Annica Black-Schaffer",
-   "matched_pis": [
-    "Annica Black-Schaffer"
-   ],
-   "pi_notes": {
-    "Annica Black-Schaffer": "★ PI of this offer"
-   },
+   "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
+   "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
+   "country": "United States",
+   "location": "College Park, MD, USA",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
    "topics": [
+    "Topological superconductivity & Majorana modes",
     "Theoretical & computational condensed matter (broad)",
-    "Topological superconductivity & Majorana modes"
+    "Theory of quantum devices & qubits"
    ],
-   "relevance": 88,
-   "relevance_reason": "This is a funded theory post with a PI on your list, working on superconductivity and topological matter, but the deadline is only days away and your PhD isn't due until March 2027.",
-   "summary": "Two-year, full-time postdoc (possible one-year extension) in Annica Black-Schaffer's Quantum Matter Theory program, combining numerical simulations and analytical work on unconventional superconductivity and quantum geometry. Starts 1 May 2027 or as agreed; salary not stated. Prior postdoc experience and mixed analytical/numerical skills are advantageous. Apply via uu.varbi.com (job ID 978180, ref. UFV-PA 2026/3056) with CV, publication list, research statement and answers to application questions by 20 November 2026.",
-   "eligibility": "PhD in physics or closely related subject obtained by start of employment and no more than three years before the deadline (extendable for parental/sick leave); strong background in unconventional superconductivity and quantum geometry; fluent English.",
-   "duration": "2 years (possible 1-year extension)",
+   "relevance": 80,
+   "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
+   "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
+   "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
+   "duration": null,
    "salary": null,
-   "start_date": "2027-05-01",
-   "call_opens": "2026-10-22",
-   "deadline": "2026-11-20",
+   "start_date": "2027-08",
+   "call_opens": "2026-09-08",
+   "deadline": "2026-11-15",
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
    "status": "open",
-   "url": "https://jobrxiv.org/job/postdoc-position-in-quantum-matter-theory-with-specialization-in-unconventional-superconductivity/",
+   "url": "https://academicjobsonline.org/ajo/jobs/32635",
    "sources": [
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
-    "Web search (topic: Theoretical & computational condensed matter (broad))"
+    "Web search (topic: Topological superconductivity & Majorana modes)"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-12",
    "last_seen": "2026-11-12",
    "notified_status": "open",
-   "notified_on": "2026-11-07"
+   "notified_on": "2026-11-12"
   },
   {
    "id": "a887d526bf26",
@@ -478,7 +516,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -512,7 +550,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -550,7 +588,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -593,7 +631,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -883,7 +921,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -960,8 +998,73 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "upcoming",
+   "notified_on": "2026-11-05"
+  },
+  {
+   "id": "fellowship-martin-escudero-abroad",
+   "kind": "fellowship",
+   "title": "Fundación Alfonso Martín Escudero — Postdoctoral grants abroad",
+   "institution": "Fundación Alfonso Martín Escudero",
+   "country": "Outside Spain",
+   "location": null,
+   "pi": null,
+   "matched_pis": [
+    "Karsten Flensberg",
+    "Fabian Hassler",
+    "Piet Brouwer",
+    "Felix von Oppen",
+    "Bernard van Heck",
+    "Michael Wimmer",
+    "Anton Akhmerov",
+    "Annica Black-Schaffer",
+    "Michele Burrello",
+    "Titus Neupert",
+    "Pascal Simon",
+    "Martin Leijnse",
+    "Bruno Amorim",
+    "Jelena Klinovaja"
+   ],
+   "pi_notes": {
+    "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Fabian Hassler": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Piet Brouwer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Felix von Oppen": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Bernard van Heck": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Michael Wimmer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Anton Akhmerov": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Annica Black-Schaffer": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Michele Burrello": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
+    "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
+   },
+   "topics": [],
+   "relevance": 95,
+   "relevance_reason": "Could be hosted by Karsten Flensberg, Fabian Hassler, Piet Brouwer, Felix von Oppen… from your PI list.",
+   "summary": "The 2026 FUNDAME call for postdoctoral research grants at universities and centres abroad (30 grants) is closed. fundame.org marks it \"CONVOCATORIA CERRADA\". Its terms were published in March 2026 and applications closed in April 2026: one university office gives 17 April, another source gives an internal deadline of 23 April and an official one of 30 April. No 2027 call has been announced. Based on the 2026 cycle, the next call would likely open around March 2027 and close around late April 2027. The grant pays a monthly stipend of €2,000–3,600 depending on the destination, plus up to €3,100 for travel and travel insurance, for a 12–24 month stay. The candidate does not appear eligible. He meets the Spanish nationality rule, but the 2026 call only covered agriculture and livestock, marine sciences, health sciences and food technology, so theoretical condensed matter physics is excluded. He also expects his PhD in March 2027, so he would barely hold it, if at all, by a 2027 deadline. This call is not a realistic option unless a future call adds physics.",
+   "eligibility": "Spanish nationality. Applicants must hold a PhD from any Spanish university, or a Spanish health specialty title (MIR, BIR, FIR, PIR, QIR, RFIR); foreign degrees must be recognised in Spain. Applicants must be accepted by the host institution abroad and have a good command of the host country's language or the working language of the host centre. In 2026 the eligible fields were limited to agriculture and livestock, marine sciences, health sciences and food technology. No rule on years since PhD or mobility history was found in the sources checked.",
+   "duration": "12–24 months",
+   "salary": "Monthly stipend of €2,000–3,600 depending on destination, plus travel costs up to €3,100 and travel insurance for the duration of the stay.",
+   "start_date": null,
+   "call_opens": "2027-03",
+   "deadline": "2027-04",
+   "rolling": false,
+   "dates_estimated": true,
+   "dates_checked": "2026-11-12T14:01:37+00:00",
+   "status": "upcoming",
+   "url": "https://fundame.org/convocatoria-de-becas-de-investigacion-en-universidades-y-centros-en-el-extranjero-2026/",
+   "sources": [
+    "fellowship catalog",
+    "web check"
+   ],
+   "fellowship_id": "martin-escudero-abroad",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-13",
+   "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
   {
@@ -1025,7 +1128,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1090,7 +1193,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1131,7 +1234,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1351,7 +1454,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1385,7 +1488,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1419,7 +1522,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1453,7 +1556,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1487,7 +1590,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1524,7 +1627,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1561,74 +1664,9 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
-  },
-  {
-   "id": "fellowship-martin-escudero-abroad",
-   "kind": "fellowship",
-   "title": "Fundación Alfonso Martín Escudero — Postdoctoral grants abroad",
-   "institution": "Fundación Alfonso Martín Escudero",
-   "country": "Outside Spain",
-   "location": null,
-   "pi": null,
-   "matched_pis": [
-    "Karsten Flensberg",
-    "Fabian Hassler",
-    "Piet Brouwer",
-    "Felix von Oppen",
-    "Bernard van Heck",
-    "Michael Wimmer",
-    "Anton Akhmerov",
-    "Annica Black-Schaffer",
-    "Michele Burrello",
-    "Titus Neupert",
-    "Pascal Simon",
-    "Martin Leijnse",
-    "Bruno Amorim",
-    "Jelena Klinovaja"
-   ],
-   "pi_notes": {
-    "Karsten Flensberg": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Fabian Hassler": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Piet Brouwer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Felix von Oppen": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Bernard van Heck": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Michael Wimmer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Anton Akhmerov": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Annica Black-Schaffer": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Michele Burrello": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Titus Neupert": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Pascal Simon": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Martin Leijnse": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Bruno Amorim": "✓ eligible — The foreign host PI provides an acceptance letter.",
-    "Jelena Klinovaja": "✓ eligible — The foreign host PI provides an acceptance letter."
-   },
-   "topics": [],
-   "relevance": 95,
-   "relevance_reason": "Could be hosted by Karsten Flensberg, Fabian Hassler, Piet Brouwer, Felix von Oppen… from your PI list.",
-   "summary": "The 2026 FUNDAME call for postdoctoral research grants at universities and centres abroad (30 grants) is closed. fundame.org marks it \"CONVOCATORIA CERRADA\". Its terms were published in March 2026 and applications closed in April 2026: one university office gives 17 April, another source gives an internal deadline of 23 April and an official one of 30 April. No 2027 call has been announced. Based on the 2026 cycle, the next call would likely open around March 2027 and close around late April 2027. The grant pays a monthly stipend of €2,000–3,600 depending on the destination, plus up to €3,100 for travel and travel insurance, for a 12–24 month stay. The candidate does not appear eligible. He meets the Spanish nationality rule, but the 2026 call only covered agriculture and livestock, marine sciences, health sciences and food technology, so theoretical condensed matter physics is excluded. He also expects his PhD in March 2027, so he would barely hold it, if at all, by a 2027 deadline. This call is not a realistic option unless a future call adds physics.",
-   "eligibility": "Spanish nationality. Applicants must hold a PhD from any Spanish university, or a Spanish health specialty title (MIR, BIR, FIR, PIR, QIR, RFIR); foreign degrees must be recognised in Spain. Applicants must be accepted by the host institution abroad and have a good command of the host country's language or the working language of the host centre. In 2026 the eligible fields were limited to agriculture and livestock, marine sciences, health sciences and food technology. No rule on years since PhD or mobility history was found in the sources checked.",
-   "duration": "12–24 months",
-   "salary": "Monthly stipend of €2,000–3,600 depending on destination, plus travel costs up to €3,100 and travel insurance for the duration of the stay.",
-   "start_date": null,
-   "call_opens": "2027-03",
-   "deadline": "2027-04",
-   "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": "2026-11-12T14:01:37+00:00",
-   "status": "upcoming",
-   "url": "https://fundame.org/convocatoria-de-becas-de-investigacion-en-universidades-y-centros-en-el-extranjero-2026/",
-   "sources": [
-    "fellowship catalog",
-    "web check"
-   ],
-   "fellowship_id": "martin-escudero-abroad",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
-   "notified_status": "unknown",
-   "notified_on": "2026-11-05"
   },
   {
    "id": "569b350c19b7",
@@ -1864,7 +1902,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
@@ -1898,47 +1936,45 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "notified_status": null,
    "notified_on": null
   },
   {
-   "id": "53db7a097f28",
+   "id": "bd42d5879f34",
    "kind": "position",
-   "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
-   "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
-   "country": "United States",
-   "location": "College Park, MD, USA",
+   "title": "Quantum Researcher (PostDoc) for Superconducting Quantum Computers (m/f/d) (100% full-time position)",
+   "institution": "Research Institute",
+   "country": "Germany",
+   "location": "Garching bei München, Bayern (DE)",
    "pi": null,
    "matched_pis": [],
    "pi_notes": {},
    "topics": [
-    "Topological superconductivity & Majorana modes",
-    "Theoretical & computational condensed matter (broad)",
     "Theory of quantum devices & qubits"
    ],
-   "relevance": 80,
-   "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
-   "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
-   "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
+   "relevance": 47,
+   "relevance_reason": "Keyword match (topics: Theory of quantum devices & qubits)",
+   "summary": "TV-L E13/E14:\nResearch Institute:\nPD positions at WMI Garching: build next-gen superconducting quantum processors – fluxonium, qLDPC codes, long-range couplers. Apply by 1 Dec 2026.\nGarching bei München, Bayern (DE)",
+   "eligibility": null,
    "duration": null,
-   "salary": null,
-   "start_date": "2027-08",
-   "call_opens": "2026-09-08",
-   "deadline": "2026-11-15",
+   "salary": "TV-L E13/E14",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
-   "status": "open",
-   "url": "https://academicjobsonline.org/ajo/jobs/32635",
+   "status": "unknown",
+   "url": "https://www.nature.com/naturecareers/job/12866760/quantum-researcher-postdoc-for-superconducting-quantum-computers-m-f-d-100-percent-full-time-position-/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
    "sources": [
-    "Web search (topic: Topological superconductivity & Majorana modes)"
+    "Nature Careers"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
-   "notified_status": "open",
-   "notified_on": "2026-11-12"
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "notified_status": null,
+   "notified_on": null
   }
  ],
  "pis": [
@@ -2683,6 +2719,39 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 31
+  },
+  {
+   "date": "2026-11-13T13:14:18+00:00",
+   "ai_enabled": true,
+   "raw_items": 246,
+   "candidates": 3,
+   "triaged": 0,
+   "lab_pages_changed": 0,
+   "search_tasks": [],
+   "fellowship_checks": [],
+   "new_positions": 1,
+   "emailed": 0,
+   "errors": [
+    "Claude subscription limit reached: You've hit your org's monthly spend limit · ask your admin to raise it at https://claude.ai/admin-settings/usage · your 5-hour limit resets 2:20pm (UTC)",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 1,
+   "ai": {
+    "requests": 1,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "web_searches": 0,
+    "web_fetches": 0,
+    "cost_usd": 0.0,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 };

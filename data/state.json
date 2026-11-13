@@ -393,18 +393,33 @@
   "f12878205d41": "2026-11-12",
   "2de8752d4a01": "2026-11-12",
   "049105137677": "2026-11-12",
-  "bcd59038b480": "2026-11-12"
+  "bcd59038b480": "2026-11-12",
+  "2d8a7acf0625": "2026-11-13",
+  "d056fcb55734": "2026-11-13",
+  "6e9eeb119ab7": "2026-11-13",
+  "b9b49297b406": "2026-11-13",
+  "93df545519a2": "2026-11-13",
+  "f05ccf35726e": "2026-11-13",
+  "68b67042b24b": "2026-11-13",
+  "0756de43f2f3": "2026-11-13",
+  "0826bd46f206": "2026-11-13",
+  "6fcb96cde2c0": "2026-11-13",
+  "4fe7d930ac96": "2026-11-13"
  },
- "seen_kw": {},
+ "seen_kw": {
+  "a10b96bc122a": "2026-11-13",
+  "bd42d5879f34": "2026-11-13",
+  "775e820d8726": "2026-11-13"
+ },
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-12T13:53:14+00:00",
+   "checked": "2026-11-13T13:15:50+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-12T13:53:16+00:00",
+   "checked": "2026-11-13T13:15:51+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -414,47 +429,47 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-12T13:53:25+00:00",
+   "checked": "2026-11-13T13:15:59+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-12T13:53:26+00:00",
+   "checked": "2026-11-13T13:15:59+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-12T13:53:44+00:00",
+   "checked": "2026-11-13T13:16:19+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-12T13:53:48+00:00",
+   "checked": "2026-11-13T13:16:19+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-12T13:53:49+00:00",
+   "checked": "2026-11-13T13:16:20+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-12T13:53:49+00:00",
+   "checked": "2026-11-13T13:16:20+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-12T13:53:16+00:00",
+   "checked": "2026-11-13T13:15:53+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-12T13:53:27+00:00",
+   "checked": "2026-11-13T13:16:00+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-12T13:53:51+00:00",
+   "checked": "2026-11-13T13:16:22+00:00",
    "pi": "Jelena Klinovaja"
   }
  },
@@ -1266,6 +1281,39 @@
     "backend": "claude-code"
    },
    "open_total": 31
+  },
+  {
+   "date": "2026-11-13T13:14:18+00:00",
+   "ai_enabled": true,
+   "raw_items": 246,
+   "candidates": 3,
+   "triaged": 0,
+   "lab_pages_changed": 0,
+   "search_tasks": [],
+   "fellowship_checks": [],
+   "new_positions": 1,
+   "emailed": 0,
+   "errors": [
+    "Claude subscription limit reached: You've hit your org's monthly spend limit · ask your admin to raise it at https://claude.ai/admin-settings/usage · your 5-hour limit resets 2:20pm (UTC)",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…",
+    "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/: HTTPSConnectionPool(host='nbi.ku.dk', port=443): Max retries exceeded with url: /english/research/condensed-matte…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 1,
+   "ai": {
+    "requests": 1,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "web_searches": 0,
+    "web_fetches": 0,
+    "cost_usd": 0.0,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 }

@@ -60,7 +60,7 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "open",
   "notified_on": "2026-11-10"
  },
@@ -512,7 +512,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -546,7 +546,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -584,7 +584,7 @@
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -627,7 +627,7 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
  },
@@ -917,7 +917,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -994,7 +994,7 @@
   ],
   "fellowship_id": "humboldt-rf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -1059,7 +1059,7 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1124,7 +1124,7 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -1189,7 +1189,7 @@
   ],
   "fellowship_id": "ramon-areces-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1230,7 +1230,7 @@
   ],
   "fellowship_id": "nwo-veni",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1450,7 +1450,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1484,7 +1484,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1518,7 +1518,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1552,7 +1552,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1586,7 +1586,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1623,7 +1623,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1660,7 +1660,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1835,6 +1835,42 @@
   "notified_on": null
  },
  {
+  "id": "bd42d5879f34",
+  "kind": "position",
+  "title": "Quantum Researcher (PostDoc) for Superconducting Quantum Computers (m/f/d) (100% full-time position)",
+  "institution": "Research Institute",
+  "country": "Germany",
+  "location": "Garching bei München, Bayern (DE)",
+  "pi": null,
+  "matched_pis": [],
+  "pi_notes": {},
+  "topics": [
+   "Theory of quantum devices & qubits"
+  ],
+  "relevance": 47,
+  "relevance_reason": "Keyword match (topics: Theory of quantum devices & qubits)",
+  "summary": "TV-L E13/E14:\nResearch Institute:\nPD positions at WMI Garching: build next-gen superconducting quantum processors – fluxonium, qLDPC codes, long-range couplers. Apply by 1 Dec 2026.\nGarching bei München, Bayern (DE)",
+  "eligibility": null,
+  "duration": null,
+  "salary": "TV-L E13/E14",
+  "start_date": null,
+  "call_opens": null,
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "unknown",
+  "url": "https://www.nature.com/naturecareers/job/12866760/quantum-researcher-postdoc-for-superconducting-quantum-computers-m-f-d-100-percent-full-time-position-/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
+  "sources": [
+   "Nature Careers"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-13",
+  "last_seen": "2026-11-13",
+  "notified_status": null,
+  "notified_on": null
+ },
+ {
   "id": "e54dbba03613",
   "kind": "position",
   "title": "Postdoctoral Fellow in Quantum Mathematics",
@@ -1898,7 +1934,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  },
@@ -1932,7 +1968,7 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "notified_status": null,
   "notified_on": null
  }
