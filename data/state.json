@@ -404,22 +404,42 @@
   "0756de43f2f3": "2026-11-13",
   "0826bd46f206": "2026-11-13",
   "6fcb96cde2c0": "2026-11-13",
-  "4fe7d930ac96": "2026-11-13"
+  "4fe7d930ac96": "2026-11-13",
+  "3f07302c2992": "2026-11-14",
+  "6a1ab0f419c2": "2026-11-14",
+  "5ab5aae264e2": "2026-11-14",
+  "acce2d1dbd22": "2026-11-14",
+  "daaa4daa9f33": "2026-11-14",
+  "32f6f1a1f0cf": "2026-11-14",
+  "fe2888f067ee": "2026-11-14",
+  "5d116c157e57": "2026-11-14",
+  "fffbe0f1b81c": "2026-11-14",
+  "cf9f71ac253c": "2026-11-14",
+  "13299f46fce6": "2026-11-14",
+  "84d7f8fc69d9": "2026-11-14",
+  "d15a68d6c829": "2026-11-14",
+  "86f5dd3ca7c5": "2026-11-14",
+  "45486f092a93": "2026-11-14",
+  "118864acff97": "2026-11-14",
+  "a381e7356d45": "2026-11-14",
+  "51fe84ab124c": "2026-11-14",
+  "c312e54dbb88": "2026-11-14",
+  "a10b96bc122a": "2026-11-14",
+  "bd42d5879f34": "2026-11-14",
+  "054502b848b0": "2026-11-14",
+  "775e820d8726": "2026-11-14",
+  "957d55290358": "2026-11-14"
  },
- "seen_kw": {
-  "a10b96bc122a": "2026-11-13",
-  "bd42d5879f34": "2026-11-13",
-  "775e820d8726": "2026-11-13"
- },
+ "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-13T13:15:50+00:00",
+   "checked": "2026-11-14T12:19:50+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-13T13:15:51+00:00",
+   "checked": "2026-11-14T12:19:52+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -429,60 +449,65 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-13T13:15:59+00:00",
+   "checked": "2026-11-14T12:19:58+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-13T13:15:59+00:00",
+   "checked": "2026-11-14T12:19:59+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-13T13:16:19+00:00",
+   "checked": "2026-11-14T12:20:03+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-13T13:16:19+00:00",
+   "checked": "2026-11-14T12:20:07+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-13T13:16:20+00:00",
+   "checked": "2026-11-14T12:20:08+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-13T13:16:20+00:00",
+   "checked": "2026-11-14T12:20:08+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-13T13:15:53+00:00",
+   "checked": "2026-11-14T12:19:52+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-13T13:16:00+00:00",
+   "checked": "2026-11-14T12:20:00+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-13T13:16:22+00:00",
+   "checked": "2026-11-14T12:20:10+00:00",
    "pi": "Jelena Klinovaja"
+  },
+  "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
+   "hash": "8350be099e8b02a31700",
+   "checked": "2026-11-14T12:20:02+00:00",
+   "pi": "Michele Burrello"
   }
  },
  "tasks": {
-  "pi:Karsten Flensberg": "2026-11-10T13:45:43+00:00",
-  "pi:Piet Brouwer": "2026-11-10T13:47:07+00:00",
+  "pi:Karsten Flensberg": "2026-11-14T12:21:07+00:00",
+  "pi:Piet Brouwer": "2026-11-14T12:21:50+00:00",
   "pi:Bernard van Heck": "2026-11-11T12:52:48+00:00",
   "pi:Michael Wimmer": "2026-11-11T12:54:01+00:00",
   "pi:Anton Akhmerov": "2026-11-11T12:55:17+00:00",
   "pi:Martin Leijnse": "2026-11-12T13:55:11+00:00",
   "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
-  "topic:Quantum transport in mesoscopic systems": "2026-11-06T13:08:01+00:00",
+  "topic:Quantum transport in mesoscopic systems": "2026-11-14T12:23:00+00:00",
   "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00",
   "topic:Theory of quantum devices & qubits": "2026-11-07T11:52:39+00:00",
   "topic:Theoretical & computational condensed matter (broad)": "2026-11-07T11:54:25+00:00",
@@ -676,6 +701,28 @@
     "https://www.uspceu.com/Portals/0/adam/Investigacion/4ubFYs3l9kSIhLXY35Y9PA/Archivo/Bases-Convocatoria%20BECAS%20FUNDAME.pdf",
     "https://www.iisaragon.es/fundacion-alfonso-martin-escudero-investigacion-postdoctoral-en-el-extranjero-2026/",
     "https://gestioncalidad.uah.es/es/tablon-anuncios/index.html?cevento=28461"
+   ]
+  },
+  "msca-pf-gf": {
+   "checked": "2026-11-14T12:23:58+00:00",
+   "status": "upcoming",
+   "call_opens": "2027-04-07",
+   "deadline": "2027-09-08",
+   "dates_estimated": false,
+   "summary": "The 2026 call (HORIZON-MSCA-2026-PF-01) opened on 9 April 2026 and closed on 9 September 2026, so it is now closed. The 2027 call (HORIZON-MSCA-2027-PF-01) is expected to open on 7 April 2027 and close on 8 September 2027 at 17:00 CEST; these dates are listed as provisional, so check them on the official EU funding portal. It is said to be the last call before the EU's next budget period. In a Global Fellowship you spend 12–24 months at a host outside Europe and its associated countries (for example the US or Canada), then a mandatory 12-month return phase at the European organisation that employs you for the whole fellowship. Carlos appears eligible for the 2027 call. He is Spanish, so he meets the nationality rule. His PhD is expected in March 2027, before the September 2027 deadline; a thesis defended unconditionally by the deadline counts even if the degree hasn't been formally awarded. He has never lived in the US or Canada, so he meets the rule on recent residence in the outgoing country. Because Carlos only wants to leave Europe for outstanding matches, this suits him only if he finds a top US or Canadian theory host in Majorana or hybrid-device physics, with a European return host such as one of his listed PIs. A Spanish return host is also allowed.",
+   "eligibility": "Open only to nationals or long-term residents (at least 5 consecutive years) of an EU member state or a country associated with Horizon Europe. You must hold a PhD by the call deadline; a thesis defended successfully and unconditionally counts even before the formal award. You can have at most 8 years of full-time research experience after the PhD; career breaks, non-research work and, for returning Europeans, research done outside Europe do not count toward this limit. Mobility rule for Global Fellowships: in the 36 months before the deadline you must not have lived or had your main activity in the outgoing-host country for more than 12 months. You apply jointly with a European organisation (academic or not) that employs you for the whole fellowship. From 2026, applicants whose previous-year proposal scored below 80% face restrictions on resubmitting.",
+   "duration": "24–36 months in total: a 12–24 month outgoing phase outside Europe, then a mandatory 12-month return phase in the EU or an associated country. Secondments of up to half the outgoing phase are possible, but none during the return phase. An optional extra placement of up to 6 months at a non-academic organisation can be added at the end.",
+   "funding": "Per month: a living allowance of about €6,350 (adjusted by a country coefficient), a mobility allowance of €710 and, where applicable, a family allowance of €660. These figures come from European Commission and national-agency slides for the 2026–27 calls; I couldn't confirm them in the official work programme. Long-term leave and special-needs allowances may also apply. The grant also covers research, training and networking costs, plus management and indirect costs. Proposals scoring at least 85% that are not funded receive a Seal of Excellence. The 2027 Global Fellowships budget is about €58.3M.",
+   "url": "https://www.euacc.ai/calls/HORIZON-MSCA-2027-PF-01-01",
+   "sources": [
+    "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+    "https://www.euacc.ai/calls/HORIZON-MSCA-2027-PF-01-01",
+    "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+    "https://www.imperial.ac.uk/research-and-innovation/research-office/funder-information/european-commission/horizon-europe/marie-sklodowska-curie-actions-postdoctoral-fellowships/",
+    "https://www.ffg.at/en/europa/heu/msca/calls/PF_2027",
+    "https://www.horizon-europe.gouv.fr/msca-postdoctoral-fellowships-2027-42993",
+    "https://www.ffg.at/sites/default/files/2026-10/MSCA_PF_2026_27_Update_Call_27.pdf",
+    "https://nawa.gov.pl/images/MSCA/MSCA-Aktualnosci/MSCA-PF_PL_24_April_2026.pdf"
    ]
   }
  },
@@ -1314,6 +1361,58 @@
     "backend": "claude-code"
    },
    "open_total": 32
+  },
+  {
+   "date": "2026-11-14T12:18:18+00:00",
+   "ai_enabled": true,
+   "raw_items": 245,
+   "candidates": 5,
+   "triaged": 5,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Karsten Flensberg",
+     "found": 1,
+     "notes": "I used 5 searches and 4 page fetches. I found no open postdoc position in Karsten Flensberg's group. An NBI ad for a condensed matter theory postdoc funded by an ERC Synergy grant, with Flensberg as contact, showed up on jobdanmark.dk and jobbank.dk, but I couldn't open the posting and it is probab…"
+    },
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "I found no open postdoc position in Piet Brouwer's group (AG Brouwer, Freie Universität Berlin) as of 2026-11-14.\n- **Closed postdoc:** The group's last postdoc ad was Brouwer-Postdoc-2026. It was a 3-year post in theoretical solid-state physics (spintronics and topological states) at pay grade E13…"
+    },
+    {
+     "task": "topic:Quantum transport in mesoscopic systems",
+     "found": 1,
+     "notes": "I found one open opportunity: a theory postdoc with Annica Black-Schaffer at Uppsala (deadline 2026-11-20). It's in the group of a PI on your list, but the focus is quantum geometry of unconventional superconductors, which is next to your work rather than on it, so I scored it 76. I used all 5 sear…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "msca-pf-gf",
+     "status": "upcoming",
+     "deadline": "2027-09-08"
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 54,
+    "output_tokens": 14002,
+    "cache_read_tokens": 251663,
+    "cache_write_tokens": 56443,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.9711,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
   }
  ]
 }

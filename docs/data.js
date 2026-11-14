@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-13T13:16:22+00:00",
+ "generated_at": "2026-11-14T12:23:58+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -64,7 +64,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "open",
    "notified_on": "2026-11-10"
   },
@@ -102,11 +102,12 @@ window.POSTDOC_DATA = {
    "url": "https://jobrxiv.org/job/postdoc-position-in-quantum-matter-theory-with-specialization-in-unconventional-superconductivity/",
    "sources": [
     "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Quantum transport in mesoscopic systems)",
     "Web search (topic: Theoretical & computational condensed matter (broad))"
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "notified_status": "open",
    "notified_on": "2026-11-07"
   },
@@ -369,7 +370,7 @@ window.POSTDOC_DATA = {
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
-   "status": "open",
+   "status": "closed",
    "url": "https://www.nature.com/naturecareers/job/12865333/distinguished-pks-postdoctoral-fellow/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
    "sources": [
     "Nature Careers",
@@ -516,7 +517,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -550,7 +551,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -588,7 +589,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -631,7 +632,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -827,12 +828,13 @@ window.POSTDOC_DATA = {
     "Piet Brouwer": "★ PI of this offer"
    },
    "topics": [
-    "Topological superconductivity & Majorana modes",
-    "Quantum transport in mesoscopic systems"
+    "Quantum transport in mesoscopic systems",
+    "Theoretical & computational condensed matter (broad)",
+    "Topological superconductivity & Majorana modes"
    ],
-   "relevance": 72,
-   "relevance_reason": "A strong independent route into a listed PI's group, but it can only be used after the PhD is finished.",
-   "summary": "An independent postdoctoral fellowship, applied for directly to the Humboldt Foundation with Piet Brouwer as host. Applications are accepted on a rolling basis. This entry was not checked against the Foundation's site in this search, so confirm the current terms and rates there.",
+   "relevance": 75,
+   "relevance_reason": "An open-all-year independent fellowship you could hold in a listed PI's group once your PhD is done, though a full proposal and the host's agreement are required.",
+   "summary": "An independent postdoc fellowship from the Humboldt Foundation that you could hold in Brouwer's theory group at the Dahlem Center. Applications are accepted at any time, and the host must agree to your research proposal. I did not check the exact length, stipend amount or eligibility details for this summary.",
    "eligibility": "Open to researchers who are not German nationals and have completed a doctorate. Carlos could apply only after defending his PhD (expected March 2027). The host must confirm support.",
    "duration": null,
    "salary": null,
@@ -849,7 +851,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-14",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -921,7 +923,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -998,7 +1000,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1063,7 +1065,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1128,7 +1130,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1193,7 +1195,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1234,7 +1236,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1313,8 +1315,8 @@ window.POSTDOC_DATA = {
     "Theory of quantum devices & qubits",
     "Topological superconductivity & Majorana modes"
    ],
-   "relevance": 85,
-   "relevance_reason": "This is a prestigious independent fellowship in a listed PI's group you already collaborate with, and you should be eligible because your PhD is due in March 2027, before the expected September 2027 deadline.",
+   "relevance": 88,
+   "relevance_reason": "This is a prestigious independent fellowship hosted by a PI on your list who already knows your work, on your core topics, and you appear to meet the eligibility rules; the score is held below 90 only because the 2027 dates are estimated and not yet confirmed.",
    "summary": "This is an EU-funded independent fellowship. You write the proposal together with a host supervisor, here Karsten Flensberg at the Niels Bohr Institute. One aggregator lists the 2027 call as planned to open on 2027-04-07 and close on 2027-09-08; these dates are provisional, so check them on the official EU Funding & Tenders portal. The fellowship pays a living allowance, a mobility allowance and research costs, all set by the EU. To apply, contact Flensberg well before the call opens to agree on a project, for example continuing your non-Hermitian transport work in hybrid devices.",
    "eligibility": "You must hold a PhD by the call deadline and have at most 8 years of experience since the PhD. Mobility rule: you can't have lived or worked in Denmark for more than 12 months in the 36 months before the deadline. A short research visit in 2025 should not break this rule.",
    "duration": "12-24 months (European Fellowship)",
@@ -1334,7 +1336,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1454,7 +1456,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1488,7 +1490,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1505,24 +1507,25 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 30,
    "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
-   "summary": "Nationals or long-term residents of an EU member state or associated country. 12–24 months outgoing phase outside Europe + mandatory 12-month return phase at a European host. Duration: 24–36 months (incl. return phase). Funding: As European Fellowships, plus return phase. Call: Same call as European Fellowships (opens ~April–May, deadline ~mid-September).",
-   "eligibility": "Nationals or long-term residents of an EU member state or associated country. 12–24 months outgoing phase outside Europe + mandatory 12-month return phase at a European host.",
-   "duration": "24–36 months (incl. return phase)",
-   "salary": "As European Fellowships, plus return phase.",
+   "summary": "The 2026 call (HORIZON-MSCA-2026-PF-01) opened on 9 April 2026 and closed on 9 September 2026, so it is now closed. The 2027 call (HORIZON-MSCA-2027-PF-01) is expected to open on 7 April 2027 and close on 8 September 2027 at 17:00 CEST; these dates are listed as provisional, so check them on the official EU funding portal. It is said to be the last call before the EU's next budget period. In a Global Fellowship you spend 12–24 months at a host outside Europe and its associated countries (for example the US or Canada), then a mandatory 12-month return phase at the European organisation that employs you for the whole fellowship. Carlos appears eligible for the 2027 call. He is Spanish, so he meets the nationality rule. His PhD is expected in March 2027, before the September 2027 deadline; a thesis defended unconditionally by the deadline counts even if the degree hasn't been formally awarded. He has never lived in the US or Canada, so he meets the rule on recent residence in the outgoing country. Because Carlos only wants to leave Europe for outstanding matches, this suits him only if he finds a top US or Canadian theory host in Majorana or hybrid-device physics, with a European return host such as one of his listed PIs. A Spanish return host is also allowed.",
+   "eligibility": "Open only to nationals or long-term residents (at least 5 consecutive years) of an EU member state or a country associated with Horizon Europe. You must hold a PhD by the call deadline; a thesis defended successfully and unconditionally counts even before the formal award. You can have at most 8 years of full-time research experience after the PhD; career breaks, non-research work and, for returning Europeans, research done outside Europe do not count toward this limit. Mobility rule for Global Fellowships: in the 36 months before the deadline you must not have lived or had your main activity in the outgoing-host country for more than 12 months. You apply jointly with a European organisation (academic or not) that employs you for the whole fellowship. From 2026, applicants whose previous-year proposal scored below 80% face restrictions on resubmitting.",
+   "duration": "24–36 months in total: a 12–24 month outgoing phase outside Europe, then a mandatory 12-month return phase in the EU or an associated country. Secondments of up to half the outgoing phase are possible, but none during the return phase. An optional extra placement of up to 6 months at a non-academic organisation can be added at the end.",
+   "salary": "Per month: a living allowance of about €6,350 (adjusted by a country coefficient), a mobility allowance of €710 and, where applicable, a family allowance of €660. These figures come from European Commission and national-agency slides for the 2026–27 calls; I couldn't confirm them in the official work programme. Long-term leave and special-needs allowances may also apply. The grant also covers research, training and networking costs, plus management and indirect costs. Proposals scoring at least 85% that are not funded receive a Seal of Excellence. The 2027 Global Fellowships budget is about €58.3M.",
    "start_date": null,
-   "call_opens": "2027-04-01",
-   "deadline": "2027-09-30",
+   "call_opens": "2027-04-07",
+   "deadline": "2027-09-08",
    "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": null,
+   "dates_estimated": false,
+   "dates_checked": "2026-11-14T12:23:58+00:00",
    "status": "upcoming",
-   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+   "url": "https://www.euacc.ai/calls/HORIZON-MSCA-2027-PF-01-01",
    "sources": [
-    "fellowship catalog"
+    "fellowship catalog",
+    "web check"
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1556,7 +1559,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1590,7 +1593,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1627,7 +1630,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1664,7 +1667,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1839,6 +1842,42 @@ window.POSTDOC_DATA = {
    "notified_on": null
   },
   {
+   "id": "bd42d5879f34",
+   "kind": "position",
+   "title": "Quantum Researcher (PostDoc) for Superconducting Quantum Computers (m/f/d) (100% full-time position)",
+   "institution": "Research Institute",
+   "country": "Germany",
+   "location": "Garching bei München, Bayern (DE)",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theory of quantum devices & qubits"
+   ],
+   "relevance": 42,
+   "relevance_reason": "Superconducting quantum processor postdoc in Germany overlaps your qubit/device interests, but appears largely experimental (building processors) rather than theory.",
+   "summary": "TV-L E13/E14:\nResearch Institute:\nPD positions at WMI Garching: build next-gen superconducting quantum processors – fluxonium, qLDPC codes, long-range couplers. Apply by 1 Dec 2026.\nGarching bei München, Bayern (DE)",
+   "eligibility": null,
+   "duration": null,
+   "salary": "TV-L E13/E14",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": "2026-12-01",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://www.nature.com/naturecareers/job/12866760/quantum-researcher-postdoc-for-superconducting-quantum-computers-m-f-d-100-percent-full-time-position-/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
+   "sources": [
+    "Nature Careers"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
    "id": "e54dbba03613",
    "kind": "position",
    "title": "Postdoctoral Fellow in Quantum Mathematics",
@@ -1902,7 +1941,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   },
@@ -1936,43 +1975,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "bd42d5879f34",
-   "kind": "position",
-   "title": "Quantum Researcher (PostDoc) for Superconducting Quantum Computers (m/f/d) (100% full-time position)",
-   "institution": "Research Institute",
-   "country": "Germany",
-   "location": "Garching bei München, Bayern (DE)",
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [
-    "Theory of quantum devices & qubits"
-   ],
-   "relevance": 47,
-   "relevance_reason": "Keyword match (topics: Theory of quantum devices & qubits)",
-   "summary": "TV-L E13/E14:\nResearch Institute:\nPD positions at WMI Garching: build next-gen superconducting quantum processors – fluxonium, qLDPC codes, long-range couplers. Apply by 1 Dec 2026.\nGarching bei München, Bayern (DE)",
-   "eligibility": null,
-   "duration": null,
-   "salary": "TV-L E13/E14",
-   "start_date": null,
-   "call_opens": null,
-   "deadline": null,
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "unknown",
-   "url": "https://www.nature.com/naturecareers/job/12866760/quantum-researcher-postdoc-for-superconducting-quantum-computers-m-f-d-100-percent-full-time-position-/?TrackID=12&utm_source=rss&utm_medium=feed&utm_campaign=general",
-   "sources": [
-    "Nature Careers"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "notified_status": null,
    "notified_on": null
   }
@@ -1984,7 +1987,7 @@ window.POSTDOC_DATA = {
    "country": "Denmark",
    "website": "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/",
    "priority": "high",
-   "last_searched": "2026-11-10T13:45:43+00:00"
+   "last_searched": "2026-11-14T12:21:07+00:00"
   },
   {
    "name": "Fabian Hassler",
@@ -2000,7 +2003,7 @@ window.POSTDOC_DATA = {
    "country": "Germany",
    "website": "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/",
    "priority": "high",
-   "last_searched": "2026-11-10T13:47:07+00:00"
+   "last_searched": "2026-11-14T12:21:50+00:00"
   },
   {
    "name": "Felix von Oppen",
@@ -2102,7 +2105,7 @@ window.POSTDOC_DATA = {
   },
   {
    "name": "Quantum transport in mesoscopic systems",
-   "last_searched": "2026-11-06T13:08:01+00:00"
+   "last_searched": "2026-11-14T12:23:00+00:00"
   },
   {
    "name": "Non-Hermitian physics & open quantum systems",
@@ -2752,6 +2755,58 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 32
+  },
+  {
+   "date": "2026-11-14T12:18:18+00:00",
+   "ai_enabled": true,
+   "raw_items": 245,
+   "candidates": 5,
+   "triaged": 5,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Karsten Flensberg",
+     "found": 1,
+     "notes": "I used 5 searches and 4 page fetches. I found no open postdoc position in Karsten Flensberg's group. An NBI ad for a condensed matter theory postdoc funded by an ERC Synergy grant, with Flensberg as contact, showed up on jobdanmark.dk and jobbank.dk, but I couldn't open the posting and it is probab…"
+    },
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "I found no open postdoc position in Piet Brouwer's group (AG Brouwer, Freie Universität Berlin) as of 2026-11-14.\n- **Closed postdoc:** The group's last postdoc ad was Brouwer-Postdoc-2026. It was a 3-year post in theoretical solid-state physics (spintronics and topological states) at pay grade E13…"
+    },
+    {
+     "task": "topic:Quantum transport in mesoscopic systems",
+     "found": 1,
+     "notes": "I found one open opportunity: a theory postdoc with Annica Black-Schaffer at Uppsala (deadline 2026-11-20). It's in the group of a PI on your list, but the focus is quantum geometry of unconventional superconductors, which is next to your work rather than on it, so I scored it 76. I used all 5 sear…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "msca-pf-gf",
+     "status": "upcoming",
+     "deadline": "2027-09-08"
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 54,
+    "output_tokens": 14002,
+    "cache_read_tokens": 251663,
+    "cache_write_tokens": 56443,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.9711,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
   }
  ]
 };
