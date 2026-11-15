@@ -428,18 +428,35 @@
   "bd42d5879f34": "2026-11-14",
   "054502b848b0": "2026-11-14",
   "775e820d8726": "2026-11-14",
-  "957d55290358": "2026-11-14"
+  "957d55290358": "2026-11-14",
+  "c2de40021a25": "2026-11-15",
+  "a16a41bef6cb": "2026-11-15",
+  "7b87eea4f730": "2026-11-15",
+  "0c070811deda": "2026-11-15",
+  "bd4248f32a08": "2026-11-15",
+  "82ca0399babe": "2026-11-15",
+  "ed85e281ccca": "2026-11-15",
+  "429f58617101": "2026-11-15",
+  "338912d26606": "2026-11-15",
+  "155ab7ad2fb9": "2026-11-15",
+  "b2016110d00e": "2026-11-15",
+  "75157a6055cd": "2026-11-15",
+  "305fa706aa7e": "2026-11-15",
+  "f3765f2b9188": "2026-11-15",
+  "a5d50807c032": "2026-11-15",
+  "4455836b239a": "2026-11-15",
+  "ca242b3bf24b": "2026-11-15"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-14T12:19:50+00:00",
+   "checked": "2026-11-15T12:51:45+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-14T12:19:52+00:00",
+   "checked": "2026-11-15T12:51:46+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -449,61 +466,61 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-14T12:19:58+00:00",
+   "checked": "2026-11-15T12:51:54+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-14T12:19:59+00:00",
+   "checked": "2026-11-15T12:51:56+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-14T12:20:03+00:00",
+   "checked": "2026-11-15T12:52:01+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-14T12:20:07+00:00",
+   "checked": "2026-11-15T12:52:05+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-14T12:20:08+00:00",
+   "checked": "2026-11-15T12:52:06+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-14T12:20:08+00:00",
+   "checked": "2026-11-15T12:52:06+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-14T12:19:52+00:00",
+   "checked": "2026-11-15T12:51:46+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-14T12:20:00+00:00",
+   "checked": "2026-11-15T12:51:57+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-14T12:20:10+00:00",
+   "checked": "2026-11-15T12:52:08+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
    "hash": "8350be099e8b02a31700",
-   "checked": "2026-11-14T12:20:02+00:00",
+   "checked": "2026-11-15T12:52:00+00:00",
    "pi": "Michele Burrello"
   }
  },
  "tasks": {
   "pi:Karsten Flensberg": "2026-11-14T12:21:07+00:00",
   "pi:Piet Brouwer": "2026-11-14T12:21:50+00:00",
-  "pi:Bernard van Heck": "2026-11-11T12:52:48+00:00",
-  "pi:Michael Wimmer": "2026-11-11T12:54:01+00:00",
-  "pi:Anton Akhmerov": "2026-11-11T12:55:17+00:00",
+  "pi:Bernard van Heck": "2026-11-15T12:53:32+00:00",
+  "pi:Michael Wimmer": "2026-11-15T12:54:29+00:00",
+  "pi:Anton Akhmerov": "2026-11-15T12:55:10+00:00",
   "pi:Martin Leijnse": "2026-11-12T13:55:11+00:00",
   "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
@@ -723,6 +740,27 @@
     "https://www.horizon-europe.gouv.fr/msca-postdoctoral-fellowships-2027-42993",
     "https://www.ffg.at/sites/default/files/2026-10/MSCA_PF_2026_27_Update_Call_27.pdf",
     "https://nawa.gov.pl/images/MSCA/MSCA-Aktualnosci/MSCA-PF_PL_24_April_2026.pdf"
+   ]
+  },
+  "juan-de-la-cierva": {
+   "checked": "2026-11-15T12:56:32+00:00",
+   "status": "open",
+   "call_opens": "2026-11-12",
+   "deadline": "2026-11-26",
+   "dates_estimated": false,
+   "summary": "The Juan de la Cierva 2026 call is open now. The AEI approved it by resolution of 25 September 2026. Candidates fill in the form from 12 to 26 November 2026 (14:00, Spanish peninsular time). The host institution then signs and submits the application by 3 December 2026, and many universities set earlier internal deadlines. There are up to 500 three-year contracts, funded at €35,700 per year for salary plus employer social security, with an extra €15,000 for research costs.\n\nCarlos does not appear eligible for this round. The general track needs a PhD obtained between 1 January 2024 and 31 December 2026, and these calls normally require the PhD to be held by the application deadline (the pages I checked did not confirm this point). His defence is expected in March 2027, so he misses both dates.\n\nHis realistic target is the 2027 call. Going by the 2025 and 2026 cycles, it should open around November 2027 with a candidate window of about two weeks, and a PhD from 2027 should fall inside its window (estimated, not announced). He will need a host centre other than ICMM-CSIC, and a move within CSIC would probably need a written case for genuine mobility, as the 2025 call required. The tutor's and group's CVs and track record carry heavy weight in the evaluation.",
+   "eligibility": "Applicants need a doctorate obtained between 1 January 2024 and 31 December 2026 (general track and JDC-INIA-CCAA track). For the disability track (33% or more) the window runs from 1 January 2023. The window can be extended for documented interruptions such as parental leave or illness. The PhD normally has to be held by the end of the application period. Mobility rule: the hiring centre should differ from the PhD centre. The 2025 call asked for a justification report when the move was within the same public research body (such as CSIC) or a mixed centre. I could not confirm the 2026 wording on this. Host institutions are Spanish universities, public research bodies and other eligible R&D centres.",
+   "duration": "3 years, full-time employment contract",
+   "funding": "€35,700 per year from the AEI to cover salary and employer social security (the host can add to it), plus €15,000 for research costs. The total budget is €61.05M for up to 500 grants, including 9 for the disability track and 9 for the JDC-INIA-CCAA track. Minimum gross salary is about €31,200 per year, according to a secondary source.",
+   "url": "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026",
+   "sources": [
+    "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026",
+    "https://convocatoriasinvestigacion.usal.es/convocatoria-juan-de-la-cierva-2026/",
+    "https://investigacion.ugr.es/informacion/noticias/juan-la-cierva-2026",
+    "https://www.injuve.es/convocatorias/becas-empleo/ayudas-juan-de-la-cierva-2026",
+    "https://ugt-sp.es/ayudas-juan-de-la-cierva-2026/",
+    "https://www.idival.org/wp-content/uploads/2025/11/JuanDeLaCierva_2025.pdf",
+    "https://www.ciencia.gob.es/en/Convocatorias/2026/JDC2026.html"
    ]
   }
  },
@@ -1413,6 +1451,61 @@
     "backend": "claude-code"
    },
    "open_total": 31
+  },
+  {
+   "date": "2026-11-15T12:50:25+00:00",
+   "ai_enabled": true,
+   "raw_items": 248,
+   "candidates": 0,
+   "triaged": 0,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Bernard van Heck",
+     "found": 1,
+     "notes": "I found no open postdoc position in Bernard van Heck's group as of 2026-11-15, and nothing is announced for the next few months.\n\n- **His group website** (roma1.infn.it/~vanheckb) could not be read because of an SSL certificate error.\n- **Sapienza Physics department call pages:** the transparency l…"
+    },
+    {
+     "task": "pi:Michael Wimmer",
+     "found": 1,
+     "notes": "I found no open postdoc post in Michael Wimmer's group, so the only lead is a fellowship you would write with him as host.\n\n**What the group and QuTech have open (checked 2026-11-15):**\n- **Group page:** The Quantum Tinkerer \"Work with us\" page (https://quantumtinkerer.tudelft.nl/join/), which Wimm…"
+    },
+    {
+     "task": "pi:Anton Akhmerov",
+     "found": 1,
+     "notes": "I found no open postdoc positions in Anton Akhmerov's group. The group's 'Work with us' page (https://quantumtinkerer.tudelft.nl/join/) says: \"We do not have open positions at the moment.\" It asks researchers who bring their own fellowship to contact Akhmerov (contact@antonakhmerov.org) or Michael…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "juan-de-la-cierva",
+     "status": "open",
+     "deadline": "2026-11-26"
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 2,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 4,
+    "input_tokens": 56,
+    "output_tokens": 12807,
+    "cache_read_tokens": 243688,
+    "cache_write_tokens": 48782,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.8907,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 }
