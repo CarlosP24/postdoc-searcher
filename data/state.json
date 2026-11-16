@@ -445,18 +445,30 @@
   "f3765f2b9188": "2026-11-15",
   "a5d50807c032": "2026-11-15",
   "4455836b239a": "2026-11-15",
-  "ca242b3bf24b": "2026-11-15"
+  "ca242b3bf24b": "2026-11-15",
+  "3f8ed9a40ec1": "2026-11-16",
+  "6b658086dbfa": "2026-11-16",
+  "8ad16b3401a5": "2026-11-16",
+  "4e553a4abbe7": "2026-11-16",
+  "9e697a781407": "2026-11-16",
+  "95cd2f2d10fe": "2026-11-16",
+  "a72cbbc60742": "2026-11-16",
+  "86eaa08b1e1c": "2026-11-16",
+  "d86bf53f7ba3": "2026-11-16"
  },
- "seen_kw": {},
+ "seen_kw": {
+  "1b8af1d6d2a3": "2026-11-16",
+  "7c89d0de673c": "2026-11-16"
+ },
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-15T12:51:45+00:00",
+   "checked": "2026-11-16T13:48:49+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-15T12:51:46+00:00",
+   "checked": "2026-11-16T13:48:50+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -466,52 +478,52 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-15T12:51:54+00:00",
+   "checked": "2026-11-16T13:48:56+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-15T12:51:56+00:00",
+   "checked": "2026-11-16T13:48:57+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-15T12:52:01+00:00",
+   "checked": "2026-11-16T13:49:01+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-15T12:52:05+00:00",
+   "checked": "2026-11-16T13:49:04+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-15T12:52:06+00:00",
+   "checked": "2026-11-16T13:49:05+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-15T12:52:06+00:00",
+   "checked": "2026-11-16T13:49:05+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-15T12:51:46+00:00",
+   "checked": "2026-11-16T13:48:51+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-15T12:51:57+00:00",
+   "checked": "2026-11-16T13:48:58+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-15T12:52:08+00:00",
+   "checked": "2026-11-16T13:49:07+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
    "hash": "8350be099e8b02a31700",
-   "checked": "2026-11-15T12:52:00+00:00",
+   "checked": "2026-11-16T13:49:00+00:00",
    "pi": "Michele Burrello"
   }
  },
@@ -1502,6 +1514,37 @@
     "web_searches": 15,
     "web_fetches": 0,
     "cost_usd": 0.8907,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
+  },
+  {
+   "date": "2026-11-16T13:47:29+00:00",
+   "ai_enabled": true,
+   "raw_items": 237,
+   "candidates": 2,
+   "triaged": 0,
+   "lab_pages_changed": 0,
+   "search_tasks": [],
+   "fellowship_checks": [],
+   "new_positions": 1,
+   "emailed": 0,
+   "errors": [
+    "Claude subscription limit reached: You've hit your org's monthly spend limit · ask your admin to raise it at https://claude.ai/admin-settings/usage · your 5-hour limit resets 2:30pm (UTC)",
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 1,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "web_searches": 0,
+    "web_fetches": 0,
+    "cost_usd": 0.0,
     "refusals": 0,
     "backend": "claude-code"
    },

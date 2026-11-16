@@ -60,7 +60,7 @@
   ],
   "fellowship_id": "branco-weiss",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "open",
   "notified_on": "2026-11-10"
  },
@@ -190,44 +190,6 @@
   "last_seen": "2026-11-07",
   "notified_status": "open",
   "notified_on": "2026-11-07"
- },
- {
-  "id": "53db7a097f28",
-  "kind": "position",
-  "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
-  "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
-  "country": "United States",
-  "location": "College Park, MD, USA",
-  "pi": null,
-  "matched_pis": [],
-  "pi_notes": {},
-  "topics": [
-   "Topological superconductivity & Majorana modes",
-   "Theoretical & computational condensed matter (broad)",
-   "Theory of quantum devices & qubits"
-  ],
-  "relevance": 80,
-  "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
-  "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
-  "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
-  "duration": null,
-  "salary": null,
-  "start_date": "2027-08",
-  "call_opens": "2026-09-08",
-  "deadline": "2026-11-15",
-  "rolling": false,
-  "dates_estimated": false,
-  "dates_checked": null,
-  "status": "open",
-  "url": "https://academicjobsonline.org/ajo/jobs/32635",
-  "sources": [
-   "Web search (topic: Topological superconductivity & Majorana modes)"
-  ],
-  "fellowship_id": null,
-  "first_seen": "2026-11-12",
-  "last_seen": "2026-11-12",
-  "notified_status": "open",
-  "notified_on": "2026-11-12"
  },
  {
   "id": "a887d526bf26",
@@ -511,7 +473,7 @@
   ],
   "fellowship_id": "fwo-junior-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -546,7 +508,7 @@
   ],
   "fellowship_id": "juan-de-la-cierva",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -580,7 +542,7 @@
   ],
   "fellowship_id": "leverhulme-ecf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -618,7 +580,7 @@
   ],
   "fellowship_id": "snsf-ambizione",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -661,7 +623,7 @@
   ],
   "fellowship_id": "dfg-walter-benjamin",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "rolling",
   "notified_on": "2026-11-05"
  },
@@ -704,7 +666,7 @@
   ],
   "fellowship_id": "humboldt-rf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "rolling",
   "notified_on": "2026-11-15"
  },
@@ -995,7 +957,7 @@
   ],
   "fellowship_id": "fwf-esprit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1094,7 +1056,7 @@
   ],
   "fellowship_id": "martin-escudero-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1159,7 +1121,7 @@
   ],
   "fellowship_id": "msca-pf-ef",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "upcoming",
   "notified_on": "2026-11-05"
  },
@@ -1224,7 +1186,7 @@
   ],
   "fellowship_id": "ramon-areces-abroad",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1362,7 +1324,7 @@
   ],
   "fellowship_id": "nwo-veni",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": "unknown",
   "notified_on": "2026-11-05"
  },
@@ -1535,7 +1497,7 @@
   ],
   "fellowship_id": "banting",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1569,7 +1531,7 @@
   ],
   "fellowship_id": "miller-berkeley",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1604,7 +1566,7 @@
   ],
   "fellowship_id": "msca-pf-gf",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1638,7 +1600,7 @@
   ],
   "fellowship_id": "newton-international",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1672,7 +1634,7 @@
   ],
   "fellowship_id": "research-council-finland-postdoc",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1709,7 +1671,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-incoming",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1746,7 +1708,7 @@
   ],
   "fellowship_id": "la-caixa-junior-leader-retaining",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
  },
@@ -1921,6 +1883,42 @@
   "notified_on": null
  },
  {
+  "id": "1b8af1d6d2a3",
+  "kind": "position",
+  "title": "100% Remote | Research Scientist - Computer Science & Computational Physics",
+  "institution": null,
+  "country": null,
+  "location": null,
+  "pi": null,
+  "matched_pis": [],
+  "pi_notes": {},
+  "topics": [
+   "Theoretical & computational condensed matter (broad)"
+  ],
+  "relevance": 45,
+  "relevance_reason": "Keyword match (topics: Theoretical & computational condensed matter (broad))",
+  "summary": "100% Remote | Research Scientist - Computer Science & Computational Physics\n100–400 USD/hr\n✅ Research work with micro1\n✅ Contract work, remote\n✅ Verifying proofs and computational results\n✅ Comparing findings with recent literature\nHow do you check whether a computational result holds up?\n👉 Apply here: https://nearskill.in/jobs/research-scientist-computer-science-computational-physics-3cfe73?utm_source=mastodon&utm_medium=social\n#ComputationalRigor #PhysicsJobs #RemoteJobs #JobSearch\n\n(Social p…",
+  "eligibility": null,
+  "duration": null,
+  "salary": null,
+  "start_date": null,
+  "call_opens": null,
+  "deadline": null,
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "unknown",
+  "url": "https://mastodon.social/@nearskill/117623830351625323",
+  "sources": [
+   "Mastodon #physicsjobs"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "notified_status": null,
+  "notified_on": null
+ },
+ {
   "id": "e54dbba03613",
   "kind": "position",
   "title": "Postdoctoral Fellow in Quantum Mathematics",
@@ -1984,9 +1982,47 @@
   ],
   "fellowship_id": "pappalardo-mit",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "notified_status": null,
   "notified_on": null
+ },
+ {
+  "id": "53db7a097f28",
+  "kind": "position",
+  "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
+  "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
+  "country": "United States",
+  "location": "College Park, MD, USA",
+  "pi": null,
+  "matched_pis": [],
+  "pi_notes": {},
+  "topics": [
+   "Topological superconductivity & Majorana modes",
+   "Theoretical & computational condensed matter (broad)",
+   "Theory of quantum devices & qubits"
+  ],
+  "relevance": 80,
+  "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
+  "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
+  "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
+  "duration": null,
+  "salary": null,
+  "start_date": "2027-08",
+  "call_opens": "2026-09-08",
+  "deadline": "2026-11-15",
+  "rolling": false,
+  "dates_estimated": false,
+  "dates_checked": null,
+  "status": "closed",
+  "url": "https://academicjobsonline.org/ajo/jobs/32635",
+  "sources": [
+   "Web search (topic: Topological superconductivity & Majorana modes)"
+  ],
+  "fellowship_id": null,
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12",
+  "notified_status": "open",
+  "notified_on": "2026-11-12"
  },
  {
   "id": "20e0a778773e",
