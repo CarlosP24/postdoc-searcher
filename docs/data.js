@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-16T13:49:07+00:00",
+ "generated_at": "2026-11-17T14:45:10+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -64,7 +64,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "open",
    "notified_on": "2026-11-10"
   },
@@ -196,44 +196,6 @@ window.POSTDOC_DATA = {
    "notified_on": "2026-11-07"
   },
   {
-   "id": "53db7a097f28",
-   "kind": "position",
-   "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
-   "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
-   "country": "United States",
-   "location": "College Park, MD, USA",
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [
-    "Topological superconductivity & Majorana modes",
-    "Theoretical & computational condensed matter (broad)",
-    "Theory of quantum devices & qubits"
-   ],
-   "relevance": 80,
-   "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
-   "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
-   "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
-   "duration": null,
-   "salary": null,
-   "start_date": "2027-08",
-   "call_opens": "2026-09-08",
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "closed",
-   "url": "https://academicjobsonline.org/ajo/jobs/32635",
-   "sources": [
-    "Web search (topic: Topological superconductivity & Majorana modes)"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
-   "notified_status": "open",
-   "notified_on": "2026-11-12"
-  },
-  {
    "id": "a887d526bf26",
    "kind": "position",
    "title": "Postdoctoral Research Positions in Condensed Matter and Quantum Information Theory at TU Munich",
@@ -322,8 +284,8 @@ window.POSTDOC_DATA = {
    "topics": [
     "Theoretical & computational condensed matter (broad)"
    ],
-   "relevance": 45,
-   "relevance_reason": "A many-body theory post on topological matter that is outside your work on hybrid superconducting devices, so it is only a weak fit.",
+   "relevance": 52,
+   "relevance_reason": "This is a broad condensed-matter theory post on topological phases that you could credibly apply to, but it has no focus on hybrid devices, transport or open systems.",
    "summary": "Postdoctoral research fellowships on three projects: topological quantum matter (fractional quantum Hall states and Chern insulators), far-from-equilibrium lattice gauge theories, and fuzzy-sphere quantum criticality. The work uses exact diagonalisation, tensor networks and neural quantum states. Apply through the Leeds jobs site (ref. EPSPA1141) by 4 Jan 2027.",
    "eligibility": "PhD in physics or a related field",
    "duration": null,
@@ -337,11 +299,12 @@ window.POSTDOC_DATA = {
    "status": "open",
    "url": "https://jobs.leeds.ac.uk/Vacancy.aspx?ref=EPSPA1141",
    "sources": [
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)"
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Non-Hermitian physics & open quantum systems)"
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -515,7 +478,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -550,7 +513,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -584,7 +547,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -622,7 +585,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -665,7 +628,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -708,7 +671,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "rolling",
    "notified_on": "2026-11-15"
   },
@@ -823,7 +786,7 @@ window.POSTDOC_DATA = {
    ],
    "relevance": 85,
    "relevance_reason": "This is a prestigious independent fellowship led by your listed PI's centre, with topological systems in scope, though the centre prefers spin-qubit projects and the dates in the posting contradict each other.",
-   "summary": "This is an independent 3-year postdoctoral fellowship at the University of Basel within NCCR SPIN, whose co-directors (Klinovaja and Loss) are the contacts. Fellows choose their own research direction. The posting was updated on 2026-09-15 and the header gives a 2026-12-01 deadline, but the description still mentions an older extended deadline (31 Oct 2025) and a 2024 start. It says applications are accepted until the positions are filled. Apply via AcademicJobsOnline with a cover letter, CV, a research statement of up to 2 pages, a publication list and two reference letters.",
+   "summary": "A 3-year independent theory fellowship at the University of Basel within NCCR SPIN. The fellow sets their own research direction together with NCCR groups. Areas include quantum computing and simulation (spin qubits preferred, other qubit platforms welcome), topological systems, complex quantum systems and quantum materials. Apply on AcademicJobsOnline with a cover letter, CV, a research statement of up to 2 pages, a publication list and 2 reference letters. The listed deadline is 2026-12-01, and positions stay open until filled. The page also contains outdated start and deadline dates, so confirm the current timeline with the NCCR.",
    "eligibility": "Recent PhD in theoretical physics or a related area. Selection is based on early-career excellence and on the quality of a proposed project in NCCR SPIN target areas (spin qubits preferred; complex quantum systems, topological systems and quantum materials also count).",
    "duration": "3 years",
    "salary": null,
@@ -837,11 +800,13 @@ window.POSTDOC_DATA = {
    "url": "https://academicjobsonline.org/ajo/jobs/27103",
    "sources": [
     "Web search (pi: Jelena Klinovaja)",
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)"
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Non-Hermitian physics & open quantum systems)",
+    "Web search (topic: Theory of quantum devices & qubits)"
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-17",
    "notified_status": "rolling",
    "notified_on": "2026-11-10"
   },
@@ -999,7 +964,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1098,7 +1063,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1163,7 +1128,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1228,7 +1193,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1366,7 +1331,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1539,7 +1504,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1573,7 +1538,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1608,7 +1573,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1625,24 +1590,25 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 30,
    "relevance_reason": "None of your listed PIs is in an eligible host country/institution.",
-   "summary": "Non-UK researchers currently working outside the UK, early in their postdoctoral career (PhD or about to obtain it). Duration: 2 years. Funding: Subsistence allowance plus research expenses. Call: Opens ~January; deadline ~March.",
-   "eligibility": "Non-UK researchers currently working outside the UK, early in their postdoctoral career (PhD or about to obtain it).",
+   "summary": "The Royal Society Newton International Fellowship is closed right now. The 2027 round opens on 13 January 2027 and closes on 10 March 2027, with decisions due by 23 August 2027. The fellowship lasts two years and pays up to £280,000 in total. That covers your basic salary and on-costs, research expenses, relocation and visa costs for you and your family, and the host's indirect costs. You apply through Flexi-Grant together with a UK sponsor. Since the 2026 round, Part A is screened first and only longlisted applicants complete the full application. Carlos meets most of the rules: he is Spanish, working outside the UK and has no postdoc experience yet. The problem is timing. You need a PhD or a defended thesis by the closing date, and his PhD is expected in March 2027, so the 2027 round only works if he defends before 10 March 2027. If not, the 2028 round (likely opening around January 2028 with a March deadline) is the realistic target, and he would be easily within the 5-year postdoc limit then. UK hosts that fit his work include groups in theoretical mesoscopic and topological superconductivity.",
+   "eligibility": "You need a PhD, or a successfully defended thesis, by the closing date. You can have no more than 5 years of active full-time postdoctoral experience after the PhD, not counting career breaks. You must be based outside the UK and must not be a UK citizen; any other nationality is fine, and Global Talent Visa fast-track endorsement is available. You need good English and research within the natural sciences. Each UK sponsor can support only one application per round, and the Head of Department confirms support in the application form.",
    "duration": "2 years",
-   "salary": "Subsistence allowance plus research expenses.",
+   "salary": "Up to £280,000 over 2 years, covering basic salary and on-costs, research expenses, relocation and visa costs for the fellow and dependants, and estate and indirect costs.",
    "start_date": null,
-   "call_opens": "2027-01-01",
-   "deadline": "2027-03-31",
+   "call_opens": "2027-01-13",
+   "deadline": "2027-03-10",
    "rolling": false,
-   "dates_estimated": true,
-   "dates_checked": null,
+   "dates_estimated": false,
+   "dates_checked": "2026-11-17T14:45:09+00:00",
    "status": "upcoming",
    "url": "https://royalsociety.org/grants/newton-international/",
    "sources": [
-    "fellowship catalog"
+    "fellowship catalog",
+    "web check"
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1676,7 +1642,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1713,7 +1679,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1750,7 +1716,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
   },
@@ -1988,9 +1954,47 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "notified_status": null,
    "notified_on": null
+  },
+  {
+   "id": "53db7a097f28",
+   "kind": "position",
+   "title": "CMTC Postdoctoral Position (Condensed Matter Theory Center), incl. Janet Lynn Das Sarma Prize Postdoctoral Position",
+   "institution": "University of Maryland, Condensed Matter Theory Center (CMTC)",
+   "country": "United States",
+   "location": "College Park, MD, USA",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Topological superconductivity & Majorana modes",
+    "Theoretical & computational condensed matter (broad)",
+    "Theory of quantum devices & qubits"
+   ],
+   "relevance": 80,
+   "relevance_reason": "CMTC is one of the world's leading centres for Majorana and hybrid-nanowire theory, and the call names topological quantum matter as a focus. That makes it one of the rare US exceptions, but the deadline is only 3 days away.",
+   "summary": "CMTC plans to hire 2–4 postdoctoral fellows starting in August or September 2027. The posting covers all of quantum condensed matter theory and highlights topological quantum matter, solid-state quantum computation, spin qubits and superconductivity. Applicants are also considered for the Janet Lynn Das Sarma Prize Postdoctoral Position. Apply on AcademicJobsOnline by 15 November 2026; letter writers submit online on the same site. Duration and salary are not stated.",
+   "eligibility": "PhD in physics or a related field by the start date. Requires a cover letter, CV, research statement, publication list and at least three reference letters.",
+   "duration": null,
+   "salary": null,
+   "start_date": "2027-08",
+   "call_opens": "2026-09-08",
+   "deadline": "2026-11-15",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "closed",
+   "url": "https://academicjobsonline.org/ajo/jobs/32635",
+   "sources": [
+    "Web search (topic: Topological superconductivity & Majorana modes)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "notified_status": "open",
+   "notified_on": "2026-11-12"
   },
   {
    "id": "20e0a778773e",
@@ -2031,22 +2035,28 @@ window.POSTDOC_DATA = {
    "notified_on": null
   },
   {
-   "id": "1b8af1d6d2a3",
+   "id": "3cff846b0775",
    "kind": "position",
-   "title": "100% Remote | Research Scientist - Computer Science & Computational Physics",
-   "institution": null,
-   "country": null,
-   "location": null,
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
+   "title": "Postdoc researcher in spin-based platforms (theory of solid-state quantum computing)",
+   "institution": "QuTech, TU Delft",
+   "country": "Netherlands",
+   "location": "Delft",
+   "pi": "Stefano Bosco",
+   "matched_pis": [
+    "Michael Wimmer"
+   ],
+   "pi_notes": {
+    "Michael Wimmer": "same institution — ask whether you could join / collaborate"
+   },
    "topics": [
+    "Theory of quantum devices & qubits",
+    "Hybrid semiconductor–superconductor nanostructures",
     "Theoretical & computational condensed matter (broad)"
    ],
-   "relevance": 45,
-   "relevance_reason": "Keyword match (topics: Theoretical & computational condensed matter (broad))",
-   "summary": "100% Remote | Research Scientist - Computer Science & Computational Physics\n100–400 USD/hr\n✅ Research work with micro1\n✅ Contract work, remote\n✅ Verifying proofs and computational results\n✅ Comparing findings with recent literature\nHow do you check whether a computational result holds up?\n👉 Apply here: https://nearskill.in/jobs/research-scientist-computer-science-computational-physics-3cfe73?utm_source=mastodon&utm_medium=social\n#ComputationalRigor #PhysicsJobs #RemoteJobs #JobSearch\n\n(Social p…",
-   "eligibility": null,
+   "relevance": 78,
+   "relevance_reason": "A theory role on Andreev spin qubits and circuit QED at QuTech, close to your hybrid-device expertise and to the Wimmer and Akhmerov groups, but I couldn't confirm it is still open.",
+   "summary": "A theory postdoc in Bosco's group at QuTech on solid-state quantum computing with spin qubits, including circuit QED with Andreev spin qubits. Applicants need experience in spin-qubit or superconducting-qubit theory. I couldn't load the page (DNS error), so the deadline, salary and duration are unknown. Check the vacancy page to see whether it is still open.",
+   "eligibility": "PhD in theoretical physics; experience in theory of spin or superconducting qubits",
    "duration": null,
    "salary": null,
    "start_date": null,
@@ -2056,15 +2066,15 @@ window.POSTDOC_DATA = {
    "dates_estimated": false,
    "dates_checked": null,
    "status": "unknown",
-   "url": "https://mastodon.social/@nearskill/117623830351625323",
+   "url": "https://qutech.nl/vacancy/postdoc-researcher-in-spin-based-platforms/",
    "sources": [
-    "Mastodon #physicsjobs"
+    "Web search (topic: Theory of quantum devices & qubits)"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "notified_status": null,
-   "notified_on": null
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "notified_status": "unknown",
+   "notified_on": "2026-11-17"
   }
  ],
  "pis": [
@@ -2162,7 +2172,7 @@ window.POSTDOC_DATA = {
    "country": "Sweden",
    "website": "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/",
    "priority": "high",
-   "last_searched": "2026-11-12T13:55:11+00:00"
+   "last_searched": "2026-11-17T14:43:38+00:00"
   },
   {
    "name": "Bruno Amorim",
@@ -2196,7 +2206,7 @@ window.POSTDOC_DATA = {
   },
   {
    "name": "Non-Hermitian physics & open quantum systems",
-   "last_searched": "2026-11-06T13:09:13+00:00"
+   "last_searched": "2026-11-17T14:42:42+00:00"
   },
   {
    "name": "Theoretical & computational condensed matter (broad)",
@@ -2204,7 +2214,7 @@ window.POSTDOC_DATA = {
   },
   {
    "name": "Theory of quantum devices & qubits",
-   "last_searched": "2026-11-07T11:52:39+00:00"
+   "last_searched": "2026-11-17T14:44:46+00:00"
   }
  ],
  "runs": [
@@ -2976,6 +2986,61 @@ window.POSTDOC_DATA = {
     "web_searches": 0,
     "web_fetches": 0,
     "cost_usd": 0.0,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
+  },
+  {
+   "date": "2026-11-17T14:39:27+00:00",
+   "ai_enabled": true,
+   "raw_items": 231,
+   "candidates": 3,
+   "triaged": 3,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Non-Hermitian physics & open quantum systems",
+     "found": 2,
+     "notes": "I found very few open postdocs in Europe that focus specifically on non-Hermitian physics or open quantum systems. I only had budget for 5 searches and 4 page fetches, so coverage is limited.\n\n**What I found (2 offers):**\n- **NCCR SPIN fellowship, Basel (relevance 85):** The best match. It is co-le…"
+    },
+    {
+     "task": "pi:Martin Leijnse",
+     "found": 0,
+     "notes": "As of 2026-11-17 I found no open or upcoming postdoc in Martin Leijnse's group at Lund University, and no Lund postdoc fellowship scheme that could be held there.\n\nWhat I checked (4 searches, 2 page fetches):\n- Lund's recruitment portal (lu.varbi.com): every postdoc currently listed is in another f…"
+    },
+    {
+     "task": "topic:Theory of quantum devices & qubits",
+     "found": 2,
+     "notes": "I found two leads, but I couldn't confirm either one on its own employer page.\n\n1. **QuTech, Bosco group (theory postdoc on spin-based platforms):** The fetch failed with a DNS error, so the deadline and whether it is still open are unknown.\n2. **NCCR SPIN postdoctoral fellowship (Klinovaja, Basel)…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "newton-international",
+     "status": "upcoming",
+     "deadline": "2027-03-10"
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 1,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 42,
+    "output_tokens": 10606,
+    "cache_read_tokens": 185747,
+    "cache_write_tokens": 50957,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 0.8586,
     "refusals": 0,
     "backend": "claude-code"
    },

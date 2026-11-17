@@ -454,21 +454,37 @@
   "95cd2f2d10fe": "2026-11-16",
   "a72cbbc60742": "2026-11-16",
   "86eaa08b1e1c": "2026-11-16",
-  "d86bf53f7ba3": "2026-11-16"
+  "d86bf53f7ba3": "2026-11-16",
+  "7c0f2cb100e8": "2026-11-17",
+  "abab6947b66b": "2026-11-17",
+  "0255a4dd893c": "2026-11-17",
+  "4ef0802f5db3": "2026-11-17",
+  "4185d7d8f14c": "2026-11-17",
+  "36dfa0dc8b9c": "2026-11-17",
+  "009c667ae15f": "2026-11-17",
+  "c0ef12b803b6": "2026-11-17",
+  "3d115fc833c4": "2026-11-17",
+  "7c4234490e82": "2026-11-17",
+  "6be349580a50": "2026-11-17",
+  "da9ef752c3e9": "2026-11-17",
+  "87eb8a64ca2b": "2026-11-17",
+  "d8caa98255b7": "2026-11-17",
+  "8b0f9dcf6021": "2026-11-17",
+  "fd12bb2f2046": "2026-11-17",
+  "1b8af1d6d2a3": "2026-11-17",
+  "7c89d0de673c": "2026-11-17",
+  "e2fd011e830c": "2026-11-17"
  },
- "seen_kw": {
-  "1b8af1d6d2a3": "2026-11-16",
-  "7c89d0de673c": "2026-11-16"
- },
+ "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-16T13:48:49+00:00",
+   "checked": "2026-11-17T14:40:49+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-16T13:48:50+00:00",
+   "checked": "2026-11-17T14:40:51+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -478,52 +494,52 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-16T13:48:56+00:00",
+   "checked": "2026-11-17T14:40:57+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-16T13:48:57+00:00",
+   "checked": "2026-11-17T14:40:58+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-16T13:49:01+00:00",
+   "checked": "2026-11-17T14:41:02+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-16T13:49:04+00:00",
+   "checked": "2026-11-17T14:41:06+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-16T13:49:05+00:00",
+   "checked": "2026-11-17T14:41:07+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-16T13:49:05+00:00",
+   "checked": "2026-11-17T14:41:08+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-16T13:48:51+00:00",
+   "checked": "2026-11-17T14:40:51+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-16T13:48:58+00:00",
+   "checked": "2026-11-17T14:40:59+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-16T13:49:07+00:00",
+   "checked": "2026-11-17T14:41:09+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
    "hash": "8350be099e8b02a31700",
-   "checked": "2026-11-16T13:49:00+00:00",
+   "checked": "2026-11-17T14:41:01+00:00",
    "pi": "Michele Burrello"
   }
  },
@@ -533,12 +549,12 @@
   "pi:Bernard van Heck": "2026-11-15T12:53:32+00:00",
   "pi:Michael Wimmer": "2026-11-15T12:54:29+00:00",
   "pi:Anton Akhmerov": "2026-11-15T12:55:10+00:00",
-  "pi:Martin Leijnse": "2026-11-12T13:55:11+00:00",
+  "pi:Martin Leijnse": "2026-11-17T14:43:38+00:00",
   "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
   "topic:Quantum transport in mesoscopic systems": "2026-11-14T12:23:00+00:00",
-  "topic:Non-Hermitian physics & open quantum systems": "2026-11-06T13:09:13+00:00",
-  "topic:Theory of quantum devices & qubits": "2026-11-07T11:52:39+00:00",
+  "topic:Non-Hermitian physics & open quantum systems": "2026-11-17T14:42:42+00:00",
+  "topic:Theory of quantum devices & qubits": "2026-11-17T14:44:46+00:00",
   "topic:Theoretical & computational condensed matter (broad)": "2026-11-07T11:54:25+00:00",
   "pi:Fabian Hassler": "2026-11-07T11:55:21+00:00",
   "pi:Felix von Oppen": "2026-11-08T12:03:17+00:00",
@@ -773,6 +789,21 @@
     "https://ugt-sp.es/ayudas-juan-de-la-cierva-2026/",
     "https://www.idival.org/wp-content/uploads/2025/11/JuanDeLaCierva_2025.pdf",
     "https://www.ciencia.gob.es/en/Convocatorias/2026/JDC2026.html"
+   ]
+  },
+  "newton-international": {
+   "checked": "2026-11-17T14:45:09+00:00",
+   "status": "upcoming",
+   "call_opens": "2027-01-13",
+   "deadline": "2027-03-10",
+   "dates_estimated": false,
+   "summary": "The Royal Society Newton International Fellowship is closed right now. The 2027 round opens on 13 January 2027 and closes on 10 March 2027, with decisions due by 23 August 2027. The fellowship lasts two years and pays up to £280,000 in total. That covers your basic salary and on-costs, research expenses, relocation and visa costs for you and your family, and the host's indirect costs. You apply through Flexi-Grant together with a UK sponsor. Since the 2026 round, Part A is screened first and only longlisted applicants complete the full application. Carlos meets most of the rules: he is Spanish, working outside the UK and has no postdoc experience yet. The problem is timing. You need a PhD or a defended thesis by the closing date, and his PhD is expected in March 2027, so the 2027 round only works if he defends before 10 March 2027. If not, the 2028 round (likely opening around January 2028 with a March deadline) is the realistic target, and he would be easily within the 5-year postdoc limit then. UK hosts that fit his work include groups in theoretical mesoscopic and topological superconductivity.",
+   "eligibility": "You need a PhD, or a successfully defended thesis, by the closing date. You can have no more than 5 years of active full-time postdoctoral experience after the PhD, not counting career breaks. You must be based outside the UK and must not be a UK citizen; any other nationality is fine, and Global Talent Visa fast-track endorsement is available. You need good English and research within the natural sciences. Each UK sponsor can support only one application per round, and the Head of Department confirms support in the application form.",
+   "duration": "2 years",
+   "funding": "Up to £280,000 over 2 years, covering basic salary and on-costs, research expenses, relocation and visa costs for the fellow and dependants, and estate and indirect costs.",
+   "url": "https://royalsociety.org/grants/newton-international/",
+   "sources": [
+    "https://royalsociety.org/grants/newton-international/"
    ]
   }
  },
@@ -1545,6 +1576,61 @@
     "web_searches": 0,
     "web_fetches": 0,
     "cost_usd": 0.0,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
+  },
+  {
+   "date": "2026-11-17T14:39:27+00:00",
+   "ai_enabled": true,
+   "raw_items": 231,
+   "candidates": 3,
+   "triaged": 3,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Non-Hermitian physics & open quantum systems",
+     "found": 2,
+     "notes": "I found very few open postdocs in Europe that focus specifically on non-Hermitian physics or open quantum systems. I only had budget for 5 searches and 4 page fetches, so coverage is limited.\n\n**What I found (2 offers):**\n- **NCCR SPIN fellowship, Basel (relevance 85):** The best match. It is co-le…"
+    },
+    {
+     "task": "pi:Martin Leijnse",
+     "found": 0,
+     "notes": "As of 2026-11-17 I found no open or upcoming postdoc in Martin Leijnse's group at Lund University, and no Lund postdoc fellowship scheme that could be held there.\n\nWhat I checked (4 searches, 2 page fetches):\n- Lund's recruitment portal (lu.varbi.com): every postdoc currently listed is in another f…"
+    },
+    {
+     "task": "topic:Theory of quantum devices & qubits",
+     "found": 2,
+     "notes": "I found two leads, but I couldn't confirm either one on its own employer page.\n\n1. **QuTech, Bosco group (theory postdoc on spin-based platforms):** The fetch failed with a DNS error, so the deadline and whether it is still open are unknown.\n2. **NCCR SPIN postdoctoral fellowship (Klinovaja, Basel)…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "newton-international",
+     "status": "upcoming",
+     "deadline": "2027-03-10"
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 1,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "notified_via": [
+    "github"
+   ],
+   "ai": {
+    "requests": 5,
+    "input_tokens": 42,
+    "output_tokens": 10606,
+    "cache_read_tokens": 185747,
+    "cache_write_tokens": 50957,
+    "web_searches": 16,
+    "web_fetches": 0,
+    "cost_usd": 0.8586,
     "refusals": 0,
     "backend": "claude-code"
    },
