@@ -473,18 +473,38 @@
   "fd12bb2f2046": "2026-11-17",
   "1b8af1d6d2a3": "2026-11-17",
   "7c89d0de673c": "2026-11-17",
-  "e2fd011e830c": "2026-11-17"
+  "e2fd011e830c": "2026-11-17",
+  "d9ec60b92af4": "2026-11-18",
+  "6ad01aec9134": "2026-11-18",
+  "07a257847b12": "2026-11-18",
+  "16a468090259": "2026-11-18",
+  "fcb6215dc860": "2026-11-18",
+  "e27e9b1df2a2": "2026-11-18",
+  "260b38457095": "2026-11-18",
+  "fbccdab55625": "2026-11-18",
+  "313664f9a982": "2026-11-18",
+  "4bc476d521e5": "2026-11-18",
+  "520427de9a5d": "2026-11-18",
+  "f39d14141bb5": "2026-11-18",
+  "0e1144059299": "2026-11-18",
+  "222b0445e6fc": "2026-11-18",
+  "70335564329b": "2026-11-18",
+  "9f343b010621": "2026-11-18",
+  "18294b8e21b4": "2026-11-18",
+  "404148b1e9b4": "2026-11-18",
+  "12cba865b409": "2026-11-18",
+  "39c9794ca25c": "2026-11-18"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-17T14:40:49+00:00",
+   "checked": "2026-11-18T14:18:30+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-17T14:40:51+00:00",
+   "checked": "2026-11-18T14:18:32+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -494,58 +514,58 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-17T14:40:57+00:00",
+   "checked": "2026-11-18T14:18:39+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-17T14:40:58+00:00",
+   "checked": "2026-11-18T14:18:40+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-17T14:41:02+00:00",
+   "checked": "2026-11-18T14:18:46+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-17T14:41:06+00:00",
+   "checked": "2026-11-18T14:18:51+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-17T14:41:07+00:00",
+   "checked": "2026-11-18T14:18:52+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-17T14:41:08+00:00",
+   "checked": "2026-11-18T14:18:52+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-17T14:40:51+00:00",
+   "checked": "2026-11-18T14:18:32+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-17T14:40:59+00:00",
+   "checked": "2026-11-18T14:18:42+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-17T14:41:09+00:00",
+   "checked": "2026-11-18T14:18:54+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
    "hash": "8350be099e8b02a31700",
-   "checked": "2026-11-17T14:41:01+00:00",
+   "checked": "2026-11-18T14:18:44+00:00",
    "pi": "Michele Burrello"
   }
  },
  "tasks": {
-  "pi:Karsten Flensberg": "2026-11-14T12:21:07+00:00",
-  "pi:Piet Brouwer": "2026-11-14T12:21:50+00:00",
+  "pi:Karsten Flensberg": "2026-11-18T14:20:16+00:00",
+  "pi:Piet Brouwer": "2026-11-18T14:21:07+00:00",
   "pi:Bernard van Heck": "2026-11-15T12:53:32+00:00",
   "pi:Michael Wimmer": "2026-11-15T12:54:29+00:00",
   "pi:Anton Akhmerov": "2026-11-15T12:55:10+00:00",
@@ -555,7 +575,7 @@
   "topic:Quantum transport in mesoscopic systems": "2026-11-14T12:23:00+00:00",
   "topic:Non-Hermitian physics & open quantum systems": "2026-11-17T14:42:42+00:00",
   "topic:Theory of quantum devices & qubits": "2026-11-17T14:44:46+00:00",
-  "topic:Theoretical & computational condensed matter (broad)": "2026-11-07T11:54:25+00:00",
+  "topic:Theoretical & computational condensed matter (broad)": "2026-11-18T14:22:25+00:00",
   "pi:Fabian Hassler": "2026-11-07T11:55:21+00:00",
   "pi:Felix von Oppen": "2026-11-08T12:03:17+00:00",
   "pi:Annica Black-Schaffer": "2026-11-08T12:04:22+00:00",
@@ -567,23 +587,24 @@
  },
  "fellowships": {
   "msca-pf-ef": {
-   "checked": "2026-11-04T22:57:31+00:00",
+   "checked": "2026-11-18T14:23:31+00:00",
    "status": "upcoming",
    "call_opens": "2027-04-07",
    "deadline": "2027-09-08",
    "dates_estimated": false,
-   "summary": "No call is open today (2026-11-04). The 2026 call (HORIZON-MSCA-2026-PF-01) ran from 9 April to 9 September 2026, with results due around February 2027. The next call, HORIZON-MSCA-2027-PF-01-01, is listed as forthcoming on the EU Funding & Tenders Portal and the MSCA site: planned opening 7 April 2027, deadline 8 September 2027 at 17:00 Brussels time. Some sources still mark these dates as provisional, so check the portal before relying on them. European Fellowships last 12–24 months at a host in an EU Member State or Horizon Europe Associated Country. They pay the researcher living, mobility and, where applicable, family allowances, and pay the host research, training, networking, management and indirect costs. The host PI/organisation writes the proposal with the fellow, submits it, and if funded employs and supervises the fellow. Carlos appears eligible for the 2027 call. His PhD (expected March 2027) would be awarded before the September 2027 deadline, he is well within the 8-year limit, and he has lived only in Spain. That means any host outside Spain (for example Denmark, Germany, the Netherlands, Italy, Sweden or Switzerland) meets the mobility rule. A Spanish host would not. Because his 2025 Copenhagen visit was short, Denmark should still be fine as a host. As an EU national he could also apply for a Global Fellowship to the US or Canada, which adds a mandatory 12-month return phase in Europe. Host institutions often set internal deadlines between April and July, so he should contact host PIs early in 2027.",
-   "eligibility": "Any nationality (European Fellowships). You need a PhD by the call deadline; a defended thesis counts even before the degree is formally awarded. You can have at most 8 years of research experience after the PhD; career breaks, work outside research, parental leave and long sick leave are not counted. Mobility rule: in the 36 months before the deadline, you must not have lived or had your main activity (work, studies) in the host country for more than 12 months. From 2026, a proposal that scored below 80% the year before cannot be resubmitted with the same host and researcher. Global Fellowships are open only to EU nationals or long-term residents.",
-   "duration": "12–24 months (European Fellowships). Global Fellowships are 24–36 months: 12–24 months outside Europe plus a mandatory 12-month return phase. An optional non-academic placement of up to 6 months is possible at the end.",
-   "funding": "Unit-cost funding. The researcher receives a living allowance (adjusted by the host country's correction coefficient), a mobility allowance, and, where applicable, family, long-term leave and special needs allowances; employer social security costs are included. The host receives research, training and networking costs plus management and indirect costs. The 2027 indicative budget is about €330M for European Fellowships and €58M for Global Fellowships. I couldn't confirm the exact monthly rates from official pages in this search; they are in the MSCA Work Programme 2026–2027.",
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-pf-01-01",
+   "summary": "The 2026 call (HORIZON-MSCA-2026-PF-01) is closed. It opened on 9 April 2026, closed on 9 September 2026, and results are due around 9 February 2027. The next call, HORIZON-MSCA-2027-PF-01, opens on 7 April 2027 and closes on 8 September 2027. These dates come from the MSCA Work Programme 2026–2027 as listed by national contact points (the French Horizon Europe site and the Western Balkans info hub); the Funding & Tenders Portal itself was not checked. European Fellowships last 1–2 years and pay monthly allowances (living allowance country-corrected) plus research, training, management and indirect costs to the host. The host PI supervises and writes the proposal with the fellow. The candidate appears eligible for the 2027 call: his PhD is expected in March 2027, before the deadline (a defended thesis is enough even if the degree is not yet formally awarded), and he has no post-PhD experience to count against the 8-year limit. Because he has always lived in Spain, he cannot be hosted in Spain, but any other EU or associated country (e.g. Denmark, Germany, the Netherlands, Switzerland or the UK) is fine. That assumes his 2025 Copenhagen visit plus any other time in the host country adds up to no more than 12 months in the 36 months before the deadline.",
+   "eligibility": "You must hold a PhD by the call deadline; having defended the thesis without the degree being formally awarded yet also counts. You can have at most 8 years of research experience counted from the PhD award date; time outside research, career breaks, and research done in third countries by EU nationals or long-term residents returning to Europe are excluded. Mobility rule: you must not have lived or worked in the host (beneficiary) country for more than 12 months in the 36 months before the deadline. Any nationality can apply. From 2026, proposals that scored below 80% the year before face resubmission restrictions.",
+   "duration": "European Fellowships last 12–24 months in an EU Member State or Horizon Europe Associated Country. An optional non-academic placement of up to 6 months can be added at the end, and short secondments are possible.",
+   "funding": "Living allowance EUR 6,350/month, multiplied by a country correction coefficient. Mobility allowance EUR 710/month. Family allowance EUR 660/month where applicable. Long-term leave and special-needs allowances where applicable. The host also receives research, training and networking costs plus management and indirect costs. These amounts come from the 2026 call presentation; check them against the 2027 call documents.",
+   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
    "sources": [
     "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
-    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-pf-01-01",
-    "https://www.euresearch.ch/our-services/inform/open-calls-137.html?filter_search=&filter_call=Marie+Sk%C5%82odowska-Curie+Actions+%28MSCA%29&filter_submit=Filter",
-    "https://www.jcu.cz/en/science-and-research/eu-desk/open-calls/msca-postdoctoral-fellowship-2026",
-    "https://www.emdesk.com/horizon-2020-horizon-europe-basics-guide/msca-postdoctoral-fellowships-2026-handbook-call",
-    "https://www.nks-msc.de/en/MSCA-call-for-Postdoctoral-Fellowships-PF-2026-open-2774.html"
+    "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+    "https://www.horizon-europe.gouv.fr/msca-postdoctoral-fellowships-2027-42993",
+    "https://westernbalkans-infohub.eu/?p=10928",
+    "https://www.ffg.at/sites/default/files/2026-10/MSCA_PF_2026_27_Update_Call_27.pdf",
+    "https://k-erc.eu/wp-content/uploads/2026/04/1-1.-MSCA-Postdoctoral-Fellowships-2026.pdf",
+    "https://nawa.gov.pl/images/MSCA/MSCA-Aktualnosci/MSCA-PF_PL_24_April_2026.pdf"
    ]
   },
   "humboldt-rf": {
@@ -1635,6 +1656,58 @@
     "backend": "claude-code"
    },
    "open_total": 32
+  },
+  {
+   "date": "2026-11-18T14:17:01+00:00",
+   "ai_enabled": true,
+   "raw_items": 234,
+   "candidates": 1,
+   "triaged": 1,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "pi:Karsten Flensberg",
+     "found": 1,
+     "notes": "Checked the University of Copenhagen vacancy portal (employment.ku.dk/all-vacancies) on 2026-11-18. It lists only experimental physics postdocs at the Niels Bohr Institute: nanophotonics (deadline 2026-12-01), experimental quantum matter (2026-12-06) and a senior postdoc on single-photon detectors…"
+    },
+    {
+     "task": "pi:Piet Brouwer",
+     "found": 2,
+     "notes": "The Brouwer group has no postdoc vacancy open right now.\n- **Group openings page** (physik.fu-berlin.de/.../ag-brouwer/opening/): it lists only a 75% Praedoc (PhD-level) post, DM-PHY-912, which doesn't fit you.\n- **Last group postdoc:** a three-year E13 TV-L post (Brouwer-Postdoc-2026, https://www.…"
+    },
+    {
+     "task": "topic:Theoretical & computational condensed matter (broad)",
+     "found": 2,
+     "notes": "I found very few new open postdocs in broad condensed-matter theory in Europe right now, and the two I'm reporting are both weak fits for you.\n\n**What I'm reporting**\n- **UCD Dublin (Ciarán Hickey's group):** confirmed open, deadline 2026-11-30. The topic is quantum magnetism, not hybrid supercondu…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "msca-pf-ef",
+     "status": "upcoming",
+     "deadline": "2027-09-08"
+    }
+   ],
+   "new_positions": 2,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 54,
+    "output_tokens": 12768,
+    "cache_read_tokens": 241466,
+    "cache_write_tokens": 55477,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.9366,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 33
   }
  ]
 }
