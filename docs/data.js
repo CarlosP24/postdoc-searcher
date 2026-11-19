@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-18T14:23:31+00:00",
+ "generated_at": "2026-11-19T14:36:26+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -64,7 +64,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "open",
    "notified_on": "2026-11-10"
   },
@@ -271,6 +271,42 @@ window.POSTDOC_DATA = {
    "notified_on": null
   },
   {
+   "id": "86b93709e0b1",
+   "kind": "position",
+   "title": "Postdoctoral Researcher (UCD Post-doctoral Research Fellow Level 1/2) – correlated quantum many-body systems",
+   "institution": "University College Dublin, School of Physics",
+   "country": "Ireland",
+   "location": "Dublin, Ireland",
+   "pi": "Ciarán Hickey",
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 50,
+   "relevance_reason": "This is a solid many-body condensed-matter theory postdoc, but it is about quantum magnetism, not hybrid superconducting devices, so it only fits your broad interests. Also, a start 'as soon as possible' may clash with your March 2027 PhD date.",
+   "summary": "Theory postdoc funded by the Research Ireland grant 'Non-Linear Dynamics of Quantum Magnets'. The work covers topology, entanglement and dynamics in correlated quantum many-body systems: frustrated magnetism, quantum spin liquids, non-linear response and correlated multi-orbital systems. The post starts as soon as possible and runs until June 2029, paying €47–51k a year. Apply through the UCD portal, not AJO, with a cover letter, CV, a one-page research statement and the names of two referees.",
+   "eligibility": "PhD in physics. PD1 level is for early-career researchers; applicants whose total postdoc experience would exceed 4 years should apply at PD2 level.",
+   "duration": "Fixed-term until 2029-06-30",
+   "salary": "€47,273–€51,176 per year",
+   "start_date": "As soon as possible",
+   "call_opens": null,
+   "deadline": "2026-11-30",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://academicjobsonline.org/ajo/jobs/31689",
+   "sources": [
+    "Web search (topic: Theoretical & computational condensed matter (broad))"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
    "id": "bbf0f8aea2ef",
    "kind": "fellowship",
    "title": "Rinn Quantum Postdoctoral Fellowships 2027 (Research Ireland Centre for quantum science and technology)",
@@ -305,40 +341,6 @@ window.POSTDOC_DATA = {
    "fellowship_id": null,
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-06",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "313ea745634e",
-   "kind": "position",
-   "title": "Postdoctoral Research Associate",
-   "institution": "King's College London",
-   "country": "United Kingdom",
-   "location": "London",
-   "pi": null,
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [],
-   "relevance": 42,
-   "relevance_reason": "This is a physics postdoc at KCL, but the ad does not say the research topic, so the fit is unclear.",
-   "summary": "Postdoctoral Research Associate post in the Physics department at King's College London. The salary is £45,031–£47,379 per year, including London Weighting. The ad does not state the project or duration. Apply via jobs.ac.uk by 17 November 2026.",
-   "eligibility": null,
-   "duration": null,
-   "salary": "£45,031 to £47,379\n                                    per annum, including London Weighting Allowance",
-   "start_date": null,
-   "call_opens": null,
-   "deadline": "2026-11-17",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "closed",
-   "url": "https://www.jobs.ac.uk/job/DTJ358/postdoctoral-research-associate",
-   "sources": [
-    "jobs.ac.uk"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
    "notified_status": null,
    "notified_on": null
   },
@@ -478,7 +480,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -513,7 +515,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -547,7 +549,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -585,7 +587,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -628,7 +630,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
   },
@@ -653,17 +655,17 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 95,
    "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
-   "summary": "The current call is closed because it reached the cap of 800 applications. The next call opens on 15 November 2026 and feeds the July 2027 selection meeting. There is no fixed deadline: since 2026 each call closes as soon as 800 applications come in, so applicants should submit on or right after opening day. A draft can be saved in the portal now. Calls open three times a year, on 15 March, 15 July and 15 November. Carlos appears eligible. He is a Spanish national who has not lived in Germany, so the 90-days-in-the-last-18-months rule should not affect him as long as his Copenhagen visit and other stays were outside Germany. His expected PhD date (March 2027) falls before the July 2027 selection meeting, which the rules allow if he submits a written summary of his thesis findings. Strong host options include Brouwer and von Oppen (FU Berlin) and Hassler (RWTH Aachen). His doctoral supervisor cannot be the host.",
-   "eligibility": "Non-German researchers with a doctorate completed within the last 4 years, or completed before the selection meeting (with a written summary of findings). Mothers get up to 2 extra years per child, capped at 6 years. Applicants must not have spent more than 90 days in Germany in the 18 months before applying, nor been funded from German sources or done doctoral work in Germany during that time. German nationals and people educated in Germany are eligible only after more than 10 years abroad (or more than 5 years with strong ties to their country of residence). Former Humboldt fellows or award winners cannot apply. Applications are submitted directly by the researcher, together with a mentoring agreement from the host.",
-   "duration": "6–24 months for postdocs, which can be split into up to 3 stays within 3 years. Each stay lasts at least 6 months, or two 3-month blocks. An optional 2–4-month German language course before the stay does not count toward this.",
-   "salary": "€3,000 per month for postdocs, plus a family allowance, a subsidy for private health insurance and a travel allowance. The host institute receives €800 per month for natural sciences. Expected success rate is 20–25%.",
+   "summary": "The current Humboldt Research Fellowship call has reached its cap of 800 applications, so no new applications can be started. The next call opens on 15 March 2027. You can no longer apply at any time: there are three calls a year, each opening about 8 months before a selection meeting (February/March, June/July, October/November). There is no fixed deadline because each call closes once it gets 800 applications, so it is best to submit soon after 15 March 2027. Postdocs get €3,000 a month for 6–24 months plus extra benefits, and the host institute gets €800 a month for research costs. Carlos appears eligible. He is Spanish and has not been living or working in Germany. His PhD (expected March 2027) can be finished either before he applies or before the selection meeting, as long as he provides a written summary of his findings. So he could apply in the March 2027 call with a German host such as Fabian Hassler (Aachen), Piet Brouwer or Felix von Oppen (FU Berlin). He must not spend more than 90 days in Germany in the 18 months before applying.",
+   "eligibility": "Open to researchers from abroad. For postdocs, the PhD must be from the last 4 years, or finished before the selection meeting with a written summary of findings. Recognised career breaks such as child-rearing extend this, up to 6 years. In the 18 months before applying you must not have spent more than 90 days in Germany, been paid from German funding, or worked on a doctoral project in Germany for more than 90 days. German nationals and educational residents are generally excluded unless they have lived abroad for a long time. You are not eligible if the Humboldt Foundation has funded you directly before. You need good German or English (natural sciences). Returning to your PhD supervisor, a longer-term postdoc mentor, or a host where you already stayed 12 months or more is usually rejected.",
+   "duration": "6–24 months for postdocs, split into up to three stays within three years. The fellowship starts 2–12 months after the selection meeting.",
+   "salary": "€3,000 per month for postdocs, plus family allowances, subsidies for private health insurance, travel allowances and an optional 2–4 month German language course. The host institute receives €800 per month for research costs (natural sciences).",
    "start_date": null,
-   "call_opens": "2026-11-15",
+   "call_opens": "2027-03-15",
    "deadline": null,
    "rolling": true,
    "dates_estimated": false,
-   "dates_checked": "2026-11-05T11:08:39+00:00",
-   "status": "rolling",
+   "dates_checked": "2026-11-19T14:36:26+00:00",
+   "status": "upcoming",
    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
    "sources": [
     "fellowship catalog",
@@ -671,7 +673,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "humboldt-rf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "rolling",
    "notified_on": "2026-11-15"
   },
@@ -964,7 +966,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1063,7 +1065,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1128,7 +1130,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1193,7 +1195,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1247,7 +1249,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-19",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1331,7 +1333,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1360,11 +1362,12 @@ window.POSTDOC_DATA = {
     "Non-Hermitian physics & open quantum systems",
     "Quantum transport in mesoscopic systems",
     "Theoretical & computational condensed matter (broad)",
+    "Theory of quantum devices & qubits",
     "Topological superconductivity & Majorana modes"
    ],
    "relevance": 85,
    "relevance_reason": "This is a prestigious independent fellowship with a listed PI whose group works on Majorana and Kitaev-chain theory with strong experimental ties in Delft, and you meet the eligibility and mobility rules; it isn't a funded opening, and the 2027 call dates are still to be confirmed.",
-   "summary": "An independent EU-funded postdoctoral fellowship written jointly with a host supervisor, here Martin Leijnse. Lund's Solid State Physics division recommends sending a faculty member a one-page project description and a CV, ideally a year ahead. The 2026 call ran from 9 April to 9 September 2026. Third-party sites list the 2027 call as opening around 7 April 2027 with a deadline around 8 September 2027, but these dates are not official yet. The fellowship pays a full researcher salary under the MSCA rules, plus mobility and research allowances.",
+   "summary": "This is the EU's individual postdoctoral fellowship, which you write jointly with a host supervisor. Michael Wimmer at QuTech/TU Delft would be the host here. The 2026 call (HORIZON-MSCA-2026-PF-01) opened on 9 April 2026 and closed on 9 September 2026. The 2026–2027 work programme includes a 2027 call, but its dates have not been confirmed yet. If past cycles hold, it would open around April 2027 and close around September 2027, so you should contact Wimmer early to prepare a proposal. TU Delft groups usually ask for expressions of interest before helping candidates with MSCA proposals.",
    "eligibility": "Must hold a PhD by the call deadline, with at most 8 years of experience since the PhD. Must not have lived or worked mainly in the Netherlands for more than 12 months in the 36 months before the deadline. The candidate, who is Spanish and lives in Spain, meets the mobility rule, and his expected PhD date (March 2027) falls before a typical September deadline.",
    "duration": "12-24 months (European Fellowship)",
    "salary": null,
@@ -1384,7 +1387,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1511,7 +1514,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1545,7 +1548,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1580,7 +1583,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1615,7 +1618,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1649,7 +1652,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1686,7 +1689,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1723,7 +1726,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -1747,19 +1750,19 @@ window.POSTDOC_DATA = {
     "Theoretical & computational condensed matter (broad)",
     "Topological superconductivity & Majorana modes"
    ],
-   "relevance": 85,
-   "relevance_reason": "This is the group of a listed PI, and it works on exactly your topics (Majoranas, hybrid devices, Kwant transport), but there is no funded post at present, so the route is a self-funded MSCA application on a future call.",
-   "summary": "The Akhmerov/Wimmer Quantum Tinkerer group has no funded openings at the moment. Its join page invites postdoc applicants, including those applying for their own fellowships, to send a CV and a short research statement. The realistic route is a Marie Skłodowska-Curie Postdoctoral Fellowship with Akhmerov as host. The next call has not been announced but is likely to open in spring 2027 with a deadline in early autumn, after Carlos's expected PhD date (March 2027).",
+   "relevance": 88,
+   "relevance_reason": "Akhmerov is a listed PI whose group (Kwant, Majoranas, mesoscopic transport) closely matches your work, and the group explicitly welcomes people bringing their own fellowship; the call is not open yet, so this is a scheduled opportunity rather than a funded post.",
+   "summary": "The Quantum Tinkerer group has no open positions, but its 'Work with us' page invites people applying for their own fellowship to get in touch by sending a CV and a short statement of research interests. The MSCA PF 2027 call is scheduled to open on 2027-04-07 with a deadline of 2027-09-08; both dates are still marked as indicative. The fellowship funds 1-2 years in Delft with Akhmerov as host. The proposal is written together with the host, so contact the group in early 2027.",
    "eligibility": "Must hold a PhD by the call deadline; MSCA mobility rule (no more than 12 months' residence in the Netherlands in the previous 36 months) is met by the candidate. The 2026 call closed 2026-09-09; the 2027 call is not yet announced.",
    "duration": "12-24 months (MSCA European Fellowship)",
-   "salary": null,
+   "salary": "MSCA living, mobility and family allowances, paid at the Netherlands country coefficient",
    "start_date": null,
-   "call_opens": null,
-   "deadline": null,
+   "call_opens": "2027-04-07",
+   "deadline": "2027-09-08",
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
-   "status": "unknown",
+   "status": "upcoming",
    "url": "https://quantumtinkerer.tudelft.nl/join/",
    "sources": [
     "Web search (pi: Anton Akhmerov)",
@@ -1768,7 +1771,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-19",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1940,6 +1943,43 @@ window.POSTDOC_DATA = {
    "notified_on": null
   },
   {
+   "id": "3c765e6471eb",
+   "kind": "position",
+   "title": "Postdoctoral Position in Quantum Dynamics",
+   "institution": "University of Geneva, Department of Theoretical Physics (Quantum Dynamics group)",
+   "country": "Switzerland",
+   "location": "Geneva, Switzerland",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theoretical & computational condensed matter (broad)",
+    "Non-Hermitian physics & open quantum systems"
+   ],
+   "relevance": 45,
+   "relevance_reason": "This is an open theory postdoc in Switzerland that may involve quantum many-body or open-system dynamics, but I could not confirm the details, so the fit is uncertain.",
+   "summary": "AcademicJobsOnline lists this as a currently open theory postdoc in quantum dynamics at the University of Geneva. I could not open the full ad to check the topic, deadline, salary or start date. Please check the posting directly.",
+   "eligibility": null,
+   "duration": null,
+   "salary": null,
+   "start_date": null,
+   "call_opens": null,
+   "deadline": null,
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "unknown",
+   "url": "https://academicjobsonline.org/ajo/jobs/33029",
+   "sources": [
+    "Web search (topic: Theoretical & computational condensed matter (broad))"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "notified_status": null,
+   "notified_on": null
+  },
+  {
    "id": "e54dbba03613",
    "kind": "position",
    "title": "Postdoctoral Fellow in Quantum Mathematics",
@@ -2003,7 +2043,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "notified_status": null,
    "notified_on": null
   },
@@ -2084,75 +2124,36 @@ window.POSTDOC_DATA = {
    "notified_on": null
   },
   {
-   "id": "86b93709e0b1",
+   "id": "313ea745634e",
    "kind": "position",
-   "title": "Postdoctoral Researcher (UCD Post-doctoral Research Fellow Level 1/2) – correlated quantum many-body systems",
-   "institution": "University College Dublin, School of Physics",
-   "country": "Ireland",
-   "location": "Dublin, Ireland",
-   "pi": "Ciarán Hickey",
-   "matched_pis": [],
-   "pi_notes": {},
-   "topics": [
-    "Theoretical & computational condensed matter (broad)"
-   ],
-   "relevance": 50,
-   "relevance_reason": "This is a solid many-body condensed-matter theory postdoc, but it is about quantum magnetism, not hybrid superconducting devices, so it only fits your broad interests. Also, a start 'as soon as possible' may clash with your March 2027 PhD date.",
-   "summary": "Theory postdoc funded by the Research Ireland grant 'Non-Linear Dynamics of Quantum Magnets'. The work covers topology, entanglement and dynamics in correlated quantum many-body systems: frustrated magnetism, quantum spin liquids, non-linear response and correlated multi-orbital systems. The post starts as soon as possible and runs until June 2029, paying €47–51k a year. Apply through the UCD portal, not AJO, with a cover letter, CV, a one-page research statement and the names of two referees.",
-   "eligibility": "PhD in physics. PD1 level is for early-career researchers; applicants whose total postdoc experience would exceed 4 years should apply at PD2 level.",
-   "duration": "Fixed-term until 2029-06-30",
-   "salary": "€47,273–€51,176 per year",
-   "start_date": "As soon as possible",
-   "call_opens": null,
-   "deadline": "2026-11-30",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "open",
-   "url": "https://academicjobsonline.org/ajo/jobs/31689",
-   "sources": [
-    "Web search (topic: Theoretical & computational condensed matter (broad))"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
-   "notified_status": null,
-   "notified_on": null
-  },
-  {
-   "id": "3c765e6471eb",
-   "kind": "position",
-   "title": "Postdoctoral Position in Quantum Dynamics",
-   "institution": "University of Geneva, Department of Theoretical Physics (Quantum Dynamics group)",
-   "country": "Switzerland",
-   "location": "Geneva, Switzerland",
+   "title": "Postdoctoral Research Associate",
+   "institution": "King's College London",
+   "country": "United Kingdom",
+   "location": "London",
    "pi": null,
    "matched_pis": [],
    "pi_notes": {},
-   "topics": [
-    "Theoretical & computational condensed matter (broad)",
-    "Non-Hermitian physics & open quantum systems"
-   ],
-   "relevance": 45,
-   "relevance_reason": "This is an open theory postdoc in Switzerland that may involve quantum many-body or open-system dynamics, but I could not confirm the details, so the fit is uncertain.",
-   "summary": "AcademicJobsOnline lists this as a currently open theory postdoc in quantum dynamics at the University of Geneva. I could not open the full ad to check the topic, deadline, salary or start date. Please check the posting directly.",
+   "topics": [],
+   "relevance": 42,
+   "relevance_reason": "This is a physics postdoc at KCL, but the ad does not say the research topic, so the fit is unclear.",
+   "summary": "Postdoctoral Research Associate post in the Physics department at King's College London. The salary is £45,031–£47,379 per year, including London Weighting. The ad does not state the project or duration. Apply via jobs.ac.uk by 17 November 2026.",
    "eligibility": null,
    "duration": null,
-   "salary": null,
+   "salary": "£45,031 to £47,379\n                                    per annum, including London Weighting Allowance",
    "start_date": null,
    "call_opens": null,
-   "deadline": null,
+   "deadline": "2026-11-17",
    "rolling": false,
    "dates_estimated": false,
    "dates_checked": null,
-   "status": "unknown",
-   "url": "https://academicjobsonline.org/ajo/jobs/33029",
+   "status": "closed",
+   "url": "https://www.jobs.ac.uk/job/DTJ358/postdoctoral-research-associate",
    "sources": [
-    "Web search (topic: Theoretical & computational condensed matter (broad))"
+    "jobs.ac.uk"
    ],
    "fellowship_id": null,
-   "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
    "notified_status": null,
    "notified_on": null
   }
@@ -2196,7 +2197,7 @@ window.POSTDOC_DATA = {
    "country": "Italy",
    "website": "https://www.roma1.infn.it/~vanheckb/",
    "priority": "high",
-   "last_searched": "2026-11-15T12:53:32+00:00"
+   "last_searched": "2026-11-19T14:33:56+00:00"
   },
   {
    "name": "Michael Wimmer",
@@ -2204,7 +2205,7 @@ window.POSTDOC_DATA = {
    "country": "Netherlands",
    "website": "https://www.tudelft.nl/staff/m.t.wimmer",
    "priority": "high",
-   "last_searched": "2026-11-15T12:54:29+00:00"
+   "last_searched": "2026-11-19T14:34:58+00:00"
   },
   {
    "name": "Anton Akhmerov",
@@ -2212,7 +2213,7 @@ window.POSTDOC_DATA = {
    "country": "Netherlands",
    "website": "https://quantumtinkerer.tudelft.nl/",
    "priority": "high",
-   "last_searched": "2026-11-15T12:55:10+00:00"
+   "last_searched": "2026-11-19T14:35:58+00:00"
   },
   {
    "name": "Annica Black-Schaffer",
@@ -3177,6 +3178,58 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 33
+  },
+  {
+   "date": "2026-11-19T14:31:05+00:00",
+   "ai_enabled": true,
+   "raw_items": 235,
+   "candidates": 2,
+   "triaged": 2,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Bernard van Heck",
+     "found": 1,
+     "notes": "I found no open postdoc position in Bernard van Heck's group at Sapienza.\n\n**What I checked**\n- **Group website:** roma1.infn.it/~vanheckb failed to load because of a TLS certificate error. His newer site, bernardvanheck.site.uniroma1.it, redirects to a Google sign-in page, so I couldn't read eithe…"
+    },
+    {
+     "task": "pi:Michael Wimmer",
+     "found": 1,
+     "notes": "I found no open postdoc post in Michael Wimmer's group, and no job ad names him as supervisor.\n\nSources checked:\n- **QuTech careers and job-opportunities pages:** the only postdoc listed is \"Postdoctoral Researcher in Quantum Error Correction and Compilation\". It does not describe Wimmer-group or M…"
+    },
+    {
+     "task": "pi:Anton Akhmerov",
+     "found": 1,
+     "notes": "There are no open postdoc positions in Anton Akhmerov's group right now. The group's own page (quantumtinkerer.tudelft.nl/join/) says: \"We do not have open positions at the moment.\" It does invite fellowship applicants to get in touch with a CV and research interests, so I reported the MSCA PF 2027…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "humboldt-rf",
+     "status": "closed",
+     "deadline": null
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 44,
+    "output_tokens": 10450,
+    "cache_read_tokens": 178484,
+    "cache_write_tokens": 48915,
+    "web_searches": 12,
+    "web_fetches": 0,
+    "cost_usd": 0.7963,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
   }
  ]
 };

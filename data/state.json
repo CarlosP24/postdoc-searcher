@@ -493,18 +493,41 @@
   "18294b8e21b4": "2026-11-18",
   "404148b1e9b4": "2026-11-18",
   "12cba865b409": "2026-11-18",
-  "39c9794ca25c": "2026-11-18"
+  "39c9794ca25c": "2026-11-18",
+  "b48bb5203afd": "2026-11-19",
+  "f6dbaeca0334": "2026-11-19",
+  "2ecafadb5779": "2026-11-19",
+  "2ee0961f0b7b": "2026-11-19",
+  "f34a461cbe77": "2026-11-19",
+  "e7658c1ba9c7": "2026-11-19",
+  "d0c86947818e": "2026-11-19",
+  "d6815e574fca": "2026-11-19",
+  "a3ab9ec69840": "2026-11-19",
+  "2be2982e79de": "2026-11-19",
+  "0c9e8928ba5e": "2026-11-19",
+  "b1b36eb10626": "2026-11-19",
+  "e3a34713db23": "2026-11-19",
+  "206ca1a6753c": "2026-11-19",
+  "bef7b6423983": "2026-11-19",
+  "2ed0b46d8008": "2026-11-19",
+  "5e1b9ae72fa2": "2026-11-19",
+  "d56909fdc1d9": "2026-11-19",
+  "023220e53493": "2026-11-19",
+  "c5c1748645e0": "2026-11-19",
+  "0c0bfa0fb02d": "2026-11-19",
+  "2548b6ca77cd": "2026-11-19",
+  "4e09caadc1ad": "2026-11-19"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-18T14:18:30+00:00",
+   "checked": "2026-11-19T14:32:32+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-18T14:18:32+00:00",
+   "checked": "2026-11-19T14:32:34+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -514,61 +537,61 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-18T14:18:39+00:00",
+   "checked": "2026-11-19T14:32:41+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-18T14:18:40+00:00",
+   "checked": "2026-11-19T14:32:42+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-18T14:18:46+00:00",
+   "checked": "2026-11-19T14:32:46+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-18T14:18:51+00:00",
+   "checked": "2026-11-19T14:32:49+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-18T14:18:52+00:00",
+   "checked": "2026-11-19T14:32:50+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-18T14:18:52+00:00",
+   "checked": "2026-11-19T14:32:50+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-18T14:18:32+00:00",
+   "checked": "2026-11-19T14:32:34+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-18T14:18:42+00:00",
+   "checked": "2026-11-19T14:32:43+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-18T14:18:54+00:00",
+   "checked": "2026-11-19T14:32:52+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
-   "hash": "8350be099e8b02a31700",
-   "checked": "2026-11-18T14:18:44+00:00",
+   "hash": "3ca638b3553c9b78f420",
+   "checked": "2026-11-19T14:32:45+00:00",
    "pi": "Michele Burrello"
   }
  },
  "tasks": {
   "pi:Karsten Flensberg": "2026-11-18T14:20:16+00:00",
   "pi:Piet Brouwer": "2026-11-18T14:21:07+00:00",
-  "pi:Bernard van Heck": "2026-11-15T12:53:32+00:00",
-  "pi:Michael Wimmer": "2026-11-15T12:54:29+00:00",
-  "pi:Anton Akhmerov": "2026-11-15T12:55:10+00:00",
+  "pi:Bernard van Heck": "2026-11-19T14:33:56+00:00",
+  "pi:Michael Wimmer": "2026-11-19T14:34:58+00:00",
+  "pi:Anton Akhmerov": "2026-11-19T14:35:58+00:00",
   "pi:Martin Leijnse": "2026-11-17T14:43:38+00:00",
   "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
   "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
@@ -608,19 +631,18 @@
    ]
   },
   "humboldt-rf": {
-   "checked": "2026-11-05T11:08:39+00:00",
-   "status": "upcoming",
-   "call_opens": "2026-11-15",
+   "checked": "2026-11-19T14:36:26+00:00",
+   "status": "closed",
+   "call_opens": "2027-03-15",
    "deadline": null,
    "dates_estimated": false,
-   "summary": "The current call is closed because it reached the cap of 800 applications. The next call opens on 15 November 2026 and feeds the July 2027 selection meeting. There is no fixed deadline: since 2026 each call closes as soon as 800 applications come in, so applicants should submit on or right after opening day. A draft can be saved in the portal now. Calls open three times a year, on 15 March, 15 July and 15 November. Carlos appears eligible. He is a Spanish national who has not lived in Germany, so the 90-days-in-the-last-18-months rule should not affect him as long as his Copenhagen visit and other stays were outside Germany. His expected PhD date (March 2027) falls before the July 2027 selection meeting, which the rules allow if he submits a written summary of his thesis findings. Strong host options include Brouwer and von Oppen (FU Berlin) and Hassler (RWTH Aachen). His doctoral supervisor cannot be the host.",
-   "eligibility": "Non-German researchers with a doctorate completed within the last 4 years, or completed before the selection meeting (with a written summary of findings). Mothers get up to 2 extra years per child, capped at 6 years. Applicants must not have spent more than 90 days in Germany in the 18 months before applying, nor been funded from German sources or done doctoral work in Germany during that time. German nationals and people educated in Germany are eligible only after more than 10 years abroad (or more than 5 years with strong ties to their country of residence). Former Humboldt fellows or award winners cannot apply. Applications are submitted directly by the researcher, together with a mentoring agreement from the host.",
-   "duration": "6–24 months for postdocs, which can be split into up to 3 stays within 3 years. Each stay lasts at least 6 months, or two 3-month blocks. An optional 2–4-month German language course before the stay does not count toward this.",
-   "funding": "€3,000 per month for postdocs, plus a family allowance, a subsidy for private health insurance and a travel allowance. The host institute receives €800 per month for natural sciences. Expected success rate is 20–25%.",
+   "summary": "The current Humboldt Research Fellowship call has reached its cap of 800 applications, so no new applications can be started. The next call opens on 15 March 2027. You can no longer apply at any time: there are three calls a year, each opening about 8 months before a selection meeting (February/March, June/July, October/November). There is no fixed deadline because each call closes once it gets 800 applications, so it is best to submit soon after 15 March 2027. Postdocs get €3,000 a month for 6–24 months plus extra benefits, and the host institute gets €800 a month for research costs. Carlos appears eligible. He is Spanish and has not been living or working in Germany. His PhD (expected March 2027) can be finished either before he applies or before the selection meeting, as long as he provides a written summary of his findings. So he could apply in the March 2027 call with a German host such as Fabian Hassler (Aachen), Piet Brouwer or Felix von Oppen (FU Berlin). He must not spend more than 90 days in Germany in the 18 months before applying.",
+   "eligibility": "Open to researchers from abroad. For postdocs, the PhD must be from the last 4 years, or finished before the selection meeting with a written summary of findings. Recognised career breaks such as child-rearing extend this, up to 6 years. In the 18 months before applying you must not have spent more than 90 days in Germany, been paid from German funding, or worked on a doctoral project in Germany for more than 90 days. German nationals and educational residents are generally excluded unless they have lived abroad for a long time. You are not eligible if the Humboldt Foundation has funded you directly before. You need good German or English (natural sciences). Returning to your PhD supervisor, a longer-term postdoc mentor, or a host where you already stayed 12 months or more is usually rejected.",
+   "duration": "6–24 months for postdocs, split into up to three stays within three years. The fellowship starts 2–12 months after the selection meeting.",
+   "funding": "€3,000 per month for postdocs, plus family allowances, subsidies for private health insurance, travel allowances and an optional 2–4 month German language course. The host institute receives €800 per month for research costs (natural sciences).",
    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
    "sources": [
-    "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
-    "https://guides.scholarshipunion.com/humboldt-fellowship/"
+    "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship"
    ]
   },
   "dfg-walter-benjamin": {
@@ -1708,6 +1730,58 @@
     "backend": "claude-code"
    },
    "open_total": 33
+  },
+  {
+   "date": "2026-11-19T14:31:05+00:00",
+   "ai_enabled": true,
+   "raw_items": 235,
+   "candidates": 2,
+   "triaged": 2,
+   "lab_pages_changed": 1,
+   "search_tasks": [
+    {
+     "task": "pi:Bernard van Heck",
+     "found": 1,
+     "notes": "I found no open postdoc position in Bernard van Heck's group at Sapienza.\n\n**What I checked**\n- **Group website:** roma1.infn.it/~vanheckb failed to load because of a TLS certificate error. His newer site, bernardvanheck.site.uniroma1.it, redirects to a Google sign-in page, so I couldn't read eithe…"
+    },
+    {
+     "task": "pi:Michael Wimmer",
+     "found": 1,
+     "notes": "I found no open postdoc post in Michael Wimmer's group, and no job ad names him as supervisor.\n\nSources checked:\n- **QuTech careers and job-opportunities pages:** the only postdoc listed is \"Postdoctoral Researcher in Quantum Error Correction and Compilation\". It does not describe Wimmer-group or M…"
+    },
+    {
+     "task": "pi:Anton Akhmerov",
+     "found": 1,
+     "notes": "There are no open postdoc positions in Anton Akhmerov's group right now. The group's own page (quantumtinkerer.tudelft.nl/join/) says: \"We do not have open positions at the moment.\" It does invite fellowship applicants to get in touch with a CV and research interests, so I reported the MSCA PF 2027…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "humboldt-rf",
+     "status": "closed",
+     "deadline": null
+    }
+   ],
+   "new_positions": 0,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 44,
+    "output_tokens": 10450,
+    "cache_read_tokens": 178484,
+    "cache_write_tokens": 48915,
+    "web_searches": 12,
+    "web_fetches": 0,
+    "cost_usd": 0.7963,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 31
   }
  ]
 }
