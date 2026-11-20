@@ -1,5 +1,5 @@
 window.POSTDOC_DATA = {
- "generated_at": "2026-11-19T14:36:26+00:00",
+ "generated_at": "2026-11-20T14:15:00+00:00",
  "title": "Postdoc Radar",
  "notify_threshold": 65,
  "opportunities": [
@@ -64,7 +64,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "branco-weiss",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": "open",
    "notified_on": "2026-11-10"
   },
@@ -167,14 +167,14 @@ window.POSTDOC_DATA = {
     "Fabian Hassler": "★ PI of this offer"
    },
    "topics": [
-    "Topological superconductivity & Majorana modes",
     "Hybrid semiconductor–superconductor nanostructures",
     "Quantum transport in mesoscopic systems",
-    "Theory of quantum devices & qubits"
+    "Theory of quantum devices & qubits",
+    "Topological superconductivity & Majorana modes"
    ],
    "relevance": 85,
    "relevance_reason": "This prestigious independent fellowship could be held in Hassler's Majorana/mesoscopics theory group, and the autumn-2027 start fits your expected March 2027 PhD. Ask ML4Q whether you can apply before defending, since that is still unclear.",
-   "summary": "This independent 2-year fellowship pays for the fellow's own position plus consumables and travel, and includes training and mentoring, in an ML4Q group such as Hassler's at RWTH Aachen. The start date is autumn 2027 at the earliest. Up to two fellows are chosen per call. Email one PDF to ml4q-office@uni-koeln.de by 2026-12-14. It must contain a research statement (≤3 pages), a statement on links to the cluster (≤0.5 page), a CV (≤2 pages), a publication list, two referees and the name of the host group. The host must have discussed the application with you beforehand.",
+   "summary": "Independent 2-year postdoctoral fellowship from the ML4Q Cluster of Excellence. It funds your position plus consumables and travel, held in an ML4Q host group of your choice (Aachen is a listed host city). The earliest start is autumn 2027. Up to two fellowships are funded centrally, with more if extra funding is available. Send one PDF to ml4q-office@uni-koeln.de by 2026-12-14 containing: research statement (max. 3 pages), statement on connections to the cluster (max. 0.5 page), CV (max. 2 pages), publication list with the top 3 highlighted, two referees, and the host group's name.",
    "eligibility": "Usually no more than 4 years since your PhD, with allowance for career breaks. You must agree on a host ML4Q group before applying. Not open to current or recent (within 3 years) ML4Q group members, or to anyone whose current or former (co-)supervisor is an ML4Q member.",
    "duration": "2 years",
    "salary": null,
@@ -191,7 +191,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": null,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-20",
    "notified_status": "open",
    "notified_on": "2026-11-07"
   },
@@ -480,7 +480,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwo-junior-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -515,7 +515,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "juan-de-la-cierva",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -549,7 +549,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "leverhulme-ecf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -587,7 +587,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "snsf-ambizione",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -612,16 +612,16 @@ window.POSTDOC_DATA = {
    "topics": [],
    "relevance": 95,
    "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
-   "summary": "There are no call windows. The DFG Walter Benjamin Programme takes proposals at any time through the elan portal, and a decision takes about 6 months on average. It funds early-career postdocs to carry out their own project, usually for up to two years. In Germany you hold a postdoc position at the host, normally paid at 100%, plus €250 a month for project, travel and publication costs. Abroad you get a fellowship instead (basic amount plus allowances). Carlos appears eligible for the German position, for example with Brouwer or von Oppen at FU Berlin or Hassler at RWTH Aachen: that track has no nationality or prior-Germany-work rules, and he would be changing institution from ICMM-CSIC. He can submit once his dissertation has been handed in (expected around early 2027, with proof of submission and a supervisor statement), but funding only starts after the doctorate is completed. That makes a start around late 2027 realistic. He is not eligible for the abroad fellowship (for example a stay in Copenhagen), because he has not been integrated into the German research system.",
-   "eligibility": "For postdocs in the early phase after the doctorate (EU 'recognised researcher', R2). DFG sets no fixed number of years since the PhD, and parental leave is taken into account. You can submit once the dissertation has been handed in, but funding starts only after the doctorate is completed. You must generally change institution (not the PhD institution or current one, except with special justification). You must not have worked more than one year at the chosen host when you submit. German position: no nationality or prior-Germany restrictions. Abroad fellowship: you need to have worked at least 3 continuous years in Germany just before the proposal, or have done most of your schooling and higher education in Germany with no more than 3 years abroad for research since the PhD. Carlos does not meet these. The host cannot be for-profit and must allow open publication.",
-   "duration": "As a rule up to 24 months. The German position and the abroad fellowship modules can be combined. In France, fellowships are limited to 12 months unless you move to a second French institution.",
-   "salary": "German position: a postdoc post ('postdoctoral researcher and comparable'), usually at 100%, plus €250 a month for direct project, travel and publication costs. The exact pay scale is not stated. Non-university institutes (Max Planck, Helmholtz, Fraunhofer) must guarantee 45% of the position's funding. Abroad fellowship: a monthly basic amount plus foreign, cost-of-living and travel allowances and benefits for children, paid directly to the fellow.",
+   "summary": "There is no call cycle for the DFG Walter Benjamin Programme. You can submit a proposal through the DFG elan portal at any time, and a decision takes about six months on average. You write your own project, and DFG funds you for up to two years in one of two ways: a 100% position in Germany in the staff category \"postdoctoral researcher and comparable\", plus €250 a month for project costs, or a fellowship abroad. Carlos appears eligible for the position in Germany, which is open to applicants of any nationality. He can apply once his thesis is with the examinations office (expected around early 2027), but funding can only start after the doctorate is complete. A host in Germany such as Hassler (RWTH Aachen) or Brouwer or von Oppen (FU Berlin) fits him very well. He is not eligible for the fellowship abroad, because he has no schooling in Germany and has not worked in Germany for three years.",
+   "eligibility": "Only researchers in an early postdoctoral phase can apply. DFG sets no fixed limit on years since the PhD; its guide is the EU \"recognised researcher\" (R2) stage, with parental leave taken into account. You are no longer counted as early career if you have already run projects under your own responsibility. You can submit once your dissertation is with the examinations office, but proof of the doctorate is needed before funding starts. Applicants generally have to change institution and must not have worked more than one year at the host institution when they apply. The position in Germany is open regardless of nationality, including to people applying from abroad. The fellowship abroad requires either three continuous years as a researcher in Germany just before applying, or most of your schooling and higher education in Germany plus no more than three years abroad since the doctorate.",
+   "duration": "Up to 24 months as a rule. In France, a fellowship is limited to 12 months, or 24 months if you move to a second French institution.",
+   "salary": "In Germany: a position in the DFG staff category \"postdoctoral researcher and comparable\", generally funded at 100%; DFG states no salary amount and points to its online Award Calculator. The position also comes with €250 a month for project costs, travel and publications. Abroad: a fellowship with a monthly basic amount, plus foreign, cost-of-living, travel and child allowances where they apply, and €313 a month for project costs. Max Planck, Fraunhofer and Helmholtz institutes generally have to cover 45% of the position themselves.",
    "start_date": null,
    "call_opens": null,
    "deadline": null,
    "rolling": true,
    "dates_estimated": false,
-   "dates_checked": "2026-11-05T13:26:32+00:00",
+   "dates_checked": "2026-11-20T14:15:00+00:00",
    "status": "rolling",
    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
    "sources": [
@@ -630,52 +630,9 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "dfg-walter-benjamin",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": "rolling",
    "notified_on": "2026-11-05"
-  },
-  {
-   "id": "fellowship-humboldt-rf",
-   "kind": "fellowship",
-   "title": "Humboldt Research Fellowship for Postdocs",
-   "institution": "Alexander von Humboldt Foundation",
-   "country": "Germany",
-   "location": null,
-   "pi": null,
-   "matched_pis": [
-    "Fabian Hassler",
-    "Piet Brouwer",
-    "Felix von Oppen"
-   ],
-   "pi_notes": {
-    "Fabian Hassler": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
-    "Piet Brouwer": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
-    "Felix von Oppen": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly."
-   },
-   "topics": [],
-   "relevance": 95,
-   "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
-   "summary": "The current Humboldt Research Fellowship call has reached its cap of 800 applications, so no new applications can be started. The next call opens on 15 March 2027. You can no longer apply at any time: there are three calls a year, each opening about 8 months before a selection meeting (February/March, June/July, October/November). There is no fixed deadline because each call closes once it gets 800 applications, so it is best to submit soon after 15 March 2027. Postdocs get €3,000 a month for 6–24 months plus extra benefits, and the host institute gets €800 a month for research costs. Carlos appears eligible. He is Spanish and has not been living or working in Germany. His PhD (expected March 2027) can be finished either before he applies or before the selection meeting, as long as he provides a written summary of his findings. So he could apply in the March 2027 call with a German host such as Fabian Hassler (Aachen), Piet Brouwer or Felix von Oppen (FU Berlin). He must not spend more than 90 days in Germany in the 18 months before applying.",
-   "eligibility": "Open to researchers from abroad. For postdocs, the PhD must be from the last 4 years, or finished before the selection meeting with a written summary of findings. Recognised career breaks such as child-rearing extend this, up to 6 years. In the 18 months before applying you must not have spent more than 90 days in Germany, been paid from German funding, or worked on a doctoral project in Germany for more than 90 days. German nationals and educational residents are generally excluded unless they have lived abroad for a long time. You are not eligible if the Humboldt Foundation has funded you directly before. You need good German or English (natural sciences). Returning to your PhD supervisor, a longer-term postdoc mentor, or a host where you already stayed 12 months or more is usually rejected.",
-   "duration": "6–24 months for postdocs, split into up to three stays within three years. The fellowship starts 2–12 months after the selection meeting.",
-   "salary": "€3,000 per month for postdocs, plus family allowances, subsidies for private health insurance, travel allowances and an optional 2–4 month German language course. The host institute receives €800 per month for research costs (natural sciences).",
-   "start_date": null,
-   "call_opens": "2027-03-15",
-   "deadline": null,
-   "rolling": true,
-   "dates_estimated": false,
-   "dates_checked": "2026-11-19T14:36:26+00:00",
-   "status": "upcoming",
-   "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
-   "sources": [
-    "fellowship catalog",
-    "web check"
-   ],
-   "fellowship_id": "humboldt-rf",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
-   "notified_status": "rolling",
-   "notified_on": "2026-11-15"
   },
   {
    "id": "cf43c6fd9d2f",
@@ -966,7 +923,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "fwf-esprit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1003,6 +960,49 @@ window.POSTDOC_DATA = {
    "last_seen": "2026-11-04",
    "notified_status": null,
    "notified_on": null
+  },
+  {
+   "id": "fellowship-humboldt-rf",
+   "kind": "fellowship",
+   "title": "Humboldt Research Fellowship for Postdocs",
+   "institution": "Alexander von Humboldt Foundation",
+   "country": "Germany",
+   "location": null,
+   "pi": null,
+   "matched_pis": [
+    "Fabian Hassler",
+    "Piet Brouwer",
+    "Felix von Oppen"
+   ],
+   "pi_notes": {
+    "Fabian Hassler": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
+    "Piet Brouwer": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly.",
+    "Felix von Oppen": "✓ eligible — The German host PI confirms the research plan and supervises; you apply directly."
+   },
+   "topics": [],
+   "relevance": 95,
+   "relevance_reason": "Could be hosted by Fabian Hassler, Piet Brouwer, Felix von Oppen from your PI list.",
+   "summary": "The current Humboldt Research Fellowship call has reached its cap of 800 applications, so no new applications can be started. The next call opens on 15 March 2027. You can no longer apply at any time: there are three calls a year, each opening about 8 months before a selection meeting (February/March, June/July, October/November). There is no fixed deadline because each call closes once it gets 800 applications, so it is best to submit soon after 15 March 2027. Postdocs get €3,000 a month for 6–24 months plus extra benefits, and the host institute gets €800 a month for research costs. Carlos appears eligible. He is Spanish and has not been living or working in Germany. His PhD (expected March 2027) can be finished either before he applies or before the selection meeting, as long as he provides a written summary of his findings. So he could apply in the March 2027 call with a German host such as Fabian Hassler (Aachen), Piet Brouwer or Felix von Oppen (FU Berlin). He must not spend more than 90 days in Germany in the 18 months before applying.",
+   "eligibility": "Open to researchers from abroad. For postdocs, the PhD must be from the last 4 years, or finished before the selection meeting with a written summary of findings. Recognised career breaks such as child-rearing extend this, up to 6 years. In the 18 months before applying you must not have spent more than 90 days in Germany, been paid from German funding, or worked on a doctoral project in Germany for more than 90 days. German nationals and educational residents are generally excluded unless they have lived abroad for a long time. You are not eligible if the Humboldt Foundation has funded you directly before. You need good German or English (natural sciences). Returning to your PhD supervisor, a longer-term postdoc mentor, or a host where you already stayed 12 months or more is usually rejected.",
+   "duration": "6–24 months for postdocs, split into up to three stays within three years. The fellowship starts 2–12 months after the selection meeting.",
+   "salary": "€3,000 per month for postdocs, plus family allowances, subsidies for private health insurance, travel allowances and an optional 2–4 month German language course. The host institute receives €800 per month for research costs (natural sciences).",
+   "start_date": null,
+   "call_opens": "2027-03-15",
+   "deadline": null,
+   "rolling": true,
+   "dates_estimated": false,
+   "dates_checked": "2026-11-19T14:36:26+00:00",
+   "status": "upcoming",
+   "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+   "sources": [
+    "fellowship catalog",
+    "web check"
+   ],
+   "fellowship_id": "humboldt-rf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-20",
+   "notified_status": "rolling",
+   "notified_on": "2026-11-15"
   },
   {
    "id": "fellowship-martin-escudero-abroad",
@@ -1065,7 +1065,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "martin-escudero-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1130,7 +1130,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-ef",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": "upcoming",
    "notified_on": "2026-11-05"
   },
@@ -1195,7 +1195,52 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "ramon-areces-abroad",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "notified_status": "unknown",
+   "notified_on": "2026-11-05"
+  },
+  {
+   "id": "569b350c19b7",
+   "kind": "fellowship",
+   "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted in the Quantum Tinkerer group, TU Delft",
+   "institution": "Kavli Institute of Nanoscience / QuTech, TU Delft",
+   "country": "Netherlands",
+   "location": "Delft",
+   "pi": "Anton Akhmerov",
+   "matched_pis": [
+    "Anton Akhmerov"
+   ],
+   "pi_notes": {
+    "Anton Akhmerov": "★ PI of this offer"
+   },
+   "topics": [
+    "Hybrid semiconductor–superconductor nanostructures",
+    "Quantum transport in mesoscopic systems",
+    "Theoretical & computational condensed matter (broad)",
+    "Topological superconductivity & Majorana modes"
+   ],
+   "relevance": 88,
+   "relevance_reason": "Akhmerov is a listed PI whose group (Kwant, Majoranas, mesoscopic transport) closely matches your work, and the group explicitly welcomes people bringing their own fellowship; the call is not open yet, so this is a scheduled opportunity rather than a funded post.",
+   "summary": "The Quantum Tinkerer group has no open positions, but its 'Work with us' page invites people applying for their own fellowship to get in touch by sending a CV and a short statement of research interests. The MSCA PF 2027 call is scheduled to open on 2027-04-07 with a deadline of 2027-09-08; both dates are still marked as indicative. The fellowship funds 1-2 years in Delft with Akhmerov as host. The proposal is written together with the host, so contact the group in early 2027.",
+   "eligibility": "Must hold a PhD by the call deadline; MSCA mobility rule (no more than 12 months' residence in the Netherlands in the previous 36 months) is met by the candidate. The 2026 call closed 2026-09-09; the 2027 call is not yet announced.",
+   "duration": "12-24 months (MSCA European Fellowship)",
+   "salary": "MSCA living, mobility and family allowances, paid at the Netherlands country coefficient",
+   "start_date": null,
+   "call_opens": "2027-04-07",
+   "deadline": "2027-09-08",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "upcoming",
+   "url": "https://quantumtinkerer.tudelft.nl/join/",
+   "sources": [
+    "Web search (pi: Anton Akhmerov)",
+    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
+    "Web search (topic: Topological superconductivity & Majorana modes)"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-20",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1333,7 +1378,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "nwo-veni",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": "unknown",
    "notified_on": "2026-11-05"
   },
@@ -1514,7 +1559,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "banting",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1548,7 +1593,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "miller-berkeley",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1583,7 +1628,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "msca-pf-gf",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1618,7 +1663,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "newton-international",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1652,7 +1697,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "research-council-finland-postdoc",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1689,7 +1734,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-incoming",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -1726,54 +1771,9 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "la-caixa-junior-leader-retaining",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
-  },
-  {
-   "id": "569b350c19b7",
-   "kind": "fellowship",
-   "title": "MSCA Postdoctoral Fellowship (European Fellowship) hosted in the Quantum Tinkerer group, TU Delft",
-   "institution": "Kavli Institute of Nanoscience / QuTech, TU Delft",
-   "country": "Netherlands",
-   "location": "Delft",
-   "pi": "Anton Akhmerov",
-   "matched_pis": [
-    "Anton Akhmerov"
-   ],
-   "pi_notes": {
-    "Anton Akhmerov": "★ PI of this offer"
-   },
-   "topics": [
-    "Hybrid semiconductor–superconductor nanostructures",
-    "Quantum transport in mesoscopic systems",
-    "Theoretical & computational condensed matter (broad)",
-    "Topological superconductivity & Majorana modes"
-   ],
-   "relevance": 88,
-   "relevance_reason": "Akhmerov is a listed PI whose group (Kwant, Majoranas, mesoscopic transport) closely matches your work, and the group explicitly welcomes people bringing their own fellowship; the call is not open yet, so this is a scheduled opportunity rather than a funded post.",
-   "summary": "The Quantum Tinkerer group has no open positions, but its 'Work with us' page invites people applying for their own fellowship to get in touch by sending a CV and a short statement of research interests. The MSCA PF 2027 call is scheduled to open on 2027-04-07 with a deadline of 2027-09-08; both dates are still marked as indicative. The fellowship funds 1-2 years in Delft with Akhmerov as host. The proposal is written together with the host, so contact the group in early 2027.",
-   "eligibility": "Must hold a PhD by the call deadline; MSCA mobility rule (no more than 12 months' residence in the Netherlands in the previous 36 months) is met by the candidate. The 2026 call closed 2026-09-09; the 2027 call is not yet announced.",
-   "duration": "12-24 months (MSCA European Fellowship)",
-   "salary": "MSCA living, mobility and family allowances, paid at the Netherlands country coefficient",
-   "start_date": null,
-   "call_opens": "2027-04-07",
-   "deadline": "2027-09-08",
-   "rolling": false,
-   "dates_estimated": false,
-   "dates_checked": null,
-   "status": "upcoming",
-   "url": "https://quantumtinkerer.tudelft.nl/join/",
-   "sources": [
-    "Web search (pi: Anton Akhmerov)",
-    "Web search (topic: Hybrid semiconductor–superconductor nanostructures)",
-    "Web search (topic: Topological superconductivity & Majorana modes)"
-   ],
-   "fellowship_id": null,
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-19",
-   "notified_status": "unknown",
-   "notified_on": "2026-11-05"
   },
   {
    "id": "751aee8cf679",
@@ -2043,7 +2043,7 @@ window.POSTDOC_DATA = {
    ],
    "fellowship_id": "pappalardo-mit",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "notified_status": null,
    "notified_on": null
   },
@@ -2156,6 +2156,42 @@ window.POSTDOC_DATA = {
    "last_seen": "2026-11-04",
    "notified_status": null,
    "notified_on": null
+  },
+  {
+   "id": "b2c1ba4195dd",
+   "kind": "position",
+   "title": "Postdoctoral Research Associate in Quantum Condensed Matter Theory",
+   "institution": "University of Oxford, Rudolf Peierls Centre for Theoretical Physics",
+   "country": "United Kingdom",
+   "location": "Oxford",
+   "pi": null,
+   "matched_pis": [],
+   "pi_notes": {},
+   "topics": [
+    "Theoretical & computational condensed matter (broad)"
+   ],
+   "relevance": 62,
+   "relevance_reason": "This is a broad quantum condensed matter theory postdoc at a top UK theory centre, but the ad doesn't name a specific topic or PI, so the match to your work isn't confirmed.",
+   "summary": "Postdoctoral Research Associate in quantum condensed matter theory at the Rudolf Peierls Centre for Theoretical Physics, Oxford. Salary is £40,178–£48,700 per annum (Research Grade 7). The listing does not give the duration, start date or requirements. Apply via the jobs.ac.uk posting by 2026-12-11.",
+   "eligibility": null,
+   "duration": null,
+   "salary": "£40,178 to £48,700\n                                    per annum. Research Grade 7",
+   "start_date": null,
+   "call_opens": null,
+   "deadline": "2026-12-11",
+   "rolling": false,
+   "dates_estimated": false,
+   "dates_checked": null,
+   "status": "open",
+   "url": "https://www.jobs.ac.uk/job/DTS124/postdoctoral-research-associate-in-quantum-condensed-matter-theory",
+   "sources": [
+    "jobs.ac.uk"
+   ],
+   "fellowship_id": null,
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "notified_status": null,
+   "notified_on": null
   }
  ],
  "pis": [
@@ -2173,7 +2209,7 @@ window.POSTDOC_DATA = {
    "country": "Germany",
    "website": "https://www.quantuminfo.physik.rwth-aachen.de/",
    "priority": "normal",
-   "last_searched": "2026-11-07T11:55:21+00:00"
+   "last_searched": "2026-11-20T14:13:58+00:00"
   },
   {
    "name": "Piet Brouwer",
@@ -2275,11 +2311,11 @@ window.POSTDOC_DATA = {
  "topics": [
   {
    "name": "Topological superconductivity & Majorana modes",
-   "last_searched": "2026-11-12T13:56:52+00:00"
+   "last_searched": "2026-11-20T14:12:02+00:00"
   },
   {
    "name": "Hybrid semiconductor–superconductor nanostructures",
-   "last_searched": "2026-11-12T14:00:35+00:00"
+   "last_searched": "2026-11-20T14:13:03+00:00"
   },
   {
    "name": "Quantum transport in mesoscopic systems",
@@ -3230,6 +3266,58 @@ window.POSTDOC_DATA = {
     "backend": "claude-code"
    },
    "open_total": 31
+  },
+  {
+   "date": "2026-11-20T14:09:09+00:00",
+   "ai_enabled": true,
+   "raw_items": 239,
+   "candidates": 4,
+   "triaged": 4,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Topological superconductivity & Majorana modes",
+     "found": 1,
+     "notes": "I used the full budget (5 searches, 4 fetches) and found no new funded postdoc in topological superconductivity or Majorana theory in Europe with a deadline after 2026-11-20. Leads I checked and dropped: the Néel Institute Grenoble disordered topological superconductors post (EURAXESS 241434, close…"
+    },
+    {
+     "task": "topic:Hybrid semiconductor–superconductor nanostructures",
+     "found": 1,
+     "notes": "I found no new funded postdoc on hybrid semiconductor–superconductor nanostructures that is open now. The only result is the TU Delft Quantum Tinkerer MSCA hosting route for 2027; it came from the candidate's own tracker (postdoc-searcher issue #3), so it may already be known. Excluded: the Jyväsky…"
+    },
+    {
+     "task": "pi:Fabian Hassler",
+     "found": 1,
+     "notes": "I found no postdoc job advertised in Fabian Hassler's own group.\n\n**Where I looked**\n- The Institute for Quantum Information's Job Openings page lists three openings, none from Hassler: an experimental spin-shuttling postdoc (Beckers), a postdoc in Markus Müller's theoretical quantum technology gro…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "dfg-walter-benjamin",
+     "status": "rolling",
+     "deadline": null
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 50,
+    "output_tokens": 12072,
+    "cache_read_tokens": 211078,
+    "cache_write_tokens": 54050,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.9167,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 };

@@ -516,18 +516,38 @@
   "c5c1748645e0": "2026-11-19",
   "0c0bfa0fb02d": "2026-11-19",
   "2548b6ca77cd": "2026-11-19",
-  "4e09caadc1ad": "2026-11-19"
+  "4e09caadc1ad": "2026-11-19",
+  "46f163ca6609": "2026-11-20",
+  "65098e3d6540": "2026-11-20",
+  "59e21e814251": "2026-11-20",
+  "1297c4a14fce": "2026-11-20",
+  "b6f3f484fb49": "2026-11-20",
+  "14a91781fc36": "2026-11-20",
+  "f052beca2dbe": "2026-11-20",
+  "38b883e4ebef": "2026-11-20",
+  "b6687ea0111e": "2026-11-20",
+  "0ea8902052b4": "2026-11-20",
+  "efb968655510": "2026-11-20",
+  "4ff182d2e30e": "2026-11-20",
+  "730b6fd06657": "2026-11-20",
+  "2a097fdcad05": "2026-11-20",
+  "79faab4dbf9a": "2026-11-20",
+  "dadaf40f94d6": "2026-11-20",
+  "b2c1ba4195dd": "2026-11-20",
+  "c2157ffe45ab": "2026-11-20",
+  "357cc1eeca97": "2026-11-20",
+  "96ab7c760f5e": "2026-11-20"
  },
  "seen_kw": {},
  "lab_pages": {
   "https://www.quantuminfo.physik.rwth-aachen.de/": {
    "hash": "4a9f180d4d2e392a494a",
-   "checked": "2026-11-19T14:32:32+00:00",
+   "checked": "2026-11-20T14:10:37+00:00",
    "pi": "Fabian Hassler"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-brouwer/": {
    "hash": "ac511209524428df3127",
-   "checked": "2026-11-19T14:32:34+00:00",
+   "checked": "2026-11-20T14:10:38+00:00",
    "pi": "Piet Brouwer"
   },
   "https://www.roma1.infn.it/~vanheckb/": {
@@ -537,52 +557,52 @@
   },
   "https://www.tudelft.nl/staff/m.t.wimmer": {
    "hash": "38d67d8868f32a638d24",
-   "checked": "2026-11-19T14:32:41+00:00",
+   "checked": "2026-11-20T14:10:45+00:00",
    "pi": "Michael Wimmer"
   },
   "https://quantumtinkerer.tudelft.nl/": {
    "hash": "6c0cf3a9722181c2b24f",
-   "checked": "2026-11-19T14:32:42+00:00",
+   "checked": "2026-11-20T14:10:46+00:00",
    "pi": "Anton Akhmerov"
   },
   "https://www.physik.uzh.ch/en/groups/neupert.html": {
    "hash": "d0dc2d01637d875997dd",
-   "checked": "2026-11-19T14:32:46+00:00",
+   "checked": "2026-11-20T14:10:51+00:00",
    "pi": "Titus Neupert"
   },
   "https://www.universite-paris-saclay.fr/en/pascal-simon": {
    "hash": "65c9a39d50f850fe63b9",
-   "checked": "2026-11-19T14:32:49+00:00",
+   "checked": "2026-11-20T14:10:54+00:00",
    "pi": "Pascal Simon"
   },
   "https://www.ftf.lth.se/research/faculty-by-name/martin-leijnse/": {
    "hash": "1bb659f691d0f138ca91",
-   "checked": "2026-11-19T14:32:50+00:00",
+   "checked": "2026-11-20T14:10:55+00:00",
    "pi": "Martin Leijnse"
   },
   "https://amorimbruno.weebly.com/": {
    "hash": "56a4561822d8b03b4c2c",
-   "checked": "2026-11-19T14:32:50+00:00",
+   "checked": "2026-11-20T14:10:56+00:00",
    "pi": "Bruno Amorim"
   },
   "https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-von-oppen/": {
    "hash": "f68c7dd726ec03f87706",
-   "checked": "2026-11-19T14:32:34+00:00",
+   "checked": "2026-11-20T14:10:39+00:00",
    "pi": "Felix von Oppen"
   },
   "https://materials-theory.physics.uu.se/black-schaffer/": {
    "hash": "f37f1243de89de1ef531",
-   "checked": "2026-11-19T14:32:43+00:00",
+   "checked": "2026-11-20T14:10:47+00:00",
    "pi": "Annica Black-Schaffer"
   },
   "https://www.quantumtheory.unibas.ch/people/klinovaja/#": {
    "hash": "2a16de46318ce192a156",
-   "checked": "2026-11-19T14:32:52+00:00",
+   "checked": "2026-11-20T14:10:57+00:00",
    "pi": "Jelena Klinovaja"
   },
   "https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/": {
    "hash": "3ca638b3553c9b78f420",
-   "checked": "2026-11-19T14:32:45+00:00",
+   "checked": "2026-11-20T14:10:49+00:00",
    "pi": "Michele Burrello"
   }
  },
@@ -593,13 +613,13 @@
   "pi:Michael Wimmer": "2026-11-19T14:34:58+00:00",
   "pi:Anton Akhmerov": "2026-11-19T14:35:58+00:00",
   "pi:Martin Leijnse": "2026-11-17T14:43:38+00:00",
-  "topic:Topological superconductivity & Majorana modes": "2026-11-12T13:56:52+00:00",
-  "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-12T14:00:35+00:00",
+  "topic:Topological superconductivity & Majorana modes": "2026-11-20T14:12:02+00:00",
+  "topic:Hybrid semiconductor–superconductor nanostructures": "2026-11-20T14:13:03+00:00",
   "topic:Quantum transport in mesoscopic systems": "2026-11-14T12:23:00+00:00",
   "topic:Non-Hermitian physics & open quantum systems": "2026-11-17T14:42:42+00:00",
   "topic:Theory of quantum devices & qubits": "2026-11-17T14:44:46+00:00",
   "topic:Theoretical & computational condensed matter (broad)": "2026-11-18T14:22:25+00:00",
-  "pi:Fabian Hassler": "2026-11-07T11:55:21+00:00",
+  "pi:Fabian Hassler": "2026-11-20T14:13:58+00:00",
   "pi:Felix von Oppen": "2026-11-08T12:03:17+00:00",
   "pi:Annica Black-Schaffer": "2026-11-08T12:04:22+00:00",
   "pi:Michele Burrello": "2026-11-08T12:08:04+00:00",
@@ -646,19 +666,20 @@
    ]
   },
   "dfg-walter-benjamin": {
-   "checked": "2026-11-05T13:26:32+00:00",
+   "checked": "2026-11-20T14:15:00+00:00",
    "status": "rolling",
    "call_opens": null,
    "deadline": null,
    "dates_estimated": false,
-   "summary": "There are no call windows. The DFG Walter Benjamin Programme takes proposals at any time through the elan portal, and a decision takes about 6 months on average. It funds early-career postdocs to carry out their own project, usually for up to two years. In Germany you hold a postdoc position at the host, normally paid at 100%, plus €250 a month for project, travel and publication costs. Abroad you get a fellowship instead (basic amount plus allowances). Carlos appears eligible for the German position, for example with Brouwer or von Oppen at FU Berlin or Hassler at RWTH Aachen: that track has no nationality or prior-Germany-work rules, and he would be changing institution from ICMM-CSIC. He can submit once his dissertation has been handed in (expected around early 2027, with proof of submission and a supervisor statement), but funding only starts after the doctorate is completed. That makes a start around late 2027 realistic. He is not eligible for the abroad fellowship (for example a stay in Copenhagen), because he has not been integrated into the German research system.",
-   "eligibility": "For postdocs in the early phase after the doctorate (EU 'recognised researcher', R2). DFG sets no fixed number of years since the PhD, and parental leave is taken into account. You can submit once the dissertation has been handed in, but funding starts only after the doctorate is completed. You must generally change institution (not the PhD institution or current one, except with special justification). You must not have worked more than one year at the chosen host when you submit. German position: no nationality or prior-Germany restrictions. Abroad fellowship: you need to have worked at least 3 continuous years in Germany just before the proposal, or have done most of your schooling and higher education in Germany with no more than 3 years abroad for research since the PhD. Carlos does not meet these. The host cannot be for-profit and must allow open publication.",
-   "duration": "As a rule up to 24 months. The German position and the abroad fellowship modules can be combined. In France, fellowships are limited to 12 months unless you move to a second French institution.",
-   "funding": "German position: a postdoc post ('postdoctoral researcher and comparable'), usually at 100%, plus €250 a month for direct project, travel and publication costs. The exact pay scale is not stated. Non-university institutes (Max Planck, Helmholtz, Fraunhofer) must guarantee 45% of the position's funding. Abroad fellowship: a monthly basic amount plus foreign, cost-of-living and travel allowances and benefits for children, paid directly to the fellow.",
+   "summary": "There is no call cycle for the DFG Walter Benjamin Programme. You can submit a proposal through the DFG elan portal at any time, and a decision takes about six months on average. You write your own project, and DFG funds you for up to two years in one of two ways: a 100% position in Germany in the staff category \"postdoctoral researcher and comparable\", plus €250 a month for project costs, or a fellowship abroad. Carlos appears eligible for the position in Germany, which is open to applicants of any nationality. He can apply once his thesis is with the examinations office (expected around early 2027), but funding can only start after the doctorate is complete. A host in Germany such as Hassler (RWTH Aachen) or Brouwer or von Oppen (FU Berlin) fits him very well. He is not eligible for the fellowship abroad, because he has no schooling in Germany and has not worked in Germany for three years.",
+   "eligibility": "Only researchers in an early postdoctoral phase can apply. DFG sets no fixed limit on years since the PhD; its guide is the EU \"recognised researcher\" (R2) stage, with parental leave taken into account. You are no longer counted as early career if you have already run projects under your own responsibility. You can submit once your dissertation is with the examinations office, but proof of the doctorate is needed before funding starts. Applicants generally have to change institution and must not have worked more than one year at the host institution when they apply. The position in Germany is open regardless of nationality, including to people applying from abroad. The fellowship abroad requires either three continuous years as a researcher in Germany just before applying, or most of your schooling and higher education in Germany plus no more than three years abroad since the doctorate.",
+   "duration": "Up to 24 months as a rule. In France, a fellowship is limited to 12 months, or 24 months if you move to a second French institution.",
+   "funding": "In Germany: a position in the DFG staff category \"postdoctoral researcher and comparable\", generally funded at 100%; DFG states no salary amount and points to its online Award Calculator. The position also comes with €250 a month for project costs, travel and publications. Abroad: a fellowship with a monthly basic amount, plus foreign, cost-of-living, travel and child allowances where they apply, and €313 a month for project costs. Max Planck, Fraunhofer and Helmholtz institutes generally have to cover 45% of the position themselves.",
    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
    "sources": [
     "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
-    "https://www.dfg.de/en/research_funding/faq/faq_walter_benjamin/index.html"
+    "https://www.dfg.de/en/research_funding/faq/faq_walter_benjamin/index.html",
+    "https://www.dfg.de/formulare/50_10/50_10_en.pdf"
    ]
   },
   "la-caixa-junior-leader-incoming": {
@@ -1782,6 +1803,58 @@
     "backend": "claude-code"
    },
    "open_total": 31
+  },
+  {
+   "date": "2026-11-20T14:09:09+00:00",
+   "ai_enabled": true,
+   "raw_items": 239,
+   "candidates": 4,
+   "triaged": 4,
+   "lab_pages_changed": 0,
+   "search_tasks": [
+    {
+     "task": "topic:Topological superconductivity & Majorana modes",
+     "found": 1,
+     "notes": "I used the full budget (5 searches, 4 fetches) and found no new funded postdoc in topological superconductivity or Majorana theory in Europe with a deadline after 2026-11-20. Leads I checked and dropped: the Néel Institute Grenoble disordered topological superconductors post (EURAXESS 241434, close…"
+    },
+    {
+     "task": "topic:Hybrid semiconductor–superconductor nanostructures",
+     "found": 1,
+     "notes": "I found no new funded postdoc on hybrid semiconductor–superconductor nanostructures that is open now. The only result is the TU Delft Quantum Tinkerer MSCA hosting route for 2027; it came from the candidate's own tracker (postdoc-searcher issue #3), so it may already be known. Excluded: the Jyväsky…"
+    },
+    {
+     "task": "pi:Fabian Hassler",
+     "found": 1,
+     "notes": "I found no postdoc job advertised in Fabian Hassler's own group.\n\n**Where I looked**\n- The Institute for Quantum Information's Job Openings page lists three openings, none from Hassler: an experimental spin-shuttling postdoc (Beckers), a postdoc in Markus Müller's theoretical quantum technology gro…"
+    }
+   ],
+   "fellowship_checks": [
+    {
+     "id": "dfg-walter-benjamin",
+     "status": "rolling",
+     "deadline": null
+    }
+   ],
+   "new_positions": 1,
+   "emailed": 0,
+   "errors": [
+    "https://www.roma1.infn.it/~vanheckb/: HTTPSConnectionPool(host='www.roma1.infn.it', port=443): Max retries exceeded with url: /~vanheckb/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIF…"
+   ],
+   "ai_backend": "claude-code",
+   "dropped_location": 0,
+   "ai": {
+    "requests": 5,
+    "input_tokens": 50,
+    "output_tokens": 12072,
+    "cache_read_tokens": 211078,
+    "cache_write_tokens": 54050,
+    "web_searches": 15,
+    "web_fetches": 0,
+    "cost_usd": 0.9167,
+    "refusals": 0,
+    "backend": "claude-code"
+   },
+   "open_total": 32
   }
  ]
 }
